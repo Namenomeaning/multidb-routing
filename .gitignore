@@ -1,0 +1,20 @@
+# secrets — never commit the live env
+.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# raw source datasets (regenerate via scripts/download_datasets.py)
+data/_raw/
+data/_build/
+
+# obfuscation control artifacts (deprecated; not shipped)
+*_obf/
+*_obf.jsonl
+*_cardfromobfus*
+
+# os cruft
+.DS_Store

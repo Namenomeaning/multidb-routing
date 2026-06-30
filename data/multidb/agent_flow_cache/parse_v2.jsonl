@@ -1,0 +1,743 @@
+{"qid": "s3scale_q_010130", "out": {"phrases": ["cartoons", "director", "create"]}}
+{"qid": "s3scale_q_007486", "out": {"phrases": ["cities", "employees"]}}
+{"qid": "s3scale_q_009562", "out": {"phrases": ["products", "Rodrick Heaney", "bought"]}}
+{"qid": "s3scale_q_003689", "out": {"phrases": ["percentage", "nominees", "born", "USA"]}}
+{"qid": "s3scale_q_009336", "out": {"phrases": ["category descriptions", "products", "descriptions", "letter 't'"]}}
+{"qid": "s3scale_q_000541", "out": {"phrases": ["titles", "papers", "contain", "word", "ML"]}}
+{"qid": "s3scale_q_033303", "out": {"phrases": ["switches", "rack number", "zone 4"]}}
+{"qid": "s3scale_q_029609", "out": {"phrases": ["movie", "actors", "written", "movie"]}}
+{"qid": "s3scale_q_000059", "out": {"phrases": ["id", "users", "followed by", "Mary", "Susan"]}}
+{"qid": "s3scale_q_010477", "out": {"phrases": ["fraudulent transactions", "change over time"]}}
+{"qid": "s3scale_q_001717", "out": {"phrases": ["popularity", "movies", "highest vote count"]}}
+{"qid": "s3scale_q_009618", "out": {"phrases": ["famous titles", "artists", "volume"]}}
+{"qid": "s3scale_q_025579", "out": {"phrases": ["questions", "tagged", "tags"]}}
+{"qid": "s3scale_q_009446", "out": {"phrases": ["locations", "names", "film"]}}
+{"qid": "s3scale_q_020102", "out": {"phrases": ["Tarzan", "Karma", "creator"]}}
+{"qid": "s3scale_q_000599", "out": {"phrases": ["name", "train", "route", "runs through", "stations"]}}
+{"qid": "s3scale_q_037916", "out": {"phrases": ["streams", "description", "email address"]}}
+{"qid": "s3scale_q_037174", "out": {"phrases": ["character", "name", "Ryman-Frey", "book45PageRank"]}}
+{"qid": "s3scale_q_006546", "out": {"phrases": ["average rate", "renting", "film", "Lucille Tracy", "starred"]}}
+{"qid": "s3scale_q_021971", "out": {"phrases": ["Creado Film", "DC Studios", "country"]}}
+{"qid": "s3scale_q_038294", "out": {"phrases": ["entities", "note", "Closed date stands for Liquidation date."]}}
+{"qid": "s3scale_q_007762", "out": {"phrases": ["semester", "year", "student", "class"]}}
+{"qid": "s3scale_q_007737", "out": {"phrases": ["names", "departments", "courses"]}}
+{"qid": "s3scale_q_000546", "out": {"phrases": ["last names", "authors", "written", "paper", "title", "containing", "Monadic"]}}
+{"qid": "s3scale_q_002582", "out": {"phrases": ["products", "order quantity", "5", "shipped", "May 2019", "name", "product", "net profit"]}}
+{"qid": "s3scale_q_010295", "out": {"phrases": ["description", "treatment type", "total cost"]}}
+{"qid": "s3scale_q_021154", "out": {"phrases": ["On2 Technologies", "LaCie", "start", "year"]}}
+{"qid": "s3scale_q_007779", "out": {"phrases": ["building", "room number", "semester", "year", "courses", "offered", "Psychology department", "sorted", "course titles"]}}
+{"qid": "s3scale_q_006373", "out": {"phrases": ["customers", "customer ID", "100", "Thomas", "last name"]}}
+{"qid": "s3scale_q_042761", "out": {"phrases": ["officer", "icij_id", "C0FCC85C73FE8405CBF5FD732A6787E5"]}}
+{"qid": "s3scale_q_033716", "out": {"phrases": ["characters", "book45PageRank", "community", "600"]}}
+{"qid": "s3scale_q_006136", "out": {"phrases": ["cases", "reported", "ward", "Edward Burke", "alderman", "happened", "community area", "highest population", "report number", "crime", "highest beat"]}}
+{"qid": "s3scale_q_007962", "out": {"phrases": ["campuses", "opened", "1958"]}}
+{"qid": "s3scale_q_009385", "out": {"phrases": ["first name", "students", "older than 20"]}}
+{"qid": "s3scale_q_000567", "out": {"phrases": ["id", "city", "student address", "average monthly rental"]}}
+{"qid": "s3scale_q_009382", "out": {"phrases": ["name", "dorms", "female", "F gender"]}}
+{"qid": "s3scale_q_000857", "out": {"phrases": ["names", "stadiums", "never had any event"]}}
+{"qid": "s3scale_q_014246", "out": {"phrases": ["Gy\u00f6rgy Mogoy", "Emilio Guagnino", "gender"]}}
+{"qid": "s3scale_q_009812", "out": {"phrases": ["activities", "Mark Giuliano", "participate"]}}
+{"qid": "s3scale_q_010333", "out": {"phrases": ["Average Shipment Duration"]}}
+{"qid": "s3scale_q_041736", "out": {"phrases": ["services", "listen", "port", "80"]}}
+{"qid": "s3scale_q_021966", "out": {"phrases": ["Kevin Durant", "Kareem Abdul-Jabbar", "hand", "playing"]}}
+{"qid": "s3scale_q_018848", "out": {"phrases": ["kiang", "Brandt's vole", "lifespan"]}}
+{"qid": "s3scale_q_009936", "out": {"phrases": ["cars", "cylinders"]}}
+{"qid": "s3scale_q_023429", "out": {"phrases": ["walking distance", "shortest path", "Zoo School", "Dancing Crane Cafe"]}}
+{"qid": "s3scale_q_043099", "out": {"phrases": ["products", "quantity on order", "average quantity on order", "category"]}}
+{"qid": "s3scale_q_001044", "out": {"phrases": ["name", "driver", "driving", "school bus", "longest working history"]}}
+{"qid": "s3scale_q_007606", "out": {"phrases": ["official languages", "countries", "players", "Defender"]}}
+{"qid": "s3scale_q_000641", "out": {"phrases": ["type", "ships"]}}
+{"qid": "s3scale_q_008048", "out": {"phrases": ["directors", "names", "movies", "rated", "Sarah Martinez"]}}
+{"qid": "s3scale_q_000378", "out": {"phrases": ["names", "races", "held", "2017"]}}
+{"qid": "s3scale_q_008014", "out": {"phrases": ["name", "people", "height", "average"]}}
+{"qid": "s3scale_q_006753", "out": {"phrases": ["cards", "version", "frame style", "1997", "status", "card", "illustrated by", "D. Alexander Gregory", "legacy play format", "sensitive content", "Wizards of the Coast"]}}
+{"qid": "s3scale_q_017076", "out": {"phrases": ["Asteras Tripoli F.C.", "IFK V\u00e4rnamo", "located", "country"]}}
+{"qid": "s3scale_q_038477", "out": {"phrases": ["customer", "placed orders", "total freight cost"]}}
+{"qid": "s3scale_q_021313", "out": {"phrases": ["Christine E. Seidman", "Wojciech Jasi\u0144ski", "gender"]}}
+{"qid": "s3scale_q_005777", "out": {"phrases": ["country", "area", "greater than 600000", "agriculture percentage of GDP"]}}
+{"qid": "s3scale_q_001715", "out": {"phrases": ["budget", "movie titles", "keyword", "video game"]}}
+{"qid": "s3scale_q_020793", "out": {"phrases": ["founding years", "Organization of Turkic States", "North American Free Trade Agreement"]}}
+{"qid": "s3scale_q_000373", "out": {"phrases": ["document", "employees", "showed up", "circulation history", "document ids", "number of employees"]}}
+{"qid": "s3scale_q_000687", "out": {"phrases": ["access count", "documents", "most popular document type"]}}
+{"qid": "s3scale_q_008742", "out": {"phrases": ["classroom", "classroom number", "grades"]}}
+{"qid": "s3scale_q_005131", "out": {"phrases": ["companies", "Adventure Works Cycles", "purchases", "parts", "goods", "vendor", "above average credit rating", "names", "vendor", "net profits"]}}
+{"qid": "s3scale_q_007709", "out": {"phrases": ["apartments", "facility"]}}
+{"qid": "s3scale_q_010419", "out": {"phrases": ["total spending", "customer"]}}
+{"qid": "s3scale_q_009272", "out": {"phrases": ["description", "service type", "photo product", "film product"]}}
+{"qid": "s3scale_q_003008", "out": {"phrases": ["papers", "published", "2009", "conference", "short name"]}}
+{"qid": "s3scale_q_043432", "out": {"phrases": ["movie", "largest difference", "release year", "director", "worked on"]}}
+{"qid": "s3scale_q_042926", "out": {"phrases": ["actors", "starred", "movies", "runtime", "longer than", "age", "time of filming"]}}
+{"qid": "s3scale_q_009949", "out": {"phrases": ["documents", "PPT template type"]}}
+{"qid": "s3scale_q_002378", "out": {"phrases": ["matches", "played by", "Royal Challengers Bangalore", "match ID", "match", "highest winning margin"]}}
+{"qid": "s3scale_q_022028", "out": {"phrases": ["continents"]}}
+{"qid": "s3scale_q_024033", "out": {"phrases": ["services", "started", "timestamp", "1606165629748", "running", "machine", "DC1-RCK-1-1-M-1"]}}
+{"qid": "s3scale_q_000885", "out": {"phrases": ["emails", "phone numbers", "customers", "email address", "phone number"]}}
+{"qid": "s3scale_q_000790", "out": {"phrases": ["average price", "products", "manufacturer code", "2"]}}
+{"qid": "s3scale_q_020828", "out": {"phrases": ["Feral", "Nightcrawler", "birth name"]}}
+{"qid": "s3scale_q_008420", "out": {"phrases": ["name", "department", "number of employees"]}}
+{"qid": "s3scale_q_001065", "out": {"phrases": ["name", "hours", "project", "scientists"]}}
+{"qid": "s3scale_q_030703", "out": {"phrases": ["tweets", "retweets", "mention", "users", "followed", "Neo4j"]}}
+{"qid": "s3scale_q_010159", "out": {"phrases": ["average earnings", "poker players", "taller than", "200"]}}
+{"qid": "s3scale_q_000486", "out": {"phrases": ["name", "storm", "affected", "Afghanistan", "Albania", "regions"]}}
+{"qid": "s3scale_q_009029", "out": {"phrases": ["department name", "room", "course", "INTRODUCTION TO COMPUTER SCIENCE"]}}
+{"qid": "s3scale_q_007352", "out": {"phrases": ["country", "invoices", "country name", "number of invoices"]}}
+{"qid": "s3scale_q_000042", "out": {"phrases": ["publisher", "publication", "price"]}}
+{"qid": "s3scale_q_031892", "out": {"phrases": ["characters", "INTERACTS3 relationships", "Stevron-Frey"]}}
+{"qid": "s3scale_q_002057", "out": {"phrases": ["care plans", "patient", "secondary malignant neoplasm of the colon"]}}
+{"qid": "s3scale_q_000082", "out": {"phrases": ["names", "products", "stock number", "2"]}}
+{"qid": "s3scale_q_035777", "out": {"phrases": ["streams", "en", "language", "team", "created before 2015"]}}
+{"qid": "s3scale_q_041418", "out": {"phrases": ["question", "favorites"]}}
+{"qid": "s3scale_q_008977", "out": {"phrases": ["average", "profits", "companies"]}}
+{"qid": "s3scale_q_000152", "out": {"phrases": ["names", "chip models", "used", "phone", "full accreditation type"]}}
+{"qid": "s3scale_q_000610", "out": {"phrases": ["name", "component amount", "least popular furniture"]}}
+{"qid": "s3scale_q_011351", "out": {"phrases": ["Mexican restaurants", "Staten Island", "holiday specials", "available"]}}
+{"qid": "s3scale_q_025439", "out": {"phrases": ["streams", "moderated", "users", "description", "gaming"]}}
+{"qid": "s3scale_q_009305", "out": {"phrases": ["last names", "students", "president votes", "advisor", "2192"]}}
+{"qid": "s3scale_q_021540", "out": {"phrases": ["FedEx Express Flight 14", "2021 Piedade de Caratinga Beechcraft King Air crash", "number of fatalities"]}}
+{"qid": "s3scale_q_000206", "out": {"phrases": ["dates", "debates", "number of audience", "150"]}}
+{"qid": "s3scale_q_009364", "out": {"phrases": ["product category description", "product category", "code", "Spices"]}}
+{"qid": "s3scale_q_007923", "out": {"phrases": ["rank", "company names", "market values", "companies", "banking industry", "sales", "profits", "billion"]}}
+{"qid": "s3scale_q_045231", "out": {"phrases": ["question", "least number of upvotes", "score", "average score", "questions", "tagged", "aws-lambda"]}}
+{"qid": "s3scale_q_000347", "out": {"phrases": ["event names", "records"]}}
+{"qid": "s3scale_q_000983", "out": {"phrases": ["name", "ships", "captain"]}}
+{"qid": "s3scale_q_011353", "out": {"phrases": ["thriller", "movies", "IMDb rating", "7.5"]}}
+{"qid": "s3scale_q_009027", "out": {"phrases": ["first name", "last name", "instructor", "course", "course name"]}}
+{"qid": "s3scale_q_016507", "out": {"phrases": ["Meloimorpha indica", "Hemiptera", "diel cycle"]}}
+{"qid": "s3scale_q_041946", "out": {"phrases": ["applications", "PID", "zone 4"]}}
+{"qid": "s3scale_q_006559", "out": {"phrases": ["customers", "store no.1", "active"]}}
+{"qid": "s3scale_q_044197", "out": {"phrases": ["display names", "users", "provided answers", "own questions"]}}
+{"qid": "s3scale_q_004924", "out": {"phrases": ["customers", "Asia", "debt"]}}
+{"qid": "s3scale_q_020032", "out": {"phrases": ["Tara Air Flight 193", "USAir Flight 1493", "fatalities"]}}
+{"qid": "s3scale_q_014153", "out": {"phrases": ["Yassine Kanjaa", "Herman Frank Cash", "gender"]}}
+{"qid": "s3scale_q_001018", "out": {"phrases": ["payment method code", "parties"]}}
+{"qid": "s3scale_q_001478", "out": {"phrases": ["Ms. Lyric Emely Taylor", "consent", "result", "complaint call", "2016/5/20"]}}
+{"qid": "s3scale_q_007438", "out": {"phrases": ["credit cards", "customer", "first name", "Blanche", "last name", "Huels"]}}
+{"qid": "s3scale_q_014756", "out": {"phrases": ["gray whale", "Uvaroviella babyas", "diel cycle"]}}
+{"qid": "s3scale_q_007582", "out": {"phrases": ["universities", "enrollment size", "affiliation type"]}}
+{"qid": "s3scale_q_037278", "out": {"phrases": ["filings", "originator_entity", "name", "Bank", "beneficiary_entity", "name", "Corp"]}}
+{"qid": "s3scale_q_000968", "out": {"phrases": ["captain rank", "captains", "Cutter", "Armed schooner classes"]}}
+{"qid": "s3scale_q_000141", "out": {"phrases": ["company", "name", "phone models", "company name", "number of phone model"]}}
+{"qid": "s3scale_q_010182", "out": {"phrases": ["Brazil", "population", "life expectancies"]}}
+{"qid": "s3scale_q_000779", "out": {"phrases": ["total revenue", "manufacturer"]}}
+{"qid": "s3scale_q_034587", "out": {"phrases": ["tweets", "posted", "Neo4j", "contain", "links"]}}
+{"qid": "s3scale_q_000822", "out": {"phrases": ["products", "problems"]}}
+{"qid": "s3scale_q_009626", "out": {"phrases": ["artists", "volumes"]}}
+{"qid": "s3scale_q_008308", "out": {"phrases": ["classroom", "classes"]}}
+{"qid": "s3scale_q_007797", "out": {"phrases": ["policy types", "customers"]}}
+{"qid": "s3scale_q_003551", "out": {"phrases": ["episode", "votes", "nominated", "Outstanding Voice-Over Performance Award", "2009", "percentage"]}}
+{"qid": "s3scale_q_043134", "out": {"phrases": ["filings", "originator entity", "name", "AG", "amount", "1000000"]}}
+{"qid": "s3scale_q_035658", "out": {"phrases": ["entities", "registered", "address", "country_codes", "WSM", "valid_until", "The Panama Papers data is current through 2015"]}}
+{"qid": "s3scale_q_007506", "out": {"phrases": ["name", "services", "used", "times", "first notification of loss"]}}
+{"qid": "s3scale_q_023375", "out": {"phrases": ["organizations", "public status", "Technology", "industry category"]}}
+{"qid": "s3scale_q_010803", "out": {"phrases": ["listings", "review score", "9.3", "reviews", "90"]}}
+{"qid": "s3scale_q_010830", "out": {"phrases": ["villas", "three bedrooms"]}}
+{"qid": "s3scale_q_013417", "out": {"phrases": ["Guglielmo Coppola", "Renato Cervati", "gender"]}}
+{"qid": "s3scale_q_000503", "out": {"phrases": ["event venues", "names", "people attended"]}}
+{"qid": "s3scale_q_046106", "out": {"phrases": ["filings", "amounts", "entities", "China"]}}
+{"qid": "s3scale_q_031493", "out": {"phrases": ["average interactions", "user"]}}
+{"qid": "s3scale_q_000860", "out": {"phrases": ["names", "swimmers", "no record"]}}
+{"qid": "s3scale_q_010956", "out": {"phrases": ["average rating", "Action genre", "films", "IMDb"]}}
+{"qid": "s3scale_q_000026", "out": {"phrases": ["cell mobile number", "candidates", "assessment code", "Fail"]}}
+{"qid": "s3scale_q_000038", "out": {"phrases": ["id", "courses", "registered", "attended", "student", "id", "121"]}}
+{"qid": "s3scale_q_009643", "out": {"phrases": ["names", "ids", "documents", "document type code", "BK"]}}
+{"qid": "s3scale_q_009891", "out": {"phrases": ["id", "order", "shipped", "most recently"]}}
+{"qid": "s3scale_q_039593", "out": {"phrases": ["streams", "VIP", "chats", "stream", "followers"]}}
+{"qid": "s3scale_q_008669", "out": {"phrases": ["policy type", "customers", "choose"]}}
+{"qid": "s3scale_q_007583", "out": {"phrases": ["students", "enrolled", "colleges", "founded", "year", "1850", "affiliation type"]}}
+{"qid": "s3scale_q_001099", "out": {"phrases": ["books", "publisher"]}}
+{"qid": "s3scale_q_017351", "out": {"phrases": ["paintings", "Agrippina Mourns the Urn of Germanicus", "Pheasant", "created", "year"]}}
+{"qid": "s3scale_q_024167", "out": {"phrases": ["characters", "book1PageRank", "8"]}}
+{"qid": "s3scale_q_000987", "out": {"phrases": ["city", "hosted", "events", "most recent year", "id", "city"]}}
+{"qid": "s3scale_q_001500", "out": {"phrases": ["average", "number", "complaints", "received", "New Bedford", "each year", "closed", "explanation"]}}
+{"qid": "s3scale_q_009537", "out": {"phrases": ["name", "customers", "name contains 'Alex'"]}}
+{"qid": "s3scale_q_007837", "out": {"phrases": ["financial transactions", "account", "name", "337"]}}
+{"qid": "s3scale_q_019931", "out": {"phrases": ["Wipeout", "Chris Bradley", "gender"]}}
+{"qid": "s3scale_q_004627", "out": {"phrases": ["USA", "employees", "PhD", "title of courtesy"]}}
+{"qid": "s3scale_q_001071", "out": {"phrases": ["projects", "scientist", "working on", "scientist's name"]}}
+{"qid": "s3scale_q_019249", "out": {"phrases": ["Khairi Alqam", "Francesca Mambro", "gender"]}}
+{"qid": "s3scale_q_000695", "out": {"phrases": ["name", "documents", "sections"]}}
+{"qid": "s3scale_q_007668", "out": {"phrases": ["bathroom count", "apartments"]}}
+{"qid": "s3scale_q_010067", "out": {"phrases": ["program", "students", "enrolled", "id", "summary"]}}
+{"qid": "s3scale_q_010928", "out": {"phrases": ["atmospheric components", "Earth", "Venus"]}}
+{"qid": "s3scale_q_038534", "out": {"phrases": ["movies", "Joel Silver", "acted"]}}
+{"qid": "s3scale_q_043793", "out": {"phrases": ["businesses", "received", "reviews", "users", "reviewed", "businesses", "different", "state"]}}
+{"qid": "s3scale_q_046037", "out": {"phrases": ["shortest distance", "statue of Sir Walter Scott", "statue of the poet", "wrote", "My Love Is Like A Red Red Rose"]}}
+{"qid": "s3scale_q_007979", "out": {"phrases": ["average fee", "CSU campus", "1996"]}}
+{"qid": "s3scale_q_000225", "out": {"phrases": ["exhibitions", "2005"]}}
+{"qid": "s3scale_q_008207", "out": {"phrases": ["phone", "postal code", "address", "1031 Daugavpils Parkway"]}}
+{"qid": "s3scale_q_028321", "out": {"phrases": ["Intermediaries", "name", "LIMITED", "Entities", "incorporation_date", "Entity", "status", "Changed agent"]}}
+{"qid": "s3scale_q_004549", "out": {"phrases": ["beverages", "product", "customer satisfaction"]}}
+{"qid": "s3scale_q_000759", "out": {"phrases": ["team", "player", "highest age"]}}
+{"qid": "s3scale_q_008871", "out": {"phrases": ["average age", "members", "club", "Hopkins Student Enterprises"]}}
+{"qid": "s3scale_q_022109", "out": {"phrases": ["Cougar Helicopters Flight 91", "Yemenia Flight 626", "survivors"]}}
+{"qid": "s3scale_q_001634", "out": {"phrases": ["movie", "Dariusz Wolski", "director of photography", "title", "average vote"]}}
+{"qid": "s3scale_q_023856", "out": {"phrases": ["businesses", "reviewed", "Jenny", "Bob"]}}
+{"qid": "s3scale_q_007908", "out": {"phrases": ["location", "gas stations"]}}
+{"qid": "s3scale_q_007187", "out": {"phrases": ["zip codes", "max dew point", "70"]}}
+{"qid": "s3scale_q_010276", "out": {"phrases": ["average grade", "students", "friends"]}}
+{"qid": "s3scale_q_028625", "out": {"phrases": ["movies", "directed", "directors", "acted"]}}
+{"qid": "s3scale_q_023744", "out": {"phrases": ["names", "businesses", "reviewed"]}}
+{"qid": "s3scale_q_010281", "out": {"phrases": ["states", "owners", "professionals", "live"]}}
+{"qid": "s3scale_q_006757", "out": {"phrases": ["uuid", "cards", "old school format", "restricted", "banned"]}}
+{"qid": "s3scale_q_000121", "out": {"phrases": ["ids", "names", "members", "age 30", "black membership card"]}}
+{"qid": "s3scale_q_033339", "out": {"phrases": ["movie", "ratio of votes to release year"]}}
+{"qid": "s3scale_q_022845", "out": {"phrases": ["display name", "user", "answer", "uuid", "69273049"]}}
+{"qid": "s3scale_q_019508", "out": {"phrases": ["Meenambakkam bomb blast", "Jaffa Road bus bombings", "number of deaths"]}}
+{"qid": "s3scale_q_046386", "out": {"phrases": ["movies", "rated", "users"]}}
+{"qid": "s3scale_q_008526", "out": {"phrases": ["full name", "id", "college", "most baseball players"]}}
+{"qid": "s3scale_q_008857", "out": {"phrases": ["location", "club", "Pen and Paper Gaming"]}}
+{"qid": "s3scale_q_000283", "out": {"phrases": ["saving balance", "account name"]}}
+{"qid": "s3scale_q_000128", "out": {"phrases": ["id", "address", "shops", "score", "average score"]}}
+{"qid": "s3scale_q_000616", "out": {"phrases": ["id", "number of shops", "company", "produces", "most expensive furniture"]}}
+{"qid": "s3scale_q_034747", "out": {"phrases": ["business", "oldest review", "word 'on'", "name"]}}
+{"qid": "s3scale_q_004324", "out": {"phrases": ["books", "cost", "less than 1 dollar", "published", "Berkley Trade"]}}
+{"qid": "s3scale_q_000077", "out": {"phrases": ["entry name", "catalog", "highest price", "USD"]}}
+{"qid": "s3scale_q_009991", "out": {"phrases": ["paragraphs", "document", "Summer Show"]}}
+{"qid": "s3scale_q_010036", "out": {"phrases": ["left handed", "winners", "participated", "WTA Championships"]}}
+{"qid": "s3scale_q_000915", "out": {"phrases": ["average score", "submissions"]}}
+{"qid": "s3scale_q_043577", "out": {"phrases": ["screen names", "users", "retweeted", "tweets", "links", "shared", "user", "screen name", "neo4j"]}}
+{"qid": "s3scale_q_009473", "out": {"phrases": ["names", "tourist attractions", "tourist", "Alison", "visited", "Rosalind", "did not visit"]}}
+{"qid": "s3scale_q_026647", "out": {"phrases": ["countries", "entity", "located within", "borders"]}}
+{"qid": "s3scale_q_045376", "out": {"phrases": ["users", "label", "bsky.social"]}}
+{"qid": "s3scale_q_009040", "out": {"phrases": ["id", "product type", "product", "lowest price"]}}
+{"qid": "s3scale_q_004158", "out": {"phrases": ["average age", "persons", "participated", "1992 Summer Games"]}}
+{"qid": "s3scale_q_044190", "out": {"phrases": ["movies", "released", "United States of America", "Canada"]}}
+{"qid": "s3scale_q_000804", "out": {"phrases": ["oldest log id", "problem id"]}}
+{"qid": "s3scale_q_002514", "out": {"phrases": ["baseball", "ordered", "December 2017"]}}
+{"qid": "s3scale_q_009667", "out": {"phrases": ["details", "project", "document name", "King Book"]}}
+{"qid": "s3scale_q_008299", "out": {"phrases": ["description", "credit", "course", "QM-261"]}}
+{"qid": "s3scale_q_021608", "out": {"phrases": ["Charles Edelstenne", "Alessandro Perrone", "gender"]}}
+{"qid": "s3scale_q_013791", "out": {"phrases": ["sculptures", "Art", "Handiwork", "Ugolino and sons", "created", "year"]}}
+{"qid": "s3scale_q_006079", "out": {"phrases": ["crimes", "districts", "Chicago", "percentage", "Central district"]}}
+{"qid": "s3scale_q_009356", "out": {"phrases": ["name", "products", "color description", "red", "characteristic name", "fast"]}}
+{"qid": "s3scale_q_001157", "out": {"phrases": ["first name", "gender", "student", "pet"]}}
+{"qid": "s3scale_q_010135", "out": {"phrases": ["id", "tv channels", "play", "cartoon", "directed by", "Ben Jones"]}}
+{"qid": "s3scale_q_000963", "out": {"phrases": ["name", "class", "rank", "captains"]}}
+{"qid": "s3scale_q_030758", "out": {"phrases": ["address", "country_codes", "WSM"]}}
+{"qid": "s3scale_q_005157", "out": {"phrases": ["active employees", "courtesy title", "Mr"]}}
+{"qid": "s3scale_q_026349", "out": {"phrases": ["shortest path", "Zoo School", "Dancing Crane Cafe"]}}
+{"qid": "s3scale_q_009688", "out": {"phrases": ["documents", "expenses"]}}
+{"qid": "s3scale_q_023013", "out": {"phrases": ["movies", "genre", "Toy Story", "produced by", "Pixar Animation Studios"]}}
+{"qid": "s3scale_q_025339", "out": {"phrases": ["business", "average star rating", "Missoula"]}}
+{"qid": "s3scale_q_000437", "out": {"phrases": ["year", "most recent crime"]}}
+{"qid": "s3scale_q_009805", "out": {"phrases": ["first name", "last name", "faculty", "advises", "most students"]}}
+{"qid": "s3scale_q_008695", "out": {"phrases": ["rooms", "block code"]}}
+{"qid": "s3scale_q_008177", "out": {"phrases": ["parties", "delegates", "district 1", "district 2", "comptrollers", "parties"]}}
+{"qid": "s3scale_q_000057", "out": {"phrases": ["name", "email", "users", "followers"]}}
+{"qid": "s3scale_q_002925", "out": {"phrases": ["games", "fighting genre"]}}
+{"qid": "s3scale_q_026226", "out": {"phrases": ["movies", "revenue", "budget"]}}
+{"qid": "s3scale_q_032548", "out": {"phrases": ["shortest path", "user", "most followers", "game", "VALORANT"]}}
+{"qid": "s3scale_q_003386", "out": {"phrases": ["Yelp user", "average 5-star rating", "reviews", "yelping the longest"]}}
+{"qid": "s3scale_q_009194", "out": {"phrases": ["names", "colleges", "LA", "greater than 15000 size", "state AZ", "less than 13000 enrollment"]}}
+{"qid": "s3scale_q_025120", "out": {"phrases": ["organizations", "competitors", "customers", "headquartered", "Visalia"]}}
+{"qid": "s3scale_q_006152", "out": {"phrases": ["commander", "name", "email address", "phone number", "Ogden district"]}}
+{"qid": "s3scale_q_007887", "out": {"phrases": ["hometowns", "gymnasts"]}}
+{"qid": "s3scale_q_009072", "out": {"phrases": ["ids", "customers", "made order", "orders", "Cancelled"]}}
+{"qid": "s3scale_q_000445", "out": {"phrases": ["average", "number of hosts", "parties"]}}
+{"qid": "s3scale_q_009200", "out": {"phrases": ["names", "colleges", "enrollment", "greater than", "FL state"]}}
+{"qid": "s3scale_q_003342", "out": {"phrases": ["running business", "business"]}}
+{"qid": "s3scale_q_013342", "out": {"phrases": ["Megiddo Junction bus bombing", "HaSharon Mall suicide bombing", "injuries"]}}
+{"qid": "s3scale_q_001054", "out": {"phrases": ["airports", "country"]}}
+{"qid": "s3scale_q_026157", "out": {"phrases": ["organizations", "headquartered", "city", "New Energy Group"]}}
+{"qid": "s3scale_q_001806", "out": {"phrases": ["phone brands", "models", "users", "participated", "events", "5th May, 2016", "coordinates", "(112,44)"]}}
+{"qid": "s3scale_q_019895", "out": {"phrases": ["Bomb attack", "Revolutionary Brigades", "Recruitment and Mobilization District n\u00ba 1", "DRM 1", "1980 Markina attack", "deaths"]}}
+{"qid": "s3scale_q_009234", "out": {"phrases": ["phone number", "email address", "customer", "Harold"]}}
+{"qid": "s3scale_q_010065", "out": {"phrases": ["kind of program", "students", "enrolled"]}}
+{"qid": "s3scale_q_011229", "out": {"phrases": ["items", "quantity sold", "October", "December", "2017"]}}
+{"qid": "s3scale_q_013786", "out": {"phrases": ["Brasiliense Futebol Clube", "Clube Atl\u00e9tico Juventus", "year of establishment"]}}
+{"qid": "s3scale_q_001274", "out": {"phrases": ["citizenship", "singers", "country"]}}
+{"qid": "s3scale_q_039601", "out": {"phrases": ["questions", "body markdown", "index"]}}
+{"qid": "s3scale_q_000703", "out": {"phrases": ["users", "role"]}}
+{"qid": "s3scale_q_009117", "out": {"phrases": ["names", "stores", "Khanewal District"]}}
+{"qid": "s3scale_q_008113", "out": {"phrases": ["king beds"]}}
+{"qid": "s3scale_q_010719", "out": {"phrases": ["movies", "available", "Korean"]}}
+{"qid": "s3scale_q_044891", "out": {"phrases": ["pair", "users", "reply", "each other's", "tweets", "most often"]}}
+{"qid": "s3scale_q_007023", "out": {"phrases": ["male", "patients", "creatinine", "normal range", "female"]}}
+{"qid": "s3scale_q_001069", "out": {"phrases": ["scientists", "project name"]}}
+{"qid": "s3scale_q_026845", "out": {"phrases": ["actors", "starred", "movies", "runtime", "shorter than", "time it takes to boil an egg"]}}
+{"qid": "s3scale_q_035021", "out": {"phrases": ["entities", "originators", "filings", "beneficiary entity", "name", "Inc."]}}
+{"qid": "s3scale_q_038630", "out": {"phrases": ["movies", "collection", "movie", "average vote", "8.5"]}}
+{"qid": "s3scale_q_009905", "out": {"phrases": ["name", "makers", "produced", "cars", "year", "1970"]}}
+{"qid": "s3scale_q_000122", "out": {"phrases": ["purchase time", "age", "address", "member", "order of purchase time"]}}
+{"qid": "s3scale_q_008944", "out": {"phrases": ["names", "person", "age"]}}
+{"qid": "s3scale_q_000930", "out": {"phrases": ["lot details", "investor ids"]}}
+{"qid": "s3scale_q_008950", "out": {"phrases": ["name", "person", "friends", "age", "above 40", "under age 30"]}}
+{"qid": "s3scale_q_029830", "out": {"phrases": ["characters", "fastrf_embedding", "values", "range", "max", "min", "list"]}}
+{"qid": "s3scale_q_000146", "out": {"phrases": ["phones", "accreditation type"]}}
+{"qid": "s3scale_q_000619", "out": {"phrases": ["brand", "name", "camera lens", "maximum aperture"]}}
+{"qid": "s3scale_q_022099", "out": {"phrases": ["G. G. Ponnambalam", "James Phinney Baxter", "gender"]}}
+{"qid": "s3scale_q_041258", "out": {"phrases": ["people", "acted", "movies", "Nancy Meyers", "writer"]}}
+{"qid": "s3scale_q_008973", "out": {"phrases": ["names", "companies", "headquarters", "located", "USA"]}}
+{"qid": "s3scale_q_000169", "out": {"phrases": ["persons", "body builders"]}}
+{"qid": "s3scale_q_038750", "out": {"phrases": ["organizations", "CEO", "Julie Spellman Sweet", "based in", "Seattle"]}}
+{"qid": "s3scale_q_007723", "out": {"phrases": ["title", "courses", "prerequisites"]}}
+{"qid": "s3scale_q_008251", "out": {"phrases": ["cities", "banks"]}}
+{"qid": "s3scale_q_018642", "out": {"phrases": ["paintings", "Abduction of Europa", "Portrait of Margaretha Trip, Wife of Hendrik van de Poll", "created", "year"]}}
+{"qid": "s3scale_q_010286", "out": {"phrases": ["id", "role", "email", "professionals", "did not perform", "treatment", "dogs"]}}
+{"qid": "s3scale_q_000891", "out": {"phrases": ["email", "phone number", "customers", "filed", "complaint"]}}
+{"qid": "s3scale_q_021013", "out": {"phrases": ["Production Corporation Polyot", "Saab Group", "start operations", "year"]}}
+{"qid": "s3scale_q_001146", "out": {"phrases": ["id", "weight", "pets", "age", "older than 1"]}}
+{"qid": "s3scale_q_021002", "out": {"phrases": ["Alysia Reiner", "Pip Torrens", "gender"]}}
+{"qid": "s3scale_q_045771", "out": {"phrases": ["body_markdown", "answer", "score"]}}
+{"qid": "s3scale_q_008612", "out": {"phrases": ["addresses", "course authors", "teach", "course", "name", "operating system", "data structure"]}}
+{"qid": "s3scale_q_009867", "out": {"phrases": ["busiest destination airport", "most number of routes", "China"]}}
+{"qid": "s3scale_q_001433", "out": {"phrases": ["list titles", "movies", "list", "followers"]}}
+{"qid": "s3scale_q_008728", "out": {"phrases": ["first names", "teachers", "teach", "first grade"]}}
+{"qid": "s3scale_q_005591", "out": {"phrases": ["goalies", "born", "year", "1987", "good", "right hand", "left hand", "percentage of winning", "season", "played"]}}
+{"qid": "s3scale_q_007371", "out": {"phrases": ["Eduardo Martins", "customer", "company"]}}
+{"qid": "s3scale_q_011833", "out": {"phrases": ["Spanish Golden Age", "Flemish Baroque painting", "end year"]}}
+{"qid": "s3scale_q_005470", "out": {"phrases": ["vendors", "average credit rating", "total due amount", "purchases", "company", "vendor", "preferred", "another vendor", "available"]}}
+{"qid": "s3scale_q_041386", "out": {"phrases": ["companyName", "contactName", "suppliers", "supply", "products", "unitsOnOrder", "greater than 50"]}}
+{"qid": "s3scale_q_000602", "out": {"phrases": ["names", "times", "trains", "run through", "stations", "local authority", "Chiltern"]}}
+{"qid": "s3scale_q_007143", "out": {"phrases": ["start station", "end station", "trips", "oldest id"]}}
+{"qid": "s3scale_q_001017", "out": {"phrases": ["cities", "state", "Colorado"]}}
+{"qid": "s3scale_q_013954", "out": {"phrases": ["Johan Lundbye", "Merry-Joseph Blondel", "gender"]}}
+{"qid": "s3scale_q_011068", "out": {"phrases": ["planets", "nitrogen", "main atmospheric components"]}}
+{"qid": "s3scale_q_000917", "out": {"phrases": ["author", "highest score", "submission"]}}
+{"qid": "s3scale_q_042954", "out": {"phrases": ["orderID", "shipName", "orders", "placed", "year", "1997", "contain", "product", "Beverages", "category"]}}
+{"qid": "s3scale_q_019030", "out": {"phrases": ["Epicrates angulifer", "wrinkle-lipped free-tailed bat", "diel cycle"]}}
+{"qid": "s3scale_q_000781", "out": {"phrases": ["average prices", "products", "manufacture", "company's name"]}}
+{"qid": "s3scale_q_007179", "out": {"phrases": ["ids", "names", "stations", "trips", "started"]}}
+{"qid": "s3scale_q_008649", "out": {"phrases": ["claim date", "settlement date", "claims", "claimed amount", "average"]}}
+{"qid": "s3scale_q_035209", "out": {"phrases": ["answers", "accepted", "score", "average answer score"]}}
+{"qid": "s3scale_q_000603", "out": {"phrases": ["id", "local authority", "station", "average high temperature"]}}
+{"qid": "s3scale_q_007824", "out": {"phrases": ["customers", "account"]}}
+{"qid": "s3scale_q_019962", "out": {"phrases": ["Lieutenant Flap", "Liu Bi", "gender"]}}
+{"qid": "s3scale_q_010165", "out": {"phrases": ["nationality", "people"]}}
+{"qid": "s3scale_q_000609", "out": {"phrases": ["component amounts", "names", "furnitures", "components"]}}
+{"qid": "s3scale_q_030679", "out": {"phrases": ["movies", "director", "birth country", "primary filming location"]}}
+{"qid": "s3scale_q_010564", "out": {"phrases": ["fraudulent transactions", "change over time"]}}
+{"qid": "s3scale_q_001092", "out": {"phrases": ["names", "trains", "pass", "station", "located", "London"]}}
+{"qid": "s3scale_q_042561", "out": {"phrases": ["questions", "title", "Drupal", "tagged", "react-apollo"]}}
+{"qid": "s3scale_q_000390", "out": {"phrases": ["id", "location", "circuits", "France", "Belgium"]}}
+{"qid": "s3scale_q_021506", "out": {"phrases": ["Rough House Pictures", "Opus Film", "country"]}}
+{"qid": "s3scale_q_008900", "out": {"phrases": ["grant id", "documents"]}}
+{"qid": "s3scale_q_007708", "out": {"phrases": ["apartments", "facility"]}}
+{"qid": "s3scale_q_004949", "out": {"phrases": ["suppliers", "European region", "below-average account balance"]}}
+{"qid": "s3scale_q_008578", "out": {"phrases": ["programs", "broadcast", "night time"]}}
+{"qid": "s3scale_q_020289", "out": {"phrases": ["Billy Lange", "Thomas Francis Xavier Smith", "gender"]}}
+{"qid": "s3scale_q_007099", "out": {"phrases": ["patients", "normal level", "triglyceride", "other symptoms observed"]}}
+{"qid": "s3scale_q_008128", "out": {"phrases": ["rooms", "bed type"]}}
+{"qid": "s3scale_q_008580", "out": {"phrases": ["names", "programs", "broadcasted", "morning"]}}
+{"qid": "s3scale_q_000766", "out": {"phrases": ["denomination", "schools"]}}
+{"qid": "s3scale_q_044306", "out": {"phrases": ["customerID", "shipCity", "customer", "total order value", "unitPrice", "quantity", "orders"]}}
+{"qid": "s3scale_q_001498", "out": {"phrases": ["clients", "born", "1980", "2000", "name", "male", "clients", "complained", "referral"]}}
+{"qid": "s3scale_q_033359", "out": {"phrases": ["screen names", "users", "followers", "follow", "user", "screen name", "neo4j"]}}
+{"qid": "s3scale_q_024687", "out": {"phrases": ["Processes", "depend on themselves"]}}
+{"qid": "s3scale_q_010431", "out": {"phrases": ["patients", "genetic tests"]}}
+{"qid": "s3scale_q_000684", "out": {"phrases": ["name", "document", "accessed", "greatest number of times", "count", "times accessed"]}}
+{"qid": "s3scale_q_009257", "out": {"phrases": ["names", "workshop groups", "services", "product name", "film", "performed"]}}
+{"qid": "s3scale_q_020348", "out": {"phrases": ["Betty Ross", "Ultimate Firestar", "birth name"]}}
+{"qid": "s3scale_q_007047", "out": {"phrases": ["male", "patients", "normal level", "white blood cells", "abnormal fibrinogen level"]}}
+{"qid": "s3scale_q_008298", "out": {"phrases": ["addresses", "school"]}}
+{"qid": "s3scale_q_002789", "out": {"phrases": ["games", "published by", "Namco Bandai Games", "percentage", "adventure games"]}}
+{"qid": "s3scale_q_003936", "out": {"phrases": ["Current legislator", "Roger F. Wicker", "representative", "terms"]}}
+{"qid": "s3scale_q_021441", "out": {"phrases": ["Herb Williams", "Ed Mikan", "gender"]}}
+{"qid": "s3scale_q_041297", "out": {"phrases": ["articles", "mention", "organizations", "located", "city", "organization", "id", "E0ZU8eCc5OaqS1LU9qE3n3w"]}}
+{"qid": "s3scale_q_009391", "out": {"phrases": ["capacity", "gender type", "dorm", "name", "Donor"]}}
+{"qid": "s3scale_q_021949", "out": {"phrases": ["2008 Mexico City Learjet crash", "PIA Flight 705", "identical", "number of injuries"]}}
+{"qid": "s3scale_q_001194", "out": {"phrases": ["employees", "hired", "shop", "shop name"]}}
+{"qid": "s3scale_q_007992", "out": {"phrases": ["id", "candidate", "oppose rate"]}}
+{"qid": "s3scale_q_025947", "out": {"phrases": ["questions", "upVote"]}}
+{"qid": "s3scale_q_008714", "out": {"phrases": ["name", "physicians", "affiliated", "Surgery", "Psychiatry", "department"]}}
+{"qid": "s3scale_q_001440", "out": {"phrases": ["movies", "popularity", "released"]}}
+{"qid": "s3scale_q_002912", "out": {"phrases": ["sales", "games", "region ID 2", "region ID 3"]}}
+{"qid": "s3scale_q_014266", "out": {"phrases": ["Apricot-breasted Sunbird", "Kuhl's pipistrelle", "diel cycle"]}}
+{"qid": "s3scale_q_001180", "out": {"phrases": ["employees", "city"]}}
+{"qid": "s3scale_q_007581", "out": {"phrases": ["schools", "founded after 1850", "public"]}}
+{"qid": "s3scale_q_022165", "out": {"phrases": ["Tiberius", "Frederic Clemson Howe", "gender"]}}
+{"qid": "s3scale_q_008896", "out": {"phrases": ["staff id", "description", "role", "involved", "projects"]}}
+{"qid": "s3scale_q_039359", "out": {"phrases": ["shortest distance", "statue", "author", "Ivanhoe", "statue", "poet", "My Love Is Like A Red Red Rose"]}}
+{"qid": "s3scale_q_007526", "out": {"phrases": ["settlement amount"]}}
+{"qid": "s3scale_q_043207", "out": {"phrases": ["movies", "original language", "spoken language"]}}
+{"qid": "s3scale_q_000301", "out": {"phrases": ["web accelerators", "Operating system"]}}
+{"qid": "s3scale_q_001001", "out": {"phrases": ["matches", "competitions"]}}
+{"qid": "s3scale_q_010870", "out": {"phrases": ["theaters", "San Francisco"]}}
+{"qid": "s3scale_q_000129", "out": {"phrases": ["address", "staff number", "shops", "happy hour"]}}
+{"qid": "s3scale_q_021852", "out": {"phrases": ["players", "names", "teams", "Pacific Division", "number of such teams each has played for"]}}
+{"qid": "s3scale_q_020481", "out": {"phrases": ["Phoenix Suns", "Charlotte Hornets", "year of inception"]}}
+{"qid": "s3scale_q_005167", "out": {"phrases": ["last receipt cost", "products", "average lead time", "60 days"]}}
+{"qid": "s3scale_q_008987", "out": {"phrases": ["names", "buildings", "on-hold", "status", "building stories"]}}
+{"qid": "s3scale_q_000280", "out": {"phrases": ["balance", "checking account", "owner", "name", "'ee'"]}}
+{"qid": "s3scale_q_010228", "out": {"phrases": ["government form name", "total population", "government form", "average life expectancy", "72"]}}
+{"qid": "s3scale_q_021960", "out": {"phrases": ["Diane Venora", "Jacqueline Macaulay", "gender"]}}
+{"qid": "s3scale_q_011832", "out": {"phrases": ["Club Deportivo Municipal", "Chelsea F.C.", "based in", "country"]}}
+{"qid": "s3scale_q_007904", "out": {"phrases": ["main industry", "companies", "industry", "total market value"]}}
+{"qid": "s3scale_q_006698", "out": {"phrases": ["cards", "set", "Hauptset Zehnte Edition", "designed by", "Adam Rex"]}}
+{"qid": "s3scale_q_007881", "out": {"phrases": ["hometowns", "gymnasts", "total point score", "above 57.5"]}}
+{"qid": "s3scale_q_004282", "out": {"phrases": ["books", "ordered", "Lucas Wyldbore", "over 300 pages"]}}
+{"qid": "s3scale_q_007830", "out": {"phrases": ["accounts", "customer id"]}}
+{"qid": "s3scale_q_001278", "out": {"phrases": ["citizenship", "net worth"]}}
+{"qid": "s3scale_q_008099", "out": {"phrases": ["counties", "police force"]}}
+{"qid": "s3scale_q_001125", "out": {"phrases": ["singers", "country"]}}
+{"qid": "s3scale_q_000258", "out": {"phrases": ["name", "target user", "trust score"]}}
+{"qid": "s3scale_q_001959", "out": {"phrases": ["average age", "people", "apps installed", "active", "devices"]}}
+{"qid": "s3scale_q_010825", "out": {"phrases": ["planets", "mean surface temperatures", "Earth", "mean", "14 degrees"]}}
+{"qid": "s3scale_q_010308", "out": {"phrases": ["role", "street", "city", "state", "professionals", "living", "city", "contains", "substring", "West"]}}
+{"qid": "s3scale_q_002333", "out": {"phrases": ["run rate", "end of 16 overs", "match ID", "335999", "name", "Man of the Match"]}}
+{"qid": "s3scale_q_007310", "out": {"phrases": ["city", "student", "family name", "Kim", "lives in"]}}
+{"qid": "s3scale_q_007184", "out": {"phrases": ["city", "name", "station", "latitude"]}}
+{"qid": "s3scale_q_000080", "out": {"phrases": ["name", "product", "capacity"]}}
+{"qid": "s3scale_q_006276", "out": {"phrases": ["films", "customer", "RUTH MARTINEZ", "rented", "title", "highest replacement cost"]}}
+{"qid": "s3scale_q_010188", "out": {"phrases": ["name", "country", "Asia", "life expectancy"]}}
+{"qid": "s3scale_q_001185", "out": {"phrases": ["products", "stores"]}}
+{"qid": "s3scale_q_009566", "out": {"phrases": ["name", "customer", "order", "most recently"]}}
+{"qid": "s3scale_q_011135", "out": {"phrases": ["customers", "accounts", "934308", "103062", "full details"]}}
+{"qid": "s3scale_q_009134", "out": {"phrases": ["max page size", "products"]}}
+{"qid": "s3scale_q_000960", "out": {"phrases": ["captains", "rank"]}}
+{"qid": "s3scale_q_009715", "out": {"phrases": ["appelations", "produce", "wines", "after", "year", "2008", "not", "Central Coast", "area"]}}
+{"qid": "s3scale_q_008138", "out": {"phrases": ["average", "minimum", "price", "rooms", "decor"]}}
+{"qid": "s3scale_q_000730", "out": {"phrases": ["international", "domestic", "passengers", "airport", "London Heathrow"]}}
+{"qid": "s3scale_q_005595", "out": {"phrases": ["players", "won", "award", "year", "1983", "play", "position", "goalie"]}}
+{"qid": "s3scale_q_001175", "out": {"phrases": ["airlines", "flights"]}}
+{"qid": "s3scale_q_007480", "out": {"phrases": ["tracks", "rock genre"]}}
+{"qid": "s3scale_q_007181", "out": {"phrases": ["zip code", "average mean visibility"]}}
+{"qid": "s3scale_q_000522", "out": {"phrases": ["names", "phone numbers", "customers", "California state"]}}
+{"qid": "s3scale_q_000784", "out": {"phrases": ["products", "Sony"]}}
+{"qid": "s3scale_q_000532", "out": {"phrases": ["papers", "published", "institution", "Google"]}}
+{"qid": "s3scale_q_009010", "out": {"phrases": ["rooms", "faculties", "rank", "professor", "live", "building", "NEB"]}}
+{"qid": "s3scale_q_008946", "out": {"phrases": ["name", "age", "males"]}}
+{"qid": "s3scale_q_003560", "out": {"phrases": ["episodes", "aired on", "April of 2009", "won", "award"]}}
+{"qid": "s3scale_q_010921", "out": {"phrases": ["cuisines", "Manhattan", "counts"]}}
+{"qid": "s3scale_q_000829", "out": {"phrases": ["open years", "shops", "opened"]}}
+{"qid": "s3scale_q_008677", "out": {"phrases": ["department", "employees"]}}
+{"qid": "s3scale_q_011285", "out": {"phrases": ["listings", "review score", "9", "60", "reviews"]}}
+{"qid": "s3scale_q_007501", "out": {"phrases": ["phone numbers"]}}
+{"qid": "s3scale_q_000524", "out": {"phrases": ["name", "customers"]}}
+{"qid": "s3scale_q_000859", "out": {"phrases": ["name", "swimmer", "records"]}}
+{"qid": "s3scale_q_003905", "out": {"phrases": ["disabled", "female", "students", "enrolled", "UCI"]}}
+{"qid": "s3scale_q_010780", "out": {"phrases": ["pressure change tendency", "quantities", "3 hours", "24 hours", "station", "x+56800-156400", "March 1", "March 10", "1984"]}}
+{"qid": "s3scale_q_000066", "out": {"phrases": ["average", "number of followers", "users", "do not have", "tweet"]}}
+{"qid": "s3scale_q_008037", "out": {"phrases": ["oldest movie", "average rating", "title"]}}
+{"qid": "s3scale_q_010775", "out": {"phrases": ["coordinates", "shipwrecks", "always submerged", "water", "29.5", "-84.5"]}}
+{"qid": "s3scale_q_000565", "out": {"phrases": ["id", "last name", "teacher", "most detentions", "detention type code", "AFTER"]}}
+{"qid": "s3scale_q_003845", "out": {"phrases": ["students", "disabilities", "students' names", "unemployed"]}}
+{"qid": "s3scale_q_000030", "out": {"phrases": ["cities", "addresses", "people"]}}
+{"qid": "s3scale_q_002167", "out": {"phrases": ["average age", "male patients", "hypertension"]}}
+{"qid": "s3scale_q_008208", "out": {"phrases": ["cities", "Australia"]}}
+{"qid": "s3scale_q_008121", "out": {"phrases": ["bed type", "average base price"]}}
+{"qid": "s3scale_q_001192", "out": {"phrases": ["name", "shops", "hire", "employee"]}}
+{"qid": "s3scale_q_007331", "out": {"phrases": ["advisor", "students"]}}
+{"qid": "s3scale_q_011069", "out": {"phrases": ["planets", "nitrogen", "carbon dioxide", "atmospheric composition"]}}
+{"qid": "s3scale_q_000407", "out": {"phrases": ["team", "technicians"]}}
+{"qid": "s3scale_q_008357", "out": {"phrases": ["first names", "offices", "instructors", "taught", "course", "course description"]}}
+{"qid": "s3scale_q_010722", "out": {"phrases": ["restaurants", "Latin cuisine", "Corona"]}}
+{"qid": "s3scale_q_002754", "out": {"phrases": ["technology items", "Best Buy for Business", "date", "project"]}}
+{"qid": "s3scale_q_000778", "out": {"phrases": ["name", "revenue", "company", "city"]}}
+{"qid": "s3scale_q_000119", "out": {"phrases": ["members", "address"]}}
+{"qid": "s3scale_q_009947", "out": {"phrases": ["templates", "documents"]}}
+{"qid": "s3scale_q_008701", "out": {"phrases": ["physician", "prescribed", "highest dose", "name"]}}
+{"qid": "s3scale_q_007137", "out": {"phrases": ["official names", "cities", "population", "bigger than 1500", "smaller than 500"]}}
+{"qid": "s3scale_q_010657", "out": {"phrases": ["planets", "unique atmosphere composition", "mean surface temperature", "50", "150", "degrees Celsius"]}}
+{"qid": "s3scale_q_002995", "out": {"phrases": ["paper title", "published year", "conference's short name", "author names", "paper ID", "15"]}}
+{"qid": "s3scale_q_001861", "out": {"phrases": ["female", "users", "OPPO", "phone brand", "percentage", "R815T model", "install", "app"]}}
+{"qid": "s3scale_q_001002", "out": {"phrases": ["competition", "matches"]}}
+{"qid": "s3scale_q_008050", "out": {"phrases": ["rating", "name", "reviewer", "director", "movie", "reviewer name", "movie title", "number of stars"]}}
+{"qid": "s3scale_q_001028", "out": {"phrases": ["last name", "individuals", "contact individuals", "organization"]}}
+{"qid": "s3scale_q_011366", "out": {"phrases": ["restaurants", "Brooklyn", "cuisines", "Ethiopian", "Vietnamese"]}}
+{"qid": "s3scale_q_001301", "out": {"phrases": ["movies", "users", "critic", "movie name", "user", "rating", "critics comments"]}}
+{"qid": "s3scale_q_007546", "out": {"phrases": ["medicine id", "names", "medicines", "interact", "enzyme"]}}
+{"qid": "s3scale_q_008269", "out": {"phrases": ["name", "customer", "highest amount", "loans"]}}
+{"qid": "s3scale_q_010278", "out": {"phrases": ["grade", "students", "friends"]}}
+{"qid": "s3scale_q_009208", "out": {"phrases": ["average quantity", "stocks"]}}
+{"qid": "s3scale_q_005027", "out": {"phrases": ["percentage", "household segment", "Indonesia"]}}
+{"qid": "s3scale_q_004746", "out": {"phrases": ["orders", "company", "GROSELLA-Restaurante"]}}
+{"qid": "s3scale_q_007213", "out": {"phrases": ["actors", "appeared", "musical"]}}
+{"qid": "s3scale_q_000058", "out": {"phrases": ["names", "users", "tweet"]}}
+{"qid": "s3scale_q_000330", "out": {"phrases": ["directors", "films", "directed"]}}
+{"qid": "s3scale_q_003228", "out": {"phrases": ["Yelp_Businesses", "still running", "category", "Food"]}}
+{"qid": "s3scale_q_008620", "out": {"phrases": ["subject ID", "subject name", "available courses"]}}
+{"qid": "s3scale_q_009317", "out": {"phrases": ["major", "female students"]}}
+{"qid": "s3scale_q_009796", "out": {"phrases": ["faculty rank", "members"]}}
+{"qid": "s3scale_q_000612", "out": {"phrases": ["factories", "manufacturers", "shops"]}}
+{"qid": "s3scale_q_000618", "out": {"phrases": ["market shares", "names", "furnitures", "company", "producing"]}}
+{"qid": "s3scale_q_008435", "out": {"phrases": ["first name", "job id", "employees", "Finance department"]}}
+{"qid": "s3scale_q_000262", "out": {"phrases": ["items", "review"]}}
+{"qid": "s3scale_q_007273", "out": {"phrases": ["origin", "flights"]}}
+{"qid": "s3scale_q_000814", "out": {"phrases": ["ids", "problems", "reported", "staff", "last name", "Bosco"]}}
+{"qid": "s3scale_q_001140", "out": {"phrases": ["dog", "pets", "raised", "female", "students", "sex", "F"]}}
+{"qid": "s3scale_q_000277", "out": {"phrases": ["balance", "checking accounts"]}}
+{"qid": "s3scale_q_008964", "out": {"phrases": ["name", "age", "job title", "persons", "friends", "Alice", "longest years"]}}
+{"qid": "s3scale_q_011169", "out": {"phrases": ["coordinates", "shipwrecks", "reported", "1995"]}}
+{"qid": "s3scale_q_008982", "out": {"phrases": ["stories", "building", "largest height"]}}
+{"qid": "s3scale_q_008000", "out": {"phrases": ["average", "height", "weight", "males", "sex", "M"]}}
+{"qid": "s3scale_q_000559", "out": {"phrases": ["monthly rental", "student addresses"]}}
+{"qid": "s3scale_q_009855", "out": {"phrases": ["routes", "destination airports", "Italy"]}}
+{"qid": "s3scale_q_000259", "out": {"phrases": ["names", "items", "did not receive", "review"]}}
+{"qid": "s3scale_q_009591", "out": {"phrases": ["songs", "volumes", "weeks on top"]}}
+{"qid": "s3scale_q_001006", "out": {"phrases": ["GDP", "city", "largest regional population"]}}
+{"qid": "s3scale_q_007380", "out": {"phrases": ["full name", "employees", "report to", "Nancy Edwards"]}}
+{"qid": "s3scale_q_000075", "out": {"phrases": ["entry names", "catalog", "attribute", "most entries"]}}
+{"qid": "s3scale_q_000972", "out": {"phrases": ["name", "type", "flag", "ship", "built", "most recent year"]}}
+{"qid": "s3scale_q_009115", "out": {"phrases": ["store", "types"]}}
+{"qid": "s3scale_q_006871", "out": {"phrases": ["posts", "posted by", "Community", "percentage", "posts", "use", "R language"]}}
+{"qid": "s3scale_q_001932", "out": {"phrases": ["users", "OPPO", "percentage", "under 50 years old"]}}
+{"qid": "s3scale_q_000864", "out": {"phrases": ["swimmer"]}}
+{"qid": "s3scale_q_009444", "out": {"phrases": ["address", "location", "UK Gallery"]}}
+{"qid": "s3scale_q_009177", "out": {"phrases": ["name", "hours", "students", "tryout decision", "yes"]}}
+{"qid": "s3scale_q_010737", "out": {"phrases": ["total sales value", "online transactions", "without coupons", "Q1 2017"]}}
+{"qid": "s3scale_q_007823", "out": {"phrases": ["customers", "account"]}}
+{"qid": "s3scale_q_009861", "out": {"phrases": ["routes", "United States", "Canada"]}}
+{"qid": "s3scale_q_004335", "out": {"phrases": ["books", "Orson Scott Card"]}}
+{"qid": "s3scale_q_002059", "out": {"phrases": ["observations", "2011", "names", "ages", "patients", "Systolic Blood Pressures", "200mmHg"]}}
+{"qid": "s3scale_q_000697", "out": {"phrases": ["average access counts", "documents", "functional area", "Acknowledgement"]}}
+{"qid": "s3scale_q_002673", "out": {"phrases": ["projects", "donators", "teachers", "percentage", "projects", "affected", "more than 30", "students"]}}
+{"qid": "s3scale_q_001057", "out": {"phrases": ["hours", "projects"]}}
+{"qid": "s3scale_q_008804", "out": {"phrases": ["name", "description", "role", "code", "MG"]}}
+{"qid": "s3scale_q_011189", "out": {"phrases": ["names", "addresses", "customers", "account IDs", "892096", "779716"]}}
+{"qid": "s3scale_q_000197", "out": {"phrases": ["id", "name", "stadium", "injury accidents"]}}
+{"qid": "s3scale_q_010531", "out": {"phrases": ["resolution time"]}}
+{"qid": "s3scale_q_001152", "out": {"phrases": ["first name", "age", "students", "pet"]}}
+{"qid": "s3scale_q_008549", "out": {"phrases": ["games", "park", "Columbia Park", "1907"]}}
+{"qid": "s3scale_q_009689", "out": {"phrases": ["average prices", "wines", "produced", "appelations", "Sonoma County"]}}
+{"qid": "s3scale_q_000654", "out": {"phrases": ["names", "companies", "number of sales"]}}
+{"qid": "s3scale_q_010474", "out": {"phrases": ["average response time", "application", "last day"]}}
+{"qid": "s3scale_q_000904", "out": {"phrases": ["address line 1", "address line 2", "customer", "email", "vbogisich@example.org"]}}
+{"qid": "s3scale_q_004074", "out": {"phrases": ["current", "female", "legislators", "attended", "Senate", "roll call votes"]}}
+{"qid": "s3scale_q_008887", "out": {"phrases": ["project id", "staff"]}}
+{"qid": "s3scale_q_007494", "out": {"phrases": ["tracks", "media type", "AAC audio file"]}}
+{"qid": "s3scale_q_008577", "out": {"phrases": ["programs", "broadcast", "time section", "day"]}}
+{"qid": "s3scale_q_000520", "out": {"phrases": ["names", "customers", "living", "state", "California"]}}
+{"qid": "s3scale_q_005760", "out": {"phrases": ["total points scored", "team ID", "ANA", "coaches", "team"]}}
+{"qid": "s3scale_q_009853", "out": {"phrases": ["cities", "airports"]}}
+{"qid": "s3scale_q_002922", "out": {"phrases": ["IDs", "game", "published", "Capcom", "Sony Computer Entertainment"]}}
+{"qid": "s3scale_q_000519", "out": {"phrases": ["name", "most expensive product"]}}
+{"qid": "s3scale_q_008477", "out": {"phrases": ["file format", "artists", "released", "songs"]}}
+{"qid": "s3scale_q_001020", "out": {"phrases": ["name", "organizations", "names", "Party"]}}
+{"qid": "s3scale_q_010989", "out": {"phrases": ["total revenue", "quantity", "general", "items", "Seattle store"]}}
+{"qid": "s3scale_q_009719", "out": {"phrases": ["county", "produces", "wines", "score", "higher than 90"]}}
+{"qid": "s3scale_q_000516", "out": {"phrases": ["restaurant", "students", "spend", "time", "least amount of time", "restaurant", "time", "students", "spent", "total"]}}
+{"qid": "s3scale_q_003574", "out": {"phrases": ["birth country", "height", "person name", "credit list", "category", "casting"]}}
+{"qid": "s3scale_q_008171", "out": {"phrases": ["delegates", "counties", "population"]}}
+{"qid": "s3scale_q_000906", "out": {"phrases": ["complaints", "Product Failure", "complaint status"]}}
+{"qid": "s3scale_q_000517", "out": {"phrases": ["ids", "orders", "status", "Success"]}}
+{"qid": "s3scale_q_007416", "out": {"phrases": ["accounts", "customer id"]}}
+{"qid": "s3scale_q_008534", "out": {"phrases": ["first name", "last name", "id", "top three players", "won", "most player awards"]}}
+{"qid": "s3scale_q_010452", "out": {"phrases": ["locations", "active social media users", "number of posts", "top 10"]}}
+{"qid": "s3scale_q_000919", "out": {"phrases": ["college", "college name", "authors", "submissions"]}}
+{"qid": "s3scale_q_000240", "out": {"phrases": ["exhibitions", "attendance", "100", "ticket prices", "10"]}}
+{"qid": "s3scale_q_000668", "out": {"phrases": ["names", "members", "ascending alphabetical order"]}}
+{"qid": "s3scale_q_010547", "out": {"phrases": ["patients", "genetic tests"]}}
+{"qid": "s3scale_q_009879", "out": {"phrases": ["customers", "orders", "status", "On Road"]}}
+{"qid": "s3scale_q_009137", "out": {"phrases": ["names", "districts", "city mall", "village store", "type", "stores"]}}
+{"qid": "s3scale_q_004322", "out": {"phrases": ["total price", "books", "ordered", "customer", "named", "Lucas Wyldbore"]}}
+{"qid": "s3scale_q_001232", "out": {"phrases": ["battles", "lose", "ship", "tonnage", "225"]}}
+{"qid": "s3scale_q_009348", "out": {"phrases": ["characteristics", "product", "sesame"]}}
+{"qid": "s3scale_q_010409", "out": {"phrases": ["resolution time"]}}
+{"qid": "s3scale_q_000485", "out": {"phrases": ["names", "regions", "affected", "storm", "killed", "greatest number of people"]}}
+{"qid": "s3scale_q_000116", "out": {"phrases": ["class", "races", "most common"]}}
+{"qid": "s3scale_q_000148", "out": {"phrases": ["accreditation level", "phones"]}}
+{"qid": "s3scale_q_009123", "out": {"phrases": ["city", "stores"]}}
+{"qid": "s3scale_q_000564", "out": {"phrases": ["id", "last name", "student", "most behavior incidents"]}}
+{"qid": "s3scale_q_000958", "out": {"phrases": ["countries", "roller coaster", "longer than 3000"]}}
+{"qid": "s3scale_q_009826", "out": {"phrases": ["name", "city", "country", "altitude", "elevation", "airports", "New York"]}}
+{"qid": "s3scale_q_010110", "out": {"phrases": ["language", "TV Channels"]}}
+{"qid": "s3scale_q_008432", "out": {"phrases": ["job ID", "jobs", "average salary", "8000"]}}
+{"qid": "s3scale_q_009458", "out": {"phrases": ["id", "star rating", "hotel", "price"]}}
+{"qid": "s3scale_q_000854", "out": {"phrases": ["200 meter", "300 meter", "results", "swimmers", "nationality", "Australia"]}}
+{"qid": "s3scale_q_000597", "out": {"phrases": ["train", "time", "Chennai", "Guruvayur"]}}
+{"qid": "s3scale_q_010513", "out": {"phrases": ["total spending", "customer"]}}
+{"qid": "s3scale_q_006785", "out": {"phrases": ["badges", "csgillespie", "obtained", "year", "2011"]}}
+{"qid": "s3scale_q_000060", "out": {"phrases": ["name", "user", "followers"]}}
+{"qid": "s3scale_q_010088", "out": {"phrases": ["section", "h"]}}
+{"qid": "s3scale_q_010593", "out": {"phrases": ["locations", "active social media users", "number of posts", "top 10"]}}
+{"qid": "s3scale_q_007796", "out": {"phrases": ["type code", "most frequently used", "policy"]}}
+{"qid": "s3scale_q_000988", "out": {"phrases": ["match ids", "cities", "hosted", "competition", "1994 FIFA World Cup qualification"]}}
+{"qid": "s3scale_q_010936", "out": {"phrases": ["average satisfaction rating", "store location", "December 2017"]}}
+{"qid": "s3scale_q_005796", "out": {"phrases": ["countries", "population", "10000000", "GDP", "500000"]}}
+{"qid": "s3scale_q_000253", "out": {"phrases": ["name", "id", "item", "highest average rating"]}}
+{"qid": "s3scale_q_007572", "out": {"phrases": ["location", "games score", "school", "Clemson", "team name"]}}
+{"qid": "s3scale_q_001010", "out": {"phrases": ["payment method", "phone", "party", "email", "enrico09@example.com"]}}
+{"qid": "s3scale_q_010749", "out": {"phrases": ["chart references", "shipwrecks", "reported", "1995"]}}
+{"qid": "s3scale_q_006939", "out": {"phrases": ["posts", "views", "100", "150", "comment", "highest score"]}}
+{"qid": "s3scale_q_005787", "out": {"phrases": ["countries", "area", "500000", "1000000", "country", "infant mortality rate"]}}
+{"qid": "s3scale_q_008241", "out": {"phrases": ["city", "state", "bank branch", "morningside"]}}
+{"qid": "s3scale_q_011374", "out": {"phrases": ["stores", "total sales", "$100,000", "2017"]}}
+{"qid": "s3scale_q_004206", "out": {"phrases": ["average weight", "male athletes", "Tonga"]}}
+{"qid": "s3scale_q_003904", "out": {"phrases": ["students", "enrolled", "UCLA", "percentage", "male students", "air force department"]}}
+{"qid": "s3scale_q_007344", "out": {"phrases": ["last name", "age", "student", "allergy", "milk", "cat"]}}
+{"qid": "s3scale_q_000084", "out": {"phrases": ["name", "attribute ID", "attribute definitions", "attribute value", "0"]}}
+{"qid": "s3scale_q_010972", "out": {"phrases": ["coordinates", "Wrecks - Submerged, dangerous", "latitude", "45.5", "longitude", "-86.7"]}}
+{"qid": "s3scale_q_000274", "out": {"phrases": ["coaches", "club", "club id", "name", "number of coaches"]}}
+{"qid": "s3scale_q_008724", "out": {"phrases": ["classroom", "grade", "classroom number", "grade number"]}}
+{"qid": "s3scale_q_008495", "out": {"phrases": ["names", "songs", "genre", "modern", "language", "English"]}}
+{"qid": "s3scale_q_004559", "out": {"phrases": ["orders", "products", "sold", "amount"]}}
+{"qid": "s3scale_q_010259", "out": {"phrases": ["friends", "Kyle"]}}
+{"qid": "s3scale_q_009036", "out": {"phrases": ["gradepoints", "students", "living", "NYC"]}}
+{"qid": "s3scale_q_002566", "out": {"phrases": ["sales teams", "Midwest region", "order quantity", "greater than 5"]}}
+{"qid": "s3scale_q_009823", "out": {"phrases": ["name", "activity", "largest number of student participants"]}}
+{"qid": "s3scale_q_009245", "out": {"phrases": ["phone number", "performer", "Ashley"]}}
+{"qid": "s3scale_q_000173", "out": {"phrases": ["dates", "vote percents", "elections"]}}
+{"qid": "s3scale_q_001197", "out": {"phrases": ["total amount", "bonus", "evaluations"]}}
+{"qid": "s3scale_q_000101", "out": {"phrases": ["date", "theme", "sales", "journal", "editors", "committee"]}}
+{"qid": "s3scale_q_000288", "out": {"phrases": ["name", "savings balance", "accounts", "saving balance", "savings balance"]}}
+{"qid": "s3scale_q_008209", "out": {"phrases": ["cities", "Australia"]}}
+{"qid": "s3scale_q_008065", "out": {"phrases": ["names", "reviewers", "higher than 3 star ratings"]}}
+{"qid": "s3scale_q_009450", "out": {"phrases": ["details", "shops", "reached by walk"]}}
+{"qid": "s3scale_q_008394", "out": {"phrases": ["players", "points", "lower than 30", "position"]}}
+{"qid": "s3scale_q_001142", "out": {"phrases": ["first name", "students", "cat", "dog", "pet"]}}
+{"qid": "s3scale_q_003726", "out": {"phrases": ["students", "filed for bankruptcy", "absent from school", "over 5 months"]}}
+{"qid": "s3scale_q_000244", "out": {"phrases": ["rating", "reviews"]}}
+{"qid": "s3scale_q_000580", "out": {"phrases": ["faults", "parts", "descriptions", "skills", "required", "fix", "name", "faults", "skill description"]}}
+{"qid": "s3scale_q_000866", "out": {"phrases": ["builders", "railways", "ascending alphabetical order"]}}
+{"qid": "s3scale_q_011255", "out": {"phrases": ["accounts", "transactions", "2016"]}}
+{"qid": "s3scale_q_009646", "out": {"phrases": ["documents", "type code", "BK", "product id"]}}
+{"qid": "s3scale_q_007350", "out": {"phrases": ["first names", "cities", "students", "allergy", "milk", "cat"]}}
+{"qid": "s3scale_q_000019", "out": {"phrases": ["id", "candidate", "email", "stanley.monahan@example.org"]}}
+{"qid": "s3scale_q_007602", "out": {"phrases": ["positions", "players", "country", "capital", "Dublin"]}}
+{"qid": "s3scale_q_008850", "out": {"phrases": ["female", "members", "club", "Bootup Baltimore", "first name", "last name"]}}
+{"qid": "s3scale_q_001255", "out": {"phrases": ["orchestras", "record company", "manage"]}}
+{"qid": "s3scale_q_000713", "out": {"phrases": ["nomination", "name", "artwork", "name", "festival", "nominated"]}}
+{"qid": "s3scale_q_000284", "out": {"phrases": ["saving balance", "account", "highest checking balance"]}}
+{"qid": "s3scale_q_010668", "out": {"phrases": ["wind direction angles", "speeds", "coordinates", "-144.6", "51.2", "-156.4", "56.8"]}}
+{"qid": "s3scale_q_009872", "out": {"phrases": ["order id", "customer id", "oldest order"]}}
+{"qid": "s3scale_q_002638", "out": {"phrases": ["donors", "New York", "teachers"]}}
+{"qid": "s3scale_q_010005", "out": {"phrases": ["ids", "documents", "paragraphs"]}}
+{"qid": "s3scale_q_011199", "out": {"phrases": ["shipwrecks", "chart number", "14909", "L-589/05", "chart information"]}}
+{"qid": "s3scale_q_005610", "out": {"phrases": ["coaches", "received", "award", "1940", "born", "Toronto"]}}
+{"qid": "s3scale_q_000909", "out": {"phrases": ["author", "submission", "submission score"]}}
+{"qid": "s3scale_q_004899", "out": {"phrases": ["percentage", "manufactured parts", "Manufacturer#3"]}}
+{"qid": "s3scale_q_008175", "out": {"phrases": ["parties", "delegates", "district 1", "governors", "parties"]}}
+{"qid": "s3scale_q_008563", "out": {"phrases": ["channel names", "channel rating"]}}
+{"qid": "s3scale_q_008791", "out": {"phrases": ["code", "document type", "Paper"]}}
+{"qid": "s3scale_q_010008", "out": {"phrases": ["average rank", "winners", "matches"]}}
+{"qid": "s3scale_q_006635", "out": {"phrases": ["percentage", "cards", "Spanish", "name"]}}
+{"qid": "s3scale_q_000604", "out": {"phrases": ["id", "local authority", "station", "maximum precipitation", "50"]}}
+{"qid": "s3scale_q_007391", "out": {"phrases": ["employees", "title", "IT Staff", "city"]}}
+{"qid": "s3scale_q_010090", "out": {"phrases": ["first name", "students", "permanently live", "country", "Haiti", "cell phone number", "09700166582"]}}
+{"qid": "s3scale_q_000011", "out": {"phrases": ["departments", "led", "heads", "mentioned"]}}
+{"qid": "s3scale_q_004264", "out": {"phrases": ["average", "height", "competitors", "age", "22", "28"]}}
+{"qid": "s3scale_q_000151", "out": {"phrases": ["average", "ram mib size", "chip models", "never used", "phone"]}}
+{"qid": "s3scale_q_001210", "out": {"phrases": ["hometown", "teachers"]}}
+{"qid": "s3scale_q_009545", "out": {"phrases": ["name", "customers", "living", "Colorado"]}}
+{"qid": "s3scale_q_011148", "out": {"phrases": ["apartments", "most reviewed"]}}
+{"qid": "s3scale_q_002426", "out": {"phrases": ["matches", "St. George's Park", "match ID", "match", "highest winning margin points"]}}
+{"qid": "s3scale_q_000895", "out": {"phrases": ["name", "category", "most expensive product"]}}
+{"qid": "s3scale_q_008265", "out": {"phrases": ["name", "customer", "credit score"]}}
+{"qid": "s3scale_q_001077", "out": {"phrases": ["names", "scientists", "working", "project", "highest hours"]}}
+{"qid": "s3scale_q_008794", "out": {"phrases": ["document type name", "document named", "How to read a book"]}}
+{"qid": "s3scale_q_003357", "out": {"phrases": ["highest quality user", "under ID 100", "compliment type", "highest compliment number", "user's followers"]}}
+{"qid": "s3scale_q_000562", "out": {"phrases": ["first names", "last names", "teachers", "alphabetical order", "last name"]}}
+{"qid": "s3scale_q_010037", "out": {"phrases": ["first name", "country code", "birth date", "winner", "rank points", "matches"]}}
+{"qid": "s3scale_q_008616", "out": {"phrases": ["names", "courses", "taught", "tutor", "personal name", "Julio"]}}
+{"qid": "s3scale_q_010129", "out": {"phrases": ["cartoons", "directed", "directors"]}}
+{"qid": "s3scale_q_006162", "out": {"phrases": ["community area", "domestic crimes"]}}
+{"qid": "s3scale_q_010997", "out": {"phrases": ["cuisines", "Brooklyn", "restaurants"]}}
+{"qid": "s3scale_q_003121", "out": {"phrases": ["publications", "keywords", "Turbulent Fluids", "percentage", "published", "journal", "Physics of Fluids"]}}
+{"qid": "s3scale_q_009008", "out": {"phrases": ["first names", "last names", "male", "sex", "M", "faculties", "live", "building", "NEB"]}}
+{"qid": "s3scale_q_003927", "out": {"phrases": ["current", "female", "legislators", "registered", "Federal Election Commission", "data"]}}
+{"qid": "s3scale_q_009746", "out": {"phrases": ["customer status code", "customers"]}}
+{"qid": "s3scale_q_009171", "out": {"phrases": ["states", "college students", "tryout", "decisions", "yes"]}}
+{"qid": "s3scale_q_005783", "out": {"phrases": ["countries", "GDP", "capital", "population"]}}
+{"qid": "s3scale_q_000534", "out": {"phrases": ["papers", "published", "institution", "University of Pennsylvania"]}}
+{"qid": "s3scale_q_000545", "out": {"phrases": ["first names", "authors", "written", "paper", "title", "containing", "Functional"]}}
+{"qid": "s3scale_q_008872", "out": {"phrases": ["average age", "members", "club", "Tennis Club"]}}
+{"qid": "s3scale_q_000031", "out": {"phrases": ["cities", "address", "students"]}}
+{"qid": "s3scale_q_008766", "out": {"phrases": ["average", "number", "cities", "markets", "low market estimation", "larger than 10000"]}}
+{"qid": "s3scale_q_000308", "out": {"phrases": ["names", "locations", "wrestlers"]}}
+{"qid": "s3scale_q_007942", "out": {"phrases": ["money requested", "entrepreneurs", "taller than 1.85"]}}
+{"qid": "s3scale_q_008169", "out": {"phrases": ["delegates", "counties", "population", "100000"]}}
+{"qid": "s3scale_q_002332", "out": {"phrases": ["run rate", "17 overs", "match ID", "335987", "4/18/2008"]}}
+{"qid": "s3scale_q_007807", "out": {"phrases": ["names", "customers", "name", "contains", "Diana"]}}
+{"qid": "s3scale_q_007902", "out": {"phrases": ["headquarter", "companies"]}}
+{"qid": "s3scale_q_008984", "out": {"phrases": ["company", "company name", "building", "office", "located in"]}}
+{"qid": "s3scale_q_008237", "out": {"phrases": ["average", "number of customers", "banks", "Utah state"]}}
+{"qid": "s3scale_q_000394", "out": {"phrases": ["id", "surname", "driver", "participated", "races"]}}
+{"qid": "s3scale_q_007670", "out": {"phrases": ["bedrooms", "apartments"]}}
+{"qid": "s3scale_q_008554", "out": {"phrases": ["games", "team", "Boston Red Stockings", "attended", "1990", "2000"]}}
+{"qid": "s3scale_q_008108", "out": {"phrases": ["rooms", "price", "higher than 160", "accommodate", "more than 2 people", "room names", "ids"]}}
+{"qid": "s3scale_q_009550", "out": {"phrases": ["city", "customers"]}}
+{"qid": "s3scale_q_010268", "out": {"phrases": ["likes", "student id"]}}
+{"qid": "s3scale_q_009763", "out": {"phrases": ["customers", "payment histories"]}}
+{"qid": "s3scale_q_008523", "out": {"phrases": ["names", "artists", "from", "Bangladesh", "received", "rating", "higher than 7"]}}
+{"qid": "s3scale_q_008570", "out": {"phrases": ["name", "program", "launched"]}}
+{"qid": "s3scale_q_010665", "out": {"phrases": ["wind direction", "speed", "coordinates", "-144.6", "51.2"]}}
+{"qid": "s3scale_q_007523", "out": {"phrases": ["IDs", "customers", "name", "Diana"]}}
+{"qid": "s3scale_q_007421", "out": {"phrases": ["customers", "account"]}}
+{"qid": "s3scale_q_010297", "out": {"phrases": ["owner id", "zip code", "owner", "spent", "money", "total", "dogs"]}}
+{"qid": "s3scale_q_008772", "out": {"phrases": ["films", "produced", "studio"]}}
+{"qid": "s3scale_q_008648", "out": {"phrases": ["claims", "claimed amount", "average", "date the claim was made", "date it was settled"]}}
+{"qid": "s3scale_q_009292", "out": {"phrases": ["Advisor", "students", "treasurer votes", "spring election cycle"]}}
+{"qid": "s3scale_q_009103", "out": {"phrases": ["name", "most expensive", "hardware product"]}}
+{"qid": "s3scale_q_007519", "out": {"phrases": ["names", "users", "first notification of loss record"]}}
+{"qid": "s3scale_q_008294", "out": {"phrases": ["credits", "course", "CIS-220", "description"]}}
+{"qid": "s3scale_q_007637", "out": {"phrases": ["names", "mountains"]}}
+{"qid": "s3scale_q_009381", "out": {"phrases": ["colors", "products"]}}
+{"qid": "s3scale_q_011231", "out": {"phrases": ["quality flags", "air temperature", "pressure", "measurements", "station", "WTDM", "March 8, 1984"]}}
+{"qid": "s3scale_q_008009", "out": {"phrases": ["names", "people", "participate", "candidate election"]}}
+{"qid": "s3scale_q_008225", "out": {"phrases": ["film ratings"]}}
+{"qid": "s3scale_q_008955", "out": {"phrases": ["name", "persons", "friends", "Bob"]}}
+{"qid": "s3scale_q_009185", "out": {"phrases": ["average hours", "students", "tryout decision", "no"]}}
+{"qid": "s3scale_q_008745", "out": {"phrases": ["classroom", "students", "use"]}}
+{"qid": "s3scale_q_009270", "out": {"phrases": ["id", "product", "ordered", "most often", "invoices"]}}
+{"qid": "s3scale_q_008820", "out": {"phrases": ["names", "employees", "role name", "Editor"]}}
+{"qid": "s3scale_q_009792", "out": {"phrases": ["faculty rank", "faculty members"]}}
+{"qid": "s3scale_q_007496", "out": {"phrases": ["millisecond length", "Latin", "Pop", "tracks"]}}
+{"qid": "s3scale_q_010557", "out": {"phrases": ["average response time", "application", "last day"]}}
+{"qid": "s3scale_q_009902", "out": {"phrases": ["continent", "id", "name", "countries"]}}
+{"qid": "s3scale_q_007610", "out": {"phrases": ["colleges", "players", "play for", "Columbus Crew"]}}
+{"qid": "s3scale_q_009101", "out": {"phrases": ["average price", "product clothes"]}}
+{"qid": "s3scale_q_009706", "out": {"phrases": ["average price", "case", "wines", "Zinfandel grapes", "year 2009"]}}
+{"qid": "s3scale_q_008415", "out": {"phrases": ["country ID", "cities"]}}
+{"qid": "s3scale_q_009767", "out": {"phrases": ["payment method", "payments"]}}
+{"qid": "s3scale_q_008521", "out": {"phrases": ["names", "artists", "produced", "English songs", "received", "rating", "higher than 8"]}}
+{"qid": "s3scale_q_008058", "out": {"phrases": ["director", "directed", "movie", "titles", "dates of release"]}}
+{"qid": "s3scale_q_010010", "out": {"phrases": ["rank", "losers", "matches"]}}
+{"qid": "s3scale_q_009312", "out": {"phrases": ["election cycle", "voting records"]}}
+{"qid": "s3scale_q_010021", "out": {"phrases": ["year", "matches"]}}
+{"qid": "s3scale_q_008379", "out": {"phrases": ["position", "average number of points", "players"]}}
+{"qid": "s3scale_q_010152", "out": {"phrases": ["names", "poker players", "earnings", "300000"]}}
+{"qid": "s3scale_q_007891", "out": {"phrases": ["hometowns", "people", "older than 23", "younger than 20"]}}
+{"qid": "s3scale_q_009876", "out": {"phrases": ["order items", "product id", "11", "order item ids"]}}
+{"qid": "s3scale_q_009589", "out": {"phrases": ["weeks", "volumes"]}}
+{"qid": "s3scale_q_008912", "out": {"phrases": ["project id", "tasks"]}}
+{"qid": "s3scale_q_010137", "out": {"phrases": ["package option", "tv channel", "cartoon", "directed by", "Ben Jones"]}}
+{"qid": "s3scale_q_009393", "out": {"phrases": ["name", "gender type", "dorms", "capacity", "greater than 300", "less than 100"]}}
+{"qid": "s3scale_q_007652", "out": {"phrases": ["climbers", "country"]}}
+{"qid": "s3scale_q_008646", "out": {"phrases": ["claims", "amount claimed", "claim", "least amount settled", "settlement amount", "claim amount"]}}
+{"qid": "s3scale_q_007966", "out": {"phrases": ["name", "campuses", "Northridge", "Los Angeles", "San Francisco"]}}
+{"qid": "s3scale_q_008657", "out": {"phrases": ["total amount", "settlement"]}}
+{"qid": "s3scale_q_007666", "out": {"phrases": ["building", "full names", "court"]}}
+{"qid": "s3scale_q_009297", "out": {"phrases": ["first name", "last name", "students", "age", "18", "vice president votes"]}}
+{"qid": "s3scale_q_010043", "out": {"phrases": ["math course", "described"]}}
+{"qid": "s3scale_q_009399", "out": {"phrases": ["name", "dorm", "capacity"]}}
+{"qid": "s3scale_q_008095", "out": {"phrases": ["cities", "counties", "populations", "20000"]}}
+{"qid": "s3scale_q_008864", "out": {"phrases": ["first name", "last name", "CTO", "club", "Hopkins Student Enterprises"]}}
+{"qid": "s3scale_q_008738", "out": {"phrases": ["last names", "students", "third grade", "taught by", "COVIN JEROME"]}}
+{"qid": "s3scale_q_007912", "out": {"phrases": ["company id", "companies", "gas stations", "operate"]}}
+{"qid": "s3scale_q_007427", "out": {"phrases": ["customers"]}}
+{"qid": "s3scale_q_009961", "out": {"phrases": ["templates", "type", "CV"]}}
+{"qid": "s3scale_q_010742", "out": {"phrases": ["movies", "award nomination"]}}
+{"qid": "s3scale_q_009526", "out": {"phrases": ["last name", "first name", "students", "playing", "Football", "Lacrosse"]}}
+{"qid": "s3scale_q_008002", "out": {"phrases": ["average", "minimum", "weight", "gender"]}}
+{"qid": "s3scale_q_007835", "out": {"phrases": ["customers", "gender"]}}
+{"qid": "s3scale_q_010659", "out": {"phrases": ["listings", "cleaning fees"]}}
+{"qid": "s3scale_q_007467", "out": {"phrases": ["full names", "employees", "living", "city", "Calgary"]}}
+{"qid": "s3scale_q_008693", "out": {"phrases": ["rooms", "block floor"]}}
+{"qid": "s3scale_q_007356", "out": {"phrases": ["customers", "orders", "first name", "last name", "total orders"]}}
+{"qid": "s3scale_q_009901", "out": {"phrases": ["countries", "continent", "continent id", "continent name"]}}
+{"qid": "s3scale_q_007742", "out": {"phrases": ["name", "department", "lowest budget"]}}
+{"qid": "s3scale_q_011014", "out": {"phrases": ["discrepancy code", "water depth estimation", "x+56800-156400", "March 8, 1984"]}}
+{"qid": "s3scale_q_009735", "out": {"phrases": ["first name", "last name", "staff", "lived", "city", "Damianfort"]}}
+{"qid": "s3scale_q_007413", "out": {"phrases": ["accounts", "customer", "first name", "Art", "last name", "Turcotte"]}}
+{"qid": "s3scale_q_011151", "out": {"phrases": ["customers", "accounts", "IDs", "934308", "103062", "additional accounts", "details", "name", "address", "email"]}}
+{"qid": "s3scale_q_008539", "out": {"phrases": ["year", "team", "Boston Red Stockings", "won", "postseasons"]}}
+{"qid": "s3scale_q_008875", "out": {"phrases": ["organisation ids", "details", "organisations", "involved"]}}
+{"qid": "s3scale_q_011233", "out": {"phrases": ["customers", "benefits", "concierge services", "tier", "inactive", "tier", "benefits"]}}
+{"qid": "s3scale_q_009097", "out": {"phrases": ["name", "gender", "staff", "assigned", "job", "Sales Person", "Clerical Staff"]}}
+{"qid": "s3scale_q_007818", "out": {"phrases": ["claim outcome codes"]}}
+{"qid": "s3scale_q_008779", "out": {"phrases": ["titles", "studios", "films", "produced", "film studios", "contained", "word", "Universal"]}}
+{"qid": "s3scale_q_007811", "out": {"phrases": ["names", "customers", "deputy policy", "uniformed policy"]}}
+{"qid": "s3scale_q_010581", "out": {"phrases": ["Average Shipment Duration"]}}
+{"qid": "s3scale_q_007564", "out": {"phrases": ["founded year", "newest non public school"]}}
+{"qid": "s3scale_q_009676", "out": {"phrases": ["ids", "documents", "budget description", "Government"]}}
+{"qid": "s3scale_q_009934", "out": {"phrases": ["cars", "accelerate", "car", "largest horsepower"]}}
+{"qid": "s3scale_q_009713", "out": {"phrases": ["wineries", "wines", "white color grapes"]}}
+{"qid": "s3scale_q_009875", "out": {"phrases": ["ids", "order items", "product id", "11"]}}
+{"qid": "s3scale_q_010211", "out": {"phrases": ["continents", "speak", "Chinese"]}}
+{"qid": "s3scale_q_008828", "out": {"phrases": ["code", "location", "documents"]}}
+{"qid": "s3scale_q_008464", "out": {"phrases": ["file format", "files"]}}
+{"qid": "s3scale_q_008618", "out": {"phrases": ["names", "descriptions", "courses", "subject", "Computer Science"]}}
+{"qid": "s3scale_q_008609", "out": {"phrases": ["test result", "students"]}}
+{"qid": "s3scale_q_008437", "out": {"phrases": ["department id", "total salary", "departments", "employees"]}}
+{"qid": "s3scale_q_010218", "out": {"phrases": ["name", "population", "expected life length", "asian country", "largest area"]}}

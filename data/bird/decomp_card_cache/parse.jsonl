@@ -1,0 +1,240 @@
+{"qid": "ac4dafe10c9e", "out": {"phrases": ["counties", "Alabama"]}}
+{"qid": "1dc58f9474de", "out": {"phrases": ["zip code", "Senate house"]}}
+{"qid": "b88801aa5c1a", "out": {"phrases": ["average review number", "application", "5 rating"]}}
+{"qid": "427ad8e23ccf", "out": {"phrases": ["rating", "total Sentiment subjectivity score", "Onefootball - Soccer Scores"]}}
+{"qid": "c34abf10f0f5", "out": {"phrases": ["average rating", "Apps", "racing genre", "percentage ratio", "positive sentiment reviews"]}}
+{"qid": "044a3c4ea2ec", "out": {"phrases": ["flights", "Alaska Airlines", "delayed", "2018/8/2"]}}
+{"qid": "b3691848d3b5", "out": {"phrases": ["short name", "journal", "published", "paper", "A Case of Unilateral Ashy Dermatosis"]}}
+{"qid": "a85c21338789", "out": {"phrases": ["papers", "years", "International Conference on Database Theory", "published"]}}
+{"qid": "489fa7ac8214", "out": {"phrases": ["August 2018", "day", "cancelled flights", "serious reasons", "Dallas/Fort Worth International"]}}
+{"qid": "b64b0b00fae4", "out": {"phrases": ["area code", "city", "largest land area"]}}
+{"qid": "a916adfb511e", "out": {"phrases": ["flights", "air carrier", "Asap Air Inc.", "ASP", "tail number", "flight", "longest departure delay"]}}
+{"qid": "cf93fd1313c2", "out": {"phrases": ["papers", "published", "journal", "Molecular Brain", "year", "2008", "2011"]}}
+{"qid": "6049d9d1106d", "out": {"phrases": ["location", "paying customers", "American Express"]}}
+{"qid": "6188009dc567", "out": {"phrases": ["root beers", "Bulldog", "purchased", "August, 2014"]}}
+{"qid": "c7e8caae1908", "out": {"phrases": ["bike station", "bike", "borrowed", "trip ID4069", "installed"]}}
+{"qid": "26b00a844bd9", "out": {"phrases": ["customers", "subscribed", "mailing list", "stars", "review"]}}
+{"qid": "dc6a691150fb", "out": {"phrases": ["language", "book id", "1405", "written"]}}
+{"qid": "ab2021d923fc", "out": {"phrases": ["book title", "bestseller"]}}
+{"qid": "946527fa6843", "out": {"phrases": ["longest duration", "bike trip", "starting on a day", "fog", "2013"]}}
+{"qid": "48eb1b2e6bf9", "out": {"phrases": ["subscriber", "finished", "2nd", "Folsom and Civic Center BART", "7th at Market", "start", "end", "stations", "no more than 490 seconds", "minimum visibility of 4 miles"]}}
+{"qid": "f405b1cd9d7c", "out": {"phrases": ["titles", "above average royalty rate", "title's name", "type", "price"]}}
+{"qid": "d8413f6c5594", "out": {"phrases": ["most expensive price", "paid", "customer", "book", "Bite Me If You Can (Argeneau #6)"]}}
+{"qid": "c4f2c753e2f0", "out": {"phrases": ["title name", "type", "price", "titles", "published by", "New Moon Books", "ascending order", "price"]}}
+{"qid": "e071d3436512", "out": {"phrases": ["books", "business", "bookstores", "Massachusetts", "ordered"]}}
+{"qid": "d79e40049bf6", "out": {"phrases": ["type", "promotion", "card", "Duress"]}}
+{"qid": "4fc98e1ac238", "out": {"phrases": ["full address", "office", "people", "work", "Sales Representation"]}}
+{"qid": "1d456a8c8866", "out": {"phrases": ["cylinders", "cheapest car"]}}
+{"qid": "8a54be200588", "out": {"phrases": ["product", "Classic Cars", "production line", "expected profit"]}}
+{"qid": "2e23bfbe2ed9", "out": {"phrases": ["state special schools", "enrollees", "grades 1 through 12"]}}
+{"qid": "8844b66ac049", "out": {"phrases": ["average math score", "school", "lowest average score", "all subjects", "county"]}}
+{"qid": "1cf3f68437a7", "out": {"phrases": ["product", "No. S18_3482", "Order No.10108", "discount", "customer"]}}
+{"qid": "ee3431d96e38", "out": {"phrases": ["Volkswagen Dasher", "14.1 mph acceleration"]}}
+{"qid": "7ffacf28d2b5", "out": {"phrases": ["Italian flavor text", "card", "Ancestor's Chosen"]}}
+{"qid": "4c72de66e7b7", "out": {"phrases": ["city location", "high school level", "school", "Lunch Provision 2", "lowest grade", "9", "highest grade", "12", "county", "Merced"]}}
+{"qid": "ae6e0d474a38", "out": {"phrases": ["cards", "original type", "Summon - Angel", "subtype", "Angel"]}}
+{"qid": "94d0355b2b11", "out": {"phrases": ["names", "most expensive", "cars"]}}
+{"qid": "78b1c4549d73", "out": {"phrases": ["classification", "papers", "cited", "word1163"]}}
+{"qid": "8b8ea8d6df5f", "out": {"phrases": ["solution path", "tokenized name", "matrix multiply"]}}
+{"qid": "b2a955f9fba5", "out": {"phrases": ["alderman", "ward", "crime", "report number", "23769"]}}
+{"qid": "b8fa76c3d723", "out": {"phrases": ["community areas", "side"]}}
+{"qid": "6c0c4db8b722", "out": {"phrases": ["language", "method number 28", "repository number 3"]}}
+{"qid": "7cb7647f4d5a", "out": {"phrases": ["alderman", "full name", "most crowded", "ward"]}}
+{"qid": "ff37218b52c0", "out": {"phrases": ["words", "cited", "AI", "IR", "class label"]}}
+{"qid": "a08b1c94b9dd", "out": {"phrases": ["display name", "parent ID", "child post", "highest score"]}}
+{"qid": "ff103fd87ead", "out": {"phrases": ["last accessed date", "location", "users", "received", "outliers badge"]}}
+{"qid": "e7cb826024f4", "out": {"phrases": ["API calls", "method number 10", "intended course of action"]}}
+{"qid": "30bb1a6a9ae9", "out": {"phrases": ["papers", "DB classification", "paper", "number of words cited"]}}
+{"qid": "e276aa6d410b", "out": {"phrases": ["tags", "Mark Meckes", "posts", "comments"]}}
+{"qid": "081c979643b9", "out": {"phrases": ["professor ID", "course ID", "121", "130", "basic undergraduate courses"]}}
+{"qid": "e5e69bef9e7e", "out": {"phrases": ["states", "2011", "national sector average", "20"]}}
+{"qid": "8e1eed998d32", "out": {"phrases": ["students", "graduated", "Lincoln College", "2011", "cohort type", "Bachelor's/equivalent seeking cohort", "4-year institutions"]}}
+{"qid": "fd8505f643c1", "out": {"phrases": ["recipes", "non-dairy"]}}
+{"qid": "7fb6be6f705b", "out": {"phrases": ["courses", "most number of professors", "course ID", "level of the course"]}}
+{"qid": "e0fb084d1925", "out": {"phrases": ["price", "Bitcoin", "closed", "end of the day", "2013/4/29"]}}
+{"qid": "9d4ed83722c1", "out": {"phrases": ["cryptocurrency", "ranked", "first", "CoinMarketCap", "2013/4/28"]}}
+{"qid": "1dd4b6bc5cb1", "out": {"phrases": ["female", "students", "year", "2012", "state", "number of schools", "10", "20"]}}
+{"qid": "337ff4eae5f0", "out": {"phrases": ["coins", "average price", "more than $1000", "current status", "coin"]}}
+{"qid": "440d58fde075", "out": {"phrases": ["advised", "student IDs", "IDs", "employing professor", "faculty"]}}
+{"qid": "0796f6cdf03b", "out": {"phrases": ["ingredient", "graham cracker crumbs", "optional", "recipe", "Raspberry Chiffon Pie"]}}
+{"qid": "14f63d94149e", "out": {"phrases": ["sodium content", "Lasagne-Spinach Spirals", "Beef and Spinach Pita Pockets"]}}
+{"qid": "dd047566a1c3", "out": {"phrases": ["average gpa", "Ogdon Zywicki", "research assistants"]}}
+{"qid": "ca0b0697a191", "out": {"phrases": ["beer styles", "Stevens Point Brewery", "American Adjunct Lager"]}}
+{"qid": "05e25b602a22", "out": {"phrases": ["director", "movies"]}}
+{"qid": "37aa8496b19b", "out": {"phrases": ["chains", "gas stations", "transactions", "euro"]}}
+{"qid": "192d370ec4f2", "out": {"phrases": ["year", "gas use", "paid", "EUR"]}}
+{"qid": "c5ad7ea84ce1", "out": {"phrases": ["New York", "brewery", "bitterest beer", "brewery's name", "name of the city"]}}
+{"qid": "cfafd98c2fe9", "out": {"phrases": ["customers", "paying in CZK", "consumed", "gas", "2011"]}}
+{"qid": "54cf53d0110a", "out": {"phrases": ["breweries", "US", "American Blonde Ale", "state", "Wisconsin", "produces", "percentage"]}}
+{"qid": "72b5babe377d", "out": {"phrases": ["students", "intelligence", "full name", "phone number", "GPA"]}}
+{"qid": "5bcd1eab24d9", "out": {"phrases": ["popularity", "professor", "advises", "highest number of students", "highest research ability"]}}
+{"qid": "d414df6b32c5", "out": {"phrases": ["Disney", "total box office gross", "2010", "2016"]}}
+{"qid": "82bb1c58cbf3", "out": {"phrases": ["director", "Bill Thompson", "work", "most"]}}
+{"qid": "0e1afd0712d0", "out": {"phrases": ["projects", "resources", "provided by", "vendor", "Lakeshore Learning Materials", "school", "project", "highest cost of labor fulfillment", "school ID"]}}
+{"qid": "9ed1c0115fa5", "out": {"phrases": ["name", "football division", "Netherlands"]}}
+{"qid": "db46aa5ed0da", "out": {"phrases": ["payment method", "Needed Resource Materials For My Students"]}}
+{"qid": "b8c809265d40", "out": {"phrases": ["final-time score", "divisions", "2021 season", "team", "score"]}}
+{"qid": "4cf27eb9bb4d", "out": {"phrases": ["Alexis Blin", "sprint speed", "agility", "acceleration scores"]}}
+{"qid": "4d375eccea47", "out": {"phrases": ["total price", "items", "ABC School Supply", "listed type", "Other", "buyers", "coordinates", "school districts"]}}
+{"qid": "e11d5454da0f", "out": {"phrases": ["matches", "2019 season", "Scottish Championship league", "equal result", "2-2"]}}
+{"qid": "6abd9c899d18", "out": {"phrases": ["highest score", "home team", "Netherlands Eredivisie league"]}}
+{"qid": "aa3af53f2d78", "out": {"phrases": ["loan", "approved", "1994/8/25", "account", "opened", "district Id", "branch"]}}
+{"qid": "85856cf742c6", "out": {"phrases": ["percentage", "Landon Donovan", "overall rating", "higher than", "Jordan Bowery", "2013/7/12"]}}
+{"qid": "948b4f79d00c", "out": {"phrases": ["female", "client", "born", "1976/1/29", "district", "opened", "account"]}}
+{"qid": "5d082baafdc4", "out": {"phrases": ["classic", "cards", "eligible", "loan"]}}
+{"qid": "50af985bad99", "out": {"phrases": ["inspection type", "El Aji Peruvian Restaurant", "inspection score"]}}
+{"qid": "b0a1dc5dd40e", "out": {"phrases": ["2013", "names", "establishments", "contaminated", "adulterated", "food"]}}
+{"qid": "1b3482fa4752", "out": {"phrases": ["driver", "lap time", "record", "Formula_1 race", "full names"]}}
+{"qid": "3a6d02109334", "out": {"phrases": ["name", "establishment", "highest number of low risk violations", "2014"]}}
+{"qid": "644335ad7a28", "out": {"phrases": ["full name", "sanitarian", "inspected", "Amundsen High School", "2010/5/11"]}}
+{"qid": "77fedbb6df0d", "out": {"phrases": ["establishments", "doing business as", "Homemade Pizza", "risk level", "2"]}}
+{"qid": "8715643befd0", "out": {"phrases": ["inspections", "Lisa Tillman", "result", "Out of Business"]}}
+{"qid": "efe10a8b1d16", "out": {"phrases": ["year", "speed", "lap time"]}}
+{"qid": "77e742a566c6", "out": {"phrases": ["points", "victories", "driver", "ranked 91st"]}}
+{"qid": "238420b2bb1c", "out": {"phrases": ["essential genes", "transcription factors class", "nucleus", "reference", "genetic-type interaction", "gene"]}}
+{"qid": "ab6086496b09", "out": {"phrases": ["motif", "genes", "located", "cytoplasm", "7", "chromosomes"]}}
+{"qid": "b9b0fca1976a", "out": {"phrases": ["genes", "phenotype", "motif", "nucleic acid metabolism defects", "PS00107", "percentage", "positive interaction", "gene"]}}
+{"qid": "1595b8cae067", "out": {"phrases": ["latest", "non player/builder", "hall of famer", "full name"]}}
+{"qid": "cd6367afe404", "out": {"phrases": ["1998", "wins", "team", "CAR", "game", "goals", "player ID"]}}
+{"qid": "cd0fcb6a9ee9", "out": {"phrases": ["average salary", "employees", "work as", "Trainee"]}}
+{"qid": "710f4723045c", "out": {"phrases": ["male", "employees", "address", "450 Peachtree Rd"]}}
+{"qid": "f6918642e56e", "out": {"phrases": ["Stanley Cup finals history", "games", "player id", "broadpu01", "1922"]}}
+{"qid": "ab90b771490d", "out": {"phrases": ["highest point", "Per Mars", "draft year"]}}
+{"qid": "b3c0f859a3eb", "out": {"phrases": ["monthly average salary", "employee", "highest salary", "name", "position title", "location city"]}}
+{"qid": "0b9494b2887f", "out": {"phrases": ["explanation", "object class", "10"]}}
+{"qid": "c67229794f8a", "out": {"phrases": ["most valuable player", "QMJHL league", "2004-2005 season"]}}
+{"qid": "aaa2824fc15a", "out": {"phrases": ["youngest", "player", "played", "1997-1998 season", "OHL League"]}}
+{"qid": "a49585cfd1ec", "out": {"phrases": ["images", "keyboard", "object class"]}}
+{"qid": "ce61075f13db", "out": {"phrases": ["word id", "title", "Sometent"]}}
+{"qid": "3320f5f83286", "out": {"phrases": ["object", "image 5", "coordinate", "(634, 468)"]}}
+{"qid": "49fdabae761e", "out": {"phrases": ["Catalan language", "wikipedia pages", "number of different words"]}}
+{"qid": "770d4e7b889a", "out": {"phrases": ["title", "Catalan language", "wikipedia page", "revision page id", "16203226"]}}
+{"qid": "8b0e4ebc79fb", "out": {"phrases": ["episodes", "J.K. Simmons", "role", "appear", "show"]}}
+{"qid": "37872190d481", "out": {"phrases": ["titles", "episodes", "votes", "10-star rating"]}}
+{"qid": "be37eda630b2", "out": {"phrases": ["current legislators", "religion", "Roman Catholic", "percentage", "without", "instagram account"]}}
+{"qid": "88293ef13ebd", "out": {"phrases": ["terms", "current legislator", "Sherrod Brown", "served"]}}
+{"qid": "628d6eea90f5", "out": {"phrases": ["script supervisor", "series", "episode", "tt0629204"]}}
+{"qid": "3a3249417dda", "out": {"phrases": ["legislators", "born", "1736"]}}
+{"qid": "3569c56ceaf1", "out": {"phrases": ["respondents", "participated", "survey", "2019", "sought treatment", "mental health disorder", "mental health professional"]}}
+{"qid": "508ab5a4fe59", "out": {"phrases": ["dish", "page 2", "menu ID 12474", "cost"]}}
+{"qid": "06df12d49caf", "out": {"phrases": ["users", "answered", "question", "Overall, how much importance does your employer place on physical health?"]}}
+{"qid": "6d76677ace5f", "out": {"phrases": ["name", "dishes", "menu", "menu page ID", "1389"]}}
+{"qid": "f204c09d8a4c", "out": {"phrases": ["questions", "mental health survey", "2014"]}}
+{"qid": "271d8edcfa34", "out": {"phrases": ["country", "GDP"]}}
+{"qid": "c7940c5a3f15", "out": {"phrases": ["countries", "Detroit River", "flow through", "full name", "country"]}}
+{"qid": "42eacb35c33d", "out": {"phrases": ["actor", "played", "role", "Joker", "movie", "Batman"]}}
+{"qid": "b8cb6efc7386", "out": {"phrases": ["dishes", "first appearances", "last appearances", "1855", "1900"]}}
+{"qid": "543b0b787301", "out": {"phrases": ["countries", "GDP", "over 1000000", "population growth rate", "over 3%"]}}
+{"qid": "d3f409e68d74", "out": {"phrases": ["name", "No.1 character", "credit list", "highest rating", "thriller movie"]}}
+{"qid": "e83530925c6e", "out": {"phrases": ["titles", "films", "category", "Horror", "rental rate", "$2.99"]}}
+{"qid": "bbf0786d40b9", "out": {"phrases": ["played", "character", "Chanice Kobolowski"]}}
+{"qid": "3352a1e63ef7", "out": {"phrases": ["country", "store", "Hector Poinexter", "rents", "equipment", "located"]}}
+{"qid": "5c0e299bdeb2", "out": {"phrases": ["cover image", "user", "created", "movie list", "Georgia related films"]}}
+{"qid": "6daba2830480", "out": {"phrases": ["title", "list", "comments"]}}
+{"qid": "8bff4fc181d9", "out": {"phrases": ["actors", "starred", "film", "Bound Cheaper"]}}
+{"qid": "4120dc554d16", "out": {"phrases": ["movie lists", "updated", "10 years", "created"]}}
+{"qid": "21d3c37a4649", "out": {"phrases": ["USA", "movies", "user rating"]}}
+{"qid": "28ca3a661119", "out": {"phrases": ["title", "movie", "most-liked", "people"]}}
+{"qid": "5453a8729a2b", "out": {"phrases": ["genres", "movies", "actor id", "851", "star"]}}
+{"qid": "b4fc9aff3f3b", "out": {"phrases": ["production companies", "movies"]}}
+{"qid": "e9ef0496463a", "out": {"phrases": ["UK", "genre", "movies"]}}
+{"qid": "5389437392c7", "out": {"phrases": ["person ID", "character name", "cast", "order number", "1", "10", "Movie No.", "285"]}}
+{"qid": "003d86d80595", "out": {"phrases": ["titles", "art category"]}}
+{"qid": "cd10b85ad506", "out": {"phrases": ["reviews", "created", "podcast", "Scaling Global"]}}
+{"qid": "c8ff10bebfef", "out": {"phrases": ["reviews", "June 2022", "podcasts"]}}
+{"qid": "a2f10549a5aa", "out": {"phrases": ["tags", "downloads"]}}
+{"qid": "5cb386d589d9", "out": {"phrases": ["groups", "id", "10", "20", "singles", "downloaded", "20"]}}
+{"qid": "809cd75c10db", "out": {"phrases": ["singles", "released", "between 1979 and 1981", "labeled as", "soul"]}}
+{"qid": "b2f20da418af", "out": {"phrases": ["percentage", "offense rebounds", "total rebounds", "players", "year 2000"]}}
+{"qid": "1ff6fc153e21", "out": {"phrases": ["name", "university", "drafted", "player", "won", "NBA Finals MVP", "1990"]}}
+{"qid": "fb36f7a99e72", "out": {"phrases": ["average height", "male athletes", "basketball sport"]}}
+{"qid": "81a3c7b66c77", "out": {"phrases": ["name", "Olympic game", "John Aalberg", "took part in", "31"]}}
+{"qid": "683cff7f5266", "out": {"phrases": ["persons", "participated", "12 meter Mixed Sailing", "competitions"]}}
+{"qid": "cc771b5cfe84", "out": {"phrases": ["businesses", "attribute"]}}
+{"qid": "089f675952be", "out": {"phrases": ["All-star players", "Eastern Conference", "no more than 5 minutes", "Illinois College"]}}
+{"qid": "d4f8e1416ad1", "out": {"phrases": ["running business", "review count", "Cave Creek city"]}}
+{"qid": "6ab5940600e2", "out": {"phrases": ["businesses", "Phoenix", "Arizona", "waiter service"]}}
+{"qid": "2a5df2967daa", "out": {"phrases": ["name", "product", "customer", "placed", "order", "10/21/18", "delivered", "11/21/19"]}}
+{"qid": "9e345c3f4bee", "out": {"phrases": ["sales teams", "sales", "net profits"]}}
+{"qid": "51ed7397bc71", "out": {"phrases": ["restaurant ids", "Danville city"]}}
+{"qid": "257164c8c539", "out": {"phrases": ["county", "Sankee restaurant"]}}
+{"qid": "c5a828b792c5", "out": {"phrases": ["average", "land area", "cities", "stores", "purchased", "products", "unit price", "998.30"]}}
+{"qid": "ad9532b51b79", "out": {"phrases": ["average age", "clients", "response", "Closed with relief"]}}
+{"qid": "cf35a0eb037d", "out": {"phrases": ["American food restaurants", "unpopular", "Carmel"]}}
+{"qid": "f089e178d08e", "out": {"phrases": ["address", "client", "complaint", "postal mail", "March 14, 2012"]}}
+{"qid": "cae9a12cea2e", "out": {"phrases": ["full names", "male", "clients", "born after", "year 1990"]}}
+{"qid": "a33eaba67830", "out": {"phrases": ["cities", "product", "Mishi Kobe Niku", "shipped"]}}
+{"qid": "f5863b8169c6", "out": {"phrases": ["IDs", "orders", "product", "production", "continuous"]}}
+{"qid": "5712154c69f0", "out": {"phrases": ["name", "shipper company", "order No.10585"]}}
+{"qid": "fdee8204d6d5", "out": {"phrases": ["nation", "region", "Customer#000000008"]}}
+{"qid": "0079f3a288da", "out": {"phrases": ["nationality", "Customer#000000055"]}}
+{"qid": "efb9bec78cd4", "out": {"phrases": ["items", "shipped", "day", "April", "1994"]}}
+{"qid": "40601702267b", "out": {"phrases": ["sales transactions", "customer", "Joe L. Lopez"]}}
+{"qid": "9cbb41bbf86c", "out": {"phrases": ["sales ID", "30", "40", "customer", "total quantity", "403"]}}
+{"qid": "e8f9f2346d75", "out": {"phrases": ["full name", "customer", "purchased", "most quantity", "products"]}}
+{"qid": "e97a57d91c0e", "out": {"phrases": ["stations", "sold", "highest quantities", "item", "single day"]}}
+{"qid": "704597bc79fb", "out": {"phrases": ["units", "item no.5", "sold", "store no.3", "day", "temperature range", "biggest"]}}
+{"qid": "6634a54641b5", "out": {"phrases": ["A Lover's Complaint", "description", "Act 1", "Scene 1"]}}
+{"qid": "bd88c325cd65", "out": {"phrases": ["IDs", "paragraphs", "character", "son to Tamora"]}}
+{"qid": "09eda8058d7e", "out": {"phrases": ["paragraphs", "chapters", "All's Well That Ends Well"]}}
+{"qid": "86c16e4d255f", "out": {"phrases": ["units", "item 7", "sold", "store 7", "snow", "inches"]}}
+{"qid": "16831b2ec09f", "out": {"phrases": ["average annual revenue", "customers", "shipment weight", "65000 pounds"]}}
+{"qid": "ae69b00141c2", "out": {"phrases": ["customer", "shipment no.", "1275", "customer's name"]}}
+{"qid": "e0ce6edd7351", "out": {"phrases": ["shipments", "shipped", "truck", "model year", "2005", "2006"]}}
+{"qid": "49cc2070ee3e", "out": {"phrases": ["cases", "year", "2012", "subject", "deceased"]}}
+{"qid": "2f58a10a3662", "out": {"phrases": ["keywords", "episode", "won", "Primetime Emmy Award category"]}}
+{"qid": "1b2fb650367f", "out": {"phrases": ["cases", "Vehicle", "subject weapon", "year", "2007", "2008", "difference"]}}
+{"qid": "b180d53b7ec6", "out": {"phrases": ["average number of stars", "episode", "titled", "Wedding for Disaster"]}}
+{"qid": "8e83a70aa197", "out": {"phrases": ["percentage", "cases", "involved", "more than 3", "officers", "year", "2010", "2015"]}}
+{"qid": "14e5cf49cc22", "out": {"phrases": ["percentage", "votes", "nominated episodes"]}}
+{"qid": "c086ea72189c", "out": {"phrases": ["BR Doctrove", "come from"]}}
+{"qid": "c604fc410c02", "out": {"phrases": ["matches", "played", "May 2008"]}}
+{"qid": "b75b6a26d4df", "out": {"phrases": ["gender", "user", "tweet", "535 retweets"]}}
+{"qid": "d191f91c1a44", "out": {"phrases": ["captain", "winning team", "match", "1st June 2008"]}}
+{"qid": "fb0a140d6f4b", "out": {"phrases": ["Tweets", "city", "average likes", "Bangkok", "Chiang Mai"]}}
+{"qid": "7659f0a8f857", "out": {"phrases": ["major", "Garrett Gerke", "department"]}}
+{"qid": "7f66533c0f77", "out": {"phrases": ["customers", "place", "25746 inhabitants", "male"]}}
+{"qid": "044471a62859", "out": {"phrases": ["state", "tweet", "tw-685681052912873473", "state code"]}}
+{"qid": "ce7822d142de", "out": {"phrases": ["reference ID", "under 10", "response", "marketing department", "education status"]}}
+{"qid": "243108fef987", "out": {"phrases": ["inhabitants", "customers", "divorced", "marital status", "older than 50 years old"]}}
+{"qid": "0c3f60352163", "out": {"phrases": ["emails", "people", "paid", "more than 20 dollars", "9/10/2019", "11/19/2019"]}}
+{"qid": "86a965e83471", "out": {"phrases": ["students", "enlisted", "army"]}}
+{"qid": "bac4c2e7ab9d", "out": {"phrases": ["hair colour", "human superhero", "185 cm tall"]}}
+{"qid": "866a5fee9033", "out": {"phrases": ["name", "student", "longest duration of absence"]}}
+{"qid": "aec31fa2545c", "out": {"phrases": ["names", "events", "attendance", "over 20", "students", "fundraisers"]}}
+{"qid": "fae3912a4a5a", "out": {"phrases": ["State", "name", "students", "filed for bankruptcy", "longest duration of absense from school"]}}
+{"qid": "33af75be8dd1", "out": {"phrases": ["percentage", "items", "category", "Furniture", "total number of items ordered", "shipped as standard", "West region"]}}
+{"qid": "75de0a2ca2a3", "out": {"phrases": ["power", "superheroes", "have the most of"]}}
+{"qid": "66416fcd7a26", "out": {"phrases": ["name", "superhero", "most powers"]}}
+{"qid": "708233262c96", "out": {"phrases": ["customers", "ordered", "product", "Telescoping Adjustable Floor Lamp", "consumers"]}}
+{"qid": "0475fe355935", "out": {"phrases": ["patients", "combined chemotherapy and radiation therapy procedures", "year"]}}
+{"qid": "79f664b64a13", "out": {"phrases": ["original price", "Xerox 1952", "ordered", "Aimee Bixby", "2014/9/10"]}}
+{"qid": "e4fa65d5668d", "out": {"phrases": ["devices", "brand", "vivo"]}}
+{"qid": "7ca12559694d", "out": {"phrases": ["start date", "patient", "Walter Bahringer", "care plan"]}}
+{"qid": "66fb8ee60798", "out": {"phrases": ["glucose level", "patient", "lives at", "365 Della Crossroad Suite 202, Deerfield, MA 01342 US"]}}
+{"qid": "c3f24168f93b", "out": {"phrases": ["outpatients", "low hemoglobin level", "IDs", "sex"]}}
+{"qid": "f3a18f4eb771", "out": {"phrases": ["percentage", "male users", "device users"]}}
+{"qid": "8a628f5559a8", "out": {"phrases": ["devices", "event no.2", "percentage", "device", "vivo phone"]}}
+{"qid": "3a754ec53dec", "out": {"phrases": ["molecule id", "TR000_1_2 bond", "first atom", "TR000_1"]}}
+{"qid": "a398b64c092c", "out": {"phrases": ["patients", "level of Hematoclit", "normal", "anti-Cardiolipin antibody concentration", "ID"]}}
+{"qid": "2d5bae304648", "out": {"phrases": ["atoms", "molecule id", "TR001"]}}
+{"qid": "bab00de22a0c", "out": {"phrases": ["atoms", "connected", "non-carcinogenic type molecules"]}}
+{"qid": "b661f737014c", "out": {"phrases": ["patients", "ID", "diagnosed", "Behcet's", "exams", "01/01/197", "12/31/1997"]}}
+{"qid": "93a36cafed00", "out": {"phrases": ["IDs", "trains", "east direction", "cars"]}}
+{"qid": "dce17c2a87e1", "out": {"phrases": ["year", "Brown University", "score"]}}
+{"qid": "cd3f1b64a0b9", "out": {"phrases": ["trains", "running west", "double sided cars", "3rd position"]}}
+{"qid": "feeece74a027", "out": {"phrases": ["load shapes", "head cars", "train", "load shape", "highest number", "percentage", "trains", "head car", "running east"]}}
+{"qid": "88cb81096c2c", "out": {"phrases": ["country", "University of S\u00c3\u00a3o Paulo"]}}
+{"qid": "34145741284a", "out": {"phrases": ["publishers", "released", "games", "PS3", "X360"]}}
+{"qid": "04587ba33bfc", "out": {"phrases": ["criteria name", "Harvard University", "100"]}}
+{"qid": "3d450b8c6c96", "out": {"phrases": ["purchase order transactions", "products", "low quality"]}}
+{"qid": "1e6317ab4f0b", "out": {"phrases": ["platform", "game", "Final Fantasy XIII-2"]}}
+{"qid": "f4bb4ebf0516", "out": {"phrases": ["name", "supplier", "1492"]}}
+{"qid": "fcca598b2756", "out": {"phrases": ["sales", "games", "region ID 2", "region ID 3"]}}
+{"qid": "192d531f5055", "out": {"phrases": ["job title", "pay"]}}
+{"qid": "243a734ed5c6", "out": {"phrases": ["life expectancy", "people", "Calama city"]}}
+{"qid": "41f4b0fdcd8f", "out": {"phrases": ["Arms imports", "SIPRI trend indicator values", "European & Central Asian countries"]}}
+{"qid": "b87bde9c4e8f", "out": {"phrases": ["languages", "countries", "independence year", "1980", "1995"]}}
+{"qid": "b82004831bd4", "out": {"phrases": ["local name", "Ukraine"]}}
+{"qid": "871400fc3d32", "out": {"phrases": ["country", "completed", "vital registration", "countries"]}}
+{"qid": "8792146f2930", "out": {"phrases": ["countries", "1968 System of National Accounts methodology", "Middle East & North Africa", "country", "highest CO2 emissions from solid fuel consumption in kiloton"]}}

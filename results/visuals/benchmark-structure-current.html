@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cấu trúc benchmark — Định tuyến đa-engine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --font-body:'DM Sans',system-ui,sans-serif;
+  --font-mono:'Fira Code','SF Mono',monospace;
+  --bg:#f0f4f8; --surface:#ffffff; --surface2:#e8eef4; --surface-elevated:#e8eef4;
+  --border:rgba(30,60,100,0.10); --border-bright:rgba(30,60,100,0.22);
+  --text:#1a2a3a; --text-dim:#5a7090; --text-bright:#0d1726;
+  --accent:#1a5fa8; --accent-dim:rgba(26,95,168,0.08);
+  --pg:#1a5fa8; --pg-dim:rgba(26,95,168,0.10);
+  --mongo:#0f766e; --mongo-dim:rgba(15,118,110,0.10);
+  --neo:#b45309; --neo-dim:rgba(180,83,9,0.10);
+  --green:#15803d; --green-dim:rgba(21,128,61,0.10);
+  --red:#b91c1c; --red-dim:rgba(185,28,28,0.10);
+  --amber:#b45309; --amber-dim:rgba(180,83,9,0.12);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1421; --surface:#111d2e; --surface2:#162438; --surface-elevated:#162438;
+  --border:rgba(100,160,220,0.12); --border-bright:rgba(100,160,220,0.24);
+  --text:#c8d8e8; --text-dim:#7088a0; --text-bright:#eaf2fb;
+  --accent:#4a90d9; --accent-dim:rgba(74,144,217,0.12);
+  --pg:#4a90d9; --pg-dim:rgba(74,144,217,0.14);
+  --mongo:#5eead4; --mongo-dim:rgba(94,234,212,0.12);
+  --neo:#fbbf24; --neo-dim:rgba(251,191,36,0.12);
+  --green:#86efac; --green-dim:rgba(134,239,172,0.12);
+  --red:#fca5a5; --red-dim:rgba(252,165,165,0.12);
+  --amber:#fbbf24; --amber-dim:rgba(251,191,36,0.14);
+}}
+[data-theme="dark"]{
+  --bg:#0d1421; --surface:#111d2e; --surface2:#162438; --surface-elevated:#162438;
+  --border:rgba(100,160,220,0.12); --border-bright:rgba(100,160,220,0.24);
+  --text:#c8d8e8; --text-dim:#7088a0; --text-bright:#eaf2fb;
+  --accent:#4a90d9; --accent-dim:rgba(74,144,217,0.12);
+  --pg:#4a90d9; --pg-dim:rgba(74,144,217,0.14);
+  --mongo:#5eead4; --mongo-dim:rgba(94,234,212,0.12);
+  --neo:#fbbf24; --neo-dim:rgba(251,191,36,0.12);
+  --green:#86efac; --green-dim:rgba(134,239,172,0.12);
+  --red:#fca5a5; --red-dim:rgba(252,165,165,0.12);
+  --amber:#fbbf24; --amber-dim:rgba(251,191,36,0.14);
+}
+*{box-sizing:border-box}
+body{
+  font-family:var(--font-body); background:var(--bg); color:var(--text);
+  margin:0; padding:48px 24px 80px; line-height:1.6; overflow-wrap:break-word;
+  background-image:radial-gradient(circle,var(--border) 1px,transparent 1px);
+  background-size:26px 26px;
+}
+.wrap{max-width:1080px;margin:0 auto}
+.grid>*,.flex>*{min-width:0}
+h1,h2,h3{color:var(--text-bright);line-height:1.2;letter-spacing:-0.3px}
+h1{font-size:34px;font-weight:700;margin:0 0 6px}
+.sub{color:var(--text-dim);font-size:16px;margin:0 0 4px}
+.meta{font-family:var(--font-mono);font-size:12px;color:var(--text-dim);margin-bottom:28px}
+.section-label{
+  font-family:var(--font-mono);font-size:12px;font-weight:600;text-transform:uppercase;
+  letter-spacing:1.6px;color:var(--accent);margin:40px 0 14px;display:flex;align-items:center;gap:9px;
+}
+.section-label::before{content:'';width:9px;height:9px;border-radius:50%;background:currentColor}
+.theme-toggle{position:fixed;top:16px;right:16px;z-index:300;width:36px;height:36px;border-radius:8px;
+  border:1px solid var(--border);background:var(--surface);color:var(--text-dim);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+.theme-toggle:hover{background:var(--surface2);color:var(--text)}
+
+/* hero banner */
+.hero{background:color-mix(in srgb,var(--surface) 90%,var(--accent) 10%);
+  border:1px solid var(--border-bright);border-radius:14px;padding:22px 26px;margin-bottom:8px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.06)}
+.hero-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:14px}
+.badge{font-family:var(--font-mono);font-size:12px;font-weight:600;padding:5px 12px;border-radius:7px;
+  display:inline-flex;align-items:center;gap:7px}
+.badge--done{background:var(--green-dim);color:var(--green)}
+.badge--pend{background:var(--amber-dim);color:var(--amber)}
+.badge::before{content:'';width:8px;height:8px;border-radius:50%;background:currentColor}
+
+/* KPI */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:8px}
+.kpi{background:var(--surface-elevated);border:1px solid var(--border);border-radius:11px;padding:16px 18px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05)}
+.kpi__v{font-size:30px;font-weight:700;letter-spacing:-1px;font-variant-numeric:tabular-nums;color:var(--text-bright)}
+.kpi__l{font-family:var(--font-mono);font-size:10px;font-weight:600;text-transform:uppercase;
+  letter-spacing:1.3px;color:var(--text-dim);margin-top:5px}
+
+/* split tiers */
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tier{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px;position:relative}
+.tier--support{border-top:3px solid var(--mongo)}
+.tier--dev{border-top:3px solid var(--neo)}
+.tier--test{border-top:3px solid var(--accent);background:color-mix(in srgb,var(--surface) 92%,var(--accent) 8%);
+  box-shadow:0 3px 16px rgba(0,0,0,0.06)}
+.tier h3{font-size:17px;margin:0 0 2px}
+.tier .role{font-family:var(--font-mono);font-size:11px;color:var(--text-dim);margin-bottom:10px}
+.tier .big{font-size:24px;font-weight:700;color:var(--text-bright);font-variant-numeric:tabular-nums}
+.tier ul{list-style:none;padding:0;margin:10px 0 0;font-size:13.5px}
+.tier li{padding-left:14px;position:relative;margin-bottom:4px;color:var(--text-dim)}
+.tier li::before{content:'›';position:absolute;left:0;color:var(--accent);font-weight:600}
+
+/* pipeline */
+.pipeline{display:flex;align-items:stretch;gap:0;overflow-x:auto;padding-bottom:10px;margin-top:4px}
+.pstep{min-width:150px;flex:1;background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:12px 14px;position:relative}
+.pstep__n{font-family:var(--font-mono);font-size:10px;color:var(--text-dim);letter-spacing:1px}
+.pstep__t{font-weight:600;font-size:14px;margin:2px 0 6px;color:var(--text-bright)}
+.pstep__d{font-size:12px;color:var(--text-dim);line-height:1.45}
+.parrow{display:flex;align-items:center;padding:0 5px;color:var(--border-bright);font-size:20px;flex-shrink:0}
+.vstatus{font-family:var(--font-mono);font-size:10px;font-weight:600;margin-top:8px;padding:2px 7px;border-radius:5px;display:inline-block}
+.v-ok{background:var(--green-dim);color:var(--green)}
+.v-wait{background:var(--amber-dim);color:var(--amber)}
+
+/* tables */
+.table-wrap{background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-top:4px}
+.table-scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:var(--surface-elevated);font-family:var(--font-mono);font-size:11px;font-weight:600;
+  text-transform:uppercase;letter-spacing:0.8px;color:var(--text-dim);text-align:left;padding:11px 14px;
+  border-bottom:2px solid var(--border-bright);white-space:nowrap}
+td{padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--font-mono)}
+tbody tr:nth-child(even){background:var(--accent-dim)}
+tbody tr:last-child td{border-bottom:none}
+.eng{font-family:var(--font-mono);font-size:11px;font-weight:600;padding:2px 7px;border-radius:5px}
+.eng--pg{background:var(--pg-dim);color:var(--pg)}
+.eng--mongo{background:var(--mongo-dim);color:var(--mongo)}
+.eng--neo{background:var(--neo-dim);color:var(--neo)}
+.st{font-family:var(--font-mono);font-size:11px;font-weight:600;padding:3px 9px;border-radius:6px;white-space:nowrap;display:inline-block}
+.st--ok{background:var(--green-dim);color:var(--green)}
+.st--wait{background:var(--amber-dim);color:var(--amber)}
+code{font-family:var(--font-mono);font-size:12px;background:var(--accent-dim);color:var(--accent);padding:1px 5px;border-radius:3px}
+
+/* callout */
+.callout{padding:16px 20px;border-radius:10px;border-left:4px solid var(--cb);background:var(--cbg);margin-top:6px}
+.callout--info{--cb:var(--accent);--cbg:color-mix(in srgb,var(--accent) 9%,transparent)}
+.callout--warn{--cb:var(--amber);--cbg:color-mix(in srgb,var(--amber) 9%,transparent)}
+.callout__t{font-weight:700;margin-bottom:7px;color:var(--cb)}
+.callout ul{padding-left:1.3em;margin:8px 0 0}
+.callout li{margin-bottom:5px;font-size:14.5px}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.note{font-size:12.5px;color:var(--text-dim);margin-top:10px;font-style:italic}
+@media (max-width:768px){
+  .tiers{grid-template-columns:1fr}.two{grid-template-columns:1fr}
+  .pipeline{flex-wrap:wrap}.parrow{display:none}
+  body{padding:40px 14px 60px}
+}
+</style>
+</head>
+<body>
+<button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle light/dark theme"></button>
+<div class="wrap">
+
+  <h1>Cấu trúc benchmark — Định tuyến truy vấn đa-engine</h1>
+  <p class="sub">PostgreSQL · MongoDB · Neo4j — so với SOTA Sudarshan (arXiv:2601.19825)</p>
+  <p class="meta">2026-06-20 · spec: benchmark-260618-complete-spec-multitype-routing.md</p>
+
+  <div class="hero">
+    <div style="font-size:15px;color:var(--text)">
+      <strong>Trạng thái:</strong> thiết kế <strong>hoàn chỉnh (spec khóa)</strong>; kiểm chứng <strong>~60%</strong> —
+      tầng biểu diễn / retrieval / triage / quyết định đã có số trên lát cắt thử; headline đầy đủ + 2 control + Neo4j mở rộng còn chờ chạy.
+    </div>
+    <div class="hero-row">
+      <span class="badge badge--done">Đã kiểm chứng: RQ1, retrieval, triage, V1/V2</span>
+      <span class="badge badge--pend">Chờ chạy: headline cap=8, 2 control, Neo4j→30, McNemar pre-reg</span>
+    </div>
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi__v">3</div><div class="kpi__l">Bộ benchmark</div></div>
+    <div class="kpi"><div class="kpi__v">3</div><div class="kpi__l">Loại engine</div></div>
+    <div class="kpi"><div class="kpi__v">208</div><div class="kpi__l">DB (MultiDB)</div></div>
+    <div class="kpi"><div class="kpi__v">3220</div><div class="kpi__l">Test q (primary)</div></div>
+    <div class="kpi"><div class="kpi__v">.803</div><div class="kpi__l">R@1 V2 (MultiDB)</div></div>
+  </div>
+
+  <div class="section-label">Kiến trúc split 3 tầng (theo query, registry chia sẻ)</div>
+  <div class="tiers">
+    <div class="tier tier--support">
+      <h3>SUPPORT</h3><div class="role">sinh semantic card</div>
+      <div class="big">≤5 q / DB</div>
+      <ul><li>index reserve, KHÔNG train</li><li>card từ schema sạch</li><li>support ∩ test = 0</li></ul>
+    </div>
+    <div class="tier tier--dev">
+      <h3>DEV</h3><div class="role">tinh chỉnh prompt / θ / δ / n</div>
+      <div class="big">876</div>
+      <ul><li>holdout thật (dev.jsonl)</li><li>card-unseen, dev∩test=0</li><li>hết test-tuning</li></ul>
+    </div>
+    <div class="tier tier--test">
+      <h3>TEST</h3><div class="role">đo MỘT lần · headline</div>
+      <div class="big">3.220</div>
+      <ul><li>test-dense: ≥10 q/DB mọi engine</li><li>DB-macro headline (full pool)</li><li>bootstrap CI + McNemar</li></ul>
+    </div>
+  </div>
+  <p class="note"><strong>Densify 2026-06-19:</strong> mật độ test cũ med 4 q/DB (PG 45% &lt;3q) → quá thưa cho per-DB. Promote support card-unseen (index≥5) vào test → <strong>med 10 q/DB, 0 DB &lt;3q mọi engine</strong> (3.220 câu, leakage PASS). Grounding sizing: Spider dev 1.034 · BIRD dev 1.534 · MS MARCO dev 6.980. Split theo QUERY (không DB-disjoint) vì routing chọn DB từ registry đã biết.</p>
+
+  <div class="section-label">Ba bộ benchmark + phân bố engine</div>
+  <div class="table-wrap"><div class="table-scroll">
+  <table>
+    <thead><tr><th>Benchmark</th><th>Vai trò</th><th>Engine</th><th class="num">#DB</th><th class="num">Test</th><th class="num">Dev</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>MultiDB-Route</strong><small>nguyên bản thesis · PRIMARY</small></td>
+        <td>headline đa-engine</td>
+        <td><span class="eng eng--pg">PG 94</span> <span class="eng eng--mongo">Mongo 87</span> <span class="eng eng--neo">Neo 27→~30</span></td>
+        <td class="num">208</td><td class="num">3220</td><td class="num">876</td>
+      </tr>
+      <tr>
+        <td>Spider-Route<small>tái dựng SOTA SQL</small></td>
+        <td>calib baseline + so SQL</td>
+        <td><span class="eng eng--pg">PG</span></td>
+        <td class="num">206</td><td class="num">5939</td><td class="num">—</td>
+      </tr>
+      <tr>
+        <td>Bird-Route<small>tái dựng SOTA SQL</small></td>
+        <td>calib baseline + so SQL</td>
+        <td><span class="eng eng--pg">PG</span></td>
+        <td class="num">80</td><td class="num">5495</td><td class="num">—</td>
+      </tr>
+      <tr>
+        <td>intra-mongo<small>slice của MultiDB</small></td>
+        <td>chất lượng engine Mongo</td>
+        <td><span class="eng eng--mongo">Mongo</span></td>
+        <td class="num">87</td><td class="num">1260</td><td class="num">435</td>
+      </tr>
+      <tr>
+        <td>intra-neo4j<small>slice của MultiDB</small></td>
+        <td>chất lượng engine Neo4j</td>
+        <td><span class="eng eng--neo">Neo4j</span></td>
+        <td class="num">27→~30</td><td class="num">1049</td><td class="num">130</td>
+      </tr>
+    </tbody>
+  </table>
+  </div></div>
+  <p class="note">Neo4j trần dữ liệu sạch ≈ 30 (CypherBench 11 + Text2Cypher demo 18 + tomasonjo 1) + **~80% câu Neo4j test là máy-sinh (Text2Cypher gốc), văn phong đồng nhất** → báo directional, CI rộng, KHÔNG claim engine-macro riêng engine. · Spider/Bird-Route dùng <code>train.jsonl</code> làm index reserve + tham số khóa theo Sudarshan → không cần dev riêng (tuning chỉ trên MultiDB dev). · intra-mongo/neo4j = slice engine của MultiDB test, không phải bộ độc lập.</p>
+  <div class="callout callout--info" style="margin-top:14px">
+    <div class="callout__t">Phản biện tautology engine-routing (reviewer C1) — bác bằng đếm 208 DB</div>
+    <ul>
+      <li>Cáo buộc: "nhìn chủ đề câu → biết loại DB → routing dễ giả tạo".</li>
+      <li><strong>Bác:</strong> 26 domain trộn ≥2 loại — <code>movie</code>/<code>soccer</code>/<code>company</code>/<code>flight</code> trên CẢ 3 loại (PG+Mongo+Neo4j) → biết chủ đề KHÔNG suy ra loại → <strong>không có tautology theo chủ đề</strong>. Deliverable = chọn 1 instance trong 208, không phải chọn loại.</li>
+      <li>Residual (không phải tautology chủ đề): rò <strong>văn phong</strong> ở 80% câu Neo4j máy-sinh → xử bằng báo Neo4j directional.</li>
+    </ul>
+  </div>
+
+  <div class="section-label">Pipeline đo (luồng ours V2) + trạng thái kiểm chứng từng bước</div>
+  <div class="pipeline">
+    <div class="pstep"><div class="pstep__n">BƯỚC 1</div><div class="pstep__t">Biểu diễn</div><div class="pstep__d">card embed (vs raw DDL)</div><span class="vstatus v-ok">RQ1 ✓ slice</span></div>
+    <div class="parrow">→</div>
+    <div class="pstep"><div class="pstep__n">BƯỚC 2</div><div class="pstep__t">Retrieval</div><div class="pstep__d">dense → top-10</div><span class="vstatus v-ok">recall ✓</span></div>
+    <div class="parrow">→</div>
+    <div class="pstep"><div class="pstep__n">BƯỚC 3</div><div class="pstep__t">Lọc domain</div><div class="pstep__d">agent → ~4 (nén pool)</div><span class="vstatus v-ok">gate ✓ P1#4</span></div>
+    <div class="parrow">→</div>
+    <div class="pstep"><div class="pstep__n">BƯỚC 4</div><div class="pstep__t">Rerank</div><div class="pstep__d">Coverage×Connectivity-faithful</div><span class="vstatus v-wait">per-engine ⧗</span></div>
+    <div class="parrow">→</div>
+    <div class="pstep"><div class="pstep__n">BƯỚC 5</div><div class="pstep__t">Quyết định</div><div class="pstep__d">argmax + agent tie-break δ=0.2</div><span class="vstatus v-ok">V1/V2 ✓</span></div>
+  </div>
+
+  <div class="section-label">Bảng kiểm chứng (đã chạy vs chờ chạy)</div>
+  <div class="table-wrap"><div class="table-scroll">
+  <table>
+    <thead><tr><th>Hạng mục</th><th>Kết quả / phương pháp</th><th>Trạng thái</th></tr></thead>
+    <tbody>
+      <tr><td>RQ1 card &gt; raw (retrieval)</td><td>card R@1/R@5 &gt; raw cả 3 bộ; spider raw R@5 .867 khớp Sudarshan 87%</td><td><span class="st st--ok">đã chạy (slice ≤5/DB)</span></td></tr>
+      <tr><td>RQ1 robustness query-side (Spider-Syn/Realistic) <small>SQL-only scope</small></td><td>card R@1 .752/.707 vs raw .652/.565; chênh TO RA khi câu lệch chữ (+.10→+.142); p&lt;1e-11. Scope SQL; Mongo/Neo4j không test robustness — multi-type dựa recall+R@1</td><td><span class="st st--ok">đã chạy 06-11</span></td></tr>
+      <tr><td>Calib baseline Sudarshan</td><td>raw spider R@5 .867 ≈ công bố 87%</td><td><span class="st st--ok">đạt</span></td></tr>
+      <tr><td>Retrieval recall@5/@10</td><td>card+top10 &gt; raw top5, pool nhỏ hơn</td><td><span class="st st--ok">đã chạy</span></td></tr>
+      <tr><td>RQ2 triage isolation (P1 #4)</td><td>nén pool 10→4.3, mất ~1–2.4% GT (MultiDB p=.008)</td><td><span class="st st--ok">cache</span></td></tr>
+      <tr><td>RQ3 tie coupling (P1 #5)</td><td>ties không do gom domain; coverage bão hòa</td><td><span class="st st--ok">cache</span></td></tr>
+      <tr><td>V1 vs V2 final routing</td><td>.761→.803 / .766→.814 / .902→.899</td><td><span class="st st--ok">full slice</span></td></tr>
+      <tr><td>Densify test → ≥10 q/DB</td><td>med 4→10, 0 DB &lt;3q, leakage PASS (test.jsonl 3220)</td><td><span class="st st--ok">đã làm 06-19</span></td></tr>
+      <tr><td>Validation độc lập (subagent)</td><td>32 lượt recompute raw: leakage/counts/closed-vocab PASS</td><td><span class="st st--ok">06-20</span></td></tr>
+      <tr><td>Dev split + dedup support</td><td>dev.jsonl 876 (holdout); support 9858→9646; 1 canonical test</td><td><span class="st st--ok">06-20</span></td></tr>
+      <tr><td>Headline full test-dense</td><td>chạy §3–4 trên test-dense, DB-macro, thinking-off</td><td><span class="st st--wait">chờ chạy</span></td></tr>
+      <tr><td>Control: paraphrase-thường</td><td>tách card-routing khỏi paraphrase generic</td><td><span class="st st--wait">chờ build</span></td></tr>
+      <tr><td>Control: lọc không-LLM</td><td>BM25/classifier vs agent triage</td><td><span class="st st--wait">chờ chạy</span></td></tr>
+      <tr><td>Neo4j 27 → ~30 DB</td><td>thêm graph thật còn lại (max nguồn sạch)</td><td><span class="st st--wait">chờ build</span></td></tr>
+      <tr><td>Connectivity fire-rate per-engine</td><td>Mongo 77/87 có cạnh (med 6), Neo4j native; 5 DB single-entity → connectivity=1 (liên thông tầm thường, không penalty)</td><td><span class="st st--wait">chờ chạy</span></td></tr>
+      <tr><td>McNemar pre-registered + intra slices</td><td>primary MultiDB α=.05, pooled post-hoc</td><td><span class="st st--wait">chờ chạy</span></td></tr>
+    </tbody>
+  </table>
+  </div></div>
+
+  <div class="section-label">Giao thức chất lượng + thống kê</div>
+  <div class="two">
+    <div class="callout callout--info">
+      <div class="callout__t">Kiểm chất lượng từng bước</div>
+      <ul>
+        <li><strong>B1:</strong> <strong>robustness query-side Spider-Syn/Realistic ✓</strong> (external peer-reviewed) + control paraphrase-thường</li>
+        <li><strong>B3:</strong> gate-recall + <strong>baseline lọc không-LLM</strong></li>
+        <li><strong>B4:</strong> connectivity per-engine — Mongo 77/87 có cạnh (med 6); 5 DB single-entity → conn=1 (không penalty)</li>
+        <li><strong>B5:</strong> V1 vs V2, McNemar pre-registered</li>
+      </ul>
+    </div>
+    <div class="callout callout--warn">
+      <div class="callout__t">Giao thức thống kê (khóa)</div>
+      <ul>
+        <li>Headline = <strong>DB-macro</strong>; micro phụ</li>
+        <li><strong>Pre-register:</strong> primary MultiDB-Route, α=.05</li>
+        <li>Pooled cross-set = <strong>post-hoc có nhãn</strong></li>
+        <li>R@1 báo cả conditional + unconditional</li>
+        <li>Hai lớp (retrieval ⟂ final) không bao giờ gộp</li>
+        <li><strong>GT inherit nguồn → Fleiss κ N/A</strong> (T1/T2 đã bỏ)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-label">So vị thế thiết kế vs paper cùng lĩnh vực</div>
+  <div class="table-wrap"><div class="table-scroll">
+  <table>
+    <thead><tr><th>Trục thiết kế</th><th>DBRouting (2501.16220)</th><th>Sudarshan (2601.19825)</th><th>OURS</th></tr></thead>
+    <tbody>
+      <tr><td>Loại routing</td><td>instance · <strong>SQL-only</strong></td><td>instance · <strong>SQL-only</strong></td><td><span class="st st--ok">multi-type PG/Mongo/Neo4j</span></td></tr>
+      <tr><td>Registry #DB</td><td class="num">160 / 80</td><td class="num">206 / 80</td><td class="num">208 (+repro)</td></tr>
+      <tr><td>#test query</td><td class="num">~2.075 / ~3.013</td><td class="num">5.939 / 5.501</td><td class="num">3.220 (3 eng)</td></tr>
+      <tr><td>q/DB density</td><td class="num">~57</td><td class="num">~57–137</td><td class="num">~15.5 ⚠️</td></tr>
+      <tr><td>Split / leakage</td><td>DB-disjoint · <span class="st st--wait">không check</span></td><td>query-level · <span class="st st--wait">không check</span></td><td><span class="st st--ok">support∩test=0 verified</span></td></tr>
+      <tr><td>Hai lớp metric</td><td>gộp R@k</td><td>gộp R@k</td><td><span class="st st--ok">tách retrieval ⟂ R@1</span></td></tr>
+      <tr><td>Significance test</td><td><span class="st st--wait">không</span></td><td><span class="st st--wait">không</span></td><td><span class="st st--ok">McNemar+bootstrap+robust(Syn/Real)</span></td></tr>
+      <tr><td>Annotation κ</td><td>inherit GT · 0 κ</td><td>inherit GT · 0 κ</td><td>inherit GT · 0 κ <small>(T1/T2 bỏ)</small></td></tr>
+    </tbody>
+  </table>
+  </div></div>
+  <p class="note"><strong>Verdict:</strong> OURS <strong>vượt chuẩn</strong> ở multi-type scope · statistical rigor · tách 2 lớp metric · leakage check (cả 2 paper đều thiếu). <strong>Ngang</strong> registry scale + split protocol. <strong>Thiếu:</strong> Neo4j 27 DB (13% registry, directional) · density q/DB thấp hơn (bù DB-macro + bootstrap) · chưa public release. Gap κ → đóng bằng quyết định bỏ T1/T2 (GT inherit → κ N/A, đúng như chính 2 paper này).</p>
+
+  <p class="note" style="margin-top:24px">Đường khác biệt vs SOTA: biểu diễn (card vs raw DDL) · tầng lọc domain (nén pool) · agent tie-break ở quyết định · mở rộng SQL-only → 3 engine. Bất biến: LLM chỉ extract, code chấm điểm deterministic, agent chỉ CHỌN — không tự khai confidence vào công thức.</p>
+
+</div>
+
+<script>
+(function(){
+  var t=document.getElementById('themeToggle');
+  var s=localStorage.getItem('theme');
+  var init=s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+  if(s)document.documentElement.setAttribute('data-theme',init);
+  t.textContent=init==='dark'?'☀':'☾';
+  t.addEventListener('click',function(){
+    var c=document.documentElement.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var n=c==='light'?'dark':'light';
+    document.documentElement.setAttribute('data-theme',n);
+    localStorage.setItem('theme',n);
+    t.textContent=n==='dark'?'☀':'☾';
+  });
+})();
+</script>
+</body>
+</html>

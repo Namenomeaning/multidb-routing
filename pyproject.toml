@@ -1,0 +1,36 @@
+[project]
+name = "thesis-routing-experiment"
+version = "0.1.0"
+description = "SQL routing benchmark: M1 (embedding) + M2 (LLM flood) baselines"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.8",
+    "langchain>=0.3",
+    "langchain-classic>=1.0",
+    "langchain-community>=0.3",
+    "langgraph>=0.2",
+    "logfire>=4.0",
+    "openai>=1.30",
+    "pydantic-ai>=1.0",
+    "numpy>=1.26",
+    "rank_bm25>=0.2",
+    "scipy>=1.13",
+    "datasets>=2.19",
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

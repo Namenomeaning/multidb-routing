@@ -1,0 +1,12 @@
+{
+  "route": "bird_route",
+  "source_dataset": "BIRD",
+  "db_count": 80,
+  "query_total": 10950,
+  "train_count": 5455,
+  "test_count": 5495,
+  "dropped_no_schema": 0,
+  "dropped_exact_dup_question": 12,
+  "split_rule": "per_db_50_50_random",
+  "seed": 260610
+}

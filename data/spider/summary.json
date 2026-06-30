@@ -1,0 +1,12 @@
+{
+  "route": "spider_route",
+  "source_dataset": "Spider",
+  "db_count": 206,
+  "query_total": 11831,
+  "train_count": 5892,
+  "test_count": 5939,
+  "dropped_no_schema": 0,
+  "dropped_exact_dup_question": 9,
+  "split_rule": "per_db_50_50_random",
+  "seed": 260610
+}

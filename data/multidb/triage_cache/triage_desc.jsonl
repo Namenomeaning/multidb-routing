@@ -1,0 +1,36 @@
+{"qid": "s3scale_q_011127", "picked": ["mongo_eai_sample_airbnb", "mongoscale_doc_042_inn_1", "mongoscale_doc_020_cre_Theme_park", "mongoscale_doc_003_apartment_rentals", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform"]}
+{"qid": "s3scale_q_010890", "picked": ["mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_014689", "picked": ["neo4jstd_002_biology"]}
+{"qid": "s3scale_q_005167", "picked": ["mongo_schema_logistics_supply_chain_db"]}
+{"qid": "s3scale_q_019030", "picked": ["neo4jstd_002_biology"]}
+{"qid": "s3scale_q_011282", "picked": ["mongo_eai_sample_supplies", "pgscale_080_tracking_share_transactions", "mongo_eai_sample_analytics", "pgbird_023_regional_sales", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_005470", "picked": ["pgbird_007_retails", "pgbird_001_works_cycles", "neo4jt2c24_010_neo4jlabs_demo_db_northwind"]}
+{"qid": "s3scale_q_011035", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_046_loan_1", "pgscale_072_small_bank_1", "mongoscale_doc_023_customers_and_invoices", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_005131", "picked": ["pgbird_007_retails", "pgbird_001_works_cycles", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_003_assets_maintenance"]}
+{"qid": "s3scale_q_017452", "picked": ["neo4jstd_001_art"]}
+{"qid": "s3scale_q_012317", "picked": ["neo4jstd_001_art", "pgscale_079_theme_gallery"]}
+{"qid": "s3scale_q_011189", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_022_customers_and_addresses", "pgscale_072_small_bank_1", "pgscale_019_customer_deliveries", "pgbird_023_regional_sales", "mongoscale_doc_046_loan_1", "mongoscale_doc_045_insurance_policies", "pgbird_007_retails", "mongo_schema_customer360_retail_db"]}
+{"qid": "s3scale_q_010894", "picked": ["mongo_eai_sample_airbnb", "mongoscale_doc_020_cre_Theme_park", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform", "pgscale_030_epinions_1"]}
+{"qid": "s3scale_q_003228", "picked": ["pgbird_002_public_review_platform", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_003342", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgscale_013_company_employee", "pgbird_002_public_review_platform", "pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "pgbird_001_works_cycles", "mongoscale_doc_038_gas_company", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_010835", "picked": ["mongo_eai_sample_geospatial", "pgscale_004_battle_death"]}
+{"qid": "s3scale_q_010749", "picked": ["mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_003386", "picked": ["pgbird_002_public_review_platform", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_016345", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_001_activity_1", "neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_021154", "picked": ["neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "pgscale_013_company_employee"]}
+{"qid": "s3scale_q_011164", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_018848", "picked": ["neo4jstd_002_biology", "mongoscale_doc_027_dog_kennels", "pgscale_051_pets_1"]}
+{"qid": "s3scale_q_010911", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_004746", "picked": ["pgbird_003_retail_world", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_019_customer_deliveries", "pgbird_023_regional_sales", "mongoscale_doc_023_customers_and_invoices", "pgbird_007_retails", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_004559", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_003_retail_world", "pgbird_023_regional_sales", "mongoscale_doc_023_customers_and_invoices", "pgscale_019_customer_deliveries", "mongo_eai_sample_supplies", "pgbird_007_retails", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_021313", "picked": ["pgbird_018_legislator", "mongoscale_doc_054_network_2", "mongo_schema_genomic_analysis_healthcare_db", "pgbird_024_thrombosis_prediction", "neo4jstd_009_politics", "mongoscale_doc_069_voter_2", "mongoscale_doc_006_candidate_poll"]}
+{"qid": "s3scale_q_010810", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_020188", "picked": ["neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_011204", "picked": ["mongo_eai_sample_geospatial", "pgscale_004_battle_death", "pgscale_069_ship_mission"]}
+{"qid": "s3scale_q_006373", "picked": ["pgscale_072_small_bank_1", "pgbird_023_regional_sales", "mongoscale_doc_024_customers_card_transactions", "pgbird_007_retails", "pgbird_001_works_cycles", "pgscale_019_customer_deliveries", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_004549", "picked": ["mongoscale_doc_070_wine_1", "mongo_eai_sample_supplies", "mongo_schema_customer360_retail_db", "pgscale_018_customer_complaints", "pgscale_011_coffee_shop", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_023_regional_sales", "pgscale_041_manufactory_1", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_006559", "picked": ["mongo_schema_customer360_retail_db", "mongo_eai_sample_supplies", "mongoscale_doc_022_customers_and_addresses", "pgbird_023_regional_sales", "mongoscale_doc_025_department_store", "pgscale_011_coffee_shop", "pgscale_070_shop_membership", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_019931", "picked": ["neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_021608", "picked": ["mongoscale_doc_054_network_2", "neo4jstd_003_company", "neo4jstd_009_politics", "mongoscale_doc_006_candidate_poll", "mongoscale_doc_069_voter_2"]}
+{"qid": "s3scale_q_019962", "picked": ["mongoscale_doc_054_network_2", "pgbird_018_legislator", "pgscale_051_pets_1", "neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_006276", "picked": ["pgbird_004_movie_3", "mongoscale_doc_058_sakila_1"]}

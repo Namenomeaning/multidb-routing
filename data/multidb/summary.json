@@ -1,0 +1,29 @@
+{
+  "setup": "ours_multidb",
+  "source": "/Users/namenomeaning/work/thesis/experiment/benchmark/standard3_scale_v1",
+  "db_count": 208,
+  "db_by_engine": {
+    "postgresql": 94,
+    "mongodb": 87,
+    "neo4j": 27
+  },
+  "test_total": 2332,
+  "test_by_engine": {
+    "mongodb": 1000,
+    "neo4j": 1000,
+    "postgresql": 332
+  },
+  "test_dbs_covered": 208,
+  "support_total": 9858,
+  "pg_rebalance": {
+    "pg_spider": 239,
+    "pg_bird_before": 761,
+    "pg_bird_after": 93,
+    "pg_bird_dbs_kept": 26,
+    "pg_bird_dbs_total": 26,
+    "pg_ratio_spider_bird": "72:28",
+    "target_bird": 93
+  },
+  "seed": 260610,
+  "note": "PG = merged Spider+BIRD pool, query ratio rebalanced to 72:28; metric = DB-macro"
+}

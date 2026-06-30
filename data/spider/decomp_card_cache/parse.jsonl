@@ -1,0 +1,617 @@
+{"qid": "e6b745713279", "out": {"phrases": ["activities"]}}
+{"qid": "eaa50ae01025", "out": {"phrases": ["distance", "BAL", "CHI"]}}
+{"qid": "f7fec403e92e", "out": {"phrases": ["state", "cities"]}}
+{"qid": "ebdf37a5db4a", "out": {"phrases": ["year", "Making database systems usable"]}}
+{"qid": "4943ed363e52", "out": {"phrases": ["keywords"]}}
+{"qid": "d7166a9e93de", "out": {"phrases": ["citations", "Mckeown", "Kathleen"]}}
+{"qid": "a5c0ca0ed5fb", "out": {"phrases": ["distance", "Boston", "Newark"]}}
+{"qid": "a44c5e018dae", "out": {"phrases": ["id", "number of citations", "most cited paper"]}}
+{"qid": "0ee29889c5d4", "out": {"phrases": ["ids", "faculty members", "participate", "activity", "advise", "student"]}}
+{"qid": "cc3a015e28d5", "out": {"phrases": ["title", "paper", "cites", "other papers"]}}
+{"qid": "279c0af0a9ed", "out": {"phrases": ["papers", "written by", "H. V. Jagadish", "Yunyao Li", "after 2005"]}}
+{"qid": "7855e03d6888", "out": {"phrases": ["ids", "students", "under 20 years old", "involved", "at least one activity"]}}
+{"qid": "2474c897ae11", "out": {"phrases": ["staff"]}}
+{"qid": "d5a151508bcf", "out": {"phrases": ["meeting type codes", "details"]}}
+{"qid": "5a37149b757e", "out": {"phrases": ["cities", "students", "live"]}}
+{"qid": "926209e9b809", "out": {"phrases": ["international passengers", "airports"]}}
+{"qid": "910bc15bc89d", "out": {"phrases": ["agency id", "details", "clients"]}}
+{"qid": "716962d8a46c", "out": {"phrases": ["Domestic Passengers", "airports", "London"]}}
+{"qid": "2a0e10e0ecb0", "out": {"phrases": ["addresses", "buildings", "apartments", "bathrooms"]}}
+{"qid": "6ede5b8788a4", "out": {"phrases": ["last name", "youngest student"]}}
+{"qid": "3a786312b5a7", "out": {"phrases": ["advisor", "students"]}}
+{"qid": "6d1447983aa4", "out": {"phrases": ["name", "aircraft", "winning aircraft", "most number of times"]}}
+{"qid": "b3d90bd3b6e9", "out": {"phrases": ["bathroom count", "apartments"]}}
+{"qid": "2e9dc32cb55c", "out": {"phrases": ["average number of rooms", "apartments", "type code", "Studio"]}}
+{"qid": "83a2b78c73cd", "out": {"phrases": ["medium types", "painting", "id", "80"]}}
+{"qid": "83e27a37b79b", "out": {"phrases": ["asset models"]}}
+{"qid": "20f8256d1981", "out": {"phrases": ["ids", "flavors", "cakes", "flavor"]}}
+{"qid": "d7caa7557cff", "out": {"phrases": ["ids", "goods", "Apricot flavor", "price", "5 dollars"]}}
+{"qid": "4af226d8cb87", "out": {"phrases": ["names", "paintings", "width", "less than 600", "height", "larger than 800"]}}
+{"qid": "8900ddf7f455", "out": {"phrases": ["height", "width", "paintings", "year"]}}
+{"qid": "8bf1fa9adcb0", "out": {"phrases": ["name", "bridges", "designed", "american archtect", "bridge feet length"]}}
+{"qid": "6e6d77c9ec63", "out": {"phrases": ["ids", "names", "genders", "architects", "built", "two bridges", "one mill"]}}
+{"qid": "9bb77a67d686", "out": {"phrases": ["name", "nationality", "id", "male", "architects", "names"]}}
+{"qid": "05b059880ba7", "out": {"phrases": ["parts", "faults", "part name", "id"]}}
+{"qid": "6bac8a143068", "out": {"phrases": ["full names", "customers", "bought", "apple flavored", "Tarts"]}}
+{"qid": "0d5c87e36ce7", "out": {"phrases": ["name", "id", "staff", "recorded", "fault log", "contacted", "visiting engineers"]}}
+{"qid": "d9c0504352b8", "out": {"phrases": ["ship id", "name", "caused", "total injuries"]}}
+{"qid": "f90f36bb789a", "out": {"phrases": ["cities", "addresses"]}}
+{"qid": "1434f19aeae2", "out": {"phrases": ["incident type codes"]}}
+{"qid": "edf9dde938ce", "out": {"phrases": ["players", "Boston Red Stockings", "2000"]}}
+{"qid": "b6a00cd22441", "out": {"phrases": ["title", "program", "began"]}}
+{"qid": "7c41c998a736", "out": {"phrases": ["name", "director", "Dracula", "program"]}}
+{"qid": "133975d3b4cb", "out": {"phrases": ["team franchises", "active", "Y", "active information"]}}
+{"qid": "1b3f122d72b4", "out": {"phrases": ["battles", "lose", "ship", "tonnage", "225"]}}
+{"qid": "f2b31cb6af0b", "out": {"phrases": ["name", "results", "battles", "bulgarian commander", "Boril"]}}
+{"qid": "1bf998476f71", "out": {"phrases": ["player", "first name", "Len", "last name", "Barker", "earn", "1985", "1990", "total"]}}
+{"qid": "e9b5a067895e", "out": {"phrases": ["director", "in charge of", "programs"]}}
+{"qid": "b9ddede37b78", "out": {"phrases": ["first names", "teachers", "email address", "man"]}}
+{"qid": "b6c4a59a8085", "out": {"phrases": ["days", "temperature range"]}}
+{"qid": "2d9ef02ac8f6", "out": {"phrases": ["names", "body builders", "descending order", "total scores"]}}
+{"qid": "a0ae8e07e03b", "out": {"phrases": ["zip codes", "maximum dew point", "below 70"]}}
+{"qid": "0530a8c73bbc", "out": {"phrases": ["zip code", "average mean sea level pressure", "lowest"]}}
+{"qid": "8e6880f148cc", "out": {"phrases": ["birth places"]}}
+{"qid": "50a87f35a332", "out": {"phrases": ["levels", "heat", "cyclists"]}}
+{"qid": "357824028e02", "out": {"phrases": ["reservations", "boat"]}}
+{"qid": "db00468e85e4", "out": {"phrases": ["average price", "bikes", "material", "Carbon CC"]}}
+{"qid": "f774c78adb1b", "out": {"phrases": ["ids", "sailors", "reserved", "boat"]}}
+{"qid": "776029eb6157", "out": {"phrases": ["id", "name", "cyclist", "owns", "bikes"]}}
+{"qid": "a117ba978082", "out": {"phrases": ["persons", "body builders"]}}
+{"qid": "b37ab08fc55e", "out": {"phrases": ["names", "ids", "sailors", "rating", "at least 3", "reserved", "boat"]}}
+{"qid": "cb3fc48bffb2", "out": {"phrases": ["clients"]}}
+{"qid": "2359fc5ba950", "out": {"phrases": ["titles", "books", "ordered"]}}
+{"qid": "4c1b2d36939d", "out": {"phrases": ["title", "publication dates", "books"]}}
+{"qid": "9988eb48e441", "out": {"phrases": ["names", "clients", "made", "order"]}}
+{"qid": "aac13c265176", "out": {"phrases": ["writers", "published", "book", "price", "4000000"]}}
+{"qid": "d69be4bdb19b", "out": {"phrases": ["name", "publisher", "monthly profit"]}}
+{"qid": "28690af56e9c", "out": {"phrases": ["publishers", "publication"]}}
+{"qid": "dfb41d9079c7", "out": {"phrases": ["name", "total book sale amount", "press"]}}
+{"qid": "bd29246d13ef", "out": {"phrases": ["rating", "book", "largest number of chapters"]}}
+{"qid": "00978da560a0", "out": {"phrases": ["title", "book", "highest rank", "review"]}}
+{"qid": "c835d300f84d", "out": {"phrases": ["book series", "books", "sale amount", "above 1000", "below 500"]}}
+{"qid": "f24506b7b76e", "out": {"phrases": ["books"]}}
+{"qid": "309c0fc6b949", "out": {"phrases": ["accelerator names", "browsers", "market share"]}}
+{"qid": "627b693588e6", "out": {"phrases": ["main stream browsers", "market share", "5"]}}
+{"qid": "9c8d9930c971", "out": {"phrases": ["names", "browser", "compatible", "CACHEbox", "Fasterfox"]}}
+{"qid": "865d658469aa", "out": {"phrases": ["names", "female candidates", "sex", "F"]}}
+{"qid": "1e3f3959eeb4", "out": {"phrases": ["names", "people", "taller than 200", "lower than 190"]}}
+{"qid": "e3002cafa9fd", "out": {"phrases": ["average", "minimum", "weights", "people", "sex"]}}
+{"qid": "71a67b0243c3", "out": {"phrases": ["make", "team"]}}
+{"qid": "447e9b930202", "out": {"phrases": ["cars", "cylinders"]}}
+{"qid": "98616d0948af", "out": {"phrases": ["cars", "horsepower", "make ids", "names", "cylinders"]}}
+{"qid": "edcc0f5c0c0f", "out": {"phrases": ["make", "drivers"]}}
+{"qid": "72cd83d9184e", "out": {"phrases": ["maximum accelerate", "cylinders"]}}
+{"qid": "dc12343cdb22", "out": {"phrases": ["managers", "sponsors", "teams", "Car Owners"]}}
+{"qid": "f045af798ef4", "out": {"phrases": ["names", "drivers", "pole position", "James Hinchcliffe"]}}
+{"qid": "1819f80d71f0", "out": {"phrases": ["duration", "tracks", "milliseconds"]}}
+{"qid": "25b6a7e46942", "out": {"phrases": ["engines", "drivers", "age"]}}
+{"qid": "d6eaebe34e77", "out": {"phrases": ["races", "driver", "participate"]}}
+{"qid": "4bc70a0e918c", "out": {"phrases": ["names", "ids", "artists", "albums"]}}
+{"qid": "65b85d3ab124", "out": {"phrases": ["city", "employee", "helps", "customer", "postal code", "70174", "live in"]}}
+{"qid": "60a290ad605b", "out": {"phrases": ["locations", "movie theater", "capacity", "300"]}}
+{"qid": "8dd463622f13", "out": {"phrases": ["competition", "matches"]}}
+{"qid": "1193dfa30de1", "out": {"phrases": ["location", "cinemas"]}}
+{"qid": "06041520f5ae", "out": {"phrases": ["venues", "matches", "dates", "most recent"]}}
+{"qid": "d02d6838f341", "out": {"phrases": ["match id", "competition", "1994 FIFA World Cup qualification"]}}
+{"qid": "def91bd03e55", "out": {"phrases": ["cinema names", "opening years", "descending order", "opening year"]}}
+{"qid": "079251bc7a99", "out": {"phrases": ["countries", "mountain"]}}
+{"qid": "68d55ceb3e8f", "out": {"phrases": ["range", "mountains"]}}
+{"qid": "09e4e90b9ee1", "out": {"phrases": ["nationalities", "members"]}}
+{"qid": "999e6d4347b4", "out": {"phrases": ["average age", "club leaders"]}}
+{"qid": "7210fb2572a9", "out": {"phrases": ["members", "black membership card"]}}
+{"qid": "0190a4e34a5a", "out": {"phrases": ["name", "leader", "club", "Houston"]}}
+{"qid": "e74b7d9bf8fe", "out": {"phrases": ["positions", "club", "Bootup Baltimore"]}}
+{"qid": "aaf20945b01b", "out": {"phrases": ["address", "member", "black membership card"]}}
+{"qid": "05621aaa42a2", "out": {"phrases": ["names", "climbers", "country", "Switzerland"]}}
+{"qid": "e58c2cf54fa4", "out": {"phrases": ["first name", "last name", "CTO", "club", "Hopkins Student Enterprises"]}}
+{"qid": "410e4a035960", "out": {"phrases": ["average age", "members", "club", "Hopkins Student Enterprises"]}}
+{"qid": "81b6775b96c6", "out": {"phrases": ["membership card", "members", "living", "Hartford", "Waterbury", "address"]}}
+{"qid": "6b0ea4dc2a2a", "out": {"phrases": ["departments", "school"]}}
+{"qid": "2363da728cfd", "out": {"phrases": ["code", "course", "student", "last name", "Smithson", "took"]}}
+{"qid": "739f1891b8ba", "out": {"phrases": ["course description", "number of credits", "QM-261"]}}
+{"qid": "13a39e0202ad", "out": {"phrases": ["year", "semester", "courses"]}}
+{"qid": "821e8739a450", "out": {"phrases": ["semester", "year", "student", "class"]}}
+{"qid": "e23450bea81a", "out": {"phrases": ["instructors", "names", "Art department", "taught", "course", "course_id"]}}
+{"qid": "f7eec316a994", "out": {"phrases": ["first names", "students", "a", "first name"]}}
+{"qid": "6c7fba3adaee", "out": {"phrases": ["female", "dependents"]}}
+{"qid": "e91a843914cd", "out": {"phrases": ["student", "first names", "grade point", "3.8", "course"]}}
+{"qid": "74ced8ca7e63", "out": {"phrases": ["employees", "gender", "salary", "50000"]}}
+{"qid": "c09a2eb6baff", "out": {"phrases": ["department name", "room", "course", "INTRODUCTION TO COMPUTER SCIENCE"]}}
+{"qid": "fae7bdc89a41", "out": {"phrases": ["dependent", "names", "spouse", "relation", "employee"]}}
+{"qid": "367c069e7612", "out": {"phrases": ["headquarters", "companies", "banking industry", "oil and gas industry"]}}
+{"qid": "ff19f95e45a1", "out": {"phrases": ["market value", "companies"]}}
+{"qid": "1a87cf681ee9", "out": {"phrases": ["year", "conferences"]}}
+{"qid": "946074654083", "out": {"phrases": ["companies"]}}
+{"qid": "26063c5835e7", "out": {"phrases": ["headquarters", "industries", "companies"]}}
+{"qid": "53d8460c8b49", "out": {"phrases": ["name", "industry", "number of companies"]}}
+{"qid": "9f3a8bc4308c", "out": {"phrases": ["locations", "hosted", "conferences"]}}
+{"qid": "4366dd7cd4b2", "out": {"phrases": ["average", "minimum", "maximum", "age", "French", "singers"]}}
+{"qid": "6d0aa981dcda", "out": {"phrases": ["song names", "singers", "older than average"]}}
+{"qid": "daaa61426981", "out": {"phrases": ["company names", "company", "market value"]}}
+{"qid": "10c83a490c59", "out": {"phrases": ["name", "capacity", "stadium", "average attendance"]}}
+{"qid": "6800d98f8ea8", "out": {"phrases": ["institution name", "number of staff", "institution", "founded after 1800"]}}
+{"qid": "42f75530fcc9", "out": {"phrases": ["names", "countries", "names", "official languages"]}}
+{"qid": "80c9870bff4b", "out": {"phrases": ["countries", "names", "education_score"]}}
+{"qid": "dae81ca13a79", "out": {"phrases": ["official languages"]}}
+{"qid": "4025f5dd9822", "out": {"phrases": ["teachers", "names", "courses", "teach"]}}
+{"qid": "e99d1dfa6192", "out": {"phrases": ["name", "cities", "county", "largest number of police officers"]}}
+{"qid": "7aca308df194", "out": {"phrases": ["crime rate", "counties", "city", "white percentage", "90"]}}
+{"qid": "f1c299fe8865", "out": {"phrases": ["police forces", "counties", "location", "east side"]}}
+{"qid": "289770578b3f", "out": {"phrases": ["roles", "employee", "role description", "number of employees"]}}
+{"qid": "c0cd5cf7ff7c", "out": {"phrases": ["teachers", "names", "age"]}}
+{"qid": "8a438ef8be89", "out": {"phrases": ["youngest teacher", "from"]}}
+{"qid": "4daa9e71248d", "out": {"phrases": ["name", "shipping agent", "document", "id", "2"]}}
+{"qid": "125de2a07945", "out": {"phrases": ["employees", "role", "role description", "id", "number of employees"]}}
+{"qid": "5a7549b932e1", "out": {"phrases": ["ids", "templates", "not used", "documents"]}}
+{"qid": "d9a77ddb8163", "out": {"phrases": ["template type code", "templates"]}}
+{"qid": "fc455c22c9d2", "out": {"phrases": ["code", "location", "documents"]}}
+{"qid": "e8c3abe3db34", "out": {"phrases": ["id", "document", "paragraphs"]}}
+{"qid": "18ba69bdec2a", "out": {"phrases": ["date in location from", "date in location to", "document", "name", "Robin CV"]}}
+{"qid": "3e3cca884edc", "out": {"phrases": ["employees", "names", "authorized", "destruction", "documents", "destroyed", "corresponding"]}}
+{"qid": "6e3ac5986a5f", "out": {"phrases": ["name", "parent collection", "collection", "Nice"]}}
+{"qid": "8902de3f0390", "out": {"phrases": ["document subsets", "documents", "related to", "document id", "name of document subset", "document id"]}}
+{"qid": "8fbfd2467c90", "out": {"phrases": ["documents", "author", "Era Kerluke", "written"]}}
+{"qid": "eb1291007beb", "out": {"phrases": ["document object ids", "collection", "Best", "subset", "Best for 2000"]}}
+{"qid": "4e1d401cc8ac", "out": {"phrases": ["description", "staff role code", "HR"]}}
+{"qid": "36089104fcff", "out": {"phrases": ["document type code", "documents"]}}
+{"qid": "1741db3e4751", "out": {"phrases": ["process id", "process name", "process description", "process", "id", "9"]}}
+{"qid": "e1d913163e2b", "out": {"phrases": ["statements"]}}
+{"qid": "83fa82b0cea6", "out": {"phrases": ["ids", "details", "project"]}}
+{"qid": "deb23c1505c0", "out": {"phrases": ["description", "marketing region", "China"]}}
+{"qid": "e7b710fe49dd", "out": {"phrases": ["total loan", "student", "student ids", "amounts"]}}
+{"qid": "93a3fd313501", "out": {"phrases": ["names", "workshop groups", "bookings", "status code", "stop"]}}
+{"qid": "018939b73aeb", "out": {"phrases": ["names", "tourist attractions", "parking", "shopping", "feature details"]}}
+{"qid": "a14d50078e81", "out": {"phrases": ["start time", "end time", "addresses", "students", "receive", "2 transcripts"]}}
+{"qid": "d07a4a184319", "out": {"phrases": ["description", "code", "count", "service type"]}}
+{"qid": "2cbdbd9064d2", "out": {"phrases": ["university", "Los Angeles county", "opened after 1950"]}}
+{"qid": "82c9de3a68ae", "out": {"phrases": ["details", "shops", "accessed by walk"]}}
+{"qid": "69600a83864b", "out": {"phrases": ["teachers", "taught", "student", "earliest transcript issuance", "teacher details"]}}
+{"qid": "598b91319191", "out": {"phrases": ["names", "descriptions", "photos", "taken", "tourist attraction", "film festival"]}}
+{"qid": "51f311a4ff53", "out": {"phrases": ["campuses", "opened", "1958"]}}
+{"qid": "781a20fbf55b", "out": {"phrases": ["faculty lines", "Long Beach State University", "2002"]}}
+{"qid": "00e2aec3f090", "out": {"phrases": ["book", "publishers"]}}
+{"qid": "fb14e22f550c", "out": {"phrases": ["publishers", "book", "1989"]}}
+{"qid": "c5c0ea89c18c", "out": {"phrases": ["total amount", "products", "ordered", "2018-03-17 07:13:53"]}}
+{"qid": "532dc40f75f6", "out": {"phrases": ["book categories", "books"]}}
+{"qid": "49a108cb9158", "out": {"phrases": ["first names", "staff members", "handled", "complaints"]}}
+{"qid": "b045b43d50f6", "out": {"phrases": ["last name", "staff member", "processed", "complaint", "cheapest product"]}}
+{"qid": "92f5b25ed35d", "out": {"phrases": ["phone number", "customer", "filed", "most recent complaint"]}}
+{"qid": "d9ab949c69ca", "out": {"phrases": ["customers"]}}
+{"qid": "02515684a8fe", "out": {"phrases": ["names", "emails", "customers", "payed", "Visa card"]}}
+{"qid": "31e1ac7601bf", "out": {"phrases": ["payment method", "used most frequently"]}}
+{"qid": "2c1a814b468a", "out": {"phrases": ["customers", "gender"]}}
+{"qid": "668d0fb821c9", "out": {"phrases": ["types", "products", "Rodrick Heaney", "bought"]}}
+{"qid": "390b4768b74e", "out": {"phrases": ["addresses", "East Julianaside", "Texas", "Gleasonmouth", "Arizona"]}}
+{"qid": "9a666e540adb", "out": {"phrases": ["product", "colors"]}}
+{"qid": "8ce0e4a6d7bd", "out": {"phrases": ["names", "ids", "account", "number of transactions"]}}
+{"qid": "55bb4e780a37", "out": {"phrases": ["code", "product type", "least common"]}}
+{"qid": "3486859f578d", "out": {"phrases": ["ids", "names", "customers"]}}
+{"qid": "e0617f2f8d92", "out": {"phrases": ["payment method codes", "customers"]}}
+{"qid": "c5d83024517c", "out": {"phrases": ["price", "products"]}}
+{"qid": "e3239b095872", "out": {"phrases": ["premises"]}}
+{"qid": "07860665558d", "out": {"phrases": ["outcome code", "mailshots", "number of mailshots", "outcome code"]}}
+{"qid": "03e98d927f88", "out": {"phrases": ["address type codes", "customer addresses"]}}
+{"qid": "baa55f349928", "out": {"phrases": ["name", "phone", "payment method code", "customers", "customer number"]}}
+{"qid": "59ffb10fbbe8", "out": {"phrases": ["product type", "name", "products", "price", "higher than 1000", "lower than 500"]}}
+{"qid": "bffab95b97e9", "out": {"phrases": ["customers", "account"]}}
+{"qid": "2702168cc928", "out": {"phrases": ["customer cards", "type", "Debit"]}}
+{"qid": "a69b02dd04f3", "out": {"phrases": ["ids", "customer ids", "names", "accounts"]}}
+{"qid": "416e13e2f99b", "out": {"phrases": ["names", "people", "aged", "35", "36"]}}
+{"qid": "3b30d7be7de6", "out": {"phrases": ["members"]}}
+{"qid": "00180f91ce4b", "out": {"phrases": ["year", "departments", "established"]}}
+{"qid": "6d2dc4de71b1", "out": {"phrases": ["names", "people", "dates", "venues", "debates", "negative side"]}}
+{"qid": "a9941c8d3a58", "out": {"phrases": ["head", "name", "substring", "Ha", "id"]}}
+{"qid": "6681ea9b584b", "out": {"phrases": ["debates"]}}
+{"qid": "286616f00228", "out": {"phrases": ["names", "members", "country", "United States", "Canada"]}}
+{"qid": "77eef18f2eaa", "out": {"phrases": ["names", "members", "locations", "colleges", "ascending alphabetical order", "member names"]}}
+{"qid": "8dfdb649534f", "out": {"phrases": ["acting statuses"]}}
+{"qid": "fc30fce53c04", "out": {"phrases": ["products", "names", "purchased", "customers"]}}
+{"qid": "c3454b27ec4b", "out": {"phrases": ["id", "name", "staff", "assigned", "shortest period"]}}
+{"qid": "5005ed4be309", "out": {"phrases": ["names", "ids", "products", "price", "600", "700"]}}
+{"qid": "e87e5fa06473", "out": {"phrases": ["carriers", "devices", "software platforms", "Android"]}}
+{"qid": "d4da009ce9f3", "out": {"phrases": ["carriers", "devices"]}}
+{"qid": "cd1f8ee25d13", "out": {"phrases": ["description", "most popular role", "users", "logged in"]}}
+{"qid": "cc1bb01fa17e", "out": {"phrases": ["software platform", "common", "devices"]}}
+{"qid": "c5171fd6e38b", "out": {"phrases": ["names", "documents", "contain", "substring", "CV"]}}
+{"qid": "7729f0defc05", "out": {"phrases": ["names", "populations", "districts", "area", "greater than", "average area"]}}
+{"qid": "cfc51dc79c55", "out": {"phrases": ["districts", "spokesmen"]}}
+{"qid": "5b5daf150cab", "out": {"phrases": ["names", "districts", "spokesman"]}}
+{"qid": "cc0b88080396", "out": {"phrases": ["document types", "corresponding documents"]}}
+{"qid": "e1e17cf5b007", "out": {"phrases": ["age", "oldest dog"]}}
+{"qid": "83254efbc34b", "out": {"phrases": ["students", "living", "male dorm", "gender M"]}}
+{"qid": "d6f2b29aff80", "out": {"phrases": ["professionals", "treated", "dogs"]}}
+{"qid": "2c4418d7b229", "out": {"phrases": ["breed type", "size type", "combinations"]}}
+{"qid": "4da9f82060b4", "out": {"phrases": ["staff"]}}
+{"qid": "59fd895f8daf", "out": {"phrases": ["employees", "first name", "Ludie"]}}
+{"qid": "ac84750a85c5", "out": {"phrases": ["first name", "last name", "students", "living", "city", "code", "HKG", "sorted", "ages"]}}
+{"qid": "9ccc7b226626", "out": {"phrases": ["names", "products", "shipped", "shipment date"]}}
+{"qid": "6bc0ca249172", "out": {"phrases": ["first name", "last name", "customers", "payments"]}}
+{"qid": "244c0546f29e", "out": {"phrases": ["first name", "last name", "students", "living", "dorms", "amenity", "TV Lounge"]}}
+{"qid": "6d6eb77ee4fe", "out": {"phrases": ["status code", "items", "ordered", "shipped", "shipment tracking number"]}}
+{"qid": "c4d153b8dfc9", "out": {"phrases": ["invoices", "status", "orders", "shipped"]}}
+{"qid": "9581b8f0a0aa", "out": {"phrases": ["last name", "individuals", "contact individuals", "organization"]}}
+{"qid": "6e303d6550b3", "out": {"phrases": ["population", "counties"]}}
+{"qid": "8974e067e7a8", "out": {"phrases": ["state", "address", "6862 Kaitlyn Knolls"]}}
+{"qid": "1fc240762c1d", "out": {"phrases": ["state", "line number", "building", "6862 Kaitlyn Knolls"]}}
+{"qid": "4532dcf14baf", "out": {"phrases": ["dates", "latest logon", "students", "family name", "Jaskolski", "Langosh"]}}
+{"qid": "f7c483152f01", "out": {"phrases": ["students", "personal names", "son"]}}
+{"qid": "3abf16dda5bd", "out": {"phrases": ["tests", "result", "Fail"]}}
+{"qid": "2395f98389fe", "out": {"phrases": ["elections"]}}
+{"qid": "c81776e354a0", "out": {"phrases": ["years", "governor", "Eliot Spitzer"]}}
+{"qid": "b627cad922aa", "out": {"phrases": ["names", "representatives", "votes", "election"]}}
+{"qid": "0a2d0f413d87", "out": {"phrases": ["lifespans", "representatives", "descending order", "vote percent"]}}
+{"qid": "9ce21d0935b4", "out": {"phrases": ["name", "county", "biggest population"]}}
+{"qid": "fb8dc0a48922", "out": {"phrases": ["shops", "number products", "average", "shop names"]}}
+{"qid": "47a57291fa73", "out": {"phrases": ["products", "shops"]}}
+{"qid": "98e6889be825", "out": {"phrases": ["artworks"]}}
+{"qid": "588451d79a93", "out": {"phrases": ["name", "user", "highest rating"]}}
+{"qid": "439c340d8aaf", "out": {"phrases": ["names", "stores", "number products", "average number of products"]}}
+{"qid": "5bdee2b3ad7a", "out": {"phrases": ["year", "festivals", "inside", "United States", "outside", "United States"]}}
+{"qid": "17d3e8905a5f", "out": {"phrases": ["names", "entrepreneurs"]}}
+{"qid": "777cc2b4dc44", "out": {"phrases": ["names", "entrepreneurs", "investor", "Rachel Elnaugh"]}}
+{"qid": "1929d2c8e167", "out": {"phrases": ["investors", "entrepreneurs", "number of entrepreneurs", "invested by each investor"]}}
+{"qid": "7c2ec880600a", "out": {"phrases": ["id", "name", "festival", "number of artworks", "nominated"]}}
+{"qid": "47e164cfd3f5", "out": {"phrases": ["rating", "reviews"]}}
+{"qid": "d43dfbfb7c3e", "out": {"phrases": ["user", "name", "average rating", "reviews"]}}
+{"qid": "af96f2eae459", "out": {"phrases": ["statuses", "cities", "population", "1500", "500"]}}
+{"qid": "082d76625f90", "out": {"phrases": ["statuses", "cities"]}}
+{"qid": "3b7a51291bb8", "out": {"phrases": ["titles", "directors", "films", "presented", "China"]}}
+{"qid": "eb4dabb5275d", "out": {"phrases": ["film", "Directors"]}}
+{"qid": "cda79a964b58", "out": {"phrases": ["official names", "cities", "population", "bigger than 1500", "smaller than 500"]}}
+{"qid": "6b2a36a3a083", "out": {"phrases": ["flight number", "flights", "distance"]}}
+{"qid": "2d2176ffb2b3", "out": {"phrases": ["name", "distance", "aircraft", "cover", "distance", "more than 5000", "people", "fly"]}}
+{"qid": "30a7e2ae0d2e", "out": {"phrases": ["airport code", "name", "city", "Anthony"]}}
+{"qid": "493c6eb61d87", "out": {"phrases": ["name", "distance", "aircrafts"]}}
+{"qid": "19ef01970038", "out": {"phrases": ["low estimates", "high estimates", "film markets"]}}
+{"qid": "53cdcda6bab4", "out": {"phrases": ["airports", "departing flights", "arriving flights"]}}
+{"qid": "ef3dd5ecf6ca", "out": {"phrases": ["busiest source airport", "most number of routes", "China"]}}
+{"qid": "961542cc779e", "out": {"phrases": ["flight numbers", "flights", "departing", "Airport", "APG"]}}
+{"qid": "6674397aa25e", "out": {"phrases": ["airports", "country"]}}
+{"qid": "60ac6a17beff", "out": {"phrases": ["forename", "surname", "driver", "laptime"]}}
+{"qid": "2d33c542923b", "out": {"phrases": ["airlines", "Russia"]}}
+{"qid": "2fef45d206c0", "out": {"phrases": ["names", "races"]}}
+{"qid": "594c103a8a81", "out": {"phrases": ["pilot", "in charge of", "flights"]}}
+{"qid": "65365f4960a0", "out": {"phrases": ["maximum group equity shareholding", "companies"]}}
+{"qid": "1dd5876b842c", "out": {"phrases": ["types", "sports"]}}
+{"qid": "aec1843bbc02", "out": {"phrases": ["id", "name", "IATA code", "airport", "flights"]}}
+{"qid": "9394bd8ff1a6", "out": {"phrases": ["average", "fastest lap speed", "race", "Monaco Grand Prix", "2008"]}}
+{"qid": "1ca1cd6fb205", "out": {"phrases": ["names", "games", "played", "Linda Smith"]}}
+{"qid": "2206421e402d", "out": {"phrases": ["ids", "student", "scholarship"]}}
+{"qid": "bc56f1cc4fed", "out": {"phrases": ["player name", "number of matches", "information source", "players", "injury", "Knee problem"]}}
+{"qid": "e93f65c29aa4", "out": {"phrases": ["home games", "stadium"]}}
+{"qid": "a8c3d73f5559", "out": {"phrases": ["id", "name", "stadium", "injury accidents"]}}
+{"qid": "d6d956e58862", "out": {"phrases": ["main industry", "total market value", "industry"]}}
+{"qid": "9078a8b35d16", "out": {"phrases": ["company name", "rank", "companies", "sales"]}}
+{"qid": "5d6eccb6a09e", "out": {"phrases": ["people", "california"]}}
+{"qid": "c70702bcdc08", "out": {"phrases": ["services", "interacted", "channel", "detail", "15 ij"]}}
+{"qid": "e33e3886692e", "out": {"phrases": ["population density", "state", "capital", "austin"]}}
+{"qid": "020af4a9a727", "out": {"phrases": ["rivers", "illinois"]}}
+{"qid": "dfd8d2e82bcf", "out": {"phrases": ["company id", "companies", "gas stations", "operate"]}}
+{"qid": "21073c3e3bc2", "out": {"phrases": ["customers", "status", "Stuck", "service", "channel detail", "bad", "interaction", "customer details"]}}
+{"qid": "81071d1ab9f4", "out": {"phrases": ["details", "services", "used", "more than 3 times"]}}
+{"qid": "132ea3fffdde", "out": {"phrases": ["hometowns", "people", "older than 23", "younger than 20"]}}
+{"qid": "3d3c35bdeada", "out": {"phrases": ["gymnasts"]}}
+{"qid": "d1199fcfbdcd", "out": {"phrases": ["names", "gymnasts", "hometown", "Santo Domingo"]}}
+{"qid": "4276c3f21d26", "out": {"phrases": ["headphone class", "headphones"]}}
+{"qid": "00da401fbba3", "out": {"phrases": ["name", "nurse", "appointments"]}}
+{"qid": "586a153cc450", "out": {"phrases": ["headphone models"]}}
+{"qid": "b7a7b46783d9", "out": {"phrases": ["headphone class", "headphones"]}}
+{"qid": "da6aff384e00", "out": {"phrases": ["patients", "room 112"]}}
+{"qid": "f3f25791814e", "out": {"phrases": ["physicians", "affiliated", "Surgery", "Psychiatry", "departments", "names"]}}
+{"qid": "5885f1cea649", "out": {"phrases": ["employees", "joined", "7th September, 1987"]}}
+{"qid": "b3768e24333f", "out": {"phrases": ["employees", "job", "past"]}}
+{"qid": "69ea29f46271", "out": {"phrases": ["paper", "published", "institution", "USA", "Turon", "second author"]}}
+{"qid": "5962bf1b70f6", "out": {"phrases": ["employee ids", "employees", "held", "two or more jobs"]}}
+{"qid": "9e3d20a2cd8a", "out": {"phrases": ["movies", "directed by", "Asghar Farhadi", "Taraneh Alidoosti", "played"]}}
+{"qid": "4571e343e0cd", "out": {"phrases": ["last name", "author", "first name", "Amal"]}}
+{"qid": "44b9d4920dd0", "out": {"phrases": ["papers", "published", "institution", "Tokohu University"]}}
+{"qid": "f033e10e254c", "out": {"phrases": ["genres", "movies", "directed by", "Asghar Farhadi"]}}
+{"qid": "08c476dd1e5f", "out": {"phrases": ["directors", "Afghanistan"]}}
+{"qid": "9735d338f918", "out": {"phrases": ["rooms", "price", "higher than 160", "accommodate", "more than 2 people", "room names", "ids"]}}
+{"qid": "341c5bf507bb", "out": {"phrases": ["name", "rate", "check in date", "check out date", "room", "highest rate"]}}
+{"qid": "a6b144e7722f", "out": {"phrases": ["rooms", "bed type"]}}
+{"qid": "f74d133fd214", "out": {"phrases": ["provinces", "institutions"]}}
+{"qid": "761fcbfb8395", "out": {"phrases": ["common", "type", "affiliation", "institutions"]}}
+{"qid": "9c972e459b1e", "out": {"phrases": ["common", "type", "affiliation", "institutions"]}}
+{"qid": "74abeeacfd30", "out": {"phrases": ["customer names", "alphabetical order"]}}
+{"qid": "57fcbb9e350f", "out": {"phrases": ["service names"]}}
+{"qid": "943d1155d1d9", "out": {"phrases": ["customer", "policies", "customer name"]}}
+{"qid": "ca587cc88fd5", "out": {"phrases": ["names", "customers"]}}
+{"qid": "fbf159b6ffe0", "out": {"phrases": ["total amount", "average amount", "paid", "claim headers"]}}
+{"qid": "2f2114b557c7", "out": {"phrases": ["policy types", "customers", "type code"]}}
+{"qid": "db083bd93ed7", "out": {"phrases": ["customer details", "customer id", "customers", "policies", "claims"]}}
+{"qid": "0c9951cad227", "out": {"phrases": ["settlements", "claim", "claim id"]}}
+{"qid": "f48f23dbe487", "out": {"phrases": ["names", "editors", "older than 25"]}}
+{"qid": "c83e54626e5a", "out": {"phrases": ["names", "editors", "age"]}}
+{"qid": "0759f0eace17", "out": {"phrases": ["claimed amount", "claim", "least amount settled", "settlement amount", "claim amount"]}}
+{"qid": "788f4a831e04", "out": {"phrases": ["name", "account type", "account balance", "customer", "credit score"]}}
+{"qid": "54112035b3aa", "out": {"phrases": ["id", "name", "editor", "number of journal committees", "journal committees"]}}
+{"qid": "4bd9cfc71f5e", "out": {"phrases": ["name", "credit score", "customers", "loans"]}}
+{"qid": "a5ac6ba1fe33", "out": {"phrases": ["name", "customers", "loan", "amount", "3000"]}}
+{"qid": "cb8cae9fda25", "out": {"phrases": ["id", "details", "customers", "events"]}}
+{"qid": "9418d926fe60", "out": {"phrases": ["move in dates", "residents"]}}
+{"qid": "3691bf21f547", "out": {"phrases": ["participant ids", "type code", "details"]}}
+{"qid": "24b4fc895f03", "out": {"phrases": ["id", "type", "thing", "status", "Close", "status record", "date", "2017-06-19 02:59:21"]}}
+{"qid": "b17cac7825db", "out": {"phrases": ["participants", "type", "Organizer"]}}
+{"qid": "c30caab3103b", "out": {"phrases": ["source system code", "cmi cross references"]}}
+{"qid": "b738a5f7eea0", "out": {"phrases": ["tax source system code", "master customer id", "taxes", "parking fine id"]}}
+{"qid": "69f4ae9f600a", "out": {"phrases": ["events", "id", "participant", "detail", "Kenyatta Kuhn"]}}
+{"qid": "8c2846df6fab", "out": {"phrases": ["names", "technicians", "aged", "36", "37"]}}
+{"qid": "cb8245f02d81", "out": {"phrases": ["renting arrears tax ids", "customer master index", "detail", "Schmidt, Kertzmann and Lubowitz"]}}
+{"qid": "1b5c091a419c", "out": {"phrases": ["teams", "technicians"]}}
+{"qid": "4da64a717e1b", "out": {"phrases": ["names", "technicians", "assigned", "repair", "machines", "point values", "70"]}}
+{"qid": "ec98820ab99b", "out": {"phrases": ["total revenue", "companies", "headquarter", "located", "Austin"]}}
+{"qid": "90be3ae42e1c", "out": {"phrases": ["products", "price", "$60", "$120"]}}
+{"qid": "e04e8d12eb10", "out": {"phrases": ["manufacturers", "names", "revenue", "average of all revenues"]}}
+{"qid": "ff4d5dd6f4ff", "out": {"phrases": ["manufacturer", "shops", "name", "year of opening"]}}
+{"qid": "76cd5b46fc16", "out": {"phrases": ["name", "component amount", "least popular furniture"]}}
+{"qid": "08b75a53abd5", "out": {"phrases": ["countries"]}}
+{"qid": "2b7237bdb915", "out": {"phrases": ["furniture types", "manufacturer", "company names"]}}
+{"qid": "52d414b6a935", "out": {"phrases": ["position", "players", "college", "UCLA", "Duke"]}}
+{"qid": "b57e9bd3b05d", "out": {"phrases": ["college", "players", "position", "midfielder", "defender"]}}
+{"qid": "a994afb3be8e", "out": {"phrases": ["FDA approval statuses", "medicines"]}}
+{"qid": "65a22c0d70e5", "out": {"phrases": ["camera lens", "name", "photos taken", "count of photos"]}}
+{"qid": "0b3bb8d18df0", "out": {"phrases": ["id", "name", "enzyme", "medicines", "interact", "activator"]}}
+{"qid": "0c10f338ccc7", "out": {"phrases": ["name", "location", "products", "enzymes", "inhibitor", "interaction"]}}
+{"qid": "06aa521c77f2", "out": {"phrases": ["id", "color scheme", "name", "photos"]}}
+{"qid": "662e98edc4a0", "out": {"phrases": ["average prominence", "mountains", "country", "Morocco"]}}
+{"qid": "a84989c53d53", "out": {"phrases": ["movies", "rating"]}}
+{"qid": "61582f2ed12f", "out": {"phrases": ["names", "movie theaters", "playing", "G", "PG", "rated movies"]}}
+{"qid": "2f7eba9febba", "out": {"phrases": ["average rating stars", "title", "oldest movie"]}}
+{"qid": "c5b2c9f0be2e", "out": {"phrases": ["names", "years", "movies", "rating star"]}}
+{"qid": "f5fdce0702df", "out": {"phrases": ["reviewer name", "movie title", "stars", "ratingDate", "reviewer name", "movie title", "number of stars"]}}
+{"qid": "a78ea25e2048", "out": {"phrases": ["titles", "movies", "rating"]}}
+{"qid": "13b853b81a1c", "out": {"phrases": ["id", "name", "museum", "visited most times"]}}
+{"qid": "ec1be1b5bccd", "out": {"phrases": ["museums", "opened", "2013", "2008"]}}
+{"qid": "753b7b7a47fa", "out": {"phrases": ["ids", "songs", "available", "mp4", "higher resolution", "720"]}}
+{"qid": "11889bee6512", "out": {"phrases": ["names", "museums", "staff", "minimum staff number", "museums", "opened after 2010"]}}
+{"qid": "e3996d8e070b", "out": {"phrases": ["names", "singers", "sang", "most highly rated", "songs", "countries", "hail from"]}}
+{"qid": "56054bb65405", "out": {"phrases": ["label", "albums"]}}
+{"qid": "640eb18ceaf7", "out": {"phrases": ["name", "country of origin", "artists", "release", "song", "resolution above 900"]}}
+{"qid": "bc881680c77b", "out": {"phrases": ["issue date", "volume", "weeks on top"]}}
+{"qid": "60db6f1c3dd3", "out": {"phrases": ["songs", "names", "title", "the"]}}
+{"qid": "1c7e53bc6895", "out": {"phrases": ["result", "most frequent", "music festivals"]}}
+{"qid": "9334d3045bd4", "out": {"phrases": ["vocal type", "band mate", "first name", "Solveig", "played"]}}
+{"qid": "6283ca65438c", "out": {"phrases": ["artists"]}}
+{"qid": "7372b7fd4a1b", "out": {"phrases": ["names", "actors", "20 years old"]}}
+{"qid": "a04d279c167c", "out": {"phrases": ["most frequent", "result", "musicals"]}}
+{"qid": "426d4fd93dc4", "out": {"phrases": ["name", "actors", "age", "20"]}}
+{"qid": "c475d014e483", "out": {"phrases": ["names", "friends", "high school student", "Kyle"]}}
+{"qid": "0f2cdc186198", "out": {"phrases": ["grade", "Kyle"]}}
+{"qid": "98e9d7f24bd4", "out": {"phrases": ["friends", "Dan"]}}
+{"qid": "d747aa81b826", "out": {"phrases": ["Bob", "friends"]}}
+{"qid": "ebb10f30f719", "out": {"phrases": ["youngest", "male"]}}
+{"qid": "b8d7375cc619", "out": {"phrases": ["names", "high school students", "friends"]}}
+{"qid": "165bac1de4ec", "out": {"phrases": ["nationality", "journalists"]}}
+{"qid": "d4a54acb2ea3", "out": {"phrases": ["journalists", "names", "events", "reported", "ascending order"]}}
+{"qid": "61822584dcf5", "out": {"phrases": ["nationality", "journalist", "largest number of years working"]}}
+{"qid": "d461c2f389c0", "out": {"phrases": ["student answer texts", "frequency of occurrence"]}}
+{"qid": "c3c47e3566ae", "out": {"phrases": ["exams"]}}
+{"qid": "98db4fb60f0a", "out": {"phrases": ["email addresses", "students", "dates", "answers", "descending order of dates"]}}
+{"qid": "4147bb9dcc25", "out": {"phrases": ["name", "conductor", "worked", "years"]}}
+{"qid": "bd0eb1b8eec1", "out": {"phrases": ["orchestras", "record format", "CD", "DVD"]}}
+{"qid": "a62dff808ec1", "out": {"phrases": ["parties"]}}
+{"qid": "c1a8955adc7b", "out": {"phrases": ["hosts", "nationality", "count"]}}
+{"qid": "34947b2c341f", "out": {"phrases": ["nationality", "hosts"]}}
+{"qid": "a09848cd8489", "out": {"phrases": ["years", "orchestras", "more than one performance", "founded"]}}
+{"qid": "966ea1153292", "out": {"phrases": ["party names", "events"]}}
+{"qid": "c5bb90e2b90c", "out": {"phrases": ["name", "party", "members"]}}
+{"qid": "9f112ada9522", "out": {"phrases": ["name", "party", "members"]}}
+{"qid": "3f2a726fbbd4", "out": {"phrases": ["attendees", "performances"]}}
+{"qid": "10f0383cea3e", "out": {"phrases": ["locations", "performances", "more than 2000 attendees", "less than 1000 attendees"]}}
+{"qid": "97a9ceb3fe6d", "out": {"phrases": ["locations", "perpetrators"]}}
+{"qid": "6108ac2ca764", "out": {"phrases": ["dates", "performances", "attending members", "roles", "Violin"]}}
+{"qid": "6205d69b001c", "out": {"phrases": ["names", "perpetrators", "year"]}}
+{"qid": "bd5322753e8b", "out": {"phrases": ["dog", "pets", "raised", "female", "students"]}}
+{"qid": "a3938d98e6cb", "out": {"phrases": ["first name", "students", "cat", "dog", "pet"]}}
+{"qid": "d3d7f5d54609", "out": {"phrases": ["people", "injured", "perpetrators", "ascending order"]}}
+{"qid": "53999c285eb0", "out": {"phrases": ["last name", "student", "cat", "age 3"]}}
+{"qid": "7e691ebe5862", "out": {"phrases": ["hardware model name", "company name", "phone", "screen mode type", "Graphics"]}}
+{"qid": "f7c215c06875", "out": {"phrases": ["chip model", "screen mode", "phone", "hardware model name", "LG-P760"]}}
+{"qid": "ad42cd71cc98", "out": {"phrases": ["phones", "Full", "accreditation types", "Hardware Model name", "Company name"]}}
+{"qid": "8757ec1d8a4b", "out": {"phrases": ["memories", "carriers", "phones"]}}
+{"qid": "31a96f04d6c5", "out": {"phrases": ["carrier", "most expensive phone"]}}
+{"qid": "22d7ca08b709", "out": {"phrases": ["names", "phones", "on market", "number of shops", "greater than 50"]}}
+{"qid": "73255b257f99", "out": {"phrases": ["pilots", "own", "plane", "Piper Cub", "B-52 Bomber"]}}
+{"qid": "554b49c4202a", "out": {"phrases": ["names", "pilots", "Piper Cub", "F-14 Fighter"]}}
+{"qid": "a38005f2caa7", "out": {"phrases": ["pilots", "names", "rank"]}}
+{"qid": "0895b7fbbb72", "out": {"phrases": ["nationalities", "pilots", "nationality", "number of pilots"]}}
+{"qid": "d05058de9b55", "out": {"phrases": ["pilot positions", "pilots", "joining after year 2005", "joining before 2000"]}}
+{"qid": "f7d70082790f", "out": {"phrases": ["names", "pilots", "younger than 35", "plane", "named", "Piper Cub"]}}
+{"qid": "292f0314f520", "out": {"phrases": ["total weight", "packages", "Leo Wong", "sent"]}}
+{"qid": "651c1db330eb", "out": {"phrases": ["shipment IDs", "delivery", "managed by", "Phillip J Fry"]}}
+{"qid": "41d62f6cc3ab", "out": {"phrases": ["name", "client", "sent", "packages", "most packages"]}}
+{"qid": "92dba4a9f18c", "out": {"phrases": ["nationalities"]}}
+{"qid": "0b13390f3979", "out": {"phrases": ["name", "level", "catalog structure", "level number", "5", "10"]}}
+{"qid": "411e35e6d646", "out": {"phrases": ["final tables", "poker players", "earnings", "200000"]}}
+{"qid": "d94e9f192eca", "out": {"phrases": ["names", "birth dates", "people", "ordered by", "names", "alphabetical order"]}}
+{"qid": "edf41bbb916b", "out": {"phrases": ["attribute data types", "attribute definitions"]}}
+{"qid": "d6a2fe24492b", "out": {"phrases": ["products"]}}
+{"qid": "078711b4e718", "out": {"phrases": ["names", "products", "color description", "red", "fast characteristic"]}}
+{"qid": "e4ecf648d129", "out": {"phrases": ["id", "amount", "refund", "booking", "most times", "payments"]}}
+{"qid": "0c01d41b9a52", "out": {"phrases": ["names", "products", "availability", "1"]}}
+{"qid": "6343ea6392aa", "out": {"phrases": ["customers", "coupons", "amount", "500", "bad", "good"]}}
+{"qid": "b31e9c9da460", "out": {"phrases": ["unit of measure", "product", "name", "cumin"]}}
+{"qid": "563fdfc19a15", "out": {"phrases": ["characteristics", "product", "flax"]}}
+{"qid": "6f561b64aaf4", "out": {"phrases": ["percentage share", "channels", "owned", "CCTV"]}}
+{"qid": "086b9daa1dc2", "out": {"phrases": ["name", "buildings", "institution"]}}
+{"qid": "2dda49182dd2", "out": {"phrases": ["institution types"]}}
+{"qid": "ab32235a209a", "out": {"phrases": ["names", "channels", "broadcast", "morning", "night"]}}
+{"qid": "2fd0e405cfca", "out": {"phrases": ["program", "launched", "most recently", "program name"]}}
+{"qid": "7ad41c969d25", "out": {"phrases": ["names", "heights", "buildings", "institutions", "founded", "after 1880"]}}
+{"qid": "1bb7970e7081", "out": {"phrases": ["names", "managers", "level"]}}
+{"qid": "3f3dfc8a2a51", "out": {"phrases": ["name", "location", "tracks"]}}
+{"qid": "a0bbcab24094", "out": {"phrases": ["locations", "railways", "number of railways"]}}
+{"qid": "dc72379ed71f", "out": {"phrases": ["names", "classes", "dates", "races"]}}
+{"qid": "fe3221a46c28", "out": {"phrases": ["year", "track", "seating", "5000", "opened", "track", "seating", "4000", "opened"]}}
+{"qid": "e0e9d0e7b845", "out": {"phrases": ["common", "builder", "railways"]}}
+{"qid": "b975a117defe", "out": {"phrases": ["feature type name", "AirCon"]}}
+{"qid": "7375d48a3c96", "out": {"phrases": ["properties", "features"]}}
+{"qid": "f0af40ad7a2d", "out": {"phrases": ["first name", "user", "owns", "properties"]}}
+{"qid": "fd6651dd70bf", "out": {"phrases": ["ids", "users", "searched", "at least twice", "search"]}}
+{"qid": "1222a598a2c3", "out": {"phrases": ["names", "properties", "houses", "apartments", "more than 1 room"]}}
+{"qid": "e88a6dabf364", "out": {"phrases": ["capitals", "regions", "area", "larger than 10000"]}}
+{"qid": "efd072d78161", "out": {"phrases": ["capital", "region", "most buildings"]}}
+{"qid": "2be8d65fab08", "out": {"phrases": ["addresses", "buildings"]}}
+{"qid": "c4f26d465dda", "out": {"phrases": ["city", "student", "Linda Smith", "live"]}}
+{"qid": "8d74e0030b3d", "out": {"phrases": ["names", "customers", "nationality", "England", "Australia"]}}
+{"qid": "2bc6b34bc443", "out": {"phrases": ["restaurants"]}}
+{"qid": "69589a526397", "out": {"phrases": ["nations", "customers", "card credit", "50", "75"]}}
+{"qid": "33df055db46a", "out": {"phrases": ["restaurant", "students", "spend", "time", "least amount of time", "restaurant", "time", "students", "spent", "total"]}}
+{"qid": "1bbb1e0869b3", "out": {"phrases": ["restaurant", "bay area"]}}
+{"qid": "f2602d6709fa", "out": {"phrases": ["nationality", "card credit", "customer"]}}
+{"qid": "f4fb09232fcd", "out": {"phrases": ["french restaurant", "yosemite", "mono lake area"]}}
+{"qid": "fb6c040410f8", "out": {"phrases": ["good arabic", "mountain view"]}}
+{"qid": "aab5b276015a", "out": {"phrases": ["names", "players", "coached", "rank 1 coach"]}}
+{"qid": "0a9bce06be39", "out": {"phrases": ["names", "sponsors", "players", "residence", "Brandon", "Birtle"]}}
+{"qid": "ef0586f97576", "out": {"phrases": ["coaches", "club", "club id", "name", "number of coaches"]}}
+{"qid": "98298c1ae447", "out": {"phrases": ["names", "roller coasters", "length"]}}
+{"qid": "ea7e0032e1b2", "out": {"phrases": ["names", "countries", "roller coaster"]}}
+{"qid": "9c905329f427", "out": {"phrases": ["statuses", "roller coasters", "longer than 3300", "higher than 100"]}}
+{"qid": "a0faec62a400", "out": {"phrases": ["full name", "id", "customer", "lowest total amount of payment"]}}
+{"qid": "cd29aea34ecc", "out": {"phrases": ["full name", "actors"]}}
+{"qid": "97f4f0be16ba", "out": {"phrases": ["cities", "Australia"]}}
+{"qid": "da66c664c74d", "out": {"phrases": ["Parsing papers", "acl 2012"]}}
+{"qid": "c86c9fc761d6", "out": {"phrases": ["EMNLP 2010", "papers", "citations"]}}
+{"qid": "553e2ad4286b", "out": {"phrases": ["papers", "Richard Ladner", "published", "chi"]}}
+{"qid": "8b0d2a5ae02b", "out": {"phrases": ["home city", "drivers"]}}
+{"qid": "ed4b22193141", "out": {"phrases": ["names", "schools", "donator", "donation amount", "8.5"]}}
+{"qid": "0505c3ac286a", "out": {"phrases": ["drivers", "Hartford", "city", "younger than 40"]}}
+{"qid": "0d43d66fe622", "out": {"phrases": ["name", "school", "enrollment"]}}
+{"qid": "2c124525b51e", "out": {"phrases": ["party", "drivers"]}}
+{"qid": "f4004f36b064", "out": {"phrases": ["schools", "donator", "donation amount", "8.5"]}}
+{"qid": "eb859015f094", "out": {"phrases": ["school enrollment"]}}
+{"qid": "0030d6c409e2", "out": {"phrases": ["denomination", "schools", "founded", "before", "1890", "after", "1900"]}}
+{"qid": "99f2a89e4497", "out": {"phrases": ["denomination", "school", "players"]}}
+{"qid": "cc64d83bc7b6", "out": {"phrases": ["average hours", "projects"]}}
+{"qid": "2ce6ebe24aeb", "out": {"phrases": ["captain ranks"]}}
+{"qid": "c373b94a462d", "out": {"phrases": ["names", "scientists", "assigned", "project"]}}
+{"qid": "db1433ce6233", "out": {"phrases": ["name", "project", "scientist", "assigned", "name contains 'Smith'"]}}
+{"qid": "a797bfef83d8", "out": {"phrases": ["name", "youngest captain"]}}
+{"qid": "f20f66aad6b4", "out": {"phrases": ["names", "ships", "tonnage"]}}
+{"qid": "7640dc5c9eeb", "out": {"phrases": ["rank", "captains"]}}
+{"qid": "acade23ad00b", "out": {"phrases": ["name", "ships", "involved", "mission"]}}
+{"qid": "24850ad81c5e", "out": {"phrases": ["types", "ships", "average tonnage", "tonnage"]}}
+{"qid": "fa7bc7613f6b", "out": {"phrases": ["city", "branches", "memberships"]}}
+{"qid": "f33e0dd5fa7d", "out": {"phrases": ["card number", "members", "hometown address", "Kentucky"]}}
+{"qid": "01ae5fc249cc", "out": {"phrases": ["cities", "memberships"]}}
+{"qid": "66850d37f3fe", "out": {"phrases": ["voice sound quality score", "performances"]}}
+{"qid": "059460b00dda", "out": {"phrases": ["stage presence scores", "songs", "language", "English"]}}
+{"qid": "e896479cde0c", "out": {"phrases": ["name", "songs"]}}
+{"qid": "4f9cd201bc95", "out": {"phrases": ["titles", "songs", "names", "singers"]}}
+{"qid": "8644d2f07d97", "out": {"phrases": ["name", "singers", "citizenship", "France"]}}
+{"qid": "3a9561fdd400", "out": {"phrases": ["names", "singers", "song"]}}
+{"qid": "e6fb8f7b4cac", "out": {"phrases": ["name", "accounts", "checking balance", "average checking balance"]}}
+{"qid": "c57b74ade8da", "out": {"phrases": ["name", "total checking and savings balance", "accounts", "savings balance", "checking balance"]}}
+{"qid": "3e876d930a35", "out": {"phrases": ["average weight", "players"]}}
+{"qid": "75135461ba9f", "out": {"phrases": ["name", "checking balance", "account", "lowest savings balance"]}}
+{"qid": "c4299a4e68e9", "out": {"phrases": ["country", "league names"]}}
+{"qid": "8a689795f424", "out": {"phrases": ["college", "student", "successfully made", "team", "role", "goalie"]}}
+{"qid": "137a319a197c", "out": {"phrases": ["player ids", "height", "180cm", "overall rating", "85"]}}
+{"qid": "ead03f817252", "out": {"phrases": ["states", "colleges"]}}
+{"qid": "f378befcc309", "out": {"phrases": ["country", "player"]}}
+{"qid": "0334d304f0d9", "out": {"phrases": ["clubs", "manufacturer"]}}
+{"qid": "6e914110bc55", "out": {"phrases": ["states", "college", "students", "average"]}}
+{"qid": "da3ccb005faa", "out": {"phrases": ["players", "wins", "country", "player", "makes the most"]}}
+{"qid": "3e76092816ef", "out": {"phrases": ["name", "products", "price"]}}
+{"qid": "d8612cf1efd7", "out": {"phrases": ["names", "products", "number of events", "events"]}}
+{"qid": "7a40531b176c", "out": {"phrases": ["name", "product", "price"]}}
+{"qid": "f0b8a2fc8247", "out": {"phrases": ["silver medals", "clubs"]}}
+{"qid": "a2009d6c537b", "out": {"phrases": ["years", "competitions", "type", "Tournament"]}}
+{"qid": "b14b0e353d24", "out": {"phrases": ["clubs"]}}
+{"qid": "e3966a4eea1a", "out": {"phrases": ["average", "high temperature", "day of week"]}}
+{"qid": "c1d7389b1b75", "out": {"phrases": ["trains", "station", "station network name", "services"]}}
+{"qid": "a8ae1e3bac8c", "out": {"phrases": ["low temperature", "wind speed", "miles per hour"]}}
+{"qid": "d302cdb714bc", "out": {"phrases": ["customers", "Prague city"]}}
+{"qid": "3c6ef22abb12", "out": {"phrases": ["orders", "Lucas Mancini"]}}
+{"qid": "13f847561c8f", "out": {"phrases": ["title", "album", "released", "artist", "name", "Led"]}}
+{"qid": "8ac809b20cd8", "out": {"phrases": ["district", "area"]}}
+{"qid": "6deb980a583b", "out": {"phrases": ["name", "district", "residents"]}}
+{"qid": "a604f9856d97", "out": {"phrases": ["products", "max page size", "A4", "pages per minute color", "5"]}}
+{"qid": "2f99684ed9c3", "out": {"phrases": ["name", "regions", "affected"]}}
+{"qid": "d5c300dcd06a", "out": {"phrases": ["storms", "death records"]}}
+{"qid": "4002fe198b2f", "out": {"phrases": ["region names", "storm", "number of deaths"]}}
+{"qid": "1f4af07e38a2", "out": {"phrases": ["last names", "students", "third grade", "taught by", "COVIN JEROME"]}}
+{"qid": "2913a9b0226c", "out": {"phrases": ["students", "fourth-grade classroom"]}}
+{"qid": "3a5849fcdf54", "out": {"phrases": ["fourth-grade classroom", "classroom number", "total number of students", "students"]}}
+{"qid": "4acc2f48e0a0", "out": {"phrases": ["id", "students", "attends", "courses"]}}
+{"qid": "f76af84685a9", "out": {"phrases": ["students", "attending", "English courses"]}}
+{"qid": "be994370359f", "out": {"phrases": ["id", "students", "registered", "courses", "attended"]}}
+{"qid": "1a631091747d", "out": {"phrases": ["stadiums"]}}
+{"qid": "20c524001d31", "out": {"phrases": ["earliest date", "transcript release", "details"]}}
+{"qid": "20441f42ac4e", "out": {"phrases": ["zip code", "Port Chelsea"]}}
+{"qid": "d8d47de42c9c", "out": {"phrases": ["mobile phone number", "student", "Timmothy Ward"]}}
+{"qid": "3de06bae86f6", "out": {"phrases": ["200 meter", "300 meter", "results", "swimmers", "nationality", "Australia"]}}
+{"qid": "8a8cf21675f8", "out": {"phrases": ["countries", "swimmer"]}}
+{"qid": "1a5d2e705908", "out": {"phrases": ["exhibitions", "attendance", "ticket price"]}}
+{"qid": "5c7713d1bb80", "out": {"phrases": ["staff", "project", "project id", "number"]}}
+{"qid": "dc7c85d2147a", "out": {"phrases": ["themes", "exhibitions", "attendance", "below 100", "above 500"]}}
+{"qid": "69ee8cd98836", "out": {"phrases": ["description", "job", "researcher"]}}
+{"qid": "0ed96d1d618a", "out": {"phrases": ["names", "artists", "exhibition"]}}
+{"qid": "6fe1a3b6d18e", "out": {"phrases": ["last date", "staff", "leaving", "projects"]}}
+{"qid": "2246bd1d1943", "out": {"phrases": ["name", "count", "product", "orders"]}}
+{"qid": "607e97b6baaf", "out": {"phrases": ["order", "items", "order id"]}}
+{"qid": "b9057159ae06", "out": {"phrases": ["transactions", "investors"]}}
+{"qid": "c85a4bb959a1", "out": {"phrases": ["invoices", "created", "1989-09-03", "2007-12-25"]}}
+{"qid": "8f81ec80164b", "out": {"phrases": ["ids", "investors", "transactions"]}}
+{"qid": "8aa7e24dd691", "out": {"phrases": ["transactions", "transaction type code", "SALE", "investors"]}}
+{"qid": "10f641b97fbe", "out": {"phrases": ["problems", "product voluptatem"]}}
+{"qid": "827eb1094813", "out": {"phrases": ["problems", "product", "most problems", "number of the problems", "product name"]}}
+{"qid": "740871c12468", "out": {"phrases": ["station name", "trains", "station"]}}
+{"qid": "dab0bf1961e3", "out": {"phrases": ["location", "train stations"]}}
+{"qid": "22c14ca6ee69", "out": {"phrases": ["name", "time", "service", "trains"]}}
+{"qid": "9c2df9391ce2", "out": {"phrases": ["product", "problems", "number of problems", "product id"]}}
+{"qid": "0c06c36228af", "out": {"phrases": ["radios"]}}
+{"qid": "7fa478053526", "out": {"phrases": ["average ERP", "radios"]}}
+{"qid": "52051ed168e7", "out": {"phrases": ["affiliations", "city channels", "number of city channels", "affiliation"]}}
+{"qid": "5d72b70c15ee", "out": {"phrases": ["language", "TV Channel", "number of TV Channel"]}}
+{"qid": "486e25329ae4", "out": {"phrases": ["series", "contents", "TV Channel table"]}}
+{"qid": "10b230b3f8c3", "out": {"phrases": ["names", "cartoons", "directed", "Ben Jones"]}}
+{"qid": "ae4d545d08fe", "out": {"phrases": ["name", "email", "user", "followed", "people"]}}
+{"qid": "303b38feca0c", "out": {"phrases": ["founded year", "newest non public school"]}}
+{"qid": "0f7fa4f555ad", "out": {"phrases": ["schools", "participate", "basketball match"]}}
+{"qid": "f5b15d03c4d4", "out": {"phrases": ["names", "users", "emails", "superstar", "edu"]}}
+{"qid": "b67caa2878ba", "out": {"phrases": ["school locations", "NY"]}}
+{"qid": "c2805109b7ea", "out": {"phrases": ["enrollment", "universities"]}}
+{"qid": "d6c4f1c45e74", "out": {"phrases": ["name", "user", "tweeted", "more than once", "number of tweets", "tweeted"]}}
+{"qid": "36631866ae11", "out": {"phrases": ["students", "enrolled", "university", "rank"]}}
+{"qid": "9710690cac0f", "out": {"phrases": ["name", "city", "state", "university", "rank", "1", "Accounting major"]}}
+{"qid": "b25f2562d9a3", "out": {"phrases": ["vehicle ids", "models", "vehicle", "driven", "two drivers", "manufactured", "Ziyang"]}}
+{"qid": "e503a2f1b7d7", "out": {"phrases": ["names", "drivers", "citizens", "United States"]}}
+{"qid": "ce5049eb6a3d", "out": {"phrases": ["id", "driver", "driven", "most vehicles", "vehicles"]}}
+{"qid": "be780fa431e9", "out": {"phrases": ["annual fuel costs", "vehicles"]}}
+{"qid": "5f0aa564aadb", "out": {"phrases": ["games"]}}
+{"qid": "e2e1ff699cae", "out": {"phrases": ["names", "vehicles", "never been rented"]}}
+{"qid": "50e65b1dc6b3", "out": {"phrases": ["types", "powertrains", "vehicles", "average annual fuel costs"]}}
+{"qid": "93b131784b97", "out": {"phrases": ["platform names", "market districts"]}}
+{"qid": "92b616efe643", "out": {"phrases": ["area code", "voters", "voted"]}}
+{"qid": "5e91781c0492", "out": {"phrases": ["names", "rank", "players", "played", "game", "titled", "Super Mario World"]}}
+{"qid": "da2ed5176b8e", "out": {"phrases": ["contestant numbers", "names", "contestants", "votes"]}}
+{"qid": "ec6385141689", "out": {"phrases": ["area codes", "voters", "voted", "contestant", "Tabatha Gehling", "contestant", "Kelly Clauss"]}}
+{"qid": "1842054cfcd1", "out": {"phrases": ["majors", "students", "studying"]}}
+{"qid": "4d1f878863d9", "out": {"phrases": ["majors", "students", "treasurer votes"]}}
+{"qid": "bbe4f86c9a43", "out": {"phrases": ["registration dates", "election cycles"]}}
+{"qid": "ea7e868a1fbf", "out": {"phrases": ["countries", "people"]}}
+{"qid": "857f540001c4", "out": {"phrases": ["church names", "wedding", "year 2015"]}}
+{"qid": "401e58f45241", "out": {"phrases": ["winery", "wine", "highest score"]}}
+{"qid": "a8e614b1d6d1", "out": {"phrases": ["value", "most expensive", "boxes", "saved", "warehouse location"]}}
+{"qid": "496f4e51c12e", "out": {"phrases": ["contents", "boxes", "value"]}}
+{"qid": "2816e79f34b3", "out": {"phrases": ["code", "contents", "box", "value"]}}
+{"qid": "ee4e889d2795", "out": {"phrases": ["average price", "score", "wines", "appelation"]}}
+{"qid": "56092e40bf7f", "out": {"phrases": ["name", "country", "people", "age", "average"]}}
+{"qid": "a714ec33492c", "out": {"phrases": ["average score", "submissions"]}}
+{"qid": "1fb3934d3fc0", "out": {"phrases": ["prices", "wines", "produced", "before", "year", "2010"]}}
+{"qid": "03b595092615", "out": {"phrases": ["authors", "submissions", "scores"]}}
+{"qid": "78ae0b428a38", "out": {"phrases": ["submission", "highest score", "acceptance result", "result"]}}
+{"qid": "293f865de548", "out": {"phrases": ["names", "countries", "people"]}}
+{"qid": "0470750e1196", "out": {"phrases": ["surface area", "countries", "Caribbean"]}}
+{"qid": "ff54921c787f", "out": {"phrases": ["teams", "suffered", "eliminations"]}}
+{"qid": "7103df66dbcb", "out": {"phrases": ["languages", "Aruba"]}}
+{"qid": "1868051cddc5", "out": {"phrases": ["reign", "days held", "wrestlers"]}}
+{"qid": "c107fb60e5a8", "out": {"phrases": ["reigns", "days held", "wrestlers"]}}
+{"qid": "43ec391ee20e", "out": {"phrases": ["name", "rank", "youngest", "winners", "matches"]}}
+{"qid": "2fed0a1dde3a", "out": {"phrases": ["users", "reviewed", "businesses", "restaurant"]}}
+{"qid": "3da0b96162ec", "out": {"phrases": ["matches", "played", "2013", "2016"]}}
+{"qid": "ce67fd735560", "out": {"phrases": ["first name", "country code", "birth date", "winner", "rank points", "matches"]}}
+{"qid": "cad74dc59b26", "out": {"phrases": ["Bars", "reviewed", "Patrick"]}}
+{"qid": "c92f207c01ad", "out": {"phrases": ["tips", "Michelle", "2010"]}}
