@@ -94,6 +94,29 @@ data/cache wiring drifted (wrong set dir, missing cache, etc.) — investigate b
 > selection. That replay is the true acceptance test — run the commands above and diff against
 > `results/`.
 
+## Agent routing benchmark (live LLM — costs API credit)
+
+`run_agent_benchmark.py` drives the LangGraph agent (`agent_router.py`) over a stratified query
+sample and reports the two metric layers separately: **pool-recall** (was the GT DB in the dense
+top-k pool) vs **final routing R@1**. Unlike the cache-replay scripts above, this makes **live**
+LLM calls, so it needs a working key and spends credit (locked config: `deepseek-v4-flash`,
+thinking off, pool_k=10, max_turns=6, Coverage N=2.0, tie-break δ=0.2).
+
+```bash
+cd src/routing
+
+# Quick validation slice (12 DBs x 2 = 24 queries) + determinism re-check
+LLM_PROVIDER=deepseek python run_agent_benchmark.py --cap 2 --max-dbs 12 --dup 6
+
+# Full stratified benchmark (5 queries per GT-DB = 1040 on data/multidb)
+LLM_PROVIDER=deepseek python run_agent_benchmark.py --cap 5 --out ../../results/agent-bench-5db.jsonl
+```
+
+Per-case guard: a wall-clock `--timeout` (default 45s) → `--retry` → drop; dropped cases are
+re-run once at low concurrency (`--recover`, on by default) to absorb provider cold-start bursts.
+Per-query rows are written to `--out` (jsonl, gitignored) for bootstrap CI / error analysis.
+Reference run (2026-07-14, 5/DB, DeepSeek-direct): pool-recall 0.948, final R@1 0.770.
+
 ## Build from scratch (SECONDARY path — unverified)
 
 Only needed to regenerate the benchmark from raw sources. **Not** required for reproduction.

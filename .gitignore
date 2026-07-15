@@ -16,5 +16,8 @@ data/_build/
 *_obf.jsonl
 *_cardfromobfus*
 
+# agent benchmark raw per-query outputs (regenerate via run_agent_benchmark.py; reports/ md are tracked)
+results/*.jsonl
+
 # os cruft
 .DS_Store
