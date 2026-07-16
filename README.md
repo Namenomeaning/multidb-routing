@@ -1,169 +1,195 @@
-# Multi-DB Routing Benchmark
+# MultiDB-Route
 
-Instance-level routing for natural-language queries over a **multi-engine** database registry
-(PostgreSQL · MongoDB · Neo4j). Given one NL question and a registry of database instances, the
-system routes the question to the single best-matching instance.
+**Natural-language query routing over heterogeneous (multi-model) databases.**
 
-Pipeline (V2): semantic-card embedding → dense top-K candidate pool → LLM domain triage →
-deterministic `Coverage × Connectivity` rerank → LLM tie-break. The LLM only **extracts/selects**;
-all scoring is deterministic code (no LLM self-reported confidence).
+Given a natural-language question and a registry of database instances spanning different
+data models — relational (PostgreSQL), document (MongoDB), and graph (Neo4j) — the system
+routes the question to the single instance best able to answer it, *before* any query is
+generated. This repository is the reproducibility bundle for the accompanying paper: it ships
+the benchmark, the pipeline, the extraction/retrieval caches, and the result reports, so every
+reported number can be re-derived without rebuilding anything.
 
-This folder is **self-contained**. It ships the benchmark data, the LLM/embedding caches, the
-embedding index, the pipeline code, the Sudarshan grounding references, and the result reports —
-so the evaluation can be re-run without rebuilding anything from scratch.
+![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)
+![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green)
+![Paper: under review](https://img.shields.io/badge/paper-under%20review-orange)
 
 ---
 
-## Layout
+## Highlights
 
+- **First multi-model routing benchmark.** *MultiDB-Route* — 208 databases across 3 data
+  models, with ground-truth labels inherited deterministically from the source datasets
+  (no hand annotation).
+- **Cascade router, deterministic by construction.** Fast semantic retrieval + domain triage
+  narrow the registry; a deterministic `Coverage × Connectivity` score ranks the survivors.
+  The LLM only *extracts and selects* — it never emits a confidence number (the
+  **no-self-scoring invariant**), so every route is reproducible.
+- **Name-independent retrieval.** Each database is summarized into a *semantic card* that
+  replaces raw DDL, making retrieval robust to schema-vocabulary drift and query rephrasing.
+- **Connectivity beyond SQL.** The structural-connectivity signal is defined for document and
+  graph schemas too, not just the relational foreign-key graph.
+- **Reproducible.** LLM extraction / triage / tie-break steps replay from committed caches, so
+  a clean reproduction costs only a few hundred cheap query embeddings.
+
+## Method
+
+The pipeline runs in two phases (shaded steps are LLM extract/select; the rest is
+deterministic code):
+
+**Offline (per database, once).** Parse the schema into entities + declared relations, then
+build (i) a **semantic card** — a short domain description plus a glossary of ambiguous names —
+and (ii) an **adjacency graph** of neighbour relations between entities.
+
+**Online (per query).**
+
+```text
+question
+  → parse into a shared phrase set (once)
+  → retrieve: embed → top-10 candidate pool (semantic cards)
+  → triage: LLM drops out-of-domain candidates → shortlist
+  → score each candidate:  Coverage(e^{-n·x}) × Connectivity(∈{0,1})   [deterministic]
+  → decide: clear leader → answer;  near-tie (δ) → LLM tie-break → answer
+  → route to the single destination
 ```
+
+## Repository layout
+
+```text
 multidb-routing/
-  src/routing/        the pipeline + all eval scripts (one flat, interdependent module set)
-  src/clients/        openrouter.py — the single LLM/embedding client (all calls via OpenRouter)
-  data/
-    multidb/          MAIN set — 208 DB, 3 engines (Setup B, "ours")
-    spider/           Setup A — Spider-Route (206 PG), Sudarshan-faithful repro
-    bird/             Setup A — BIRD-Route (80 PG), Sudarshan-faithful repro
-      each set has: databases.jsonl, splits/{test,dev,support-balanced}.jsonl,
-                    semantic/{cards,adjacency,inventory}.jsonl, index/{card,raw}.npy,
-                    and committed *_cache/ dirs (LLM extraction / triage / tie-break replay)
-  refs/sudarshan/     third-party Sudarshan routing prompts (grounding; arXiv:2601.19825)
-  results/            result reports (narrative source of truth)
-  BENCHMARK.md        locked benchmark spec
-  scripts/
-    download_datasets.py   from-scratch raw fetch (provenance; unverified end-to-end)
-    build/                 original build-chain scripts (provenance; see scripts/build/README.md)
-  pyproject.toml  uv.lock  .env.example
+├── src/
+│   ├── routing/        pipeline + evaluation scripts (one flat, interdependent module set)
+│   └── clients/        openrouter.py — the single LLM/embedding client
+├── data/
+│   ├── multidb/        MAIN registry — 208 DBs, 3 models
+│   ├── spider/         Spider-Route (206 PG) — single-model SQL reconstruction
+│   └── bird/           BIRD-Route (80 PG)   — single-model SQL reconstruction
+│                       each set: databases.jsonl, splits/, semantic/{cards,adjacency,inventory}.jsonl,
+│                       index/{card,raw}.npy, and committed *_cache/ (LLM replay)
+├── refs/sudarshan/     third-party baseline prompts (grounding)
+├── results/            result reports (source of truth for the numbers above)
+├── scripts/            dataset download + from-scratch build chain (provenance)
+├── BENCHMARK.md        locked benchmark specification
+└── pyproject.toml · uv.lock · .env.example
 ```
 
-## Prerequisites
+## Installation
 
 ```bash
-uv sync                       # installs runtime deps (numpy, openai, python-dotenv, ...)
-cp .env.example .env          # then edit .env
+uv sync                       # numpy, openai, python-dotenv, ...
+cp .env.example .env          # then add your key
 ```
 
-`.env` needs:
+`.env` requires:
 
-- `OPENROUTER_API_KEY=...` — **all** LLM + embedding calls route through OpenRouter.
-- optional `LLM_PROVIDER=deepseek` + `DEEPSEEK_API_KEY=...` — to call DeepSeek directly (used for
-  the cache-optimized build/triage paths).
+- `OPENROUTER_API_KEY=...` — **all** LLM and embedding calls route through OpenRouter.
+- *(optional)* `LLM_PROVIDER=deepseek` + `DEEPSEEK_API_KEY=...` — to call DeepSeek directly for
+  the cache-optimized extraction paths.
 
-Models are configured in code/env (chat: a DeepSeek model; embedding: `text-embedding-3-large`),
-not hardcoded across files — change the model = change config.
+Model names are set via env/config, not hardcoded across files — change the model by changing
+config, not code.
 
-## Reproduce the published numbers (PRIMARY path)
+## Reproducing the results
 
-The data + index + caches are prebuilt, so you do **not** download or rebuild anything. Run the
-eval scripts directly with `--set` (a route dir). Query embeddings are recomputed at eval time
-(a few hundred cheap embedding calls per set); the LLM extraction / triage / tie-break steps
-**replay from the committed `*_cache/` dirs**, so LLM cost is near-zero on a clean replay.
+The data, embedding index, and extraction caches are prebuilt — **nothing needs to be
+downloaded or rebuilt.** Query embeddings are recomputed at eval time (a few hundred cheap
+calls per set); the LLM extraction / triage / tie-break steps **replay from the committed
+`*_cache/` directories**, so LLM cost on a clean replay is near zero.
 
 ```bash
 cd src/routing
 
-# 1) Retrieval layer — card vs raw-DDL, R@k + McNemar (per set)
+# Retrieval layer — card vs. raw-DDL, recall@k + significance
 python retrieval_eval.py --bench ../../data/multidb --index ../../data/multidb/index
 python retrieval_eval.py --bench ../../data/spider  --index ../../data/spider/index
 python retrieval_eval.py --bench ../../data/bird    --index ../../data/bird/index
 
-# 2) Full pipeline (retrieval -> rerank) on the main set
-python full_eval_v1.py --set ../../data/multidb
+# Full pipeline (retrieval → deterministic rerank)
+python full_eval_v1.py   --set ../../data/multidb
+python agent_flow_eval.py --set ../../data/multidb        # final routing: triage → score → tie-break
 
-# 3) Final-routing agent flow (triage -> deterministic rerank -> tie-break)
-python agent_flow_eval.py --set ../../data/multidb
-
-# 4) Hybrid gate + agent
-python hybrid_v2_eval.py --set ../../data/multidb
-
-# 5) Sudarshan-faithful baseline arm (Setup A)
+# Single-model SQL baseline reconstruction
 python pure_sudarshan_eval.py --set ../../data/spider
 python pure_sudarshan_eval.py --set ../../data/bird
 ```
 
-Scripts that take `--score-only` (e.g. `agent_flow_eval.py`, `agent_rerank.py`,
-`pure_sudarshan_eval.py`) re-score purely from cache with **no** API calls — use that for a
-zero-cost integrity check that the caches and scoring still line up.
+Scripts that accept `--score-only` re-score **entirely from cache with no API calls** — use that
+for a zero-cost integrity check. Cross-check the printed metrics against `results/`; a
+divergence means the data/cache wiring drifted (wrong set dir, missing cache) and should be
+investigated before the numbers are trusted.
 
-Cross-check the printed metrics against the reports in `results/`. Discrepancies mean the
-data/cache wiring drifted (wrong set dir, missing cache, etc.) — investigate before trusting.
+> **Reproducibility note.** This bundle was assembled from the original research tree: path
+> plumbing was re-wired, but scoring, prompts, and formulas are byte-identical. The committed
+> caches still warrant one real replay per set to confirm the rename did not break cache lookup
+> or set selection — that replay is the true acceptance test.
 
-> **Caveat (re-plumbed layout).** This folder was assembled from the original research tree;
-> path plumbing was edited but scoring/prompts/formulas are byte-identical. The committed caches
-> still need one real replay per set to confirm the rename didn't break cache lookup or set
-> selection. That replay is the true acceptance test — run the commands above and diff against
-> `results/`.
+## Agent routing (optional, live LLM)
 
-## Agent routing benchmark (live LLM — costs API credit)
-
-`run_agent_benchmark.py` drives the LangGraph agent (`agent_router.py`) over a stratified query
-sample and reports the two metric layers separately: **pool-recall** (was the GT DB in the dense
-top-k pool) vs **final routing R@1**. Unlike the cache-replay scripts above, this makes **live**
-LLM calls, so it needs a working key and spends credit (locked config: `deepseek-v4-flash`,
-thinking off, pool_k=10, max_turns=6, Coverage N=2.0, tie-break δ=0.2).
+An agentic realization of the same pipeline, built on **LangGraph**: the LLM issues the
+`retrieve` / `inspect` / `answer` tool calls itself, selects which candidates to inspect, and
+performs the tie-break — while reusing the *exact same deterministic scoring code* as above
+(no forked scoring). It is provided as a feasibility demonstration, not as a separate reported
+metric; because the agent controls candidate selection itself, its end-to-end numbers differ
+from the deterministic pipeline.
 
 ```bash
 cd src/routing
 
-# Quick validation slice (12 DBs x 2 = 24 queries) + determinism re-check
+# Quick validation slice (24 queries) + determinism re-check
 LLM_PROVIDER=deepseek python run_agent_benchmark.py --cap 2 --max-dbs 12 --dup 6
 
-# Full stratified benchmark (5 queries per GT-DB = 1040 on data/multidb)
+# Full stratified benchmark (5 queries per gold DB = 1,040 on data/multidb)
 LLM_PROVIDER=deepseek python run_agent_benchmark.py --cap 5 --out ../../results/agent-bench-5db.jsonl
 ```
 
-Per-case guard: a wall-clock `--timeout` (default 45s) → `--retry` → drop; dropped cases are
-re-run once at low concurrency (`--recover`, on by default) to absorb provider cold-start bursts.
-Per-query rows are written to `--out` (jsonl, gitignored) for bootstrap CI / error analysis.
-Reference run (2026-07-14, 5/DB, DeepSeek-direct): pool-recall 0.948, final R@1 0.770.
+Unlike the cache-replay scripts, this makes **live** LLM calls (spends credit). Locked config:
+`deepseek-v4-flash`, thinking off, `pool_k=10`, `max_turns=6`, Coverage `n=2.0`, tie `δ=0.2`.
+Per-query rows go to `--out` (gitignored) for bootstrap CI / error analysis.
 
-## Build from scratch (SECONDARY path — unverified)
+## Building from scratch (secondary path — unverified end-to-end)
 
-Only needed to regenerate the benchmark from raw sources. **Not** required for reproduction.
+Only needed to regenerate the benchmark from raw sources; **not** required for reproduction.
 
 ```bash
-python scripts/download_datasets.py --list      # see the source manifest (CLAUDE.md §10)
-python scripts/download_datasets.py             # fetch automatable sources into data/_raw/
-# then follow scripts/build/README.md to run the build chain, then:
-#   LLM_PROVIDER=deepseek python src/routing/build_semantic.py   # semantic cards + adjacency
-#   python src/routing/build_index.py                            # embedding index
+python scripts/download_datasets.py --list        # source manifest
+python scripts/download_datasets.py               # fetch automatable sources → data/_raw/
+# then follow scripts/build/README.md, then:
+LLM_PROVIDER=deepseek python src/routing/build_semantic.py   # semantic cards + adjacency
+python src/routing/build_index.py                            # embedding index
 ```
 
-⚠️ The from-scratch path is **unverified end-to-end**: external endpoints/formats change, some
-sources need a manual/license download, and the build scripts assume the original research
-directory layout (see `scripts/build/README.md`). The build scripts also need **pandas**
-(`uv pip install pandas`), which the runtime path does not. Spot-check one source before relying
-on it.
+⚠️ External endpoints/formats change, some sources need a manual/license download, and the
+build scripts assume the original research layout and need `pandas`. Spot-check one source
+before relying on this path.
 
-## What is NOT shipped (and why)
+## What is not shipped (and why)
 
-- **Secrets** — only `.env.example` ships; never the live `.env`.
+- **Secrets** — only `.env.example`; never a live `.env`.
 - **Raw source datasets** (`data/_raw/`, multi-GB) — regenerate via `scripts/download_datasets.py`.
-- **Obfuscation control artifacts** (`*_obf` / name-masked variants) — deprecated control, omitted.
-- **A second, dead routing implementation** and the scripts that import it
-  (`build-semantic-layer.py`, `bucket-scenarios.py`, `baseline-embedding-scenario60.py`,
-  `eval-m3-agent.py`) — not part of this pipeline.
+- **Obfuscation-control artifacts** (name-masked variants) — deprecated control, omitted.
+- **A second, dead routing implementation** and the scripts that import it — not part of this pipeline.
 
 ## Citation
 
-Reproducibility bundle for the paper *Agent-Based Natural Language Query Routing to Heterogeneous
-Databases*. The method builds on Sudarshan et al., *Routing End User Queries to Enterprise
-Databases* (<https://arxiv.org/html/2601.19825v1>).
+If you use this benchmark or code, please cite:
 
-## Licensing / redistribution
+```bibtex
+@misc{multidbroute2026,
+  title  = {Natural Language Query Routing in Heterogeneous Databases},
+  author = {Nguyen, Tran Minh Thu and Phan, Vu Anh Quang and Dao, Ngoc Hung},
+  year   = {2026},
+  note   = {Under review},
+  url    = {https://github.com/Namenomeaning/multidb-routing}
+}
+```
 
-- **This repository's own code** (`src/`, `scripts/`) is released under the MIT License (see
-  `LICENSE`).
-- **`refs/sudarshan/`** holds third-party prompts (not under this repo's license); baseline paper:
-  <https://arxiv.org/html/2601.19825v1>.
-- **`data/`** contains artifacts derived from Spider, BIRD, CypherBench, Text2Cypher, DocSpider,
-  and MongoDB-EAI, each under its own upstream license:
-  - Spider — <https://yale-lily.github.io/spider> (CC BY-SA 4.0)
-  - BIRD — <https://bird-bench.github.io/> (CC BY-SA 4.0)
-  - DocSpider — <https://www.cambridge.org/core/journals/natural-language-processing/article/docspider-a-dataset-of-crossdomain-natural-language-querying-for-mongodb/1E35B1DBF843B9E0F444B595B975695A>
-  - MongoDB-EAI — <https://huggingface.co/datasets/mongodb-eai/natural-language-to-mongosh>
-  - CypherBench — <https://huggingface.co/datasets/megagonlabs/cypherbench>
-  - Text2Cypher — <https://huggingface.co/datasets/neo4j/text2cypher-2024v1>
+The method builds on Sudarshan et al., *Routing End User Queries to Enterprise Databases*
+(arXiv:2601.19825).
 
-  Derived splits are redistributed for reproducibility under the source terms; confirm each
-  source's redistribution conditions before any further use.
+## License
+
+- **Code** (`src/`, `scripts/`) — MIT (see `LICENSE`).
+- **`refs/sudarshan/`** — third-party prompts, under their original terms.
+- **`data/`** — artifacts derived from Spider, BIRD, DocSpider, MongoDB-EAI, CypherBench, and
+  Text2Cypher, each under its own upstream license (CC BY-SA 4.0 for Spider/BIRD; see each
+  source for the rest). Derived splits are redistributed for reproducibility under the source
+  terms — confirm each source's conditions before further use.
