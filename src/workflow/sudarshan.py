@@ -15,7 +15,7 @@ Reported two-layer (CLAUDE.md §3): pool recall@5 + R@1|in-pool + R@1(all). McNe
 vs OURS arm-C (card+fixed-parse+agent-tie), reconstructed from decomp_card_cache on the SAME query
 slice (identical sampling) so the comparison is paired and honest.
 
-Caches in pure_sud_cache/: map_raw.jsonl {qid,cand,out}. Resumable; --score-only re-scores no LLM.
+Caches in sudarshan_cache/: map_raw.jsonl {qid,cand,out}. Resumable; --score-only re-scores no LLM.
 """
 import argparse
 import hashlib
@@ -186,7 +186,7 @@ def main() -> None:
     print(f"{root.name}: {len(qs)} q / {len({q['instance_id'] for q in qs})} GT-DB, "
           f"RAW-pool top-{K}, n={args.n}, model={chat_model()}", flush=True)
 
-    cdir = root / "cache" / "pure_sud_cache"
+    cdir = root / "cache" / "sudarshan_cache"
     cdir.mkdir(exist_ok=True)
     map_p = cdir / "map_raw.jsonl"
     mp = {(r["qid"], r["cand"]): r["out"] for r in (load(map_p) if map_p.exists() else [])}

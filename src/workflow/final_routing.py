@@ -18,7 +18,7 @@ doc-path co-residence / Neo4j graph rels) lives in adjacency.jsonl, built per en
 flow serves all three DB types.
 
 Two-layer metric: R@1 reported BOTH overall and | GT-in-triaged-pool (routing layer isolated from
-retrieval/triage misses). Caches under <set>/cache/agent_flow_cache/. --score-only skips all LLM.
+retrieval/triage misses). Caches under <set>/cache/final_routing_cache/. --score-only skips all LLM.
 
 Usage:
   LLM_PROVIDER=deepseek python agent_flow_eval.py --set <route_dir> --n-queries 100
@@ -108,9 +108,6 @@ def main() -> None:
                     help="[default cal = locked pipeline] calibrated mapping (map derived attrs, "
                          "abstain only values/proper-nouns). loose (Sudarshan-faithful, over-maps) "
                          "and tight (abstain-heavy) are ablation arms only.")
-    ap.add_argument("--ptag", default="v2",
-                    help="[default v2 = locked pipeline] parse/map cache version. v1 = original "
-                         "(stale) caches kept for ablation reference only.")
     ap.add_argument("--score-only", action="store_true")
     ap.add_argument("--dump", default="", help="write per-qid V2 correctness jsonl (paired McNemar)")
     args = ap.parse_args()
@@ -153,15 +150,13 @@ def main() -> None:
     qmap = {q["_qid"]: q for q in sample}
     print(f"{name}: {len(sample)} queries (engine-balanced) | triaged pool reused")
 
-    cdir = root / "cache" / "agent_flow_cache"
+    cdir = root / "cache" / "final_routing_cache"
     cdir.mkdir(exist_ok=True)
     map_prompt = {"tight": MAP_PROMPT_TIGHT, "cal": MAP_PROMPT_CAL}.get(args.map, MAP_PROMPT)
-    # separate caches per (parse version, map prompt, margin) so configs never reuse stale results.
-    # ptag=v1 keeps the original un-suffixed filenames; bumping ptag forces fresh parse + map.
-    psuf = "" if args.ptag == "v1" else f"_{args.ptag}"
-    parse_p = cdir / f"parse{psuf}.jsonl"
-    map_p = cdir / f"map_{args.map}{psuf}.jsonl"
-    tie_p = cdir / f"tiebreak_{args.map}{psuf}_m{args.tie_margin}.jsonl"
+    # separate caches per (map prompt, margin) so ablation arms never reuse each other's results.
+    parse_p = cdir / "parse.jsonl"
+    map_p = cdir / f"map_{args.map}.jsonl"
+    tie_p = cdir / f"tiebreak_{args.map}_m{args.tie_margin}.jsonl"
     parse = {r["qid"]: r["out"] for r in (load(parse_p) if parse_p.exists() else [])}
     mp = {(r["qid"], r["cand"]): r["out"] for r in (load(map_p) if map_p.exists() else [])}
     tie = {r["qid"]: r["choice"] for r in (load(tie_p) if tie_p.exists() else [])}

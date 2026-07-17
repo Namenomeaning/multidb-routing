@@ -217,7 +217,7 @@ def main() -> None:
     qv = embed_all([q["question"] for q in qs])
     pools = top_pool(qv, card_idx, ids, args.kmax)
 
-    cache_dir = root / "cache" / "agent_cache"
+    cache_dir = root / "cache" / "rerank_cache"
     cache_dir.mkdir(exist_ok=True)
     ex_path, ho_path, hy_path = (cache_dir / "extractions.jsonl",
                                  cache_dir / "holistic.jsonl", cache_dir / "hybrid.jsonl")

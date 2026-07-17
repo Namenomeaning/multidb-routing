@@ -7,7 +7,7 @@ lifts in-pool instance/engine accuracy, or whether 0.822 is a data ceiling (prom
 Engine-neutral guard: no prompt may name or prefer an engine (m3-design-decisions anti-pattern).
 
 Reuses agent_rerank extraction cache (no extraction calls). Each variant's picks cached to
-agent_cache/pv_<id>.jsonl. Usage: LLM_PROVIDER=deepseek python prompt_variant_eval.py --set <dir>
+rerank_cache/pv_<id>.jsonl. Usage: LLM_PROVIDER=deepseek python prompt_variant_eval.py --set <dir>
 """
 from __future__ import annotations
 
@@ -80,7 +80,7 @@ def main():
     qv = embed_all([q["question"] for q in qs])
     pools = top_pool(qv, card_idx, ids, args.kmax)
 
-    cache_dir = root / "cache" / "agent_cache"
+    cache_dir = root / "cache" / "rerank_cache"
     extr_cache = {(r["qid"], r["cand"]): r["out"] for r in load(cache_dir / "extractions.jsonl")}
 
     def sc(qid, c):
