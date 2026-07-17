@@ -19,7 +19,7 @@ build_index embeds (domain_description + glossary + entities + DECLARED relation
 retrieval representation. Connectivity (code) uses the full adjacency (declared ∪ inferred).
 
 Two-layer metrics (CLAUDE.md §3): pool recall@K reported separately; rerank judged R@1 | GT-in-pool.
-Caches under <set>/decomp_card_cache/ (own dir → agent_rerank caches untouched). --score-only reruns
+Caches under <set>/cache/decomp_card_cache/ (own dir → agent_rerank caches untouched). --score-only reruns
 the deterministic scoring with no LLM calls.
 
 Usage:
@@ -211,7 +211,7 @@ def main() -> None:
     pools = top_pool(qv, card_idx, ids, K)
     pool_by = {q["_qid"]: pool for q, pool in zip(qs, pools)}
 
-    cdir = root / "decomp_card_cache"
+    cdir = root / "cache" / "decomp_card_cache"
     cdir.mkdir(exist_ok=True)
     bare_p, card_p, parse_p, map_p, mapt_p, tie_p, tiet_p = (
         cdir / "extract_bare.jsonl", cdir / "extract_card.jsonl", cdir / "parse.jsonl",

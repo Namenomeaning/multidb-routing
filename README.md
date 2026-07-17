@@ -66,8 +66,9 @@ multidb-routing/
 │   ├── multidb/        MAIN registry — 208 DBs, 3 models
 │   ├── spider/         Spider-Route (206 PG) — single-model SQL reconstruction
 │   └── bird/           BIRD-Route (80 PG)   — single-model SQL reconstruction
-│                       each set: databases.jsonl, splits/, semantic/{cards,adjacency,inventory}.jsonl,
-│                       index/{card,raw}.npy, and committed *_cache/ (LLM replay)
+│                       each set separates SOURCE from runtime logs:
+│                         source — databases.jsonl · splits/ · semantic/{cards,adjacency,inventory}.jsonl · index/{card,raw}.npy
+│                         cache/ — committed LLM replay logs (extraction · triage · mapping · tie-break)
 ├── refs/sudarshan/     third-party baseline prompts (grounding)
 ├── results/            RESULTS.md (all reported numbers, one file) + figs/ (pipeline figure)
 ├── scripts/            dataset download + from-scratch build chain (provenance)

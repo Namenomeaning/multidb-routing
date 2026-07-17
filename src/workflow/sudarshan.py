@@ -138,7 +138,7 @@ def sample_slice(root: Path, dbs: dict, cards: set, max_dbs: int, cap: int, seed
 def ours_picks(root: Path, qs: list[dict], invs: dict, n: float) -> tuple[dict, dict]:
     """Reconstruct OURS arm-C (card + fixed-parse + agent tie-break) picks on card-pool top-5,
     from decomp_card_cache. Returns (pick_by_qid, inpool_by_qid)."""
-    cdir = root / "decomp_card_cache"
+    cdir = root / "cache" / "decomp_card_cache"
     parse = {r["qid"]: r["out"] for r in load(cdir / "parse.jsonl")}
     mapc = {(r["qid"], r["cand"]): r["out"] for r in load(cdir / "map_card.jsonl")}
     tie = {r["qid"]: r["pick"] for r in load(cdir / "tiebreak.jsonl")}
@@ -186,7 +186,7 @@ def main() -> None:
     print(f"{root.name}: {len(qs)} q / {len({q['instance_id'] for q in qs})} GT-DB, "
           f"RAW-pool top-{K}, n={args.n}, model={chat_model()}", flush=True)
 
-    cdir = root / "pure_sud_cache"
+    cdir = root / "cache" / "pure_sud_cache"
     cdir.mkdir(exist_ok=True)
     map_p = cdir / "map_raw.jsonl"
     mp = {(r["qid"], r["cand"]): r["out"] for r in (load(map_p) if map_p.exists() else [])}

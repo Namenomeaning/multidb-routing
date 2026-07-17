@@ -128,7 +128,7 @@ def main() -> None:
         for q, row in zip(qs, order):
             near_ids[q["_qid"]] = [idx_ids[j] for j in row if idx_ids[j] in keep_ids]
 
-    cache_dir = root / "zeroshot_cache"
+    cache_dir = root / "cache" / "zeroshot_cache"
     cache_dir.mkdir(exist_ok=True)
     oai = None if args.score_only else client()
     lock = threading.Lock()

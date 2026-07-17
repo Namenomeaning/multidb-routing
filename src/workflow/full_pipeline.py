@@ -82,7 +82,7 @@ def main():
     pools = top_pool(qv, card_idx, ids, args.kmax)
     pool_by = {q["_qid"]: pool for q, pool in zip(qs, pools)}
 
-    cache_dir = root / "agent_cache"
+    cache_dir = root / "cache" / "agent_cache"
     cache_dir.mkdir(exist_ok=True)
     ex_path = cache_dir / "extractions.jsonl"
     extr_cache = {(r["qid"], r["cand"]): r["out"] for r in (load(ex_path) if ex_path.exists() else [])}

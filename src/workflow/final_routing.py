@@ -18,7 +18,7 @@ doc-path co-residence / Neo4j graph rels) lives in adjacency.jsonl, built per en
 flow serves all three DB types.
 
 Two-layer metric: R@1 reported BOTH overall and | GT-in-triaged-pool (routing layer isolated from
-retrieval/triage misses). Caches under <set>/agent_flow_cache/. --score-only skips all LLM.
+retrieval/triage misses). Caches under <set>/cache/agent_flow_cache/. --score-only skips all LLM.
 
 Usage:
   LLM_PROVIDER=deepseek python agent_flow_eval.py --set <route_dir> --n-queries 100
@@ -123,7 +123,7 @@ def main() -> None:
     adjs = {a["instance_id"]: a for a in load(root / "semantic" / "adjacency.jsonl")}
 
     # reuse triage picks (qid -> picked ~3) from the pipeline benchmark cache
-    tri_p = root / "triage_cache" / f"triage_full_desc_cap{args.cap}_s{args.seed}.jsonl"
+    tri_p = root / "cache" / "triage_cache" / f"triage_full_desc_cap{args.cap}_s{args.seed}.jsonl"
     if not tri_p.exists():
         print(f"MISSING {tri_p} — run retrieval_pipeline_benchmark.py first"); return
     picks = {r["qid"]: r["picked"] for r in load(tri_p)}
@@ -153,7 +153,7 @@ def main() -> None:
     qmap = {q["_qid"]: q for q in sample}
     print(f"{name}: {len(sample)} queries (engine-balanced) | triaged pool reused")
 
-    cdir = root / "agent_flow_cache"
+    cdir = root / "cache" / "agent_flow_cache"
     cdir.mkdir(exist_ok=True)
     map_prompt = {"tight": MAP_PROMPT_TIGHT, "cal": MAP_PROMPT_CAL}.get(args.map, MAP_PROMPT)
     # separate caches per (parse version, map prompt, margin) so configs never reuse stale results.

@@ -105,7 +105,7 @@ def main():
     qv = embed_all([q["question"] for q in qs])
     pools = top_pool(qv, card_idx, ids, args.kmax)
 
-    cache_dir = root / "agent_cache"
+    cache_dir = root / "cache" / "agent_cache"
     extr_cache = {(r["qid"], r["cand"]): r["out"]
                   for r in load(cache_dir / "extractions.jsonl")}
     hy2_path = cache_dir / "hybrid2.jsonl"
