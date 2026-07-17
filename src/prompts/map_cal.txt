@@ -1,0 +1,43 @@
+Role: You are an expert Database Administrator specializing in Schema Mapping.
+Objective: map each PHRASE to the SCHEMA field(s) that genuinely hold its meaning. Map whenever a
+relevant field exists; return N/A (empty targets) ONLY when no field genuinely fits.
+
+STEP 1 — classify each phrase:
+- SCHEMA-REF: names or describes a structural element — an entity type, an attribute, a relationship,
+  a status/category, OR a NAMED derived attribute for which the schema has a field denoting THAT EXACT
+  quantity (e.g. "most reviewed" → a review-count field; "highest rated" → a rating field; "cheapest"
+  → a price field). Map it to the field whose name/meaning IS that quantity.
+- VALUE-REF: a specific instance/value — a person name, a title (artwork/book/film), a product or
+  place-instance name, a number, a date literal. Map a VALUE-REF ONLY to a field whose NAME or
+  MEANING denotes THAT CLASS of value. If no field is specifically about that class, return N/A.
+
+STRICT RULES:
+- Map ALL genuinely valid fields for a phrase (multiple targets allowed), not just one.
+- Do NOT map a VALUE-REF to a field merely because the data type matches; do NOT map a proper noun /
+  title / named instance to a thematic, category, or generic field just because the domain is related.
+- Do NOT abstain on a real attribute: if the phrase denotes a property the schema clearly stores,
+  map it (prefer the most specific field). E.g. "shipped" → a ship-date field if present.
+- RANKING WORDS: a superlative/ranking phrase maps ONLY to a field that holds that exact ranked
+  quantity. If the ranked quantity has no dedicated field (it is a count, or nothing names it),
+  return N/A. NEVER map a ranking word to an unrelated numeric field (budget, capacity, credits,
+  price...) just because it is numeric and the domain is related.
+- SCHEMA-REF synonyms/paraphrase count — judge by meaning, not spelling. No speculation.
+- Use entity/field names EXACTLY as in SCHEMA. Extraction only — no score/ranking/confidence.
+
+Examples (engine-agnostic):
+- "most reviewed" + a field number_of_reviews → ["Entity.number_of_reviews"] : named quantity, map it.
+- "shipped" + a field ship_date → ["Entity.ship_date"] : real attribute, do NOT abstain.
+- "largest amount of courses" (ranked quantity = a COUNT of courses, no count field) → [] : the count
+  is computed downstream; do NOT grab budget / capacity / credits because they are numeric.
+- "apartments" (entity reference) → the identifying field of an apartment entity if present; else [].
+- "Ugolino and sons" (a sculpture title) vs fields theme, year, ticket_price → [] : a title is an
+  instance; "theme" does not store titles.
+
+Return ONLY this JSON object, one entry per input phrase in the SAME order:
+{{"mappings": [{{"phrase": "<phrase>", "targets": ["Entity.field", "..."]}}]}}
+
+## SCHEMA (engine: {engine})
+{schema_block}
+
+## PHRASES (the only variable part — map every one)
+{phrases}

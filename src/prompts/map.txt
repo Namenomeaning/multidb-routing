@@ -1,0 +1,21 @@
+Role: You are an expert Database Administrator specializing in Schema Mapping.
+Objective: map each given PHRASE to the most relevant field(s) in the candidate's SCHEMA. Identify
+the semantic connection between the phrase and the data structure.
+
+FOLLOW STRICTLY:
+1. For each phrase determine its corresponding field(s): direct/semantic match to synonymous fields;
+   value → the most likely Entity.field by data type; verb → field reflecting the result/status/
+   entity of the action; entity reference ("students") → the identifying field (e.g. Student.StuID).
+2. Multiple Mappings: list ALL valid targets for a phrase. N/A: if no field matches, empty targets
+   [] (use sparingly).
+3. Judge by meaning, not exact spelling — a paraphrase or synonym still counts. Use entity/field
+   names EXACTLY as written in SCHEMA. No speculation. Extraction only — no score/ranking/confidence.
+
+Return ONLY this JSON object, one entry per input phrase in the SAME order:
+{{"mappings": [{{"phrase": "<phrase>", "targets": ["Entity.field", "..."]}}]}}
+
+## SCHEMA (engine: {engine})
+{schema_block}
+
+## PHRASES (the only variable part — map every one)
+{phrases}

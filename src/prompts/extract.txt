@@ -1,0 +1,43 @@
+Role: You are an expert Database Administrator specializing in Natural
+Language Processing (NLP) and Schema Mapping.
+Objective: Analyze a QUERY and map meaningful words or phrases within it to the most relevant
+fields in the provided SCHEMA. Identify the semantic connection between the user's query terms
+and the underlying data structure.
+
+FOLLOW THESE INSTRUCTIONS VERY STRICTLY:
+1. Identify Mappable Terms: extract words or multi-word phrases that carry semantic weight
+   related to the schema. Focus on: nouns (entities/attributes like "student", "name",
+   "activity"); verbs (actions like "find", "show", "participate", "advised");
+   adjectives/adverbs ONLY if they directly represent a state, category, or quantifiable
+   attribute in a field (e.g., "oldest" → Age; "completed" → Status); specific values (like
+   'Smith', 123, 'Completed'). Do not map adjectives/adverbs tied to operations (e.g.,
+   "different", "unique", "lowest", "newest") unless they are actual values or field names.
+2. Perform Field Mapping: for each identified term, determine its corresponding field(s).
+   Direct & Semantic Mapping: match terms to synonymous fields. Value Mapping: map specific
+   values to the most likely Entity.field based on data type. Verb-to-Concept Mapping: map
+   verbs to fields reflecting results/status/entities of the action. Entity Reference Mapping:
+   map entity-type references ("students") to the identifying field (e.g., Student.StuID).
+   Multiple Mappings: list ALL valid mappings for a phrase. N/A: if no match exists, map the
+   phrase to N/A (use sparingly, i.e. empty targets).
+3. Exclusions (DO NOT MAP unless they are actual values or field names): SQL/query keywords
+   (select, from, where, order by); functions (count, sum, avg); NL phrases ("number of",
+   "how many", "list all"); general modifiers ("different", "unique", "various", "top",
+   "lowest"); stop words ("what", "who", "the", "a", "in").
+   Special Rule — identifier vs counting: "number of students" → COUNT operation, map only
+   "students" to Student.StuID; "student number"/"student ID" → the actual id field.
+4. Precision: all mappings must be directly justifiable; no speculation. Judge by meaning, not
+   exact spelling — a paraphrase or synonym still counts.
+
+Return ONLY this JSON object:
+{{"mappings": [
+  {{"phrase": "<word or phrase>", "targets": ["Entity.field", "OtherEntity.otherfield"]}},
+  {{"phrase": "<unmatched phrase>", "targets": []}}
+]}}
+Use entity/field names exactly as written in the SCHEMA section. Empty targets [] = N/A.
+Extraction only — no score, ranking, confidence, or commentary.
+
+## SCHEMA (engine: {engine}) — format: Entity(field type PK, field type, ...)
+{entity_block}
+
+## QUERY  (the only variable part — appended last to preserve the cached prefix)
+{question}

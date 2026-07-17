@@ -1,0 +1,39 @@
+You are documenting a database for a retrieval index. Read the schema
+inventory below and produce a JSON object with exactly two fields.
+
+## Schema inventory
+Engine: {engine}
+Entities and fields:
+{entity_block}
+Declared relationships:
+{relations_block}
+{question_section}
+## Task
+Return ONLY this JSON object:
+{{
+  "domain_description": "<100-150 words>",
+  "term_glossary": {{"<opaque_name>": "<gloss, max 20 words>"}}
+}}
+
+## Rules for domain_description
+- Describe what the database is about: its domain, scope, main entities,
+  and what kinds of questions it can answer.
+- Mention ONLY relationships that appear in "Declared relationships" above.
+  Do NOT infer or invent any new relationship.
+- If sample questions are provided, make sure the entities and terms those
+  questions refer to are mentioned in the description.
+- Do not copy question sentences verbatim; describe content in your own words.
+
+## Rules for term_glossary
+- Gloss ONLY entity or field names whose meaning is not obvious from the
+  name itself (abbreviations, codes, domain jargon).
+- Write a gloss ONLY when the surrounding schema context is sufficient to
+  infer the meaning. If you cannot infer it from the input, OMIT the name.
+  An empty glossary {{}} is a valid answer.
+- Each gloss is at most 20 words. Use names exactly as they appear in the
+  inventory.
+
+## General rules
+- Use only information present in the input. Do not use outside knowledge
+  about similarly-named datasets.
+- Do not output scores, confidence, or any field other than the two above.

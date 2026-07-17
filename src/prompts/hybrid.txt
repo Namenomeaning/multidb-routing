@@ -1,0 +1,10 @@
+These databases all structurally match the question. Pick the single one whose
+domain best fits what the question is asking about.
+
+## Question
+{question}
+
+## Candidate databases (all structurally valid)
+{candidate_block}
+
+Return ONLY this JSON object: {{"choice": <number>}}

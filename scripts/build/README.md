@@ -41,8 +41,8 @@ raw sources (data/_raw/ via ../download_datasets.py)
             │
             └─ then the semantic layer + embedding index are built by the REAL builders that
                ship in the pipeline (not here):
-                 LLM_PROVIDER=deepseek python ../../src/routing/build_semantic.py   # cards + adjacency + inventory
-                 python ../../src/routing/build_index.py                            # card.npy + raw.npy
+                 LLM_PROVIDER=deepseek python -m src.core.semantic_card   # cards + adjacency + inventory
+                 python -m src.core.index                            # card.npy + raw.npy
                (these read a build dir under data/_build/standard3_scale_v1; see build_semantic.py)
 ```
 
@@ -56,6 +56,6 @@ raw sources (data/_raw/ via ../download_datasets.py)
 
 The original `experiment/scripts/` also contained `build-semantic-layer.py`,
 `bucket-scenarios.py`, `baseline-embedding-scenario60.py`, and `eval-m3-agent.py`. Those import
-a second, **dead** routing implementation (`src/routing/matching/`) that is not part of this
+a second, **dead** routing implementation (`src/matching/ (removed)`) that is not part of this
 published pipeline, so they are not copied here. The real semantic-layer builder is
-`../../src/routing/build_semantic.py`.
+``python -m src.core.semantic_card``.

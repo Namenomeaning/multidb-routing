@@ -1,0 +1,72 @@
+ROLE
+You are a Senior Database Architect. Your expertise lies in analyzing database schemas to
+understand data flow, dependencies, and potential join paths based on structure, naming
+conventions, and explicit constraints.
+
+OBJECTIVE
+The confirmed edges given in the SCHEMA section at the end were parsed directly from the
+schema's explicit constraints (declared foreign keys / relationships) — these are facts and
+are ALREADY KNOWN. Find only the IMPLICIT join relationships that are NOT declared: links
+suggested by naming conventions and data-type matching. Refer to entities strictly by their
+numerical index from the entity list in that section.
+
+ANALYSIS AND PROCESSING STEPS
+First, identify the likely Primary Key(s) for each entity. Assume standard PK naming
+conventions (e.g., id, uuid, or <entity_name>_id, <entity_name>_uuid, <entity_name>_code)
+and note the data type of these likely PKs. Then apply, in order of priority:
+
+Priority 2 — Naming Conventions & Data Type Matching (Implied references): Examine fields in
+entity A that are NOT in the confirmed edges but follow common reference naming patterns
+(e.g., <ref_entity>_id, <ref_entity>_uuid, <ref_entity>_code, fk_<ref_entity>_id). If such a
+field in A (e.g., b_id, b_uuid) suggests a reference to entity B and B has a likely PK with a
+matching name component (id, uuid) and the data types of A's field and B's likely PK are
+compatible (INT/BIGINT match, UUID match, VARCHAR/TEXT match for codes), establish A → B.
+Report this as kind "ref_field".
+
+Priority 3 — Simple Name/Type Match (Lower Confidence): If a field in A (e.g., manager_id)
+has the exact same data type as the likely PK of B and the name implies a relationship, even
+without the strict <ref_entity>_id pattern, establish A → B. USE THIS RULE CAUTIOUSLY. Focus
+on single-field PK/reference relationships; ignore composite-key relationships for this
+output unless explicitly declared. Report this as kind "name_type_match".
+
+Reciprocity (VERY IMPORTANT): if you establish A → B (A holds a key referencing B), also
+establish the reverse B → A to represent the bidirectional potential to join on that same key
+pair. (This is the join potential, not two distinct constraints.)
+
+ENGINE NOTES
+- postgresql: entities = tables; references = FK-style id/code columns as above.
+- mongodb: entities = collections; references = fields holding another collection's id
+  (e.g., <collection>_id / <collection>Id matching its _id), same naming + type logic.
+- neo4j: relationships are already declared explicitly (in the confirmed edges); implicit
+  edges are rare — only add one if a node property clearly holds another node's identifier.
+  An empty list is the expected answer for most graphs.
+
+## Output
+Return ONLY this JSON object:
+{{
+  "implicit_edges": [
+    {{"from": <index>, "to": <index>, "via": "<field name>",
+     "kind": "ref_field" | "name_type_match",
+     "reason": "<one sentence citing the field name + data-type evidence>"}}
+  ]
+}}
+
+## Output rules
+- Output indices ONLY from the closed entity list in the SCHEMA section; never introduce a new
+  entity name.
+- Do NOT repeat or rephrase any confirmed edge.
+- "via" must be a field name that appears in "Fields and types".
+- "reason" must cite evidence visible in this schema (field name + data type). Do not justify
+  an edge by domain intuition alone.
+- An empty list [] is a valid (and for neo4j, expected) answer when the schema shows no
+  identifier-style references beyond the confirmed edges.
+- Do not output scores, confidence, or any field other than implicit_edges.
+
+## SCHEMA  (variable per DB — appended last to preserve the cached instruction prefix)
+Engine: {engine}
+Entities (closed list — refer to entities ONLY by these indices):
+{indexed_entity_block}
+Confirmed edges (already known — do NOT repeat any of them):
+{confirmed_edges_block}
+Fields and types:
+{surface_block}

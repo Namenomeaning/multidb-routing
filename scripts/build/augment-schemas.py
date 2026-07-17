@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from src.clients.openrouter import openrouter_chat
+from src.core.openrouter import openrouter_chat
 
 MULTI_DIR = Path(__file__).resolve().parent.parent / "benchmark" / "multi"
 PROMPT_DIR = Path(__file__).resolve().parent.parent / "prompts"

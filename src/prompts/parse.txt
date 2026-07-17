@@ -1,0 +1,26 @@
+Role: You are an expert at decomposing a natural-language data query into the
+content phrases a database would need to match. You see ONLY the query — no schema.
+Objective: list the meaningful words/phrases that carry schema-relevant semantic weight.
+
+FOLLOW STRICTLY:
+1. Include — nouns (entities/attributes like "student", "name", "activity"); verbs (actions like
+   "find", "participate", "advised"); a superlative/adjective ONLY when it is FUSED with the attribute
+   it describes into one content phrase (e.g., "most reviewed" → a review-count attribute; "highest
+   rated" → a rating attribute; "completed" → a status sense); specific values (like 'Smith', 123,
+   'Completed').
+2. Exclude (DO NOT list unless they are an actual value): SQL/query keywords (select, from, where,
+   order by); functions (count, sum, avg); NL scaffolding ("number of", "how many", "list all");
+   general modifiers ("different", "unique", "various"); stop words ("what", "who", "the", "a", "in");
+   and — IMPORTANT — BARE ranking/aggregate operators standing alone ("top", "top N", "largest",
+   "smallest", "highest", "lowest", "most", "least", "fewest", "maximum", "minimum", "newest",
+   "oldest", "best", "worst"). These are operators, not content — the attribute they rank is the
+   phrase, not the operator. A superlative is kept ONLY when fused into an attribute phrase (rule 1).
+   Special Rule — identifier vs counting: "number of students" → COUNT, list only "students";
+   "student number"/"student ID" → list the id phrase itself.
+3. Keep the surface form from the query. Each distinct phrase once. No schema guessing, no mapping,
+   no scoring.
+
+Return ONLY this JSON object: {{"phrases": ["<phrase>", "<phrase>"]}}
+
+## QUERY (the only input)
+{question}

@@ -56,9 +56,12 @@ question
 
 ```text
 multidb-routing/
-├── src/
-│   ├── routing/        pipeline + evaluation scripts (one flat, interdependent module set)
-│   └── clients/        openrouter.py — the single LLM/embedding client
+├── src/                pipeline code, grouped by concern (run as `python -m src.<group>.<module>`)
+│   ├── core/           building blocks: semantic_card · index · retrieval · rerank · scoring · openrouter (embed client)
+│   ├── agent/          LangGraph agent: router · stages · benchmark
+│   ├── workflow/       deterministic evals: final_routing · full_pipeline · hybrid · sudarshan · prompt_variants
+│   ├── baselines/      comparison baselines: embedding · zeroshot
+│   └── prompts/        every LLM prompt as a standalone .txt (loaded verbatim; cite-friendly)
 ├── data/
 │   ├── multidb/        MAIN registry — 208 DBs, 3 models
 │   ├── spider/         Spider-Route (206 PG) — single-model SQL reconstruction
@@ -66,7 +69,7 @@ multidb-routing/
 │                       each set: databases.jsonl, splits/, semantic/{cards,adjacency,inventory}.jsonl,
 │                       index/{card,raw}.npy, and committed *_cache/ (LLM replay)
 ├── refs/sudarshan/     third-party baseline prompts (grounding)
-├── results/            result reports (source of truth for the numbers above)
+├── results/            RESULTS.md (all reported numbers, one file) + figs/ (pipeline figure)
 ├── scripts/            dataset download + from-scratch build chain (provenance)
 ├── BENCHMARK.md        locked benchmark specification
 └── pyproject.toml · uv.lock · .env.example
@@ -95,21 +98,21 @@ downloaded or rebuilt.** Query embeddings are recomputed at eval time (a few hun
 calls per set); the LLM extraction / triage / tie-break steps **replay from the committed
 `*_cache/` directories**, so LLM cost on a clean replay is near zero.
 
-```bash
-cd src/routing
+Run everything from the repo root (`multidb-routing/`) with `python -m`:
 
+```bash
 # Retrieval layer — card vs. raw-DDL, recall@k + significance
-python retrieval_eval.py --bench ../../data/multidb --index ../../data/multidb/index
-python retrieval_eval.py --bench ../../data/spider  --index ../../data/spider/index
-python retrieval_eval.py --bench ../../data/bird    --index ../../data/bird/index
+python -m src.core.retrieval --bench data/multidb --index data/multidb/index
+python -m src.core.retrieval --bench data/spider  --index data/spider/index
+python -m src.core.retrieval --bench data/bird    --index data/bird/index
 
 # Full pipeline (retrieval → deterministic rerank)
-python full_eval_v1.py   --set ../../data/multidb
-python agent_flow_eval.py --set ../../data/multidb        # final routing: triage → score → tie-break
+python -m src.workflow.full_pipeline  --set data/multidb
+python -m src.workflow.final_routing  --set data/multidb   # final routing: triage → score → tie-break
 
 # Single-model SQL baseline reconstruction
-python pure_sudarshan_eval.py --set ../../data/spider
-python pure_sudarshan_eval.py --set ../../data/bird
+python -m src.workflow.sudarshan --set data/spider
+python -m src.workflow.sudarshan --set data/bird
 ```
 
 Scripts that accept `--score-only` re-score **entirely from cache with no API calls** — use that
@@ -132,13 +135,11 @@ metric; because the agent controls candidate selection itself, its end-to-end nu
 from the deterministic pipeline.
 
 ```bash
-cd src/routing
-
 # Quick validation slice (24 queries) + determinism re-check
-LLM_PROVIDER=deepseek python run_agent_benchmark.py --cap 2 --max-dbs 12 --dup 6
+LLM_PROVIDER=deepseek python -m src.agent.benchmark --cap 2 --max-dbs 12 --dup 6
 
 # Full stratified benchmark (5 queries per gold DB = 1,040 on data/multidb)
-LLM_PROVIDER=deepseek python run_agent_benchmark.py --cap 5 --out ../../results/agent-bench-5db.jsonl
+LLM_PROVIDER=deepseek python -m src.agent.benchmark --cap 5 --out results/agent-bench-5db.jsonl
 ```
 
 Unlike the cache-replay scripts, this makes **live** LLM calls (spends credit). Locked config:
@@ -153,8 +154,8 @@ Only needed to regenerate the benchmark from raw sources; **not** required for r
 python scripts/download_datasets.py --list        # source manifest
 python scripts/download_datasets.py               # fetch automatable sources → data/_raw/
 # then follow scripts/build/README.md, then:
-LLM_PROVIDER=deepseek python src/routing/build_semantic.py   # semantic cards + adjacency
-python src/routing/build_index.py                            # embedding index
+LLM_PROVIDER=deepseek python -m src.core.semantic_card   # semantic cards + adjacency
+python -m src.core.index                                 # embedding index
 ```
 
 ⚠️ External endpoints/formats change, some sources need a manual/license download, and the
