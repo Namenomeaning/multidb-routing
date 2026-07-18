@@ -3,7 +3,7 @@
 Runs the WHOLE test split (not the 30-DB slice). For each query: retrieve top-kmax over the
 FULL card index, extract over top-5 (deterministic Coverage×Connectivity score), then the agent
 picks among top-5 cards+scores under two prompts (v0 base, v1 specific-domain). Reuses every
-existing cache (extractions.jsonl, pv_v0_base.jsonl, pv_v1_specific.jsonl) and only adds the
+existing cache (extractions.jsonl, pv_<arm>_<engine|all>.jsonl) and only adds the
 queries not yet cached.
 
 Reports two layers (CLAUDE.md §3): pool recall (GT-in-top-K) separate from final R@1; final R@1
@@ -34,9 +34,19 @@ sys.path.insert(0, str(HERE))
 from src.core.retrieval import load, embed_all, stratified  # noqa: E402
 from src.core.semantic_card import client, call_json, chat_model, render_entities  # noqa: E402
 from src.core.rerank import score_candidate, top_pool, KMAX_HOLISTIC, EXTRACT_PROMPT  # noqa: E402
-from src.workflow.prompt_variants import VARIANTS  # noqa: E402
 
-ARMS = {"v0_base": VARIANTS["v0_base"], "v1_specific": VARIANTS["v1_specific"]}
+# Final-pick instruction arms. Candidate block + JSON contract are identical across arms;
+# only the framing differs. v0 = neutral baseline; v1 = specific-domain framing (engine-neutral).
+_HEAD = "## Question\n{question}\n\n## Candidate databases (score = how much of the question this schema covers and connects)\n{candidate_block}\n\n"
+_TAIL = 'Return ONLY this JSON object: {{"choice": <number>}}\n'
+ARMS = {
+    "v0_base": "Pick the single database that can best answer the question.\n\n" + _HEAD + _TAIL,
+    "v1_specific":
+        "Pick the database whose domain matches the question MOST SPECIFICALLY. "
+        "Several candidates may overlap on generic terms; choose the one whose core subject "
+        "actually is what the question is about, not one that merely mentions similar words.\n\n"
+        + _HEAD + _TAIL,
+}
 
 
 def main():

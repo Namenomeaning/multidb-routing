@@ -1,8 +1,9 @@
-# BENCHMARK.md — Benchmark & Semantic Layer Tracking
+# BENCHMARK.md — Benchmark & Semantic Layer Specification
 
-Living doc. Keep track luồng benchmark design + semantic layer + cấu trúc đã chốt.
-Chi tiết căn cứ học thuật: `reports/research-260610-card-adjacency-structure.md`.
-Log thí nghiệm: `reports/EXPERIMENT-LOG.md`.
+Đặc tả **thiết kế + giao thức** của benchmark: registry, splits, cấu trúc semantic
+card / adjacency đã chốt, và danh sách ablation bắt buộc. **Không chứa số kết quả** —
+mọi con số đo (recall@k, R@1, p-value, kích thước pool) sống ở một nơi duy nhất:
+[`results/RESULTS.md`](results/RESULTS.md).
 
 ---
 
@@ -164,65 +165,7 @@ Schema cạnh thống nhất = `{from, to, via, kind, reason}` + `engine` cấp 
 
 E2 (±distinguishing_terms) ĐÃ HỦY 2026-06-10 — field bị gọt khỏi card (lỗi validity: LLM không thấy sibling, không tính được contrast thật).
 
-### Kết quả robustness query-side — Spider-Syn / Spider-Realistic (RUN 2026-06-11)
-
-Benchmark peer-reviewed độc lập (không phải obfuscation tự chế), cùng index 206 DB của `sudarshan_repro/spider_route`, chỉ ĐỔI CÂU HỎI. Bổ sung E3c (E3c che schema = schema-side; đây = query-side). Retrieval layer only. Script `exp_v2/robustness_query_eval.py`. Report `experiment/reports/retrieval-260611-robustness-query-side-spidersyn-realistic.md`.
-
-- **Spider-Syn** [Gan ACL 2021, arXiv 2106.01065 — thay từ liên quan schema trong câu hỏi bằng synonym; 1034 câu dev, có cả bản gốc + bản synonym → đo tụt paired]:
-
-| điều kiện | raw R@1 | card R@1 | raw R@5 | card R@5 |
-|---|---|---|---|---|
-| câu gốc | .652 | **.752** | .938 | .960 |
-| câu synonym | .491 | **.597** | .824 | **.884** |
-
-  Tụt gốc→synonym: raw R@5 −.114, card R@5 **−.076** (card bền hơn). McNemar dưới synonym: @1 raw_only=66/card_only=175 **p=1.4e-12**; @5 p=8.1e-8.
-
-- **Spider-Realistic** [Deng NAACL 2021; HF aherntech/spider-realistic — xóa tên cột khỏi câu hỏi; 508 câu, không có bản gốc kèm nên so card vs raw trực tiếp]:
-
-| metric | raw | card | chênh |
-|---|---|---|---|
-| R@1 | .565 | **.707** | **+.142** |
-| R@5 | .896 | **.953** | +.057 |
-| R@10 | .953 | .978 | +.025 |
-
-  McNemar @1 raw_only=22/card_only=94 **p=8.7e-12**; @5 p=1.5e-5.
-
-**Đọc (SCOPE RÕ):** trên **Spider SQL**, card hơn raw mọi điều kiện perturbation câu hỏi, p<1e-7. Chênh card−raw TO RA khi câu càng lệch chữ với schema (clean +.10 → realistic +.142) — raw bám trùng-chữ tên schema, card hiểu ý nên giữ. = bằng chứng "card thắng do NGỮ NGHĨA, không do khớp-tên".
-- **Scope claim (BẮT BUỘC đọc kèm):** robustness query-side chỉ chứng minh trên **SQL/Spider (206 DB), retrieval layer**. KHÔNG test robustness riêng cho Mongo/Neo4j. Cơ chế card = dịch build-time (tên có nghĩa → prose domain) **giống hệt mọi engine** → lập luận chuyển sang Mongo/Neo4j theo THIẾT KẾ, không phải bằng chứng đo. **Claim đóng góp multi-type chống lưng bằng recall + R@1 đo thật trên 3 engine, KHÔNG dựa vào robustness.** Không phát biểu "card bền vững trên cả 3 engine".
-
-### Kết quả pipeline retrieval — OURS (card + domain triage) vs SUDARSHAN (raw-DDL dense top-K) (RUN 2026-06-14)
-
-Slice stratified cap 5 câu/GT-DB (phủ mọi GT-DB → DB-macro honest). Lớp retrieval only (rerank là lớp tách). OURS = card embed top-10 → **domain-relatedness triage** (agent giữ mọi candidate cùng chủ đề, bỏ rõ-ràng-lạc; chỉ chọn subset, KHÔNG xếp hạng → giữ invariant) → subset giao downstream. Triage input = `domain_description` (ablation: desc đủ giữ GT; glossary/entities chỉ siết chặt, không tăng recall). Script `exp_v2/retrieval_pipeline_benchmark.py` + `triage_eval.py`. Report `experiment/reports/retrieval-260614-pipeline-triage-vs-sudarshan.md`.
-
-recall = micro / DB-macro (≈ nhau do slice cân bằng cap5; DB-macro = headline). Triage prompt = luật keep-all chung (same-kind consistency / broader-contains / when-unsure-keep), trừu tượng, KHÔNG ví dụ test-derived:
-
-| Set | cách | pool TB | recall (micro/macro) | McNemar OURS vs raw@5 |
-|---|---|---|---|---|
-| ours_multidb (208 DB, 743 q) | Sudarshan raw top-5 | 5.00 | .797/.797 | — |
-| | card top-10 | 10.0 | .917/.925 | — |
-| | **OURS card10→triage** | **4.28** | **.902/.914** | ours_only=95 sud_only=17 **p<1e-4** |
-| spider_route (206 DB, 1026 q) | Sudarshan raw top-5 | 5.00 | .867/.868 | — |
-| | **OURS card10→triage** | **4.27** | **.942/.942** | 91 vs 15 **p<1e-4** |
-| bird_route (80 DB, 398 q) | Sudarshan raw top-5 | 5.00 | .925/.925 | — |
-| | **OURS card10→triage** | **2.69** | **.947/.948** | 14 vs 5 p=.064 (trần) |
-
-Triage gate-recall (GT giữ | GT có trong card top-10): ours .984, spider .992, bird .974 (triage rớt <3% GT — chi phí thật, báo cáo thẳng). Rớt còn lại = đa-đáp-án bị ép single-GT + label quirk + câu chỉ tên-riêng/vô-nội-dung (cần entity-level, không fix bằng prompt).
-
-**Đọc:** OURS recall ≥ Sudarshan raw@5 cả 3 set, mà giao pool NHỎ hơn (2.5–3.9 vs 5). Set đa-loại (thesis target): **+9.5pp recall, ít candidate hơn**, significant. spider +7.0pp sig. bird sát trần (raw@5 .925) nên gain nhỏ n.s. nhưng OURS khớp recall với ~half pool (2.48). Win xếp chồng 2 nguồn: (1) representation card>raw, (2) pipeline top-10 vớt GT + triage thu hẹp lại ~3 không mất recall đã vớt. Downstream chỉ còn ~3 candidate cùng-domain → giảm nhiễu force-map ở rerank.
-
-### Final routing trên pool đã triage — behavior probe 100 q/set (RUN 2026-06-14)
-
-Sau triage còn ~3 candidate cùng-domain, chọn DB cuối thế nào? 3 variant, cùng pool + cùng parse. DIRECTIONAL (100 q/set, eval-slice-bias → chưa phải headline claim). Script `exp_v2/agent_flow_eval.py`. Report `experiment/reports/agent-flow-260614-final-routing-variants.md`. Invariant giữ: agent CHỌN trong các option, không tự khai confidence-số đưa vào công thức.
-
-- **V1 cov-argmax** = Coverage×Connectivity (Sudarshan deterministic, post-triage). **V2** = V1 + agent tie-break khi hòa (criteria domain→entities→relationships, full card). **V3** = agent đọc thẳng ~3 card, không dùng coverage.
-
-| Set (R@1\|in-pool) | hòa% | V1 cov | V2 +tie | V3 agent-direct |
-|---|---|---|---|---|
-| ours_multidb (đa-loại) | 47% | .739 | .807 | **.898** |
-| spider (SQL) | 42% | .747 | .811 | **.916** |
-| bird (SQL) | 25% | .891 | .902 | **.935** |
-
-**Đọc:** V3>V2>V1 nhất quán 3 loại DB. Coverage bão hòa (25-47% query hòa, cụm 3-4 candidate) → không tách nổi candidate cùng-domain (force-map: chấm điểm cho map cụm ngoại vi bất kể entity chính có thật không). NEGATIVE result báo thẳng: **Coverage×Connectivity KHÔNG thêm giá trị sau triage** → giữ làm baseline/ablation, không phải decision rule. **Luồng tối ưu: top-10 → triage → agent đọc ~3 card chọn 1 (V3).** Caveat: probe directional, headline cần full slice; triage-miss là trần trên.
+**Kết quả đo của các ablation trên → [`results/RESULTS.md`](results/RESULTS.md).** Bao gồm: representation card vs raw (E1), robustness query-side Spider-Syn / Spider-Realistic, retrieval OURS (card + triage) vs baseline raw-DDL, và final routing (triage → chấm điểm → tie-break). BENCHMARK.md chỉ định nghĩa *ablation nào phải chạy*; con số nằm ở RESULTS.md.
 
 ## 6. Trạng thái artifact
 

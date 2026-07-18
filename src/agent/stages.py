@@ -7,7 +7,7 @@ components — no new prompt, no new scoring. Everything below is imported from 
   parse    : schema-blind query decomposition (decomp_card_eval.PARSE_PROMPT)   -> shared phrases
   map      : per-candidate phrase->field map  (decomp_card_eval.MAP_PROMPT_CAL) -> LLM extraction only
   score    : Coverage(e^-n·x) x Connectivity  (decomp_card_eval.score_fixed)    -> deterministic
-  evidence : covered / N/A phrase->field list (agent_flow_eval.map_evidence)    -> tie-break context
+  evidence : covered / N/A phrase->field list (map_evidence, below)             -> tie-break context
 
 Design + rationale: plans/260711-1221-agent-router-architecture + plan keen-forging-boole.md.
 No benchmark/eval is run here; this module only exposes callable stages.
@@ -37,8 +37,23 @@ from src.core.rerank import top_pool  # noqa: E402
 from src.core.index import card_text  # noqa: E402
 from src.core.semantic_card import client, call_json  # noqa: E402
 from src.core.scoring import PARSE_PROMPT, MAP_PROMPT_CAL, score_fixed  # noqa: E402
-from src.workflow.final_routing import map_evidence, N as COV_N  # noqa: E402
 from src.core.openrouter import embed  # noqa: E402
+
+COV_N = 2.0  # coverage penalty (Sudarshan hyperparameter, used throughout the thesis runs)
+
+
+def map_evidence(phrases, mapping):
+    """Per-candidate mapping evidence for the tie-break context: which phrases were covered (and onto
+    which fields) and which were N/A. Shows the agent WHY coverage scored as it did."""
+    by = {m["phrase"]: [t for t in (m.get("targets") or []) if isinstance(t, str)]
+          for m in (mapping.get("mappings") or []) if isinstance(m, dict)}
+    covered, na = [], []
+    for p in phrases:
+        tg = by.get(p) or []
+        (covered if tg else na).append(f"{p} → {', '.join(tg)}" if tg else p)
+    cov_str = "; ".join(covered) or "(none)"
+    na_str = "; ".join(na) or "(none)"
+    return cov_str, na_str
 
 
 @dataclass

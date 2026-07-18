@@ -59,7 +59,7 @@ multidb-routing/
 ├── src/                pipeline code, grouped by concern (run as `python -m src.<group>.<module>`)
 │   ├── core/           building blocks: semantic_card · index · retrieval · rerank · scoring · openrouter (embed client)
 │   ├── agent/          LangGraph agent: router · stages · benchmark
-│   ├── workflow/       deterministic evals: final_routing · full_pipeline · hybrid · sudarshan · prompt_variants
+│   ├── workflow/       deterministic evals: full_pipeline · sudarshan
 │   ├── baselines/      comparison baselines: embedding · zeroshot
 │   └── prompts/        every LLM prompt as a standalone .txt (loaded verbatim; cite-friendly)
 ├── data/
@@ -75,6 +75,25 @@ multidb-routing/
 ├── BENCHMARK.md        locked benchmark specification
 └── pyproject.toml · uv.lock · .env.example
 ```
+
+### Prompts (which prompt runs where)
+
+Every LLM prompt is a standalone `.txt` in `src/prompts/`, loaded verbatim. The phrase-mapping step
+(S3) is instantiated by a **different prompt per experiment** — same role (LLM maps question phrases
+onto a candidate's schema entities, extraction only), different wording:
+
+| Prompt | Step | Used by |
+| --- | --- | --- |
+| `card.txt`, `adjacency.txt` | offline: semantic card + adjacency graph | `src/core/semantic_card.py` |
+| `parse.txt` | shared phrase decomposition (once per query) | `scoring.py`, `agent/stages.py` |
+| `extract.txt` | **S3 mapping — multi-model repository (RQ3)** | `workflow/full_pipeline.py`, `scoring.py` arms A/B |
+| `map.txt` | **S3 mapping — SQL head-to-head (RQ2)** → `map_card.jsonl` | `scoring.py` arm C (replayed by `workflow/sudarshan.py`) |
+| `tiebreak.txt` | S5 LLM tie-break among score-ties | `scoring.py` |
+| `map_cal.txt` | S3 mapping — agent flow only (not a reported number) | `agent/stages.py` |
+| `zeroshot_head.txt`, `system_router.txt` | zero-shot baseline / agent system prompt | `baselines/zeroshot.py`, `agent/` |
+
+The `refs/sudarshan/` prompts (`phrase_mapping_prompt.txt`, `adjacency_list_prompt.txt`) are the
+third-party baseline's own extractor, replayed verbatim by `workflow/sudarshan.py`.
 
 ## Installation
 
@@ -109,7 +128,6 @@ python -m src.core.retrieval --bench data/bird    --index data/bird/index
 
 # Full pipeline (retrieval → deterministic rerank)
 python -m src.workflow.full_pipeline  --set data/multidb
-python -m src.workflow.final_routing  --set data/multidb   # final routing: triage → score → tie-break
 
 # Single-model SQL baseline reconstruction
 python -m src.workflow.sudarshan --set data/spider

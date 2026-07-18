@@ -10,7 +10,10 @@ mechanism (per-candidate parse vs fixed parse). Arms here isolate each factor.
   B  decomp-card    : per-candidate extract, target = card_text(card,inv)          (+ card repr)
   C  decomp-cardfix : parse ONCE (schema-blind, fixed phrases) → map fixed phrases
                       against card_text(card,inv); coverage denom = |fixed phrases| (+ fixed parse)
-  holistic (ref)    : agent reads top-5 card domain_description, picks one          (best-known arm)
+  Ctie              : arm C ranking + LLM tie-break among score-ties (S5)          (the reported pipeline)
+
+This module also writes the caches the SQL head-to-head (workflow/sudarshan.py) replays for its
+OURS column: parse.jsonl, map_card.jsonl (arm-C map), tiebreak.jsonl (S5 pick).
 
 INVARIANT (m3-design-decisions): LLM extracts/maps only — no score/confidence. Coverage(e^-n·x) ×
 Connectivity(BFS over the candidate's adjacency, pure code) decides. Adjacency graph is NEVER shown
@@ -48,8 +51,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from src.core.retrieval import load, stratified, embed_all  # noqa: E402
 from src.core.rerank import (coverage, connectivity, field2ent, resolve_nodes, top_pool,  # noqa: E402
-                          score_candidate,
-                          EXTRACT_PROMPT, HOLISTIC_PROMPT, HYBRID_PROMPT, KMAX_HOLISTIC)
+                          score_candidate, EXTRACT_PROMPT, KMAX_HOLISTIC)
 from src.core.semantic_card import client, call_json, chat_model, render_entities, CACHE_STATS  # noqa: E402
 from src.core.index import card_text  # noqa: E402
 
@@ -72,22 +74,6 @@ PARSE_PROMPT = load_prompt("parse")
 # (static per DB), the variable PHRASES list last.
 MAP_PROMPT = load_prompt("map")
 
-# TIGHTENED map (THESIS-VARIANT, grounded). Fixes the measured over-mapping of the loose Sudarshan
-# prompt (it force-maps value literals / proper nouns onto generic or thematic fields → wrong-domain
-# candidates reach coverage=1 → coverage loses discriminability). Levers, each cited:
-#  - Explicit exclusion class for proper-noun/title/instance values (CHESS arXiv:2405.16755: explicit
-#    negative-class instruction lifted column precision 0.11→0.71).
-#  - Typed mention split SCHEMA-REF vs VALUE-REF; a VALUE-REF maps ONLY to a field whose NAME/MEANING
-#    denotes that CLASS of value, never to a type-compatible generic field (IRNet ACL2019 +
-#    DIVER SIGMOD2026: value mentions handled separately from column matches).
-#  - N/A reframed as valid/expected, "sparingly" removed (Wen TACL2025 abstention survey: instruction
-#    framing reduces forced-choice bias; exact wording is folklore, mechanism is grounded).
-#  - Engine-agnostic N/A few-shots incl. the proper-noun→thematic case (Zhu ACL-Findings2023: non-
-#    entity-phrase examples needed for NIL precision). Few-shots engine-neutral (m3 anti-bias rule).
-# NOT included: per-mapping confidence threshold (BLINK) — would make the LLM self-score, violating
-# the no-self-confidence invariant.
-MAP_PROMPT_TIGHT = load_prompt("map_tight")
-
 # CALIBRATED map (THESIS-VARIANT). Fixes BOTH measured failure modes:
 #  - OVER-map (loose): keeps tight's VALUE-REF/proper-noun abstention so values aren't forced onto
 #    generic fields (coverage stops saturating at ~1).
@@ -98,6 +84,11 @@ MAP_PROMPT_TIGHT = load_prompt("map_tight")
 #    not invented). Multi-target re-emphasised (Sudarshan original phrase_mapping: "list ALL valid").
 # Calibration principle: map iff a genuinely relevant field exists; abstain ONLY when none does.
 MAP_PROMPT_CAL = load_prompt("map_cal")
+
+# Tie-break prompt: among score-tied candidates the LLM reads their domain cards and picks one
+# (the "LLM tie-breaking" step, S5). The LLM only SELECTS — it emits no confidence number, preserving
+# the no-self-confidence invariant. Feeds tiebreak.jsonl, replayed by the SQL baseline comparison.
+TIEBREAK_PROMPT = load_prompt("tiebreak")
 
 
 # ---------------------------------------------------------------- scoring (arm C: fixed denominator)
@@ -213,17 +204,14 @@ def main() -> None:
 
     cdir = root / "cache" / "decomp_card_cache"
     cdir.mkdir(exist_ok=True)
-    bare_p, card_p, parse_p, map_p, mapt_p, tie_p, tiet_p = (
+    bare_p, card_p, parse_p, map_p, tie_p = (
         cdir / "extract_bare.jsonl", cdir / "extract_card.jsonl", cdir / "parse.jsonl",
-        cdir / "map_card.jsonl", cdir / "map_tight.jsonl", cdir / "tiebreak.jsonl",
-        cdir / "tiebreak_tight.jsonl")
+        cdir / "map_card.jsonl", cdir / "tiebreak.jsonl")
     bare = {(r["qid"], r["cand"]): r["out"] for r in (load(bare_p) if bare_p.exists() else [])}
     cardx = {(r["qid"], r["cand"]): r["out"] for r in (load(card_p) if card_p.exists() else [])}
     parse = {r["qid"]: r["out"] for r in (load(parse_p) if parse_p.exists() else [])}
     mapc = {(r["qid"], r["cand"]): r["out"] for r in (load(map_p) if map_p.exists() else [])}
-    mapt = {(r["qid"], r["cand"]): r["out"] for r in (load(mapt_p) if mapt_p.exists() else [])}
     tie = {r["qid"]: r["pick"] for r in (load(tie_p) if tie_p.exists() else [])}
-    tiet = {r["qid"]: r["pick"] for r in (load(tiet_p) if tiet_p.exists() else [])}
 
     def tieset(qid: str, pool: list[str], mp: dict, n: float = 2.0) -> list[str]:
         poolK = pool[:K]
@@ -302,21 +290,7 @@ def main() -> None:
             print(f"  [C map] {len(tm)} map calls @ {args.workers}w", flush=True)
             run(tm, do_map, f, "Cmap")
 
-        # arm C2: TIGHTENED map (fixed phrases against card_text, strict N/A discipline)
-        tmt = [(q["_qid"], c) for q, pool in zip(qs, pools) for c in pool if (q["_qid"], c) not in mapt]
-        def do_map_tight(t):
-            qid, c = t
-            phrases = parse.get(qid, {}).get("phrases") or []
-            out = call_json(oai, MAP_PROMPT_TIGHT.format(
-                engine=invs[c]["engine"], schema_block=card_text(cards[c], invs[c]),
-                phrases=json.dumps(phrases, ensure_ascii=False)))
-            mapt[t] = out
-            return {"qid": qid, "cand": c, "out": out}
-        with open(mapt_p, "a") as f:
-            print(f"  [C2 tight map] {len(tmt)} map calls @ {args.workers}w", flush=True)
-            run(tmt, do_map_tight, f, "C2map")
-
-        # tie-break (ours): among top-score ties, agent reads cards and picks. Loose (mapc) + tight (mapt).
+        # tie-break (ours): among top-score ties, the LLM reads cards and picks one (S5).
         def make_tiebreak(mp, cache, label, fh):
             tt = [q["_qid"] for q in qs
                   if q["_qid"] not in cache and len(tieset(q["_qid"], pool_by[q["_qid"]], mp)) > 1]
@@ -324,7 +298,7 @@ def main() -> None:
                 surv = tieset(qid, pool_by[qid], mp)
                 blk = "\n".join(f"[{j}] {cards[c].get('domain_description','')[:300]}"
                                 for j, c in enumerate(surv, 1))
-                out = call_json(oai, HYBRID_PROMPT.format(question=qmap[qid]["question"], candidate_block=blk))
+                out = call_json(oai, TIEBREAK_PROMPT.format(question=qmap[qid]["question"], candidate_block=blk))
                 ch = out.get("choice")
                 pk = surv[ch - 1] if isinstance(ch, int) and 1 <= ch <= len(surv) else surv[0]
                 cache[qid] = pk
@@ -333,8 +307,6 @@ def main() -> None:
             run(tt, do_tie, fh, label)
         with open(tie_p, "a") as f:
             make_tiebreak(mapc, tie, "C tie-break", f)
-        with open(tiet_p, "a") as f:
-            make_tiebreak(mapt, tiet, "C2 tie-break", f)
 
         h, m = CACHE_STATS["hit"], CACHE_STATS["miss"]
         if h + m:
@@ -343,12 +315,9 @@ def main() -> None:
     # ---------------- deterministic scoring + metrics ----------------
     def pick(arm: str, qid: str, pool: list[str], n: float) -> str:
         poolK = pool[:K]
-        if arm == "Ctie":  # loose card map + LLM tie-break
+        if arm == "Ctie":  # card map (S3) + deterministic score (S4) + LLM tie-break (S5) — the reported pipeline
             ts = tieset(qid, pool, mapc, n)
             return ts[0] if len(ts) == 1 else tie.get(qid, ts[0])
-        if arm == "C2tie":  # TIGHT card map + LLM tie-break (ours full pipeline)
-            ts = tieset(qid, pool, mapt, n)
-            return ts[0] if len(ts) == 1 else tiet.get(qid, ts[0])
         if arm == "A":
             sc = [(score_candidate(bare.get((qid, c), {}), adjs.get(c, {}), invs[c], n), c) for c in poolK]
         elif arm == "B":
@@ -359,7 +328,7 @@ def main() -> None:
         b = max(range(len(sc)), key=lambda i: (sc[i][0], -i))  # tie-break = cosine order
         return sc[b][1]
 
-    arms = ["A", "Ctie", "C2tie"]
+    arms = ["A", "Ctie"]
     in_pool = sum(1 for q in qs if q["instance_id"] in pool_by[q["_qid"]][:K])
     retr_r1 = sum(1 for q in qs if pool_by[q["_qid"]][0] == q["instance_id"])
     nq = len(qs)
@@ -391,9 +360,7 @@ def main() -> None:
         k = min(a_only, b_only)
         return a_only, b_only, min(1.0, 2 * sum(comb(nn, i) for i in range(k + 1)) / (2 ** nn))
     print(f"\n-- McNemar exact, in-pool, n=2 (n_in={len(hits_n2['A'])}) --")
-    for nm, x, y in [("Ctie vs A (loose-ours vs Sudarshan)", "Ctie", "A"),
-                     ("C2tie vs A (tight-ours vs Sudarshan)", "C2tie", "A"),
-                     ("C2tie vs Ctie (tightening effect)", "C2tie", "Ctie")]:
+    for nm, x, y in [("Ctie vs A (ours vs Sudarshan)", "Ctie", "A")]:
         ao, bo, p = mcnemar(hits_n2[x], hits_n2[y])
         print(f"  {nm:36}: {x}_only={ao} {y}_only={bo} p={p:.4f}")
 
@@ -406,13 +373,11 @@ def main() -> None:
             return [score_candidate(bare.get((qid, c), {}), adjs.get(c, {}), invs[c], n) for c in poolK]
         if arm == "B":
             return [score_candidate(cardx.get((qid, c), {}), adjs.get(c, {}), invs[c], n) for c in poolK]
-        if arm == "C":
-            return [score_fixed(ph, mapc.get((qid, c), {}), adjs.get(c, {}), invs[c], n) for c in poolK]
-        return [score_fixed(ph, mapt.get((qid, c), {}), adjs.get(c, {}), invs[c], n) for c in poolK]  # C2
+        return [score_fixed(ph, mapc.get((qid, c), {}), adjs.get(c, {}), invs[c], n) for c in poolK]  # C
 
-    print(f"\n-- RANKING step (tie-break-independent, in-pool, n=2): Sudarshan(A) / loose(C) / tight(C2) --")
+    print(f"\n-- RANKING step (tie-break-independent, in-pool, n=2): Sudarshan(A) / ours(C) --")
     print(f"{'arm':6} {'GT_in_top_cluster':>17} {'GT_alone':>9} {'GT_below':>9} {'avg_tie':>8}")
-    for arm in ("A", "C", "C2"):
+    for arm in ("A", "C"):
         uniq = tied = below = tsz = nin = 0
         for q in qs:
             gt = q["instance_id"]; poolK = pool_by[q["_qid"]][:K]
@@ -430,32 +395,6 @@ def main() -> None:
         intop = uniq + tied
         print(f"{arm:6} {f'{intop}/{nin}={intop/nin:.3f}':>17} {f'{uniq}':>9} {f'{below}':>9} "
               f"{tsz/max(tied,1):>8.1f}")
-
-    # ---- FORCE-MAP PROOF: on WRONG candidates (cand != GT, in pool), how much coverage does the
-    # mapping assign? Loose (Sudarshan-style permissive) should force-map wrong candidates to high
-    # coverage (≈ GT); tight should pull wrong-candidate coverage DOWN while keeping GT high → the
-    # discrimination gap (GT − wrong) opens. This is the empirical proof of the over-mapping flaw.
-    print(f"\n-- FORCE-MAP PROOF (in-pool, n=2): coverage×conn on GT vs WRONG candidates --")
-    print(f"{'map':6} {'cov_GT':>7} {'cov_wrong':>10} {'gap(GT-wrong)':>14} {'wrong@1.0':>10}")
-    for label, mp in [("loose", mapc), ("tight", mapt)]:
-        gG = gW = gap = 0.0; nW = ng = wrong_full = 0
-        for q in qs:
-            gt = q["instance_id"]; poolK = pool_by[q["_qid"]][:K]
-            if gt not in poolK:
-                continue
-            ph = parse.get(q["_qid"], {}).get("phrases") or []
-            sg = score_fixed(ph, mp.get((q["_qid"], gt), {}), adjs.get(gt, {}), invs[gt], 2.0)
-            wrongs = [c for c in poolK if c != gt]
-            sw = [score_fixed(ph, mp.get((q["_qid"], c), {}), adjs.get(c, {}), invs[c], 2.0) for c in wrongs]
-            gG += sg; ng += 1
-            if sw:
-                mean_w = sum(sw) / len(sw)
-                gW += mean_w; nW += 1; gap += (sg - mean_w)
-                wrong_full += sum(1 for s in sw if s >= 0.999)
-        tot_wrong = sum(len([c for c in pool_by[q["_qid"]][:K] if c != q["instance_id"]])
-                        for q in qs if q["instance_id"] in pool_by[q["_qid"]][:K])
-        print(f"{label:6} {gG/max(ng,1):>7.3f} {gW/max(nW,1):>10.3f} {gap/max(nW,1):>14.3f} "
-              f"{f'{wrong_full}/{tot_wrong}':>10}")
 
 
 if __name__ == "__main__":

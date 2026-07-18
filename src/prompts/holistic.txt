@@ -1,9 +1,0 @@
-Pick the single database that can best answer the question.
-
-## Question
-{question}
-
-## Candidate databases
-{candidate_block}
-
-Return ONLY this JSON object: {{"choice": <number>}}
