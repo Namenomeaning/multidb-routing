@@ -8,8 +8,8 @@ from collections import Counter, defaultdict
 from typing import Any
 
 import pandas as pd
-from standard3_common import BENCH, DATASET, mongo_schema_text, read_jsonl, safe_slug
-from standard3_bson_schema import schema_text_from_bson_samples
+from common import BENCH, DATASET, mongo_schema_text, read_jsonl, safe_slug
+from bson_schema import schema_text_from_bson_samples
 def load_pg(pg_limit: int) -> tuple[list[dict], list[dict]]:
     corpus_rows = [row for row in read_jsonl(BENCH / "multi" / "databases.jsonl") if row["engine"] == "postgresql"]
     queries = [row for row in read_jsonl(BENCH / "multi" / "queries.jsonl") if row["engine"] == "postgresql"]

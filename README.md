@@ -71,7 +71,7 @@ multidb-routing/
 │                         cache/ — committed LLM replay logs (extraction · triage · mapping · tie-break)
 ├── refs/sudarshan/     third-party baseline prompts (grounding)
 ├── results/            RESULTS.md (all reported numbers, one file) + figs/ (pipeline figure)
-├── scripts/            dataset download + from-scratch build chain (provenance)
+├── scripts/            one-time dataset build (provenance): download_datasets + registry/ · tier/ · setups/
 ├── BENCHMARK.md        locked benchmark specification
 └── pyproject.toml · uv.lock · .env.example
 ```
@@ -172,7 +172,7 @@ Only needed to regenerate the benchmark from raw sources; **not** required for r
 ```bash
 python scripts/download_datasets.py --list        # source manifest
 python scripts/download_datasets.py               # fetch automatable sources → data/_raw/
-# then follow scripts/build/README.md, then:
+# then follow scripts/README.md, then:
 LLM_PROVIDER=deepseek python -m src.core.semantic_card   # semantic cards + adjacency
 python -m src.core.index                                 # embedding index
 ```

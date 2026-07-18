@@ -164,7 +164,7 @@ def main() -> None:
     print("=== summary ===")
     for name in names:
         print(f"  {name:14s} {results[name]}")
-    print("\nNext: run scripts/build/ (see scripts/build/README.md) to rebuild data/{multidb,spider,bird}.")
+    print("\nNext: run scripts/*.py (see scripts/README.md) to rebuild data/{multidb,spider,bird}.")
     print("Confirm each dataset's redistribution terms before publishing derived artifacts.")
 
 
