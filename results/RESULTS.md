@@ -87,43 +87,60 @@ Spider, near the original ~87%.
 
 ## RQ3 — Multi-model routing (the main task)
 
-One rule routes a query over the **whole 208-database repository**, no per-type branch. Compared
-against two spectrum-end baselines on the same 1,040-question slice (paired McNemar).
+The deterministic two-tier flow routes a query over the **whole 208-database repository** with one
+rule, no per-type branch. It is compared against two spectrum-end single-tier baselines on the same
+1,040-question slice (paired McNemar).
 
 | Method | R@1 |
 |---|:--:|
 | Embedding, raw schema | 0.568 |
-| Embedding, card | 0.653 |
-| Read whole repository (N=208), raw schema | 0.692 |
-| Read whole repository (N=208), card | 0.697 |
-| **Proposed (full pipeline)** | **0.727** |
+| Embedding, card | 0.637 |
+| Read whole repository (N=208), raw schema | 0.710 |
+| Read whole repository (N=208), card | 0.703 |
+| **Proposed — deterministic flow** | **0.749** |
+| **Proposed — agentic variant (RQ4)** | **0.770** |
 
-The proposed pipeline beats both embedding baselines (`p=2.6×10⁻⁶` vs card, `1.2×10⁻¹⁹` vs raw).
-Against reading the whole repository it is statistically **level** under the 0.0125 threshold
-(0.030 gap vs card `p=0.055`; 0.035 vs raw `p=0.034`) — even though that baseline is handed the
-gold on every query while ours can still lose it at retrieval. The two levels combine as
-predicted: gold-in-pool 0.941 × `R@1|in-pool` 0.772 ≈ `R@1` 0.727.
+The deterministic flow is the significantly best single decision procedure. It beats embedding-card
+by 0.112 (`p=3.2×10⁻¹²`) and beats reading the whole repository by 0.046 (`p=2.0×10⁻³`, under the
+0.0125 threshold) — even though that baseline is handed the gold on every query while ours can lose
+it at retrieval. Reading the whole repository in turn beats embedding-card by 0.066 (`p=3.9×10⁻⁶`).
+Representation barely matters once the model reasons over full schemas: for the read-whole baseline
+raw vs card differ by only 0.006 (`p=0.59`, n.s.), whereas at the embedding layer the card is
+decisive (RQ1). The two levels combine as predicted: gold-in-pool 0.938 × `R@1|in-pool` 0.799 ≈
+`R@1` 0.749.
 
-**Cost.** The accuracy tie hides a cost gap: the baseline reads all 208 cards on every query;
-ours reads only ~5 triaged candidates. On the slice, a token proxy puts ours at ≈9.6M tokens vs
-the baseline's ≈20.0M (roughly half). Per-query context stays bounded at ~5 cards, while the
-baseline grows linearly with the repository and its accuracy decays from 0.981 at N=5 to 0.697 at
-N=208. Routing through retrieval + triage matches whole-repository accuracy while scaling with
-repository size.
+**Cost.** The whole-repository baseline reads all 208 cards on every query; the flow reads only ~5
+triaged candidates. On the slice, a token proxy puts the flow at ≈9.6M tokens vs the baseline's
+≈20.0M (roughly half). Per-query context stays bounded at ~5 cards, while the baseline grows
+linearly with the repository and its accuracy decays from 0.981 at N=5 to 0.703 at N=208. Routing
+through retrieval + triage matches whole-repository accuracy at a fraction of the cost and scales
+with repository size.
 
-**By data model** (1,040-question slice):
+**By data model** (deterministic flow, 1,040-question slice):
 
 | Data model | Queries | R@1 | R@1 \| in-pool |
 |---|:--:|:--:|:--:|
-| PostgreSQL | 470 | 0.800 | 0.837 |
-| Neo4j | 135 | 0.815 | 0.853 |
-| MongoDB | 435 | 0.621 | 0.673 |
-| **Total** | **1,040** | **0.727** | **0.772** |
+| PostgreSQL | 470 | 0.830 | 0.874 |
+| Neo4j | 135 | 0.756 | 0.810 |
+| MongoDB | 435 | 0.660 | 0.712 |
+| **Total** | **1,040** | **0.749** | **0.799** |
 
 One rule routes strongly on PostgreSQL and Neo4j but drops on MongoDB. Most errors are at the
 decision layer, not retrieval misses: the gold is in the candidate set but ranked below a
 same-domain database of another model. Neo4j is indicative only (~80% of its questions are
 machine-generated, a possible stylistic signal).
+
+---
+
+## RQ4 — Agentic variant
+
+The deterministic flow is re-expressed as an LLM agent (a two-node LangGraph loop over retrieve /
+inspect-schema / answer tools) while keeping the **no-self-scoring invariant** — the agent chooses
+which candidates to inspect and when to stop, but Coverage × Connectivity still scores
+deterministically; the answer tool only rejects out-of-pool ids. On the same 1,040-question slice
+the agent reaches `R@1` **0.770**, above the deterministic flow's 0.749 and above both single-tier
+baselines, without relaxing the invariant. The agentic path is run via the live agent runner
+(`src/agent/`), so — unlike the cached deterministic figures — reproducing it issues live LLM calls.
 
 ---
 

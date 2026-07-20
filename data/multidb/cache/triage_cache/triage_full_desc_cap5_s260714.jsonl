@@ -1,0 +1,1040 @@
+{"qid": "s3scale_q_011042", "picked": ["mongo_eai_sample_airbnb", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_010894", "picked": ["mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_010699", "picked": ["mongo_eai_sample_airbnb", "mongoscale_doc_003_apartment_rentals", "mongoscale_doc_042_inn_1", "mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_011205", "picked": ["mongoscale_doc_003_apartment_rentals", "mongoscale_doc_042_inn_1", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_010833", "picked": ["mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_010789", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongo_schema_fraud_detection_db", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_011125", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_011045", "picked": ["mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_011137", "picked": ["mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_066_tracking_orders"]}
+{"qid": "s3scale_q_011276", "picked": ["mongo_eai_sample_analytics", "mongo_eai_sample_supplies", "mongo_schema_fraud_detection_db", "pgscale_080_tracking_share_transactions", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_customer360_retail_db", "mongoscale_doc_022_customers_and_addresses"]}
+{"qid": "s3scale_q_011199", "picked": ["mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_011204", "picked": ["mongo_eai_sample_geospatial", "pgscale_004_battle_death", "pgscale_069_ship_mission"]}
+{"qid": "s3scale_q_011227", "picked": ["mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_011232", "picked": ["mongo_eai_sample_geospatial", "pgscale_069_ship_mission"]}
+{"qid": "s3scale_q_011251", "picked": ["mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_010959", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_011315", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_011312", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_011176", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_010994", "picked": ["mongo_eai_sample_guides"]}
+{"qid": "s3scale_q_011116", "picked": ["pgscale_009_cinema", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_010719", "picked": ["pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jstd_007_movie", "pgbird_022_movie_platform", "mongoscale_doc_058_sakila_1", "pgbird_004_movie_3", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgscale_009_cinema", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_011015", "picked": ["mongo_eai_sample_restaurants", "mongo_eai_sample_mflix", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_011353", "picked": ["pgbird_022_movie_platform", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_049_movie_1", "mongo_eai_sample_mflix", "neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_010744", "picked": ["pgscale_009_cinema", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_011351", "picked": ["mongo_eai_sample_restaurants", "pgscale_061_restaurant_1", "pgbird_002_public_review_platform", "pgscale_011_coffee_shop", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_011366", "picked": ["mongo_eai_sample_restaurants", "pgscale_061_restaurant_1", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_011074", "picked": ["mongo_eai_sample_restaurants", "pgscale_061_restaurant_1", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "mongo_eai_sample_airbnb", "pgbird_002_public_review_platform"]}
+{"qid": "s3scale_q_011397", "picked": ["mongo_eai_sample_restaurants"]}
+{"qid": "s3scale_q_011346", "picked": ["mongo_eai_sample_restaurants", "pgscale_061_restaurant_1", "pgbird_002_public_review_platform", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_011367", "picked": ["pgbird_023_regional_sales", "mongo_eai_sample_supplies", "mongoscale_doc_025_department_store", "pgscale_070_shop_membership"]}
+{"qid": "s3scale_q_011376", "picked": ["pgbird_023_regional_sales", "mongo_eai_sample_supplies", "pgscale_070_shop_membership", "pgscale_011_coffee_shop", "mongoscale_doc_025_department_store", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_011025", "picked": ["mongo_eai_sample_supplies", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform"]}
+{"qid": "s3scale_q_010961", "picked": ["mongo_eai_sample_supplies", "pgbird_023_regional_sales", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_023_customers_and_invoices", "mongo_schema_customer360_retail_db", "mongoscale_doc_022_customers_and_addresses", "pgbird_003_retail_world", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_010927", "picked": ["mongo_eai_sample_supplies", "pgbird_023_regional_sales", "mongoscale_doc_025_department_store", "pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_011022", "picked": ["mongo_eai_sample_weatherdata", "mongo_schema_smartcity_iot_db", "mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_011055", "picked": ["mongo_eai_sample_weatherdata", "mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_011014", "picked": ["mongo_eai_sample_weatherdata", "mongo_eai_sample_geospatial", "neo4jstd_006_geography", "pgscale_076_storm_record", "pgbird_005_mondial_geo", "pgscale_078_swimming", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "mongoscale_doc_071_world_1", "mongoscale_doc_005_bike_1", "pgscale_069_ship_mission"]}
+{"qid": "s3scale_q_010668", "picked": ["mongo_eai_sample_weatherdata", "pgscale_075_station_weather", "mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_010680", "picked": ["mongo_eai_sample_weatherdata"]}
+{"qid": "s3scale_q_010401", "picked": ["mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongoscale_doc_045_insurance_policies", "mongo_eai_sample_supplies", "mongoscale_doc_023_customers_and_invoices", "pgscale_080_tracking_share_transactions", "mongoscale_doc_022_customers_and_addresses", "mongo_schema_customer360_retail_db", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_010364", "picked": ["mongo_schema_customer360_retail_db", "mongo_schema_fraud_detection_db", "mongo_eai_sample_supplies", "mongoscale_doc_022_customers_and_addresses", "pgscale_011_coffee_shop", "mongo_eai_sample_analytics", "pgscale_070_shop_membership", "mongoscale_doc_024_customers_card_transactions", "pgbird_023_regional_sales", "mongoscale_doc_045_insurance_policies"]}
+{"qid": "s3scale_q_010433", "picked": ["mongo_schema_customer360_retail_db", "pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "mongo_eai_sample_supplies", "pgscale_011_coffee_shop", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_fraud_detection_db", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails"]}
+{"qid": "s3scale_q_010419", "picked": ["mongo_eai_sample_analytics", "mongo_eai_sample_supplies", "mongo_schema_customer360_retail_db", "mongoscale_doc_024_customers_card_transactions", "pgscale_072_small_bank_1", "pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_046_loan_1"]}
+{"qid": "s3scale_q_010410", "picked": ["mongo_schema_customer360_retail_db", "pgscale_018_customer_complaints", "mongoscale_doc_045_insurance_policies", "pgscale_081_tracking_software_problems"]}
+{"qid": "s3scale_q_010368", "picked": ["mongo_schema_devops_log_event_db", "pgscale_081_tracking_software_problems"]}
+{"qid": "s3scale_q_010387", "picked": ["mongo_schema_devops_log_event_db"]}
+{"qid": "s3scale_q_010395", "picked": ["pgscale_081_tracking_software_problems", "mongo_schema_devops_log_event_db"]}
+{"qid": "s3scale_q_010370", "picked": ["pgscale_050_perpetrator", "mongo_schema_devops_log_event_db", "mongoscale_doc_044_insurance_fnol", "pgbird_021_retail_complains", "mongo_schema_fraud_detection_db", "pgscale_081_tracking_software_problems", "mongoscale_doc_045_insurance_policies", "pgscale_003_assets_maintenance", "pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_010474", "picked": ["mongo_schema_devops_log_event_db"]}
+{"qid": "s3scale_q_010393", "picked": ["mongoscale_doc_024_customers_card_transactions", "mongo_schema_fraud_detection_db", "mongo_eai_sample_analytics", "mongo_schema_customer360_retail_db", "mongo_eai_sample_supplies", "mongoscale_doc_022_customers_and_addresses", "pgbird_007_retails"]}
+{"qid": "s3scale_q_010384", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongoscale_doc_046_loan_1", "mongo_schema_fraud_detection_db", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_010477", "picked": ["mongo_schema_fraud_detection_db", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_010422", "picked": ["mongo_schema_fraud_detection_db", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "neo4jt2c24_005_neo4jlabs_demo_db_fincen", "mongoscale_doc_045_insurance_policies", "pgscale_072_small_bank_1"]}
+{"qid": "s3scale_q_010375", "picked": ["mongo_schema_fraud_detection_db", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_010379", "picked": ["mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_010374", "picked": ["mongo_schema_genomic_analysis_healthcare_db", "pgscale_067_scientist_1", "neo4jstd_002_biology"]}
+{"qid": "s3scale_q_010407", "picked": ["mongoscale_doc_065_tracking_grants_for_research", "mongo_schema_genomic_analysis_healthcare_db", "pgscale_067_scientist_1"]}
+{"qid": "s3scale_q_010382", "picked": ["mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_010411", "picked": ["mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_010369", "picked": ["mongo_schema_logistics_supply_chain_db", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_010399", "picked": ["mongoscale_doc_066_tracking_orders", "mongo_schema_logistics_supply_chain_db", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_010373", "picked": ["pgscale_019_customer_deliveries", "mongo_schema_logistics_supply_chain_db", "mongoscale_doc_066_tracking_orders", "mongoscale_doc_029_driving_school", "pgbird_003_retail_world", "pgbird_007_retails", "mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_010390", "picked": ["mongo_schema_logistics_supply_chain_db", "mongoscale_doc_066_tracking_orders", "pgscale_019_customer_deliveries", "pgbird_003_retail_world", "pgbird_007_retails"]}
+{"qid": "s3scale_q_010394", "picked": ["mongoscale_doc_066_tracking_orders", "mongo_schema_logistics_supply_chain_db", "pgscale_019_customer_deliveries", "pgbird_003_retail_world", "pgbird_013_books"]}
+{"qid": "s3scale_q_010403", "picked": ["mongo_schema_smartcity_iot_db", "mongo_eai_sample_weatherdata", "mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_010383", "picked": ["mongo_schema_smartcity_iot_db", "mongo_eai_sample_weatherdata"]}
+{"qid": "s3scale_q_010391", "picked": ["mongo_schema_smartcity_iot_db"]}
+{"qid": "s3scale_q_010409", "picked": ["pgscale_040_machine_repair", "mongoscale_doc_045_insurance_policies", "pgscale_081_tracking_software_problems"]}
+{"qid": "s3scale_q_010420", "picked": ["mongo_schema_smartcity_iot_db", "mongoscale_doc_005_bike_1", "pgscale_075_station_weather", "mongo_schema_devops_log_event_db", "pgscale_082_train_station", "neo4jstd_002_biology", "mongo_eai_sample_weatherdata", "pgscale_059_railway", "pgbird_010_talkingdata", "pgscale_033_formula_1"]}
+{"qid": "s3scale_q_010413", "picked": ["mongo_schema_social_sentiment_analysis_db", "pgscale_083_twitter_1", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_010432", "picked": ["mongo_schema_social_sentiment_analysis_db", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1"]}
+{"qid": "s3scale_q_010405", "picked": ["mongo_schema_social_sentiment_analysis_db"]}
+{"qid": "s3scale_q_010367", "picked": ["mongo_schema_social_sentiment_analysis_db", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_010371", "picked": ["mongo_schema_social_sentiment_analysis_db"]}
+{"qid": "s3scale_q_009823", "picked": ["mongoscale_doc_001_activity_1", "mongoscale_doc_069_voter_2", "mongoscale_doc_037_game_1", "mongoscale_doc_012_college_2", "mongoscale_doc_030_e_learning", "pgscale_005_behavior_monitoring", "pgscale_061_restaurant_1"]}
+{"qid": "s3scale_q_009789", "picked": ["mongoscale_doc_001_activity_1", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_011_college_1", "mongoscale_doc_014_company_office", "mongoscale_doc_021_csu_1", "mongoscale_doc_063_student_1", "mongoscale_doc_064_student_transcripts_tracking"]}
+{"qid": "s3scale_q_009813", "picked": ["mongoscale_doc_001_activity_1", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_037_game_1", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "pgbird_009_hockey", "mongoscale_doc_052_musical", "mongoscale_doc_072_wta_1", "mongoscale_doc_019_cre_Drama_Workshop_Groups", "pgscale_046_orchestra", "mongoscale_doc_004_baseball_1"]}
+{"qid": "s3scale_q_009792", "picked": ["mongoscale_doc_001_activity_1", "mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "pgscale_015_course_teach"]}
+{"qid": "s3scale_q_009786", "picked": ["pgscale_015_course_teach", "mongoscale_doc_063_student_1", "mongoscale_doc_012_college_2", "mongoscale_doc_030_e_learning", "mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_001_activity_1", "pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_007302", "picked": ["mongoscale_doc_002_allergy_1", "pgbird_017_synthea", "mongoscale_doc_040_hospital_1"]}
+{"qid": "s3scale_q_007310", "picked": ["mongoscale_doc_028_dorm_1", "mongoscale_doc_037_game_1", "mongoscale_doc_001_activity_1", "mongoscale_doc_002_allergy_1", "pgscale_061_restaurant_1"]}
+{"qid": "s3scale_q_007350", "picked": ["mongoscale_doc_002_allergy_1"]}
+{"qid": "s3scale_q_007307", "picked": ["mongoscale_doc_069_voter_2", "pgscale_051_pets_1", "pgbird_011_student_loan", "mongoscale_doc_010_club_1", "mongoscale_doc_053_network_1", "mongoscale_doc_002_allergy_1", "mongoscale_doc_063_student_1", "pgscale_005_behavior_monitoring", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_007331", "picked": ["mongoscale_doc_012_college_2", "mongoscale_doc_010_club_1", "mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_007667", "picked": ["mongoscale_doc_003_apartment_rentals", "mongoscale_doc_042_inn_1", "mongo_eai_sample_airbnb", "mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_007709", "picked": ["mongoscale_doc_003_apartment_rentals", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_007670", "picked": ["mongoscale_doc_003_apartment_rentals", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_007669", "picked": ["mongoscale_doc_003_apartment_rentals", "mongoscale_doc_028_dorm_1", "mongoscale_doc_042_inn_1", "mongo_eai_sample_airbnb", "mongoscale_doc_014_company_office", "mongoscale_doc_040_hospital_1", "pgscale_042_manufacturer", "pgscale_072_small_bank_1", "mongoscale_doc_054_network_2", "mongo_eai_sample_restaurants"]}
+{"qid": "s3scale_q_007666", "picked": ["mongoscale_doc_014_company_office", "mongoscale_doc_003_apartment_rentals"]}
+{"qid": "s3scale_q_008539", "picked": ["mongoscale_doc_004_baseball_1"]}
+{"qid": "s3scale_q_008549", "picked": ["mongoscale_doc_004_baseball_1", "mongoscale_doc_047_match_season", "pgscale_010_city_record", "pgbird_006_soccer_2016", "pgbird_009_hockey", "pgscale_034_game_injury"]}
+{"qid": "s3scale_q_008554", "picked": ["mongoscale_doc_004_baseball_1", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_008528", "picked": ["mongoscale_doc_004_baseball_1", "neo4jstd_008_nba", "pgbird_009_hockey", "mongoscale_doc_047_match_season", "pgbird_006_soccer_2016", "pgscale_062_riding_club", "mongoscale_doc_055_poker_player", "mongoscale_doc_060_sports_competition"]}
+{"qid": "s3scale_q_008526", "picked": ["mongoscale_doc_004_baseball_1"]}
+{"qid": "s3scale_q_007179", "picked": ["mongoscale_doc_005_bike_1", "pgscale_082_train_station", "pgscale_075_station_weather", "mongoscale_doc_036_flight_4", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_007169", "picked": ["mongoscale_doc_005_bike_1", "pgscale_082_train_station", "mongoscale_doc_036_flight_4", "mongo_schema_logistics_supply_chain_db", "pgscale_031_flight_2"]}
+{"qid": "s3scale_q_007143", "picked": ["mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_007141", "picked": ["mongoscale_doc_005_bike_1", "mongoscale_doc_036_flight_4", "pgscale_082_train_station"]}
+{"qid": "s3scale_q_007182", "picked": ["mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_007997", "picked": ["mongoscale_doc_006_candidate_poll"]}
+{"qid": "s3scale_q_008002", "picked": ["pgscale_006_body_builder", "mongoscale_doc_054_network_2", "mongoscale_doc_069_voter_2", "pgscale_051_pets_1", "mongoscale_doc_006_candidate_poll", "mongoscale_doc_032_entrepreneur", "pgscale_050_perpetrator", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_008014", "picked": ["pgscale_006_body_builder", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_039_gymnast", "mongoscale_doc_054_network_2", "pgscale_050_perpetrator", "mongoscale_doc_006_candidate_poll", "mongoscale_doc_055_poker_player", "pgscale_013_company_employee", "pgbird_011_student_loan"]}
+{"qid": "s3scale_q_007995", "picked": ["mongoscale_doc_006_candidate_poll", "pgscale_022_debate", "mongoscale_doc_069_voter_2", "mongoscale_doc_031_election", "neo4jstd_009_politics", "pgscale_027_election_representative", "pgscale_048_party_people"]}
+{"qid": "s3scale_q_008004", "picked": ["mongoscale_doc_006_candidate_poll"]}
+{"qid": "s3scale_q_009922", "picked": ["mongoscale_doc_007_car_1", "pgscale_041_manufactory_1"]}
+{"qid": "s3scale_q_009932", "picked": ["mongoscale_doc_007_car_1", "mongoscale_doc_029_driving_school"]}
+{"qid": "s3scale_q_009905", "picked": ["mongoscale_doc_007_car_1", "pgscale_041_manufactory_1", "pgscale_033_formula_1"]}
+{"qid": "s3scale_q_009938", "picked": ["mongoscale_doc_007_car_1"]}
+{"qid": "s3scale_q_009933", "picked": ["mongoscale_doc_007_car_1"]}
+{"qid": "s3scale_q_007475", "picked": ["mongoscale_doc_008_chinook_1", "mongoscale_doc_050_music_1", "mongoscale_doc_061_store_1"]}
+{"qid": "s3scale_q_007485", "picked": ["mongoscale_doc_041_hr_1", "pgscale_028_employee_hire_evaluation", "pgscale_019_customer_deliveries", "pgbird_023_regional_sales", "pgbird_001_works_cycles", "mongoscale_doc_029_driving_school"]}
+{"qid": "s3scale_q_007480", "picked": ["mongoscale_doc_050_music_1", "mongoscale_doc_008_chinook_1", "mongoscale_doc_061_store_1", "mongoscale_doc_051_music_4", "pgscale_071_singer", "pgscale_014_concert_singer", "mongoscale_doc_052_musical"]}
+{"qid": "s3scale_q_007468", "picked": ["mongoscale_doc_051_music_4", "mongoscale_doc_050_music_1", "pgscale_071_singer", "mongoscale_doc_008_chinook_1", "mongoscale_doc_061_store_1", "pgscale_014_concert_singer", "pgscale_079_theme_gallery", "pgscale_046_orchestra", "mongoscale_doc_052_musical", "neo4jstd_001_art"]}
+{"qid": "s3scale_q_007496", "picked": ["mongoscale_doc_050_music_1", "mongoscale_doc_008_chinook_1", "mongoscale_doc_061_store_1", "mongoscale_doc_051_music_4", "pgscale_071_singer"]}
+{"qid": "s3scale_q_007652", "picked": ["mongoscale_doc_009_climbing"]}
+{"qid": "s3scale_q_007639", "picked": ["mongoscale_doc_009_climbing", "pgscale_043_mountain_photos", "neo4jstd_006_geography", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_007636", "picked": ["mongoscale_doc_009_climbing", "pgscale_043_mountain_photos", "neo4jstd_006_geography"]}
+{"qid": "s3scale_q_007638", "picked": ["mongoscale_doc_009_climbing", "pgscale_043_mountain_photos", "neo4jstd_006_geography", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_007637", "picked": ["mongoscale_doc_009_climbing", "pgscale_043_mountain_photos", "neo4jstd_006_geography", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_008869", "picked": ["mongoscale_doc_010_club_1"]}
+{"qid": "s3scale_q_008857", "picked": ["mongoscale_doc_010_club_1", "mongoscale_doc_060_sports_competition", "pgscale_062_riding_club", "neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_008872", "picked": ["mongoscale_doc_010_club_1"]}
+{"qid": "s3scale_q_008849", "picked": ["pgscale_070_shop_membership", "mongoscale_doc_010_club_1", "mongoscale_doc_060_sports_competition", "pgscale_011_coffee_shop", "neo4jstd_010_soccer", "pgscale_062_riding_club", "pgscale_023_decoration_competition", "pgbird_009_hockey", "pgbird_018_legislator", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_008845", "picked": ["mongoscale_doc_060_sports_competition", "mongoscale_doc_010_club_1", "neo4jstd_010_soccer", "pgscale_062_riding_club", "pgbird_009_hockey", "mongoscale_doc_047_match_season", "pgbird_006_soccer_2016", "pgscale_034_game_injury"]}
+{"qid": "s3scale_q_008327", "picked": ["mongoscale_doc_012_college_2", "mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "mongoscale_doc_064_student_transcripts_tracking"]}
+{"qid": "s3scale_q_008361", "picked": ["mongoscale_doc_011_college_1", "pgscale_015_course_teach", "mongoscale_doc_063_student_1", "mongoscale_doc_012_college_2", "mongoscale_doc_013_college_3", "mongoscale_doc_030_e_learning"]}
+{"qid": "s3scale_q_008308", "picked": ["mongoscale_doc_063_student_1", "mongoscale_doc_012_college_2", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_008357", "picked": ["pgscale_015_course_teach", "mongoscale_doc_012_college_2", "mongoscale_doc_013_college_3", "mongoscale_doc_030_e_learning", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_008301", "picked": ["mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_007714", "picked": ["mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_007721", "picked": ["mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_011_college_1", "mongoscale_doc_064_student_transcripts_tracking"]}
+{"qid": "s3scale_q_007719", "picked": ["mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_011_college_1", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_007781", "picked": ["mongoscale_doc_011_college_1", "mongoscale_doc_012_college_2", "mongoscale_doc_013_college_3", "pgscale_015_course_teach", "mongoscale_doc_001_activity_1", "mongoscale_doc_063_student_1", "mongoscale_doc_030_e_learning"]}
+{"qid": "s3scale_q_007761", "picked": ["mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_012_college_2", "mongoscale_doc_001_activity_1", "mongoscale_doc_069_voter_2", "pgscale_051_pets_1", "mongoscale_doc_010_club_1"]}
+{"qid": "s3scale_q_009031", "picked": ["mongoscale_doc_011_college_1", "mongoscale_doc_001_activity_1", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_009012", "picked": ["mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_009006", "picked": ["mongoscale_doc_013_college_3"]}
+{"qid": "s3scale_q_009019", "picked": ["mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_001_activity_1", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_009018", "picked": ["mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "mongoscale_doc_012_college_2", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_008977", "picked": ["pgscale_013_company_employee", "mongoscale_doc_038_gas_company", "mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_008976", "picked": ["pgscale_013_company_employee", "pgscale_041_manufactory_1", "mongoscale_doc_038_gas_company", "neo4jstd_003_company", "mongoscale_doc_014_company_office", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_041_hr_1", "pgscale_017_culture_company", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks"]}
+{"qid": "s3scale_q_008987", "picked": ["mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_008984", "picked": ["mongoscale_doc_014_company_office", "pgscale_013_company_employee", "mongoscale_doc_038_gas_company", "neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "pgscale_041_manufactory_1", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_008973", "picked": ["mongoscale_doc_014_company_office", "mongoscale_doc_038_gas_company", "pgscale_013_company_employee", "neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "pgscale_041_manufactory_1", "mongoscale_doc_041_hr_1"]}
+{"qid": "s3scale_q_008080", "picked": ["mongoscale_doc_015_county_public_safety", "pgbird_015_chicago_crime", "mongoscale_doc_031_election", "pgscale_050_perpetrator", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "mongoscale_doc_033_farm", "pgbird_005_mondial_geo", "mongoscale_doc_014_company_office", "mongoscale_doc_071_world_1", "pgscale_024_department_management"]}
+{"qid": "s3scale_q_008099", "picked": ["mongoscale_doc_015_county_public_safety"]}
+{"qid": "s3scale_q_008087", "picked": ["mongoscale_doc_015_county_public_safety", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_008083", "picked": ["mongoscale_doc_015_county_public_safety", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_008085", "picked": ["mongoscale_doc_015_county_public_safety", "mongoscale_doc_031_election", "pgbird_005_mondial_geo", "mongoscale_doc_071_world_1", "mongoscale_doc_033_farm", "mongoscale_doc_021_csu_1", "pgscale_010_city_record", "neo4jstd_006_geography"]}
+{"qid": "s3scale_q_009951", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt"]}
+{"qid": "s3scale_q_009945", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_025_document_management", "mongoscale_doc_018_cre_Docs_and_Epenses", "pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_017_cre_Doc_Tracking_DB"]}
+{"qid": "s3scale_q_009948", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt"]}
+{"qid": "s3scale_q_009947", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_025_document_management", "mongoscale_doc_017_cre_Doc_Tracking_DB", "pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_010005", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_025_document_management", "mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_008794", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt", "mongoscale_doc_017_cre_Doc_Tracking_DB", "pgscale_016_cre_Doc_Control_Systems", "pgscale_025_document_management", "mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_008820", "picked": ["mongoscale_doc_041_hr_1", "pgscale_036_journal_committee", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_011_college_1", "pgscale_045_news_report", "pgscale_025_document_management", "mongoscale_doc_017_cre_Doc_Tracking_DB", "mongoscale_doc_055_poker_player", "pgscale_016_cre_Doc_Control_Systems", "neo4jt2c24_008_neo4jlabs_demo_db_movies"]}
+{"qid": "s3scale_q_008804", "picked": ["mongoscale_doc_017_cre_Doc_Tracking_DB", "mongoscale_doc_011_college_1", "pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_065_tracking_grants_for_research"]}
+{"qid": "s3scale_q_008795", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo", "pgbird_023_regional_sales", "pgscale_031_flight_2", "pgbird_015_chicago_crime", "mongoscale_doc_036_flight_4", "mongoscale_doc_020_cre_Theme_park", "mongoscale_doc_041_hr_1", "pgscale_063_roller_coaster", "pgbird_021_retail_complains"]}
+{"qid": "s3scale_q_008791", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_016_cre_Doc_Control_Systems", "pgscale_025_document_management", "mongoscale_doc_017_cre_Doc_Tracking_DB", "mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_009673", "picked": ["mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_009680", "picked": ["mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_009637", "picked": ["mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_009643", "picked": ["mongoscale_doc_018_cre_Docs_and_Epenses", "mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_016_cre_Doc_Control_Systems", "pgscale_025_document_management", "mongoscale_doc_017_cre_Doc_Tracking_DB"]}
+{"qid": "s3scale_q_009667", "picked": ["mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_009249", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_061_store_1", "pgscale_019_customer_deliveries", "mongo_eai_sample_supplies", "mongoscale_doc_022_customers_and_addresses", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_009245", "picked": ["pgscale_046_orchestra", "pgscale_014_concert_singer", "mongoscale_doc_052_musical", "pgscale_071_singer", "mongoscale_doc_051_music_4", "mongoscale_doc_019_cre_Drama_Workshop_Groups", "pgscale_079_theme_gallery", "mongoscale_doc_008_chinook_1", "mongoscale_doc_061_store_1"]}
+{"qid": "s3scale_q_009253", "picked": ["mongoscale_doc_019_cre_Drama_Workshop_Groups", "pgscale_026_e_government", "mongoscale_doc_029_driving_school", "pgbird_002_public_review_platform"]}
+{"qid": "s3scale_q_009270", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_066_tracking_orders", "pgscale_019_customer_deliveries", "pgbird_003_retail_world", "pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "pgbird_007_retails", "mongoscale_doc_061_store_1"]}
+{"qid": "s3scale_q_009272", "picked": ["mongoscale_doc_062_store_product", "mongoscale_doc_034_film_rank", "mongoscale_doc_058_sakila_1", "pgbird_004_movie_3", "pgscale_009_cinema", "pgscale_043_mountain_photos", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_056_products_gen_characteristics", "neo4jstd_007_movie", "pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_009470", "picked": ["mongoscale_doc_020_cre_Theme_park"]}
+{"qid": "s3scale_q_009454", "picked": ["mongoscale_doc_020_cre_Theme_park", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_009444", "picked": ["mongoscale_doc_020_cre_Theme_park", "neo4jstd_001_art", "mongoscale_doc_014_company_office", "pgscale_026_e_government", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_009446", "picked": ["mongoscale_doc_034_film_rank", "pgscale_009_cinema", "neo4jstd_007_movie", "mongoscale_doc_058_sakila_1", "pgbird_004_movie_3", "pgbird_026_movies_4", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_009450", "picked": ["pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_026_device", "mongoscale_doc_025_department_store", "mongoscale_doc_020_cre_Theme_park", "pgscale_070_shop_membership", "mongoscale_doc_062_store_product", "pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_007966", "picked": ["mongoscale_doc_021_csu_1", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_001_activity_1", "mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "mongoscale_doc_028_dorm_1", "mongoscale_doc_063_student_1", "pgscale_005_behavior_monitoring", "mongoscale_doc_053_network_1"]}
+{"qid": "s3scale_q_007967", "picked": ["mongoscale_doc_021_csu_1"]}
+{"qid": "s3scale_q_007972", "picked": ["mongoscale_doc_021_csu_1"]}
+{"qid": "s3scale_q_007969", "picked": ["mongoscale_doc_021_csu_1", "mongoscale_doc_028_dorm_1", "mongoscale_doc_068_university_basketball", "mongoscale_doc_012_college_2", "mongoscale_doc_001_activity_1", "mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "pgscale_023_decoration_competition", "mongoscale_doc_010_club_1", "pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_007973", "picked": ["mongoscale_doc_021_csu_1"]}
+{"qid": "s3scale_q_009528", "picked": ["mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_024_customers_card_transactions", "pgbird_023_regional_sales", "mongo_eai_sample_analytics", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_045_insurance_policies", "mongo_schema_customer360_retail_db", "mongoscale_doc_046_loan_1", "pgbird_007_retails", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_009573", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_019_customer_deliveries", "pgbird_023_regional_sales", "pgbird_007_retails", "mongoscale_doc_022_customers_and_addresses", "pgbird_003_retail_world", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_025_department_store", "mongo_schema_customer360_retail_db", "pgscale_041_manufactory_1"]}
+{"qid": "s3scale_q_009562", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_041_manufactory_1", "mongoscale_doc_056_products_gen_characteristics", "pgscale_070_shop_membership", "mongoscale_doc_062_store_product", "mongoscale_doc_025_department_store", "pgscale_055_product_catalog", "pgscale_019_customer_deliveries", "pgscale_011_coffee_shop", "pgbird_003_retail_world"]}
+{"qid": "s3scale_q_009551", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo", "mongoscale_doc_015_county_public_safety", "pgbird_023_regional_sales", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_009543", "picked": ["pgbird_023_regional_sales", "mongoscale_doc_046_loan_1", "mongoscale_doc_054_network_2", "mongoscale_doc_022_customers_and_addresses"]}
+{"qid": "s3scale_q_007831", "picked": ["pgscale_072_small_bank_1", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_046_loan_1", "mongo_schema_fraud_detection_db", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_007837", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "pgscale_072_small_bank_1", "mongo_schema_fraud_detection_db", "mongoscale_doc_046_loan_1", "pgscale_080_tracking_share_transactions", "neo4jt2c24_005_neo4jlabs_demo_db_fincen", "mongoscale_doc_045_insurance_policies", "pgscale_070_shop_membership"]}
+{"qid": "s3scale_q_007827", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_customer360_retail_db", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_046_loan_1", "mongoscale_doc_023_customers_and_invoices", "mongo_schema_fraud_detection_db", "pgscale_072_small_bank_1", "pgbird_001_works_cycles", "mongoscale_doc_066_tracking_orders"]}
+{"qid": "s3scale_q_007829", "picked": ["pgscale_072_small_bank_1", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_046_loan_1", "mongo_schema_fraud_detection_db", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_007824", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_046_loan_1", "pgscale_072_small_bank_1", "mongo_schema_customer360_retail_db", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_fraud_detection_db", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_045_insurance_policies"]}
+{"qid": "s3scale_q_007427", "picked": ["mongoscale_doc_022_customers_and_addresses", "mongo_eai_sample_analytics", "mongo_schema_customer360_retail_db", "mongo_eai_sample_supplies", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_046_loan_1", "pgbird_023_regional_sales", "pgscale_072_small_bank_1", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_007413", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongo_schema_fraud_detection_db", "mongoscale_doc_046_loan_1"]}
+{"qid": "s3scale_q_007416", "picked": ["pgscale_072_small_bank_1", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_046_loan_1", "mongo_schema_fraud_detection_db", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_007437", "picked": ["mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_046_loan_1", "mongo_schema_fraud_detection_db", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_007421", "picked": ["mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongoscale_doc_023_customers_and_invoices", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_009038", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongo_eai_sample_supplies", "mongoscale_doc_023_customers_and_invoices", "pgbird_023_regional_sales", "mongoscale_doc_025_department_store", "pgbird_003_retail_world"]}
+{"qid": "s3scale_q_009048", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_019_customer_deliveries", "pgbird_003_retail_world", "pgbird_007_retails", "mongoscale_doc_066_tracking_orders", "pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_009061", "picked": ["mongoscale_doc_022_customers_and_addresses", "pgbird_023_regional_sales", "pgscale_019_customer_deliveries", "pgbird_007_retails", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_001_works_cycles", "pgbird_003_retail_world", "mongoscale_doc_025_department_store", "pgbird_013_books"]}
+{"qid": "s3scale_q_009057", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_041_manufactory_1", "pgbird_007_retails", "pgbird_003_retail_world", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_009040", "picked": ["pgscale_041_manufactory_1", "mongoscale_doc_056_products_gen_characteristics", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_055_product_catalog", "pgbird_007_retails", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_009213", "picked": ["mongoscale_doc_026_device", "pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "pgscale_070_shop_membership", "mongoscale_doc_025_department_store", "pgbird_023_regional_sales", "mongoscale_doc_038_gas_company"]}
+{"qid": "s3scale_q_009211", "picked": ["mongoscale_doc_026_device", "pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "pgscale_070_shop_membership", "pgbird_002_public_review_platform", "mongoscale_doc_025_department_store", "mongo_eai_sample_supplies", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_009207", "picked": ["mongoscale_doc_026_device"]}
+{"qid": "s3scale_q_009216", "picked": ["mongoscale_doc_026_device", "pgscale_052_phone_1", "mongoscale_doc_025_department_store", "mongoscale_doc_062_store_product", "pgscale_028_employee_hire_evaluation", "mongo_schema_customer360_retail_db", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_066_tracking_orders", "pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_009212", "picked": ["mongoscale_doc_026_device", "pgscale_028_employee_hire_evaluation", "pgscale_011_coffee_shop", "mongoscale_doc_025_department_store", "pgscale_070_shop_membership"]}
+{"qid": "s3scale_q_010299", "picked": ["mongoscale_doc_027_dog_kennels", "pgbird_024_thrombosis_prediction", "pgbird_017_synthea", "pgscale_067_scientist_1", "mongoscale_doc_048_medicine_enzyme_interaction", "mongo_schema_genomic_analysis_healthcare_db", "pgscale_026_e_government"]}
+{"qid": "s3scale_q_010308", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "mongoscale_doc_031_election"]}
+{"qid": "s3scale_q_010295", "picked": ["mongoscale_doc_027_dog_kennels", "pgbird_017_synthea", "mongoscale_doc_040_hospital_1"]}
+{"qid": "s3scale_q_010287", "picked": ["mongoscale_doc_027_dog_kennels", "pgscale_051_pets_1"]}
+{"qid": "s3scale_q_010286", "picked": ["mongoscale_doc_027_dog_kennels"]}
+{"qid": "s3scale_q_009389", "picked": ["mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_009434", "picked": ["mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_009421", "picked": ["mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_009430", "picked": ["mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_009418", "picked": ["mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_009727", "picked": ["pgscale_045_news_report", "mongoscale_doc_041_hr_1", "pgscale_067_scientist_1", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_063_student_1"]}
+{"qid": "s3scale_q_009729", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_041_hr_1", "pgscale_028_employee_hire_evaluation", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_009730", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_028_dorm_1", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "mongoscale_doc_041_hr_1", "mongoscale_doc_003_apartment_rentals", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_009746", "picked": ["pgscale_018_customer_complaints", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_045_insurance_policies", "pgbird_023_regional_sales", "pgbird_021_retail_complains", "mongoscale_doc_029_driving_school", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_044_insurance_fnol", "pgbird_007_retails", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_009735", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_041_hr_1", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_008637", "picked": ["pgbird_011_student_loan", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_030_e_learning", "mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "pgscale_077_student_assessment", "mongoscale_doc_063_student_1", "mongoscale_doc_001_activity_1", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_008635", "picked": ["pgbird_011_student_loan", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_013_college_3", "mongoscale_doc_063_student_1", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_008633", "picked": ["pgbird_011_student_loan", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "pgscale_077_student_assessment"]}
+{"qid": "s3scale_q_008631", "picked": ["mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_030_e_learning", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "pgscale_077_student_assessment", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_008614", "picked": ["pgscale_015_course_teach", "mongoscale_doc_030_e_learning", "mongoscale_doc_012_college_2", "mongoscale_doc_013_college_3", "pgscale_077_student_assessment", "mongoscale_doc_011_college_1", "mongoscale_doc_001_activity_1", "pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_008156", "picked": ["mongoscale_doc_031_election"]}
+{"qid": "s3scale_q_008159", "picked": ["pgscale_027_election_representative", "mongoscale_doc_031_election", "mongoscale_doc_006_candidate_poll", "pgscale_048_party_people", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_008169", "picked": ["mongoscale_doc_031_election"]}
+{"qid": "s3scale_q_008160", "picked": ["pgscale_027_election_representative", "mongoscale_doc_031_election", "pgscale_048_party_people", "mongoscale_doc_069_voter_2", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_008158", "picked": ["pgscale_027_election_representative", "mongoscale_doc_031_election", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_007934", "picked": []}
+{"qid": "s3scale_q_007931", "picked": ["pgscale_006_body_builder", "mongoscale_doc_039_gymnast", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_054_network_2", "pgscale_062_riding_club", "pgscale_050_perpetrator", "mongoscale_doc_055_poker_player", "mongoscale_doc_006_candidate_poll", "mongoscale_doc_072_wta_1"]}
+{"qid": "s3scale_q_007932", "picked": ["pgscale_006_body_builder", "mongoscale_doc_054_network_2", "mongoscale_doc_039_gymnast", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_006_candidate_poll", "mongoscale_doc_055_poker_player", "pgscale_062_riding_club", "pgbird_011_student_loan", "pgscale_050_perpetrator", "pgscale_087_wrestler"]}
+{"qid": "s3scale_q_007938", "picked": ["pgscale_006_body_builder", "mongoscale_doc_039_gymnast", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_006_candidate_poll", "pgscale_050_perpetrator", "mongoscale_doc_055_poker_player"]}
+{"qid": "s3scale_q_007937", "picked": ["pgscale_006_body_builder", "mongoscale_doc_039_gymnast", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_006_candidate_poll", "pgscale_078_swimming", "pgscale_050_perpetrator"]}
+{"qid": "s3scale_q_007119", "picked": ["mongoscale_doc_033_farm"]}
+{"qid": "s3scale_q_007125", "picked": ["pgscale_010_city_record", "pgbird_020_olympics", "mongoscale_doc_033_farm", "pgscale_078_swimming", "pgscale_034_game_injury"]}
+{"qid": "s3scale_q_007118", "picked": ["mongoscale_doc_033_farm"]}
+{"qid": "s3scale_q_007117", "picked": ["mongoscale_doc_033_farm"]}
+{"qid": "s3scale_q_007123", "picked": ["mongoscale_doc_071_world_1", "mongoscale_doc_015_county_public_safety", "pgscale_010_city_record", "pgbird_005_mondial_geo", "mongoscale_doc_033_farm", "mongoscale_doc_054_network_2"]}
+{"qid": "s3scale_q_008759", "picked": ["mongoscale_doc_034_film_rank"]}
+{"qid": "s3scale_q_008766", "picked": ["mongoscale_doc_034_film_rank"]}
+{"qid": "s3scale_q_008761", "picked": ["mongoscale_doc_034_film_rank"]}
+{"qid": "s3scale_q_008757", "picked": ["mongoscale_doc_034_film_rank"]}
+{"qid": "s3scale_q_008760", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo", "pgbird_023_regional_sales", "pgbird_007_retails", "mongoscale_doc_034_film_rank", "neo4jstd_003_company"]}
+{"qid": "s3scale_q_007241", "picked": ["pgscale_001_aircraft", "mongoscale_doc_035_flight_1", "neo4jstd_005_flight_accident", "pgscale_032_flight_company", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4"]}
+{"qid": "s3scale_q_007273", "picked": ["pgscale_031_flight_2", "pgscale_032_flight_company", "mongoscale_doc_036_flight_4", "neo4jstd_005_flight_accident", "mongoscale_doc_035_flight_1", "pgscale_001_aircraft"]}
+{"qid": "s3scale_q_007234", "picked": ["mongoscale_doc_035_flight_1", "pgscale_001_aircraft", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_007233", "picked": ["mongoscale_doc_035_flight_1", "pgscale_001_aircraft", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_007239", "picked": ["pgscale_001_aircraft", "neo4jstd_005_flight_accident", "mongoscale_doc_035_flight_1"]}
+{"qid": "s3scale_q_009826", "picked": ["pgscale_032_flight_company", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4", "pgscale_001_aircraft", "neo4jstd_005_flight_accident", "mongoscale_doc_035_flight_1"]}
+{"qid": "s3scale_q_009863", "picked": ["mongoscale_doc_036_flight_4", "pgscale_031_flight_2", "pgscale_032_flight_company", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_009836", "picked": ["mongoscale_doc_036_flight_4", "pgscale_032_flight_company", "pgscale_031_flight_2", "mongoscale_doc_035_flight_1", "neo4jstd_005_flight_accident", "pgscale_001_aircraft"]}
+{"qid": "s3scale_q_009838", "picked": ["mongoscale_doc_036_flight_4", "pgscale_031_flight_2", "pgscale_032_flight_company", "mongoscale_doc_035_flight_1"]}
+{"qid": "s3scale_q_009842", "picked": ["mongoscale_doc_036_flight_4", "pgscale_032_flight_company", "pgscale_031_flight_2", "pgscale_001_aircraft", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_009484", "picked": ["mongoscale_doc_037_game_1", "pgbird_012_video_games", "neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_009481", "picked": ["mongoscale_doc_037_game_1", "pgbird_012_video_games", "neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_009489", "picked": ["mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_069_voter_2", "mongoscale_doc_001_activity_1", "mongoscale_doc_010_club_1", "mongoscale_doc_037_game_1", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_009485", "picked": ["mongoscale_doc_028_dorm_1", "mongoscale_doc_010_club_1", "mongoscale_doc_002_allergy_1", "pgscale_061_restaurant_1", "pgscale_051_pets_1", "pgscale_005_behavior_monitoring", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_009483", "picked": ["mongoscale_doc_037_game_1", "pgbird_012_video_games", "neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_007923", "picked": ["pgscale_013_company_employee", "mongoscale_doc_046_loan_1", "mongoscale_doc_014_company_office", "neo4jt2c24_005_neo4jlabs_demo_db_fincen", "neo4jstd_003_company"]}
+{"qid": "s3scale_q_007908", "picked": ["mongoscale_doc_038_gas_company"]}
+{"qid": "s3scale_q_007902", "picked": ["pgscale_013_company_employee", "mongoscale_doc_014_company_office", "mongoscale_doc_038_gas_company", "neo4jstd_003_company", "pgscale_041_manufactory_1", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_007901", "picked": ["pgscale_013_company_employee", "mongoscale_doc_014_company_office", "mongoscale_doc_038_gas_company", "pgscale_041_manufactory_1", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_007899", "picked": ["pgscale_013_company_employee", "mongoscale_doc_038_gas_company", "mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_007870", "picked": ["mongoscale_doc_039_gymnast", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_007887", "picked": ["mongoscale_doc_039_gymnast", "pgbird_020_olympics", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_007865", "picked": ["mongoscale_doc_039_gymnast", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_007871", "picked": ["mongoscale_doc_039_gymnast", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_007868", "picked": ["mongoscale_doc_039_gymnast", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_008716", "picked": ["mongoscale_doc_040_hospital_1", "mongoscale_doc_041_hr_1"]}
+{"qid": "s3scale_q_008691", "picked": ["mongoscale_doc_040_hospital_1", "pgbird_024_thrombosis_prediction", "pgbird_017_synthea", "mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_008681", "picked": ["mongoscale_doc_040_hospital_1"]}
+{"qid": "s3scale_q_008708", "picked": ["mongoscale_doc_040_hospital_1", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_008700", "picked": ["mongoscale_doc_040_hospital_1", "pgbird_024_thrombosis_prediction", "pgbird_017_synthea", "mongoscale_doc_027_dog_kennels"]}
+{"qid": "s3scale_q_008432", "picked": ["mongoscale_doc_041_hr_1"]}
+{"qid": "s3scale_q_008420", "picked": ["pgscale_024_department_management", "mongoscale_doc_041_hr_1", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_011_college_1", "mongoscale_doc_025_department_store", "mongoscale_doc_013_college_3", "mongoscale_doc_040_hospital_1"]}
+{"qid": "s3scale_q_008413", "picked": ["mongoscale_doc_041_hr_1", "pgscale_024_department_management", "mongoscale_doc_011_college_1", "mongoscale_doc_025_department_store", "pgscale_028_employee_hire_evaluation"]}
+{"qid": "s3scale_q_008403", "picked": ["mongoscale_doc_041_hr_1", "pgscale_028_employee_hire_evaluation", "pgscale_013_company_employee", "mongoscale_doc_011_college_1", "pgscale_024_department_management", "mongoscale_doc_063_student_1", "mongoscale_doc_035_flight_1"]}
+{"qid": "s3scale_q_008435", "picked": ["mongoscale_doc_041_hr_1", "mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_008142", "picked": ["mongoscale_doc_042_inn_1", "mongo_eai_sample_airbnb", "mongoscale_doc_020_cre_Theme_park"]}
+{"qid": "s3scale_q_008121", "picked": ["mongoscale_doc_042_inn_1", "mongo_eai_sample_airbnb", "mongoscale_doc_003_apartment_rentals", "mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_008148", "picked": ["mongoscale_doc_042_inn_1", "mongoscale_doc_003_apartment_rentals", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_008132", "picked": ["mongoscale_doc_042_inn_1", "mongo_eai_sample_airbnb", "mongoscale_doc_020_cre_Theme_park"]}
+{"qid": "s3scale_q_008106", "picked": ["mongoscale_doc_042_inn_1", "mongo_eai_sample_airbnb", "mongoscale_doc_003_apartment_rentals", "mongoscale_doc_020_cre_Theme_park"]}
+{"qid": "s3scale_q_007807", "picked": ["pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_024_customers_card_transactions", "pgbird_007_retails", "mongoscale_doc_044_insurance_fnol", "pgscale_019_customer_deliveries", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_007814", "picked": ["mongoscale_doc_044_insurance_fnol", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_007799", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_044_insurance_fnol", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_007813", "picked": ["mongoscale_doc_044_insurance_fnol", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_007811", "picked": ["mongoscale_doc_044_insurance_fnol", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_007521", "picked": ["mongoscale_doc_044_insurance_fnol", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims", "pgscale_026_e_government"]}
+{"qid": "s3scale_q_007509", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_044_insurance_fnol", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_007508", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_044_insurance_fnol"]}
+{"qid": "s3scale_q_007506", "picked": ["mongoscale_doc_044_insurance_fnol"]}
+{"qid": "s3scale_q_007511", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_044_insurance_fnol", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_008647", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_044_insurance_fnol", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_008669", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_044_insurance_fnol", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_008659", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_044_insurance_fnol", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_008649", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_044_insurance_fnol", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_008648", "picked": ["mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_044_insurance_fnol", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_008249", "picked": ["mongoscale_doc_046_loan_1", "pgscale_072_small_bank_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_008271", "picked": ["pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_046_loan_1", "mongo_eai_sample_supplies", "pgbird_021_retail_complains", "mongoscale_doc_038_gas_company", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_008269", "picked": ["mongoscale_doc_046_loan_1"]}
+{"qid": "s3scale_q_008251", "picked": ["mongoscale_doc_046_loan_1", "mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_008256", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_007606", "picked": ["mongoscale_doc_047_match_season", "mongoscale_doc_060_sports_competition"]}
+{"qid": "s3scale_q_007596", "picked": ["mongoscale_doc_047_match_season", "neo4jstd_010_soccer", "pgbird_009_hockey"]}
+{"qid": "s3scale_q_007602", "picked": ["neo4jstd_010_soccer", "mongoscale_doc_047_match_season", "pgbird_006_soccer_2016", "mongoscale_doc_060_sports_competition", "neo4jstd_008_nba", "pgscale_034_game_injury", "pgscale_062_riding_club", "mongoscale_doc_072_wta_1"]}
+{"qid": "s3scale_q_007610", "picked": ["mongoscale_doc_047_match_season", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_007601", "picked": ["neo4jstd_010_soccer", "mongoscale_doc_047_match_season", "neo4jstd_008_nba", "pgbird_006_soccer_2016", "mongoscale_doc_060_sports_competition", "pgscale_062_riding_club"]}
+{"qid": "s3scale_q_007537", "picked": ["mongoscale_doc_048_medicine_enzyme_interaction", "mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_007542", "picked": ["mongoscale_doc_048_medicine_enzyme_interaction", "pgbird_017_synthea", "mongoscale_doc_040_hospital_1"]}
+{"qid": "s3scale_q_007546", "picked": ["mongoscale_doc_048_medicine_enzyme_interaction"]}
+{"qid": "s3scale_q_007536", "picked": ["mongoscale_doc_048_medicine_enzyme_interaction", "mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_007544", "picked": ["mongoscale_doc_048_medicine_enzyme_interaction"]}
+{"qid": "s3scale_q_008050", "picked": ["mongoscale_doc_049_movie_1", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_022_movie_platform"]}
+{"qid": "s3scale_q_008044", "picked": ["pgscale_030_epinions_1", "mongoscale_doc_049_movie_1", "mongo_eai_sample_airbnb", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgbird_002_public_review_platform", "pgbird_022_movie_platform"]}
+{"qid": "s3scale_q_008034", "picked": ["mongoscale_doc_049_movie_1", "pgbird_022_movie_platform", "mongo_eai_sample_mflix", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix"]}
+{"qid": "s3scale_q_008065", "picked": ["pgscale_030_epinions_1", "mongoscale_doc_049_movie_1", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "mongo_eai_sample_airbnb", "pgbird_002_public_review_platform", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgbird_022_movie_platform"]}
+{"qid": "s3scale_q_008055", "picked": ["pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jstd_007_movie", "mongoscale_doc_049_movie_1", "pgscale_009_cinema", "pgbird_022_movie_platform", "mongoscale_doc_034_film_rank", "pgscale_017_culture_company", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_008521", "picked": ["pgscale_071_singer", "mongoscale_doc_050_music_1", "mongoscale_doc_051_music_4", "pgscale_014_concert_singer", "mongoscale_doc_061_store_1", "mongoscale_doc_008_chinook_1"]}
+{"qid": "s3scale_q_008523", "picked": ["mongoscale_doc_050_music_1"]}
+{"qid": "s3scale_q_008495", "picked": ["mongoscale_doc_050_music_1", "pgscale_071_singer", "mongoscale_doc_051_music_4", "mongoscale_doc_008_chinook_1", "mongoscale_doc_061_store_1", "pgscale_014_concert_singer"]}
+{"qid": "s3scale_q_008485", "picked": ["mongoscale_doc_050_music_1", "pgscale_071_singer", "mongoscale_doc_061_store_1", "mongoscale_doc_051_music_4", "mongoscale_doc_008_chinook_1", "pgscale_014_concert_singer", "pgscale_046_orchestra", "mongoscale_doc_052_musical"]}
+{"qid": "s3scale_q_008477", "picked": ["mongoscale_doc_050_music_1", "mongoscale_doc_061_store_1", "mongoscale_doc_008_chinook_1"]}
+{"qid": "s3scale_q_009626", "picked": ["mongoscale_doc_051_music_4", "mongoscale_doc_008_chinook_1", "mongoscale_doc_050_music_1", "pgscale_071_singer", "mongoscale_doc_061_store_1", "pgscale_014_concert_singer"]}
+{"qid": "s3scale_q_009618", "picked": ["mongoscale_doc_051_music_4", "mongoscale_doc_050_music_1", "pgscale_071_singer", "mongoscale_doc_008_chinook_1", "mongoscale_doc_061_store_1", "mongoscale_doc_052_musical", "pgscale_014_concert_singer"]}
+{"qid": "s3scale_q_009587", "picked": ["pgscale_029_entertainment_awards", "mongoscale_doc_051_music_4"]}
+{"qid": "s3scale_q_009584", "picked": ["pgscale_029_entertainment_awards", "mongoscale_doc_051_music_4"]}
+{"qid": "s3scale_q_009585", "picked": ["pgscale_029_entertainment_awards", "mongoscale_doc_051_music_4"]}
+{"qid": "s3scale_q_007203", "picked": ["mongoscale_doc_052_musical", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgbird_004_movie_3", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_007202", "picked": ["mongoscale_doc_052_musical", "pgbird_004_movie_3", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_026_movies_4", "mongoscale_doc_058_sakila_1", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_054_network_2"]}
+{"qid": "s3scale_q_007199", "picked": ["mongoscale_doc_052_musical", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jstd_007_movie", "pgbird_026_movies_4", "mongo_eai_sample_mflix", "pgbird_004_movie_3", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_007207", "picked": ["mongoscale_doc_052_musical", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4"]}
+{"qid": "s3scale_q_007206", "picked": ["mongoscale_doc_052_musical", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgscale_009_cinema"]}
+{"qid": "s3scale_q_010278", "picked": ["mongoscale_doc_053_network_1", "mongoscale_doc_054_network_2"]}
+{"qid": "s3scale_q_010244", "picked": ["mongoscale_doc_053_network_1", "mongoscale_doc_063_student_1", "pgbird_011_student_loan", "mongoscale_doc_069_voter_2", "pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_010245", "picked": ["mongoscale_doc_053_network_1"]}
+{"qid": "s3scale_q_010242", "picked": ["mongoscale_doc_053_network_1", "mongoscale_doc_063_student_1", "pgbird_011_student_loan", "mongoscale_doc_069_voter_2", "pgscale_005_behavior_monitoring", "mongoscale_doc_010_club_1"]}
+{"qid": "s3scale_q_010276", "picked": ["mongoscale_doc_053_network_1"]}
+{"qid": "s3scale_q_008946", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_069_voter_2", "mongoscale_doc_039_gymnast", "pgscale_024_department_management", "pgbird_011_student_loan", "mongoscale_doc_055_poker_player", "pgscale_014_concert_singer", "pgscale_068_ship_1", "mongoscale_doc_072_wta_1", "mongoscale_doc_052_musical"]}
+{"qid": "s3scale_q_008951", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_053_network_1", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1", "neo4jt2c24_001_neo4jlabs_demo_db_bluesky"]}
+{"qid": "s3scale_q_008937", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_039_gymnast", "mongoscale_doc_069_voter_2", "mongoscale_doc_006_candidate_poll", "pgscale_006_body_builder", "mongoscale_doc_055_poker_player", "pgscale_062_riding_club", "pgscale_013_company_employee", "pgscale_024_department_management", "pgscale_050_perpetrator"]}
+{"qid": "s3scale_q_008950", "picked": ["mongoscale_doc_054_network_2"]}
+{"qid": "s3scale_q_008968", "picked": ["mongoscale_doc_053_network_1", "mongoscale_doc_054_network_2", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "neo4jt2c24_001_neo4jlabs_demo_db_bluesky", "pgscale_083_twitter_1"]}
+{"qid": "s3scale_q_010159", "picked": ["mongoscale_doc_055_poker_player"]}
+{"qid": "s3scale_q_010147", "picked": ["mongoscale_doc_055_poker_player"]}
+{"qid": "s3scale_q_010150", "picked": ["mongoscale_doc_055_poker_player"]}
+{"qid": "s3scale_q_010145", "picked": ["mongoscale_doc_055_poker_player"]}
+{"qid": "s3scale_q_010152", "picked": ["mongoscale_doc_055_poker_player"]}
+{"qid": "s3scale_q_009369", "picked": ["pgscale_018_customer_complaints", "pgbird_003_retail_world", "mongoscale_doc_056_products_gen_characteristics", "pgscale_041_manufactory_1", "pgscale_055_product_catalog", "mongoscale_doc_062_store_product", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails"]}
+{"qid": "s3scale_q_009381", "picked": ["mongoscale_doc_056_products_gen_characteristics", "mongoscale_doc_070_wine_1"]}
+{"qid": "s3scale_q_009379", "picked": ["mongoscale_doc_056_products_gen_characteristics", "mongoscale_doc_062_store_product", "pgscale_055_product_catalog", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_007_car_1"]}
+{"qid": "s3scale_q_009342", "picked": ["mongoscale_doc_056_products_gen_characteristics", "pgscale_055_product_catalog", "mongoscale_doc_062_store_product", "mongoscale_doc_070_wine_1", "pgbird_001_works_cycles", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_009370", "picked": ["pgscale_055_product_catalog", "mongoscale_doc_056_products_gen_characteristics", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_003_retail_world", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_008587", "picked": ["mongoscale_doc_057_program_share"]}
+{"qid": "s3scale_q_008580", "picked": ["mongoscale_doc_057_program_share", "mongoscale_doc_067_tvshow", "pgbird_008_simpson_episodes", "neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_008577", "picked": ["mongoscale_doc_057_program_share", "mongoscale_doc_067_tvshow", "pgbird_008_simpson_episodes", "neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_008572", "picked": ["mongoscale_doc_057_program_share", "mongoscale_doc_067_tvshow", "neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_008582", "picked": ["mongoscale_doc_057_program_share"]}
+{"qid": "s3scale_q_008209", "picked": ["mongoscale_doc_071_world_1", "pgscale_010_city_record", "mongoscale_doc_033_farm", "pgbird_005_mondial_geo", "pgscale_031_flight_2", "mongoscale_doc_020_cre_Theme_park", "neo4jstd_006_geography", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_008214", "picked": ["pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_058_sakila_1", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_008213", "picked": ["pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongo_eai_sample_mflix", "mongoscale_doc_058_sakila_1", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_008208", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgscale_031_flight_2", "pgbird_006_soccer_2016"]}
+{"qid": "s3scale_q_008212", "picked": ["pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_004_movie_3", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_058_sakila_1", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_009185", "picked": ["mongoscale_doc_059_soccer_2"]}
+{"qid": "s3scale_q_009145", "picked": ["mongoscale_doc_059_soccer_2", "neo4jstd_008_nba", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_009163", "picked": ["mongoscale_doc_059_soccer_2"]}
+{"qid": "s3scale_q_009171", "picked": ["mongoscale_doc_059_soccer_2"]}
+{"qid": "s3scale_q_009188", "picked": ["mongoscale_doc_037_game_1", "mongoscale_doc_059_soccer_2", "mongoscale_doc_010_club_1"]}
+{"qid": "s3scale_q_008369", "picked": ["mongoscale_doc_060_sports_competition", "pgscale_062_riding_club", "neo4jstd_010_soccer", "pgbird_009_hockey", "pgbird_006_soccer_2016"]}
+{"qid": "s3scale_q_008370", "picked": ["mongoscale_doc_060_sports_competition", "mongoscale_doc_010_club_1", "neo4jstd_010_soccer", "pgbird_009_hockey", "pgscale_062_riding_club", "mongoscale_doc_004_baseball_1", "pgbird_006_soccer_2016"]}
+{"qid": "s3scale_q_008373", "picked": ["mongoscale_doc_010_club_1", "mongoscale_doc_060_sports_competition", "neo4jstd_010_soccer", "pgscale_062_riding_club", "pgbird_009_hockey"]}
+{"qid": "s3scale_q_008374", "picked": ["neo4jstd_010_soccer", "mongoscale_doc_060_sports_competition", "pgbird_009_hockey", "pgscale_062_riding_club", "mongoscale_doc_047_match_season", "pgscale_034_game_injury"]}
+{"qid": "s3scale_q_008376", "picked": ["mongoscale_doc_060_sports_competition", "neo4jstd_010_soccer", "pgscale_062_riding_club", "pgbird_006_soccer_2016", "neo4jstd_008_nba", "mongoscale_doc_004_baseball_1", "pgbird_009_hockey", "mongoscale_doc_072_wta_1", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_007356", "picked": ["pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails", "pgbird_003_retail_world", "pgscale_019_customer_deliveries", "mongoscale_doc_023_customers_and_invoices", "mongo_eai_sample_supplies", "mongo_schema_customer360_retail_db", "pgbird_013_books"]}
+{"qid": "s3scale_q_007370", "picked": ["mongoscale_doc_050_music_1", "mongoscale_doc_051_music_4", "mongoscale_doc_061_store_1", "pgscale_014_concert_singer", "mongoscale_doc_008_chinook_1", "pgscale_071_singer"]}
+{"qid": "s3scale_q_007383", "picked": ["pgbird_023_regional_sales", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_007391", "picked": ["mongoscale_doc_041_hr_1", "pgscale_028_employee_hire_evaluation"]}
+{"qid": "s3scale_q_007354", "picked": ["mongo_eai_sample_supplies", "mongoscale_doc_022_customers_and_addresses", "mongo_schema_customer360_retail_db", "pgbird_023_regional_sales", "mongoscale_doc_024_customers_card_transactions", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_023_customers_and_invoices", "pgbird_007_retails", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_009115", "picked": ["mongoscale_doc_025_department_store", "mongoscale_doc_062_store_product", "mongoscale_doc_026_device", "pgbird_023_regional_sales", "pgscale_011_coffee_shop", "pgscale_070_shop_membership", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_038_gas_company"]}
+{"qid": "s3scale_q_009110", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo", "mongoscale_doc_062_store_product", "pgbird_015_chicago_crime"]}
+{"qid": "s3scale_q_009128", "picked": ["mongoscale_doc_062_store_product", "pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_009130", "picked": ["mongoscale_doc_062_store_product", "mongoscale_doc_056_products_gen_characteristics", "pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_009117", "picked": ["mongoscale_doc_062_store_product", "mongoscale_doc_025_department_store", "pgbird_023_regional_sales", "mongoscale_doc_026_device", "pgscale_011_coffee_shop", "mongo_eai_sample_supplies", "pgscale_028_employee_hire_evaluation", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_008741", "picked": ["mongoscale_doc_063_student_1", "pgscale_064_school_bus", "mongoscale_doc_053_network_1", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_008743", "picked": ["mongoscale_doc_063_student_1"]}
+{"qid": "s3scale_q_008728", "picked": ["mongoscale_doc_063_student_1", "pgscale_015_course_teach", "mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "pgscale_005_behavior_monitoring", "mongoscale_doc_030_e_learning", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_008718", "picked": ["mongoscale_doc_063_student_1", "mongoscale_doc_028_dorm_1", "mongoscale_doc_010_club_1", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_008742", "picked": ["mongoscale_doc_063_student_1"]}
+{"qid": "s3scale_q_010065", "picked": ["mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_013_college_3", "mongoscale_doc_011_college_1", "mongoscale_doc_012_college_2", "mongoscale_doc_021_csu_1", "mongoscale_doc_030_e_learning"]}
+{"qid": "s3scale_q_010088", "picked": ["pgscale_025_document_management", "mongoscale_doc_012_college_2", "mongoscale_doc_064_student_transcripts_tracking", "pgscale_055_product_catalog", "mongoscale_doc_013_college_3"]}
+{"qid": "s3scale_q_010047", "picked": ["mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_011_college_1", "mongoscale_doc_021_csu_1"]}
+{"qid": "s3scale_q_010067", "picked": ["mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_037_game_1", "mongoscale_doc_011_college_1", "pgscale_051_pets_1", "mongoscale_doc_069_voter_2"]}
+{"qid": "s3scale_q_010043", "picked": ["pgscale_015_course_teach", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_030_e_learning", "mongoscale_doc_064_student_transcripts_tracking", "pgscale_077_student_assessment", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_008875", "picked": ["mongoscale_doc_065_tracking_grants_for_research", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgscale_026_e_government", "neo4jt2c24_005_neo4jlabs_demo_db_fincen", "mongoscale_doc_019_cre_Drama_Workshop_Groups", "neo4jstd_003_company", "mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_008880", "picked": ["mongoscale_doc_065_tracking_grants_for_research", "pgscale_067_scientist_1", "mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_008896", "picked": ["mongoscale_doc_065_tracking_grants_for_research", "pgscale_067_scientist_1", "pgbird_025_donor"]}
+{"qid": "s3scale_q_008901", "picked": ["mongoscale_doc_065_tracking_grants_for_research", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgscale_026_e_government", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_008881", "picked": ["mongoscale_doc_065_tracking_grants_for_research", "pgscale_067_scientist_1", "pgbird_025_donor", "mongoscale_doc_041_hr_1", "pgscale_013_company_employee", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_018_cre_Docs_and_Epenses", "mongoscale_doc_001_activity_1", "mongoscale_doc_011_college_1", "pgscale_028_employee_hire_evaluation"]}
+{"qid": "s3scale_q_009872", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_022_customers_and_addresses", "pgscale_019_customer_deliveries", "mongoscale_doc_066_tracking_orders", "pgbird_003_retail_world", "pgbird_007_retails", "pgbird_023_regional_sales", "pgbird_013_books", "mongoscale_doc_023_customers_and_invoices", "mongo_eai_sample_supplies"]}
+{"qid": "s3scale_q_009891", "picked": ["mongoscale_doc_066_tracking_orders", "pgbird_003_retail_world", "pgscale_019_customer_deliveries", "mongo_schema_logistics_supply_chain_db", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails", "pgbird_013_books", "mongoscale_doc_022_customers_and_addresses", "pgbird_023_regional_sales", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_009894", "picked": ["mongoscale_doc_022_customers_and_addresses", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_023_regional_sales", "pgbird_003_retail_world", "pgscale_019_customer_deliveries", "pgbird_007_retails", "mongo_eai_sample_supplies", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_066_tracking_orders", "mongo_schema_customer360_retail_db"]}
+{"qid": "s3scale_q_009882", "picked": ["mongoscale_doc_022_customers_and_addresses", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_019_customer_deliveries", "pgbird_023_regional_sales", "pgbird_003_retail_world", "pgbird_007_retails", "mongoscale_doc_066_tracking_orders", "mongoscale_doc_023_customers_and_invoices", "mongo_eai_sample_supplies", "mongo_schema_customer360_retail_db"]}
+{"qid": "s3scale_q_009887", "picked": ["mongoscale_doc_066_tracking_orders", "pgscale_019_customer_deliveries", "pgbird_003_retail_world", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails", "mongoscale_doc_022_customers_and_addresses", "pgbird_023_regional_sales", "pgbird_013_books", "mongo_schema_logistics_supply_chain_db"]}
+{"qid": "s3scale_q_010131", "picked": ["mongoscale_doc_067_tvshow", "mongoscale_doc_057_program_share", "pgbird_008_simpson_episodes"]}
+{"qid": "s3scale_q_010097", "picked": ["mongoscale_doc_067_tvshow", "pgbird_008_simpson_episodes", "pgscale_009_cinema", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_022_movie_platform"]}
+{"qid": "s3scale_q_010098", "picked": ["mongoscale_doc_067_tvshow", "pgbird_008_simpson_episodes", "pgscale_009_cinema", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_057_program_share", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "neo4jstd_007_movie"]}
+{"qid": "s3scale_q_010137", "picked": ["mongoscale_doc_067_tvshow"]}
+{"qid": "s3scale_q_010130", "picked": ["mongoscale_doc_067_tvshow", "pgbird_008_simpson_episodes", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgscale_009_cinema", "neo4jstd_007_movie", "mongoscale_doc_034_film_rank", "mongoscale_doc_049_movie_1", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations"]}
+{"qid": "s3scale_q_007583", "picked": ["mongoscale_doc_021_csu_1", "mongoscale_doc_068_university_basketball", "pgscale_023_decoration_competition", "pgscale_066_school_player", "mongoscale_doc_011_college_1", "mongoscale_doc_059_soccer_2", "mongoscale_doc_013_college_3", "mongoscale_doc_064_student_transcripts_tracking"]}
+{"qid": "s3scale_q_007564", "picked": ["pgscale_066_school_player", "mongoscale_doc_068_university_basketball", "mongoscale_doc_021_csu_1"]}
+{"qid": "s3scale_q_007566", "picked": ["mongoscale_doc_068_university_basketball"]}
+{"qid": "s3scale_q_007567", "picked": ["mongoscale_doc_068_university_basketball", "neo4jstd_008_nba", "mongoscale_doc_059_soccer_2", "mongoscale_doc_060_sports_competition", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_007581", "picked": ["pgscale_066_school_player", "mongoscale_doc_068_university_basketball", "mongoscale_doc_021_csu_1", "pgscale_064_school_bus", "pgbird_025_donor"]}
+{"qid": "s3scale_q_009273", "picked": ["mongoscale_doc_069_voter_2", "mongoscale_doc_054_network_2", "mongoscale_doc_010_club_1", "pgscale_051_pets_1", "mongoscale_doc_002_allergy_1", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_009275", "picked": ["mongoscale_doc_010_club_1", "mongoscale_doc_013_college_3", "mongoscale_doc_069_voter_2", "mongoscale_doc_001_activity_1", "mongoscale_doc_037_game_1", "mongoscale_doc_011_college_1", "pgscale_051_pets_1", "mongoscale_doc_028_dorm_1"]}
+{"qid": "s3scale_q_009290", "picked": ["mongoscale_doc_069_voter_2"]}
+{"qid": "s3scale_q_009297", "picked": ["mongoscale_doc_069_voter_2"]}
+{"qid": "s3scale_q_009287", "picked": ["mongoscale_doc_069_voter_2"]}
+{"qid": "s3scale_q_009694", "picked": ["mongoscale_doc_070_wine_1"]}
+{"qid": "s3scale_q_009689", "picked": ["mongoscale_doc_070_wine_1"]}
+{"qid": "s3scale_q_009706", "picked": ["mongoscale_doc_070_wine_1"]}
+{"qid": "s3scale_q_009713", "picked": ["mongoscale_doc_070_wine_1"]}
+{"qid": "s3scale_q_009696", "picked": ["mongoscale_doc_070_wine_1"]}
+{"qid": "s3scale_q_010188", "picked": ["pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_010186", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_010224", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo", "pgscale_063_roller_coaster", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_010205", "picked": ["mongoscale_doc_071_world_1", "pgscale_063_roller_coaster", "pgbird_005_mondial_geo", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_010216", "picked": ["mongoscale_doc_071_world_1", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_010013", "picked": ["mongoscale_doc_072_wta_1", "pgscale_062_riding_club", "pgbird_006_soccer_2016", "mongoscale_doc_047_match_season", "mongoscale_doc_060_sports_competition", "pgscale_010_city_record", "mongoscale_doc_055_poker_player", "pgscale_087_wrestler", "pgscale_034_game_injury", "pgbird_009_hockey"]}
+{"qid": "s3scale_q_010031", "picked": ["pgbird_006_soccer_2016", "mongoscale_doc_072_wta_1", "pgscale_010_city_record", "pgscale_062_riding_club", "pgbird_009_hockey", "mongoscale_doc_047_match_season", "mongoscale_doc_060_sports_competition"]}
+{"qid": "s3scale_q_010027", "picked": ["mongoscale_doc_072_wta_1", "mongoscale_doc_047_match_season", "pgbird_006_soccer_2016", "pgscale_062_riding_club", "mongoscale_doc_060_sports_competition", "pgscale_034_game_injury", "pgscale_087_wrestler", "neo4jstd_010_soccer", "mongoscale_doc_055_poker_player", "neo4jstd_008_nba"]}
+{"qid": "s3scale_q_010037", "picked": ["mongoscale_doc_072_wta_1", "pgscale_062_riding_club", "mongoscale_doc_047_match_season", "mongoscale_doc_060_sports_competition", "pgbird_006_soccer_2016", "mongoscale_doc_039_gymnast", "neo4jstd_010_soccer", "neo4jstd_008_nba"]}
+{"qid": "s3scale_q_010036", "picked": ["mongoscale_doc_072_wta_1", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_019242", "picked": ["neo4jstd_003_company"]}
+{"qid": "s3scale_q_016952", "picked": ["neo4jstd_001_art"]}
+{"qid": "s3scale_q_016411", "picked": ["neo4jstd_001_art", "pgscale_029_entertainment_awards"]}
+{"qid": "s3scale_q_017452", "picked": ["neo4jstd_001_art"]}
+{"qid": "s3scale_q_018815", "picked": ["neo4jstd_001_art", "pgscale_029_entertainment_awards"]}
+{"qid": "s3scale_q_013850", "picked": ["neo4jstd_002_biology"]}
+{"qid": "s3scale_q_012978", "picked": ["neo4jstd_002_biology"]}
+{"qid": "s3scale_q_016507", "picked": ["neo4jstd_002_biology"]}
+{"qid": "s3scale_q_019030", "picked": ["neo4jstd_002_biology"]}
+{"qid": "s3scale_q_014689", "picked": ["neo4jstd_002_biology"]}
+{"qid": "s3scale_q_020200", "picked": ["pgscale_017_culture_company", "neo4jstd_003_company", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "pgbird_026_movies_4"]}
+{"qid": "s3scale_q_021154", "picked": ["neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "mongoscale_doc_032_entrepreneur", "pgscale_013_company_employee"]}
+{"qid": "s3scale_q_020106", "picked": ["pgbird_019_authors", "pgscale_035_icfp_1", "pgscale_007_book_2", "pgscale_036_journal_committee", "pgbird_013_books", "pgscale_013_company_employee", "neo4jstd_003_company", "mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_021313", "picked": ["pgbird_018_legislator", "mongoscale_doc_054_network_2", "mongo_schema_genomic_analysis_healthcare_db", "pgbird_024_thrombosis_prediction", "neo4jstd_009_politics", "mongoscale_doc_069_voter_2", "mongoscale_doc_006_candidate_poll"]}
+{"qid": "s3scale_q_020257", "picked": ["neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_019962", "picked": ["pgscale_068_ship_1", "mongoscale_doc_054_network_2", "pgbird_018_legislator", "mongoscale_doc_035_flight_1", "mongoscale_doc_001_activity_1", "pgscale_051_pets_1", "mongoscale_doc_063_student_1", "neo4jstd_004_fictional_character", "mongoscale_doc_039_gymnast"]}
+{"qid": "s3scale_q_020076", "picked": ["neo4jstd_004_fictional_character", "pgbird_008_simpson_episodes"]}
+{"qid": "s3scale_q_019931", "picked": ["pgscale_087_wrestler", "neo4jstd_008_nba", "neo4jstd_004_fictional_character", "pgbird_006_soccer_2016", "mongoscale_doc_054_network_2", "mongoscale_doc_037_game_1", "pgscale_006_body_builder", "mongoscale_doc_004_baseball_1", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_020124", "picked": ["neo4jstd_004_fictional_character", "neo4jt2c24_006_neo4jlabs_demo_db_gameofthrones"]}
+{"qid": "s3scale_q_020080", "picked": ["neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_020032", "picked": ["neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_020044", "picked": ["neo4jstd_005_flight_accident", "pgscale_001_aircraft", "mongoscale_doc_035_flight_1", "pgscale_032_flight_company", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4"]}
+{"qid": "s3scale_q_020735", "picked": ["neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_021332", "picked": ["neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_021540", "picked": ["neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_020001", "picked": ["pgscale_043_mountain_photos", "mongoscale_doc_009_climbing", "neo4jstd_006_geography", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_020138", "picked": ["neo4jstd_006_geography", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_020024", "picked": ["neo4jstd_006_geography", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_020197", "picked": ["pgbird_005_mondial_geo", "neo4jstd_006_geography", "mongoscale_doc_071_world_1", "mongoscale_doc_009_climbing", "pgscale_043_mountain_photos"]}
+{"qid": "s3scale_q_020068", "picked": ["mongoscale_doc_009_climbing", "pgscale_043_mountain_photos", "neo4jstd_006_geography", "pgbird_005_mondial_geo", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_020006", "picked": ["neo4jstd_007_movie", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4", "mongoscale_doc_049_movie_1", "mongo_eai_sample_mflix", "pgbird_022_movie_platform", "mongoscale_doc_034_film_rank", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_020007", "picked": ["pgbird_026_movies_4", "mongoscale_doc_034_film_rank", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "mongo_eai_sample_mflix", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_004_movie_3", "pgbird_022_movie_platform", "pgscale_009_cinema"]}
+{"qid": "s3scale_q_020021", "picked": ["neo4jstd_007_movie", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations"]}
+{"qid": "s3scale_q_020036", "picked": ["pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "mongoscale_doc_034_film_rank", "mongo_eai_sample_mflix", "mongoscale_doc_049_movie_1", "pgscale_017_culture_company", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgscale_009_cinema"]}
+{"qid": "s3scale_q_021002", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "mongoscale_doc_054_network_2", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "mongoscale_doc_052_musical", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations"]}
+{"qid": "s3scale_q_020289", "picked": ["pgbird_011_student_loan", "pgbird_018_legislator", "mongoscale_doc_054_network_2"]}
+{"qid": "s3scale_q_021852", "picked": ["neo4jstd_008_nba", "pgbird_009_hockey"]}
+{"qid": "s3scale_q_021966", "picked": ["neo4jstd_008_nba", "mongoscale_doc_068_university_basketball", "mongoscale_doc_047_match_season", "mongoscale_doc_059_soccer_2"]}
+{"qid": "s3scale_q_020091", "picked": ["neo4jstd_008_nba"]}
+{"qid": "s3scale_q_020151", "picked": ["pgbird_009_hockey", "neo4jstd_008_nba", "pgscale_010_city_record", "mongoscale_doc_068_university_basketball", "mongoscale_doc_004_baseball_1", "pgscale_034_game_injury", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_020089", "picked": ["neo4jstd_009_politics", "pgscale_048_party_people", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_020120", "picked": ["neo4jstd_009_politics", "pgscale_048_party_people", "mongoscale_doc_031_election", "pgscale_022_debate"]}
+{"qid": "s3scale_q_022099", "picked": ["mongoscale_doc_054_network_2", "mongoscale_doc_039_gymnast", "neo4jstd_003_company", "pgscale_006_body_builder"]}
+{"qid": "s3scale_q_022165", "picked": ["pgbird_018_legislator", "mongoscale_doc_054_network_2", "neo4jstd_003_company"]}
+{"qid": "s3scale_q_020793", "picked": ["neo4jstd_009_politics", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_014643", "picked": ["neo4jstd_010_soccer", "mongoscale_doc_060_sports_competition", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_012977", "picked": ["neo4jstd_010_soccer", "mongoscale_doc_060_sports_competition", "pgscale_034_game_injury"]}
+{"qid": "s3scale_q_013226", "picked": ["mongoscale_doc_054_network_2", "neo4jstd_001_art", "mongoscale_doc_055_poker_player", "mongoscale_doc_032_entrepreneur", "mongoscale_doc_039_gymnast", "neo4jstd_009_politics", "neo4jstd_003_company", "pgbird_018_legislator"]}
+{"qid": "s3scale_q_017980", "picked": ["neo4jstd_010_soccer", "pgscale_034_game_injury", "pgbird_020_olympics", "mongoscale_doc_047_match_season", "pgscale_062_riding_club"]}
+{"qid": "s3scale_q_016900", "picked": ["mongoscale_doc_047_match_season", "neo4jstd_010_soccer", "mongoscale_doc_060_sports_competition"]}
+{"qid": "s3scale_q_013534", "picked": ["neo4jstd_011_terrorist_attack", "pgscale_050_perpetrator", "mongoscale_doc_054_network_2", "mongoscale_doc_032_entrepreneur", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "pgscale_035_icfp_1", "mongoscale_doc_053_network_1", "pgscale_006_body_builder", "neo4jstd_008_nba"]}
+{"qid": "s3scale_q_016092", "picked": ["pgscale_050_perpetrator", "neo4jstd_011_terrorist_attack"]}
+{"qid": "s3scale_q_014434", "picked": ["neo4jstd_011_terrorist_attack", "pgscale_050_perpetrator"]}
+{"qid": "s3scale_q_013107", "picked": ["neo4jstd_011_terrorist_attack", "pgscale_050_perpetrator"]}
+{"qid": "s3scale_q_019750", "picked": ["neo4jstd_011_terrorist_attack", "pgscale_050_perpetrator", "neo4jstd_009_politics", "pgscale_001_aircraft", "mongoscale_doc_054_network_2", "mongoscale_doc_032_entrepreneur"]}
+{"qid": "s3scale_q_024598", "picked": ["neo4jt2c24_001_neo4jlabs_demo_db_bluesky"]}
+{"qid": "s3scale_q_023512", "picked": ["neo4jt2c24_001_neo4jlabs_demo_db_bluesky"]}
+{"qid": "s3scale_q_023591", "picked": ["neo4jt2c24_001_neo4jlabs_demo_db_bluesky"]}
+{"qid": "s3scale_q_023696", "picked": ["neo4jt2c24_001_neo4jlabs_demo_db_bluesky"]}
+{"qid": "s3scale_q_024840", "picked": ["neo4jt2c24_001_neo4jlabs_demo_db_bluesky"]}
+{"qid": "s3scale_q_034763", "picked": ["neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_037264", "picked": ["neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_029207", "picked": ["neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_028537", "picked": ["neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_023677", "picked": ["neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_038280", "picked": ["neo4jt2c24_003_neo4jlabs_demo_db_companies", "neo4jstd_003_company"]}
+{"qid": "s3scale_q_040215", "picked": ["neo4jt2c24_003_neo4jlabs_demo_db_companies", "mongoscale_doc_065_tracking_grants_for_research"]}
+{"qid": "s3scale_q_032906", "picked": ["neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_043808", "picked": ["neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgscale_013_company_employee", "neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks"]}
+{"qid": "s3scale_q_038750", "picked": ["neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgscale_013_company_employee", "mongoscale_doc_014_company_office", "neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "mongoscale_doc_038_gas_company", "mongoscale_doc_032_entrepreneur"]}
+{"qid": "s3scale_q_046342", "picked": ["neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_058_sakila_1", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_046185", "picked": ["neo4jstd_007_movie"]}
+{"qid": "s3scale_q_042437", "picked": ["pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_030933", "picked": ["pgbird_026_movies_4", "pgscale_009_cinema", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_034_film_rank", "neo4jstd_007_movie", "mongoscale_doc_049_movie_1", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_022_movie_platform", "mongo_eai_sample_mflix", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_023885", "picked": ["mongoscale_doc_034_film_rank", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgscale_017_culture_company", "pgbird_022_movie_platform", "mongoscale_doc_049_movie_1", "pgscale_009_cinema", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix"]}
+{"qid": "s3scale_q_029406", "picked": ["neo4jt2c24_005_neo4jlabs_demo_db_fincen"]}
+{"qid": "s3scale_q_046242", "picked": ["neo4jt2c24_005_neo4jlabs_demo_db_fincen"]}
+{"qid": "s3scale_q_041464", "picked": ["neo4jt2c24_005_neo4jlabs_demo_db_fincen"]}
+{"qid": "s3scale_q_027064", "picked": ["neo4jt2c24_005_neo4jlabs_demo_db_fincen"]}
+{"qid": "s3scale_q_026127", "picked": ["neo4jt2c24_005_neo4jlabs_demo_db_fincen"]}
+{"qid": "s3scale_q_030076", "picked": ["neo4jt2c24_006_neo4jlabs_demo_db_gameofthrones", "neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_043792", "picked": ["neo4jt2c24_006_neo4jlabs_demo_db_gameofthrones"]}
+{"qid": "s3scale_q_044832", "picked": ["neo4jt2c24_006_neo4jlabs_demo_db_gameofthrones", "neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_039630", "picked": ["neo4jt2c24_006_neo4jlabs_demo_db_gameofthrones", "neo4jstd_004_fictional_character"]}
+{"qid": "s3scale_q_043428", "picked": ["neo4jt2c24_006_neo4jlabs_demo_db_gameofthrones"]}
+{"qid": "s3scale_q_045967", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgbird_002_public_review_platform", "mongo_eai_sample_restaurants"]}
+{"qid": "s3scale_q_042582", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_030022", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform", "mongo_eai_sample_airbnb", "pgscale_030_epinions_1"]}
+{"qid": "s3scale_q_040898", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform", "mongo_eai_sample_airbnb", "mongoscale_doc_038_gas_company", "pgbird_023_regional_sales", "mongo_eai_sample_restaurants"]}
+{"qid": "s3scale_q_023426", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_002_public_review_platform"]}
+{"qid": "s3scale_q_023551", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_030009", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_049_movie_1", "pgbird_026_movies_4", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_030012", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_049_movie_1", "pgscale_009_cinema", "mongoscale_doc_034_film_rank", "mongo_eai_sample_mflix", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix"]}
+{"qid": "s3scale_q_043928", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgbird_026_movies_4", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_058_sakila_1", "mongo_eai_sample_mflix", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_031503", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_022_movie_platform", "mongo_eai_sample_mflix", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_031401", "picked": ["neo4jt2c24_009_neo4jlabs_demo_db_network"]}
+{"qid": "s3scale_q_041946", "picked": ["neo4jt2c24_009_neo4jlabs_demo_db_network"]}
+{"qid": "s3scale_q_025986", "picked": ["neo4jt2c24_009_neo4jlabs_demo_db_network"]}
+{"qid": "s3scale_q_022617", "picked": ["neo4jt2c24_009_neo4jlabs_demo_db_network"]}
+{"qid": "s3scale_q_034672", "picked": ["neo4jt2c24_009_neo4jlabs_demo_db_network"]}
+{"qid": "s3scale_q_038931", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_003_retail_world", "mongoscale_doc_056_products_gen_characteristics", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_039062", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails", "pgbird_003_retail_world", "mongoscale_doc_025_department_store", "pgscale_041_manufactory_1", "pgbird_001_works_cycles", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_038477", "picked": ["pgscale_019_customer_deliveries", "mongoscale_doc_066_tracking_orders", "pgbird_003_retail_world", "pgbird_007_retails", "pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_023_customers_and_invoices", "mongo_schema_logistics_supply_chain_db", "pgbird_013_books"]}
+{"qid": "s3scale_q_045880", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_003_retail_world", "pgbird_023_regional_sales", "pgbird_007_retails", "pgscale_019_customer_deliveries", "mongoscale_doc_025_department_store", "mongoscale_doc_066_tracking_orders", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_030683", "picked": ["pgscale_019_customer_deliveries", "mongoscale_doc_066_tracking_orders", "pgbird_003_retail_world", "pgbird_007_retails", "pgbird_023_regional_sales", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_023_customers_and_invoices", "mongo_schema_logistics_supply_chain_db", "pgbird_013_books"]}
+{"qid": "s3scale_q_035671", "picked": ["neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks"]}
+{"qid": "s3scale_q_031610", "picked": ["neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "pgscale_026_e_government", "mongoscale_doc_014_company_office"]}
+{"qid": "s3scale_q_028404", "picked": ["neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks"]}
+{"qid": "s3scale_q_036652", "picked": ["neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jt2c24_005_neo4jlabs_demo_db_fincen", "neo4jstd_003_company", "pgscale_013_company_employee", "mongoscale_doc_014_company_office", "pgscale_026_e_government", "mongoscale_doc_032_entrepreneur"]}
+{"qid": "s3scale_q_032353", "picked": ["neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jstd_003_company", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "mongoscale_doc_014_company_office", "neo4jt2c24_005_neo4jlabs_demo_db_fincen", "pgscale_013_company_employee", "mongoscale_doc_032_entrepreneur", "pgscale_042_manufacturer"]}
+{"qid": "s3scale_q_037907", "picked": ["mongoscale_doc_020_cre_Theme_park", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_046037", "picked": ["mongoscale_doc_020_cre_Theme_park", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_039359", "picked": ["neo4jstd_001_art", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_023429", "picked": ["neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_026349", "picked": ["neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_040975", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4", "pgscale_009_cinema", "mongoscale_doc_034_film_rank"]}
+{"qid": "s3scale_q_044691", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4", "pgbird_004_movie_3", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_031772", "picked": ["pgbird_022_movie_platform", "mongoscale_doc_049_movie_1", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongo_eai_sample_mflix", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix"]}
+{"qid": "s3scale_q_041835", "picked": ["neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4", "neo4jstd_007_movie", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_029473", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_058_sakila_1", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_043858", "picked": ["pgbird_016_codebase_community", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "mongo_schema_social_sentiment_analysis_db", "mongo_eai_sample_mflix", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgscale_030_epinions_1", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_022845", "picked": ["neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_039706", "picked": ["neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_042241", "picked": ["neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_037111", "picked": ["neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_038602", "picked": ["neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_027134", "picked": ["neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_033845", "picked": ["neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_039919", "picked": ["neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_044632", "picked": ["neo4jt2c24_015_neo4jlabs_demo_db_twitch"]}
+{"qid": "s3scale_q_028777", "picked": ["neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1", "mongo_schema_social_sentiment_analysis_db"]}
+{"qid": "s3scale_q_030703", "picked": ["neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1"]}
+{"qid": "s3scale_q_044041", "picked": ["neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1", "mongo_schema_social_sentiment_analysis_db", "mongoscale_doc_053_network_1", "neo4jt2c24_006_neo4jlabs_demo_db_gameofthrones"]}
+{"qid": "s3scale_q_037094", "picked": ["neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1", "mongo_schema_social_sentiment_analysis_db"]}
+{"qid": "s3scale_q_044993", "picked": ["neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1"]}
+{"qid": "s3scale_q_005129", "picked": ["mongoscale_doc_041_hr_1", "pgscale_024_department_management", "mongoscale_doc_025_department_store", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_005134", "picked": ["mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_005131", "picked": ["pgbird_007_retails", "pgbird_001_works_cycles", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_023_customers_and_invoices", "pgbird_023_regional_sales", "pgscale_003_assets_maintenance"]}
+{"qid": "s3scale_q_005130", "picked": ["pgscale_041_manufactory_1", "pgscale_055_product_catalog", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_056_products_gen_characteristics", "pgscale_042_manufacturer", "mongoscale_doc_062_store_product", "pgbird_001_works_cycles", "mongoscale_doc_025_department_store", "pgbird_007_retails", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_005136", "picked": ["pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_003148", "picked": ["pgbird_002_public_review_platform", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_003342", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgscale_013_company_employee", "pgbird_002_public_review_platform", "pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "pgbird_001_works_cycles", "mongoscale_doc_038_gas_company", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_003156", "picked": ["pgbird_002_public_review_platform", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_003162", "picked": ["neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "mongo_schema_social_sentiment_analysis_db", "pgbird_016_codebase_community", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "pgscale_083_twitter_1", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "mongoscale_doc_053_network_1"]}
+{"qid": "s3scale_q_003357", "picked": ["mongoscale_doc_053_network_1", "pgbird_002_public_review_platform"]}
+{"qid": "s3scale_q_004505", "picked": ["pgbird_003_retail_world", "pgscale_019_customer_deliveries", "pgbird_001_works_cycles", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_004549", "picked": ["mongoscale_doc_070_wine_1", "mongo_eai_sample_supplies", "mongo_schema_customer360_retail_db", "pgscale_018_customer_complaints", "pgscale_011_coffee_shop", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_023_regional_sales", "pgscale_041_manufactory_1", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_004496", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails", "pgbird_003_retail_world", "mongoscale_doc_025_department_store", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_004746", "picked": ["pgbird_003_retail_world", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_019_customer_deliveries", "pgbird_023_regional_sales", "mongoscale_doc_023_customers_and_invoices", "pgbird_007_retails", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_004627", "picked": ["mongoscale_doc_011_college_1", "pgscale_067_scientist_1", "mongoscale_doc_041_hr_1", "mongoscale_doc_013_college_3", "pgscale_013_company_employee", "pgscale_024_department_management", "pgscale_035_icfp_1", "mongoscale_doc_040_hospital_1", "mongoscale_doc_012_college_2", "pgbird_018_legislator"]}
+{"qid": "s3scale_q_006559", "picked": ["mongo_schema_customer360_retail_db", "mongo_eai_sample_supplies", "pgbird_023_regional_sales", "mongoscale_doc_025_department_store", "pgscale_011_coffee_shop", "pgscale_070_shop_membership"]}
+{"qid": "s3scale_q_006373", "picked": ["pgscale_072_small_bank_1", "pgbird_023_regional_sales", "mongoscale_doc_024_customers_card_transactions", "pgbird_007_retails", "pgbird_001_works_cycles", "pgscale_019_customer_deliveries", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_006546", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_058_sakila_1", "pgbird_004_movie_3", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4"]}
+{"qid": "s3scale_q_006276", "picked": ["pgbird_004_movie_3", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_006272", "picked": ["mongoscale_doc_058_sakila_1", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_005785", "picked": ["pgbird_005_mondial_geo", "mongoscale_doc_071_world_1"]}
+{"qid": "s3scale_q_005787", "picked": ["pgbird_005_mondial_geo", "mongoscale_doc_071_world_1"]}
+{"qid": "s3scale_q_005818", "picked": ["pgbird_005_mondial_geo", "mongoscale_doc_071_world_1"]}
+{"qid": "s3scale_q_005800", "picked": ["pgbird_005_mondial_geo", "neo4jstd_006_geography"]}
+{"qid": "s3scale_q_005791", "picked": ["pgbird_005_mondial_geo", "mongoscale_doc_071_world_1"]}
+{"qid": "s3scale_q_002202", "picked": ["pgscale_014_concert_singer", "mongoscale_doc_020_cre_Theme_park", "pgscale_078_swimming", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_002426", "picked": ["pgscale_034_game_injury", "mongoscale_doc_047_match_season", "mongoscale_doc_060_sports_competition", "neo4jstd_010_soccer", "pgscale_010_city_record", "pgscale_078_swimming"]}
+{"qid": "s3scale_q_002203", "picked": ["pgbird_006_soccer_2016", "mongoscale_doc_047_match_season", "pgscale_062_riding_club"]}
+{"qid": "s3scale_q_002378", "picked": ["pgbird_006_soccer_2016"]}
+{"qid": "s3scale_q_002214", "picked": ["mongoscale_doc_047_match_season", "neo4jstd_010_soccer", "neo4jstd_008_nba", "mongoscale_doc_072_wta_1", "mongoscale_doc_060_sports_competition", "pgbird_006_soccer_2016", "pgscale_062_riding_club"]}
+{"qid": "s3scale_q_004877", "picked": ["mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_046_loan_1", "pgscale_072_small_bank_1", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_004867", "picked": ["pgbird_007_retails", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_066_tracking_orders", "pgbird_003_retail_world", "pgscale_019_customer_deliveries", "pgscale_018_customer_complaints", "mongoscale_doc_025_department_store", "mongoscale_doc_023_customers_and_invoices", "mongo_schema_logistics_supply_chain_db", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_004864", "picked": ["pgbird_023_regional_sales", "pgbird_007_retails", "mongoscale_doc_022_customers_and_addresses", "pgbird_021_retail_complains", "pgscale_019_customer_deliveries", "mongoscale_doc_019_cre_Drama_Workshop_Groups"]}
+{"qid": "s3scale_q_004863", "picked": ["mongoscale_doc_022_customers_and_addresses", "mongo_eai_sample_analytics", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_024_customers_card_transactions", "pgbird_023_regional_sales", "mongo_schema_fraud_detection_db", "pgbird_007_retails", "pgscale_018_customer_complaints", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_044_insurance_fnol"]}
+{"qid": "s3scale_q_004866", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_007_retails", "pgbird_003_retail_world", "pgscale_019_customer_deliveries", "pgbird_023_regional_sales", "mongoscale_doc_025_department_store", "mongoscale_doc_023_customers_and_invoices"]}
+{"qid": "s3scale_q_003574", "picked": ["neo4jstd_007_movie", "pgbird_026_movies_4", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_052_musical", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_003526", "picked": ["pgbird_008_simpson_episodes", "mongoscale_doc_067_tvshow"]}
+{"qid": "s3scale_q_003560", "picked": ["pgbird_008_simpson_episodes", "mongoscale_doc_067_tvshow"]}
+{"qid": "s3scale_q_003525", "picked": ["pgbird_008_simpson_episodes", "mongoscale_doc_067_tvshow", "mongoscale_doc_057_program_share", "pgscale_030_epinions_1"]}
+{"qid": "s3scale_q_003530", "picked": ["pgbird_008_simpson_episodes", "mongoscale_doc_057_program_share", "mongoscale_doc_067_tvshow"]}
+{"qid": "s3scale_q_005595", "picked": ["pgbird_009_hockey", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_005570", "picked": ["pgbird_009_hockey"]}
+{"qid": "s3scale_q_005579", "picked": ["neo4jstd_010_soccer", "neo4jstd_008_nba", "mongoscale_doc_004_baseball_1", "mongoscale_doc_047_match_season", "pgbird_009_hockey", "pgbird_006_soccer_2016", "mongoscale_doc_059_soccer_2"]}
+{"qid": "s3scale_q_005760", "picked": ["pgbird_009_hockey", "pgscale_062_riding_club", "mongoscale_doc_060_sports_competition", "neo4jstd_008_nba", "mongoscale_doc_004_baseball_1", "pgbird_006_soccer_2016", "mongoscale_doc_068_university_basketball", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_005610", "picked": ["neo4jstd_008_nba", "pgbird_009_hockey", "neo4jstd_010_soccer", "pgscale_062_riding_club", "mongoscale_doc_004_baseball_1"]}
+{"qid": "s3scale_q_001861", "picked": ["pgbird_010_talkingdata"]}
+{"qid": "s3scale_q_001792", "picked": ["pgbird_010_talkingdata", "pgscale_052_phone_1", "mongoscale_doc_026_device"]}
+{"qid": "s3scale_q_001791", "picked": ["pgbird_010_talkingdata"]}
+{"qid": "s3scale_q_001789", "picked": ["pgbird_010_talkingdata"]}
+{"qid": "s3scale_q_001932", "picked": ["pgbird_010_talkingdata"]}
+{"qid": "s3scale_q_003904", "picked": ["mongoscale_doc_013_college_3", "pgbird_011_student_loan", "mongoscale_doc_012_college_2", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_003845", "picked": ["pgbird_011_student_loan"]}
+{"qid": "s3scale_q_003734", "picked": ["pgbird_011_student_loan"]}
+{"qid": "s3scale_q_003742", "picked": ["pgbird_011_student_loan"]}
+{"qid": "s3scale_q_003740", "picked": ["pgbird_011_student_loan", "pgscale_005_behavior_monitoring", "mongoscale_doc_064_student_transcripts_tracking", "pgscale_066_school_player", "mongoscale_doc_013_college_3", "mongoscale_doc_063_student_1", "mongoscale_doc_028_dorm_1", "mongoscale_doc_069_voter_2", "mongoscale_doc_010_club_1"]}
+{"qid": "s3scale_q_002912", "picked": ["pgbird_012_video_games"]}
+{"qid": "s3scale_q_002922", "picked": ["pgbird_012_video_games"]}
+{"qid": "s3scale_q_002789", "picked": ["pgbird_012_video_games"]}
+{"qid": "s3scale_q_002770", "picked": ["pgbird_012_video_games"]}
+{"qid": "s3scale_q_002777", "picked": ["pgbird_012_video_games", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_004291", "picked": ["pgbird_013_books", "pgscale_007_book_2", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_004293", "picked": ["pgbird_013_books", "pgscale_007_book_2", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_004288", "picked": ["pgscale_007_book_2", "pgbird_013_books", "pgscale_055_product_catalog", "pgscale_017_culture_company", "pgscale_030_epinions_1"]}
+{"qid": "s3scale_q_004335", "picked": ["pgscale_007_book_2", "pgbird_013_books", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_004282", "picked": ["pgbird_013_books", "pgscale_007_book_2", "pgscale_017_culture_company", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_003_retail_world"]}
+{"qid": "s3scale_q_006635", "picked": ["pgbird_014_card_games"]}
+{"qid": "s3scale_q_006590", "picked": ["pgbird_014_card_games"]}
+{"qid": "s3scale_q_006591", "picked": ["pgbird_014_card_games"]}
+{"qid": "s3scale_q_006753", "picked": ["pgbird_014_card_games"]}
+{"qid": "s3scale_q_006588", "picked": ["pgbird_014_card_games"]}
+{"qid": "s3scale_q_006077", "picked": ["pgbird_015_chicago_crime"]}
+{"qid": "s3scale_q_006080", "picked": ["pgbird_015_chicago_crime"]}
+{"qid": "s3scale_q_006079", "picked": ["pgbird_015_chicago_crime", "mongoscale_doc_015_county_public_safety", "pgscale_050_perpetrator"]}
+{"qid": "s3scale_q_006078", "picked": ["pgbird_015_chicago_crime", "mongoscale_doc_015_county_public_safety", "pgscale_050_perpetrator"]}
+{"qid": "s3scale_q_006162", "picked": ["pgbird_015_chicago_crime"]}
+{"qid": "s3scale_q_006783", "picked": ["pgbird_016_codebase_community", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow"]}
+{"qid": "s3scale_q_006785", "picked": ["pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_006786", "picked": ["pgbird_016_codebase_community", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2"]}
+{"qid": "s3scale_q_006787", "picked": ["pgbird_016_codebase_community", "mongo_schema_social_sentiment_analysis_db", "neo4jt2c24_014_neo4jlabs_demo_db_stackoverflow2", "neo4jt2c24_002_neo4jlabs_demo_db_buzzoverflow", "pgscale_030_epinions_1"]}
+{"qid": "s3scale_q_006788", "picked": ["pgbird_016_codebase_community"]}
+{"qid": "s3scale_q_002004", "picked": ["pgbird_024_thrombosis_prediction", "mongoscale_doc_048_medicine_enzyme_interaction", "mongoscale_doc_040_hospital_1", "pgbird_017_synthea", "mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_002057", "picked": ["pgbird_017_synthea", "pgbird_024_thrombosis_prediction", "mongoscale_doc_040_hospital_1", "mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_002059", "picked": ["pgbird_024_thrombosis_prediction", "pgbird_017_synthea", "mongoscale_doc_040_hospital_1", "mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_002006", "picked": ["pgbird_017_synthea"]}
+{"qid": "s3scale_q_001998", "picked": ["pgbird_024_thrombosis_prediction", "mongoscale_doc_040_hospital_1", "pgbird_017_synthea", "mongoscale_doc_002_allergy_1", "pgbird_011_student_loan"]}
+{"qid": "s3scale_q_003947", "picked": ["pgbird_018_legislator", "pgscale_027_election_representative", "mongoscale_doc_031_election", "pgscale_022_debate", "pgscale_048_party_people", "neo4jstd_009_politics", "mongoscale_doc_006_candidate_poll"]}
+{"qid": "s3scale_q_003934", "picked": ["pgbird_018_legislator"]}
+{"qid": "s3scale_q_003927", "picked": ["pgbird_018_legislator", "pgscale_027_election_representative", "pgscale_048_party_people", "pgscale_022_debate", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_003942", "picked": ["pgbird_018_legislator", "pgscale_027_election_representative", "pgscale_048_party_people", "neo4jstd_009_politics", "pgscale_022_debate", "mongoscale_doc_006_candidate_poll"]}
+{"qid": "s3scale_q_004074", "picked": ["pgbird_018_legislator", "pgscale_027_election_representative", "mongoscale_doc_031_election", "mongoscale_doc_006_candidate_poll", "pgscale_048_party_people", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_002968", "picked": ["pgscale_035_icfp_1", "pgbird_019_authors", "pgscale_086_workshop_paper", "pgscale_007_book_2"]}
+{"qid": "s3scale_q_002966", "picked": ["pgscale_035_icfp_1", "pgbird_019_authors"]}
+{"qid": "s3scale_q_003008", "picked": ["pgbird_019_authors", "pgscale_086_workshop_paper", "pgscale_035_icfp_1"]}
+{"qid": "s3scale_q_002967", "picked": ["pgscale_035_icfp_1", "pgbird_019_authors", "pgscale_086_workshop_paper"]}
+{"qid": "s3scale_q_002995", "picked": ["pgbird_019_authors", "pgscale_035_icfp_1", "pgscale_086_workshop_paper", "pgscale_007_book_2", "pgscale_036_journal_committee"]}
+{"qid": "s3scale_q_004115", "picked": ["pgbird_020_olympics"]}
+{"qid": "s3scale_q_004264", "picked": ["mongoscale_doc_039_gymnast", "pgscale_006_body_builder", "pgscale_078_swimming", "mongoscale_doc_072_wta_1", "pgscale_062_riding_club", "neo4jstd_008_nba"]}
+{"qid": "s3scale_q_004120", "picked": ["mongoscale_doc_037_game_1", "pgbird_020_olympics", "pgscale_062_riding_club", "mongoscale_doc_004_baseball_1", "mongoscale_doc_047_match_season", "neo4jstd_008_nba", "pgbird_009_hockey", "pgbird_006_soccer_2016", "pgscale_034_game_injury"]}
+{"qid": "s3scale_q_004121", "picked": ["pgbird_020_olympics", "pgscale_010_city_record", "mongoscale_doc_060_sports_competition", "pgscale_062_riding_club"]}
+{"qid": "s3scale_q_004206", "picked": ["pgscale_006_body_builder", "mongoscale_doc_039_gymnast", "pgbird_020_olympics", "pgscale_078_swimming", "mongoscale_doc_060_sports_competition", "mongoscale_doc_047_match_season", "neo4jstd_008_nba", "mongoscale_doc_072_wta_1", "pgscale_062_riding_club", "pgbird_009_hockey"]}
+{"qid": "s3scale_q_001472", "picked": ["pgbird_021_retail_complains", "pgscale_018_customer_complaints", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_001475", "picked": ["pgbird_021_retail_complains", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_001498", "picked": ["pgbird_021_retail_complains", "pgscale_018_customer_complaints", "mongoscale_doc_045_insurance_policies"]}
+{"qid": "s3scale_q_001479", "picked": ["pgbird_021_retail_complains", "pgscale_018_customer_complaints", "pgscale_081_tracking_software_problems"]}
+{"qid": "s3scale_q_001477", "picked": ["pgscale_018_customer_complaints", "pgbird_021_retail_complains", "pgscale_081_tracking_software_problems"]}
+{"qid": "s3scale_q_001310", "picked": ["neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgbird_026_movies_4", "mongoscale_doc_049_movie_1", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgscale_009_cinema", "neo4jstd_007_movie", "mongo_eai_sample_mflix", "pgbird_022_movie_platform", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_001314", "picked": ["mongoscale_doc_049_movie_1", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_022_movie_platform", "pgbird_026_movies_4", "mongo_eai_sample_mflix", "neo4jstd_007_movie", "pgbird_004_movie_3", "mongoscale_doc_058_sakila_1"]}
+{"qid": "s3scale_q_001321", "picked": ["pgbird_022_movie_platform"]}
+{"qid": "s3scale_q_001301", "picked": ["pgbird_022_movie_platform", "mongo_eai_sample_mflix", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_049_movie_1", "pgbird_026_movies_4", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jstd_007_movie", "mongoscale_doc_034_film_rank", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_001309", "picked": ["pgbird_022_movie_platform", "mongoscale_doc_034_film_rank", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongoscale_doc_049_movie_1", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4", "pgscale_009_cinema", "neo4jstd_007_movie", "mongo_eai_sample_mflix", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_002444", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_003_retail_world", "pgbird_023_regional_sales", "pgbird_007_retails", "pgscale_019_customer_deliveries", "mongoscale_doc_022_customers_and_addresses", "mongo_eai_sample_supplies", "pgbird_001_works_cycles", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_002452", "picked": ["pgbird_023_regional_sales", "mongo_eai_sample_supplies"]}
+{"qid": "s3scale_q_002514", "picked": ["neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_023_regional_sales", "pgbird_003_retail_world", "pgbird_007_retails", "mongo_eai_sample_supplies"]}
+{"qid": "s3scale_q_002441", "picked": ["mongoscale_doc_022_customers_and_addresses", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgbird_023_regional_sales", "pgbird_003_retail_world", "pgbird_007_retails", "mongoscale_doc_023_customers_and_invoices", "mongoscale_doc_066_tracking_orders", "pgscale_019_customer_deliveries", "mongo_schema_customer360_retail_db", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_002446", "picked": ["pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "pgbird_007_retails", "mongoscale_doc_024_customers_card_transactions", "pgscale_019_customer_deliveries", "pgscale_072_small_bank_1", "pgbird_001_works_cycles", "mongoscale_doc_045_insurance_policies", "mongo_schema_customer360_retail_db", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_006965", "picked": ["pgbird_024_thrombosis_prediction", "pgbird_017_synthea", "mongo_schema_genomic_analysis_healthcare_db"]}
+{"qid": "s3scale_q_006962", "picked": ["pgbird_024_thrombosis_prediction", "mongoscale_doc_040_hospital_1", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_007047", "picked": ["pgbird_024_thrombosis_prediction", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_006960", "picked": ["pgbird_024_thrombosis_prediction", "pgbird_017_synthea"]}
+{"qid": "s3scale_q_006959", "picked": ["pgbird_024_thrombosis_prediction", "pgbird_017_synthea", "mongoscale_doc_040_hospital_1", "mongo_schema_genomic_analysis_healthcare_db", "mongoscale_doc_027_dog_kennels"]}
+{"qid": "s3scale_q_002623", "picked": ["pgbird_025_donor", "mongoscale_doc_065_tracking_grants_for_research", "mongoscale_doc_018_cre_Docs_and_Epenses"]}
+{"qid": "s3scale_q_002608", "picked": ["pgbird_025_donor"]}
+{"qid": "s3scale_q_002612", "picked": ["pgbird_025_donor"]}
+{"qid": "s3scale_q_002611", "picked": ["pgscale_066_school_player", "pgscale_064_school_bus", "pgbird_025_donor", "pgbird_011_student_loan", "mongoscale_doc_053_network_1", "mongoscale_doc_063_student_1", "pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_002622", "picked": ["pgbird_025_donor"]}
+{"qid": "s3scale_q_001715", "picked": ["mongoscale_doc_034_film_rank", "pgbird_026_movies_4", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgscale_017_culture_company", "pgscale_009_cinema"]}
+{"qid": "s3scale_q_001639", "picked": ["pgbird_004_movie_3", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "pgbird_026_movies_4", "mongoscale_doc_058_sakila_1", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations"]}
+{"qid": "s3scale_q_001631", "picked": ["pgbird_026_movies_4", "neo4jstd_007_movie", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations"]}
+{"qid": "s3scale_q_001633", "picked": ["neo4jstd_007_movie", "pgbird_026_movies_4"]}
+{"qid": "s3scale_q_001638", "picked": ["mongoscale_doc_034_film_rank", "pgbird_026_movies_4", "neo4jstd_007_movie", "pgscale_017_culture_company", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "mongo_eai_sample_mflix", "mongoscale_doc_049_movie_1", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "mongoscale_doc_058_sakila_1", "pgscale_009_cinema"]}
+{"qid": "s3scale_q_000739", "picked": ["pgscale_001_aircraft", "mongoscale_doc_035_flight_1", "pgscale_032_flight_company"]}
+{"qid": "s3scale_q_000733", "picked": ["pgscale_001_aircraft"]}
+{"qid": "s3scale_q_000736", "picked": ["pgscale_001_aircraft", "mongoscale_doc_035_flight_1", "pgscale_032_flight_company", "mongoscale_doc_054_network_2", "neo4jstd_005_flight_accident", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4"]}
+{"qid": "s3scale_q_000738", "picked": ["pgscale_001_aircraft", "mongoscale_doc_035_flight_1", "pgscale_032_flight_company", "neo4jstd_005_flight_accident", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4"]}
+{"qid": "s3scale_q_000731", "picked": ["pgscale_001_aircraft", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4", "pgscale_032_flight_company", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_000584", "picked": ["pgscale_003_assets_maintenance", "pgscale_040_machine_repair"]}
+{"qid": "s3scale_q_000582", "picked": ["pgscale_081_tracking_software_problems", "pgscale_003_assets_maintenance", "pgbird_021_retail_complains", "mongo_schema_devops_log_event_db", "mongo_schema_smartcity_iot_db", "pgscale_040_machine_repair"]}
+{"qid": "s3scale_q_000590", "picked": ["pgbird_007_retails", "pgscale_003_assets_maintenance", "pgbird_001_works_cycles", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_019_cre_Drama_Workshop_Groups"]}
+{"qid": "s3scale_q_000580", "picked": ["pgscale_003_assets_maintenance"]}
+{"qid": "s3scale_q_000583", "picked": ["pgscale_003_assets_maintenance"]}
+{"qid": "s3scale_q_001230", "picked": ["pgscale_004_battle_death", "pgscale_069_ship_mission"]}
+{"qid": "s3scale_q_001235", "picked": ["pgscale_004_battle_death", "pgscale_076_storm_record", "neo4jstd_011_terrorist_attack", "pgscale_050_perpetrator"]}
+{"qid": "s3scale_q_001229", "picked": ["pgscale_004_battle_death"]}
+{"qid": "s3scale_q_001233", "picked": ["pgscale_004_battle_death", "pgscale_069_ship_mission"]}
+{"qid": "s3scale_q_001231", "picked": ["pgscale_004_battle_death", "pgscale_050_perpetrator", "neo4jstd_011_terrorist_attack", "pgscale_069_ship_mission"]}
+{"qid": "s3scale_q_000560", "picked": ["mongoscale_doc_063_student_1", "pgscale_015_course_teach", "mongoscale_doc_030_e_learning", "pgscale_005_behavior_monitoring", "mongoscale_doc_011_college_1", "mongoscale_doc_041_hr_1", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_000565", "picked": ["pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_000564", "picked": ["pgscale_005_behavior_monitoring"]}
+{"qid": "s3scale_q_000566", "picked": ["pgscale_005_behavior_monitoring", "mongoscale_doc_064_student_transcripts_tracking"]}
+{"qid": "s3scale_q_000562", "picked": ["mongoscale_doc_063_student_1", "pgscale_015_course_teach", "pgscale_005_behavior_monitoring", "mongoscale_doc_030_e_learning", "mongoscale_doc_011_college_1", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_000158", "picked": ["pgscale_006_body_builder"]}
+{"qid": "s3scale_q_000164", "picked": ["pgscale_006_body_builder"]}
+{"qid": "s3scale_q_000162", "picked": ["pgscale_006_body_builder"]}
+{"qid": "s3scale_q_000159", "picked": ["pgscale_006_body_builder"]}
+{"qid": "s3scale_q_000169", "picked": ["pgscale_006_body_builder", "mongoscale_doc_039_gymnast", "mongoscale_doc_032_entrepreneur", "pgscale_087_wrestler", "mongoscale_doc_055_poker_player", "mongoscale_doc_054_network_2", "pgbird_020_olympics", "mongoscale_doc_072_wta_1"]}
+{"qid": "s3scale_q_000042", "picked": ["pgscale_007_book_2"]}
+{"qid": "s3scale_q_000047", "picked": ["pgscale_007_book_2", "pgbird_013_books", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_000050", "picked": ["pgscale_007_book_2", "pgbird_019_authors", "pgbird_013_books", "pgscale_036_journal_committee"]}
+{"qid": "s3scale_q_000046", "picked": ["pgscale_007_book_2", "pgbird_019_authors", "pgscale_036_journal_committee", "pgscale_035_icfp_1", "pgscale_045_news_report", "pgbird_013_books", "pgscale_017_culture_company", "mongoscale_doc_051_music_4", "mongoscale_doc_057_program_share"]}
+{"qid": "s3scale_q_000048", "picked": ["pgscale_007_book_2", "pgbird_013_books", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_000299", "picked": ["pgscale_008_browser_web"]}
+{"qid": "s3scale_q_000301", "picked": ["pgscale_008_browser_web"]}
+{"qid": "s3scale_q_000300", "picked": []}
+{"qid": "s3scale_q_000297", "picked": ["pgscale_008_browser_web"]}
+{"qid": "s3scale_q_000302", "picked": ["pgscale_008_browser_web"]}
+{"qid": "s3scale_q_000326", "picked": ["pgscale_009_cinema", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_000328", "picked": ["pgscale_009_cinema", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_000327", "picked": ["pgscale_009_cinema", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_000330", "picked": ["mongoscale_doc_034_film_rank", "pgscale_009_cinema", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "pgbird_026_movies_4", "mongoscale_doc_049_movie_1", "mongoscale_doc_058_sakila_1", "pgbird_022_movie_platform", "pgbird_004_movie_3"]}
+{"qid": "s3scale_q_000332", "picked": ["pgscale_009_cinema"]}
+{"qid": "s3scale_q_000993", "picked": ["pgscale_010_city_record", "pgbird_005_mondial_geo", "mongoscale_doc_071_world_1", "mongoscale_doc_033_farm", "mongoscale_doc_015_county_public_safety", "mongoscale_doc_062_store_product"]}
+{"qid": "s3scale_q_001001", "picked": ["mongoscale_doc_060_sports_competition", "pgbird_006_soccer_2016", "mongoscale_doc_072_wta_1", "pgscale_062_riding_club", "mongoscale_doc_047_match_season", "mongoscale_doc_033_farm", "pgscale_034_game_injury", "pgscale_010_city_record", "neo4jstd_010_soccer", "pgscale_078_swimming"]}
+{"qid": "s3scale_q_000995", "picked": ["pgscale_010_city_record"]}
+{"qid": "s3scale_q_000994", "picked": ["pgscale_010_city_record", "pgbird_005_mondial_geo"]}
+{"qid": "s3scale_q_001002", "picked": ["mongoscale_doc_060_sports_competition", "mongoscale_doc_033_farm", "mongoscale_doc_072_wta_1", "pgbird_006_soccer_2016", "pgscale_062_riding_club", "mongoscale_doc_047_match_season", "pgscale_078_swimming", "pgscale_034_game_injury", "pgscale_010_city_record", "pgbird_009_hockey"]}
+{"qid": "s3scale_q_000128", "picked": ["pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_000122", "picked": ["pgscale_070_shop_membership", "pgscale_011_coffee_shop", "mongo_eai_sample_supplies", "mongoscale_doc_022_customers_and_addresses", "pgbird_023_regional_sales", "pgscale_019_customer_deliveries", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_000127", "picked": ["mongoscale_doc_026_device", "pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "pgscale_070_shop_membership", "mongoscale_doc_025_department_store", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_000131", "picked": ["pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_000132", "picked": ["pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_000662", "picked": ["mongoscale_doc_038_gas_company", "pgscale_013_company_employee", "mongoscale_doc_014_company_office", "neo4jstd_003_company", "mongoscale_doc_046_loan_1", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jt2c24_005_neo4jlabs_demo_db_fincen"]}
+{"qid": "s3scale_q_000660", "picked": ["pgscale_013_company_employee", "mongoscale_doc_014_company_office", "mongoscale_doc_038_gas_company", "pgscale_041_manufactory_1", "neo4jstd_003_company", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_000661", "picked": ["mongoscale_doc_014_company_office", "pgscale_013_company_employee", "mongoscale_doc_038_gas_company", "neo4jstd_003_company", "pgscale_041_manufactory_1", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_000663", "picked": ["pgscale_013_company_employee", "pgscale_028_employee_hire_evaluation", "neo4jstd_003_company", "mongoscale_doc_014_company_office", "mongoscale_doc_038_gas_company", "mongoscale_doc_032_entrepreneur", "pgscale_041_manufactory_1"]}
+{"qid": "s3scale_q_000665", "picked": ["pgscale_013_company_employee", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_014_company_office", "mongoscale_doc_041_hr_1", "neo4jstd_003_company", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_001129", "picked": ["pgscale_034_game_injury", "pgscale_014_concert_singer", "pgscale_078_swimming", "pgbird_006_soccer_2016", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_001123", "picked": ["pgscale_071_singer", "mongoscale_doc_051_music_4", "pgscale_014_concert_singer", "mongoscale_doc_050_music_1", "mongoscale_doc_061_store_1", "mongoscale_doc_008_chinook_1"]}
+{"qid": "s3scale_q_001125", "picked": ["pgscale_071_singer", "pgscale_014_concert_singer", "mongoscale_doc_050_music_1", "mongoscale_doc_061_store_1"]}
+{"qid": "s3scale_q_001130", "picked": ["pgscale_034_game_injury", "pgscale_014_concert_singer", "pgscale_078_swimming", "neo4jstd_010_soccer", "pgbird_006_soccer_2016"]}
+{"qid": "s3scale_q_001128", "picked": ["pgscale_034_game_injury", "pgscale_014_concert_singer", "pgscale_078_swimming", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_001208", "picked": ["mongoscale_doc_063_student_1", "pgscale_015_course_teach", "mongoscale_doc_011_college_1", "pgscale_005_behavior_monitoring", "mongoscale_doc_030_e_learning", "mongoscale_doc_054_network_2", "mongoscale_doc_001_activity_1"]}
+{"qid": "s3scale_q_001215", "picked": ["pgscale_015_course_teach", "mongoscale_doc_030_e_learning", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_001206", "picked": ["pgscale_015_course_teach"]}
+{"qid": "s3scale_q_001211", "picked": ["pgscale_015_course_teach", "mongoscale_doc_063_student_1", "pgscale_005_behavior_monitoring", "pgbird_025_donor", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_001213", "picked": ["pgscale_015_course_teach", "mongoscale_doc_030_e_learning", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_011_college_1"]}
+{"qid": "s3scale_q_000359", "picked": ["mongoscale_doc_041_hr_1", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_011_college_1", "mongoscale_doc_065_tracking_grants_for_research", "pgscale_024_department_management", "mongoscale_doc_017_cre_Doc_Tracking_DB", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_000360", "picked": ["pgscale_016_cre_Doc_Control_Systems"]}
+{"qid": "s3scale_q_000358", "picked": ["mongoscale_doc_041_hr_1", "mongoscale_doc_011_college_1", "pgbird_001_works_cycles", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_000373", "picked": ["pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_017_cre_Doc_Tracking_DB"]}
+{"qid": "s3scale_q_000362", "picked": ["pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_018_cre_Docs_and_Epenses", "mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_025_document_management", "mongoscale_doc_017_cre_Doc_Tracking_DB", "mongoscale_doc_043_insurance_and_eClaims", "mongoscale_doc_065_tracking_grants_for_research"]}
+{"qid": "s3scale_q_001099", "picked": ["pgscale_007_book_2", "pgbird_013_books", "pgscale_017_culture_company", "pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_001107", "picked": ["pgscale_007_book_2", "pgbird_013_books", "pgscale_017_culture_company", "pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_001102", "picked": ["pgscale_055_product_catalog", "pgbird_013_books", "pgscale_007_book_2", "pgscale_017_culture_company", "mongoscale_doc_056_products_gen_characteristics"]}
+{"qid": "s3scale_q_001108", "picked": ["pgbird_026_movies_4", "mongoscale_doc_034_film_rank", "neo4jt2c24_013_neo4jlabs_demo_db_recommendations", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "neo4jstd_007_movie", "mongoscale_doc_049_movie_1", "pgscale_017_culture_company", "pgscale_009_cinema", "pgbird_022_movie_platform", "neo4jt2c24_004_neo4jlabs_demo_db_eoflix"]}
+{"qid": "s3scale_q_001106", "picked": ["pgscale_007_book_2", "pgbird_013_books", "pgscale_017_culture_company"]}
+{"qid": "s3scale_q_000892", "picked": ["pgscale_018_customer_complaints", "pgbird_021_retail_complains"]}
+{"qid": "s3scale_q_000891", "picked": ["pgscale_018_customer_complaints", "pgbird_021_retail_complains", "mongoscale_doc_044_insurance_fnol", "mongo_schema_customer360_retail_db", "mongoscale_doc_045_insurance_policies", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_000893", "picked": ["mongoscale_doc_056_products_gen_characteristics", "pgscale_055_product_catalog", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_041_manufactory_1", "mongoscale_doc_062_store_product", "pgscale_018_customer_complaints", "mongo_eai_sample_supplies", "pgbird_003_retail_world"]}
+{"qid": "s3scale_q_000906", "picked": ["pgscale_018_customer_complaints", "pgbird_021_retail_complains", "pgscale_081_tracking_software_problems"]}
+{"qid": "s3scale_q_000903", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_045_insurance_policies", "mongo_schema_customer360_retail_db", "pgbird_023_regional_sales", "mongo_eai_sample_supplies", "mongoscale_doc_046_loan_1", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_000519", "picked": ["pgscale_041_manufactory_1", "mongoscale_doc_056_products_gen_characteristics", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_062_store_product", "mongoscale_doc_070_wine_1", "pgscale_055_product_catalog", "mongo_eai_sample_supplies", "pgscale_042_manufacturer", "mongo_schema_logistics_supply_chain_db", "pgbird_023_regional_sales"]}
+{"qid": "s3scale_q_000517", "picked": ["mongoscale_doc_066_tracking_orders", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_019_customer_deliveries", "pgbird_003_retail_world", "mongoscale_doc_022_customers_and_addresses", "pgbird_023_regional_sales", "pgbird_013_books", "pgbird_007_retails", "mongoscale_doc_023_customers_and_invoices", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_000520", "picked": ["pgbird_023_regional_sales", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_046_loan_1", "mongoscale_doc_045_insurance_policies", "pgbird_021_retail_complains", "mongoscale_doc_041_hr_1"]}
+{"qid": "s3scale_q_000524", "picked": ["mongoscale_doc_022_customers_and_addresses", "pgbird_023_regional_sales", "mongo_eai_sample_supplies", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_customer360_retail_db", "mongo_eai_sample_analytics", "pgscale_019_customer_deliveries", "mongoscale_doc_045_insurance_policies", "pgbird_007_retails", "neo4jt2c24_010_neo4jlabs_demo_db_northwind"]}
+{"qid": "s3scale_q_000522", "picked": ["pgbird_023_regional_sales", "pgbird_021_retail_complains", "mongoscale_doc_022_customers_and_addresses", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_000206", "picked": ["pgscale_022_debate"]}
+{"qid": "s3scale_q_000212", "picked": ["pgscale_022_debate"]}
+{"qid": "s3scale_q_000210", "picked": ["mongoscale_doc_031_election", "pgscale_022_debate", "pgscale_048_party_people", "pgscale_027_election_representative"]}
+{"qid": "s3scale_q_000213", "picked": ["pgscale_022_debate", "pgscale_048_party_people"]}
+{"qid": "s3scale_q_000214", "picked": ["pgscale_022_debate"]}
+{"qid": "s3scale_q_000674", "picked": ["pgscale_023_decoration_competition", "mongoscale_doc_068_university_basketball", "pgscale_066_school_player", "mongoscale_doc_059_soccer_2", "mongoscale_doc_021_csu_1", "mongoscale_doc_011_college_1", "mongoscale_doc_001_activity_1", "mongoscale_doc_013_college_3"]}
+{"qid": "s3scale_q_000677", "picked": ["pgscale_023_decoration_competition"]}
+{"qid": "s3scale_q_000679", "picked": ["pgscale_023_decoration_competition", "pgscale_062_riding_club", "mongoscale_doc_072_wta_1", "mongoscale_doc_060_sports_competition"]}
+{"qid": "s3scale_q_000681", "picked": ["pgscale_023_decoration_competition"]}
+{"qid": "s3scale_q_000668", "picked": ["mongoscale_doc_010_club_1", "pgscale_023_decoration_competition", "pgbird_018_legislator", "pgscale_070_shop_membership", "pgscale_048_party_people"]}
+{"qid": "s3scale_q_000006", "picked": ["pgscale_024_department_management", "mongoscale_doc_031_election", "neo4jstd_009_politics", "neo4jstd_003_company"]}
+{"qid": "s3scale_q_000008", "picked": ["pgscale_024_department_management"]}
+{"qid": "s3scale_q_000009", "picked": ["pgscale_024_department_management", "mongoscale_doc_011_college_1", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_040_hospital_1", "mongoscale_doc_041_hr_1", "mongoscale_doc_064_student_transcripts_tracking"]}
+{"qid": "s3scale_q_000007", "picked": ["pgscale_024_department_management"]}
+{"qid": "s3scale_q_000011", "picked": ["pgscale_024_department_management", "mongoscale_doc_041_hr_1"]}
+{"qid": "s3scale_q_000691", "picked": ["pgscale_025_document_management"]}
+{"qid": "s3scale_q_000692", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_018_cre_Docs_and_Epenses", "mongoscale_doc_017_cre_Doc_Tracking_DB", "pgscale_025_document_management", "pgscale_045_news_report"]}
+{"qid": "s3scale_q_000695", "picked": ["pgscale_025_document_management", "mongoscale_doc_016_cre_Doc_Template_Mgt", "mongoscale_doc_017_cre_Doc_Tracking_DB", "mongoscale_doc_018_cre_Docs_and_Epenses", "pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_043_insurance_and_eClaims"]}
+{"qid": "s3scale_q_000693", "picked": ["mongoscale_doc_016_cre_Doc_Template_Mgt", "pgscale_016_cre_Doc_Control_Systems", "mongoscale_doc_017_cre_Doc_Tracking_DB", "mongoscale_doc_018_cre_Docs_and_Epenses", "pgscale_025_document_management"]}
+{"qid": "s3scale_q_000690", "picked": ["pgscale_025_document_management"]}
+{"qid": "s3scale_q_001018", "picked": ["mongoscale_doc_045_insurance_policies", "pgscale_026_e_government", "mongoscale_doc_024_customers_card_transactions", "pgscale_047_party_host", "mongoscale_doc_029_driving_school", "mongo_eai_sample_analytics", "mongoscale_doc_022_customers_and_addresses"]}
+{"qid": "s3scale_q_001021", "picked": ["mongoscale_doc_045_insurance_policies", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongoscale_doc_022_customers_and_addresses", "mongoscale_doc_019_cre_Drama_Workshop_Groups", "mongo_eai_sample_supplies"]}
+{"qid": "s3scale_q_001013", "picked": ["pgscale_026_e_government", "neo4jt2c24_011_neo4jlabs_demo_db_offshoreleaks", "neo4jt2c24_003_neo4jlabs_demo_db_companies", "neo4jstd_003_company", "neo4jstd_010_soccer", "mongoscale_doc_060_sports_competition", "pgscale_048_party_people", "pgscale_023_decoration_competition", "mongoscale_doc_010_club_1"]}
+{"qid": "s3scale_q_001010", "picked": ["pgscale_026_e_government"]}
+{"qid": "s3scale_q_001016", "picked": ["pgscale_026_e_government", "pgscale_048_party_people", "neo4jstd_009_politics", "mongoscale_doc_031_election"]}
+{"qid": "s3scale_q_000173", "picked": ["pgscale_027_election_representative", "mongoscale_doc_069_voter_2", "mongoscale_doc_031_election", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_000183", "picked": ["pgscale_027_election_representative", "mongoscale_doc_031_election", "pgbird_018_legislator", "mongoscale_doc_006_candidate_poll", "pgscale_048_party_people"]}
+{"qid": "s3scale_q_000182", "picked": ["pgscale_027_election_representative"]}
+{"qid": "s3scale_q_000186", "picked": ["mongoscale_doc_031_election", "pgscale_048_party_people", "pgscale_027_election_representative", "pgscale_022_debate", "pgbird_018_legislator", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_000179", "picked": ["pgscale_027_election_representative", "mongoscale_doc_031_election", "mongoscale_doc_069_voter_2", "pgscale_048_party_people", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_001182", "picked": ["mongoscale_doc_054_network_2", "pgscale_028_employee_hire_evaluation", "mongoscale_doc_041_hr_1", "pgscale_064_school_bus"]}
+{"qid": "s3scale_q_001200", "picked": ["mongoscale_doc_062_store_product", "mongoscale_doc_025_department_store", "pgbird_023_regional_sales", "mongoscale_doc_026_device", "mongo_eai_sample_supplies", "mongoscale_doc_038_gas_company", "pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack"]}
+{"qid": "s3scale_q_001186", "picked": ["mongoscale_doc_062_store_product", "mongoscale_doc_026_device", "mongoscale_doc_025_department_store", "pgscale_028_employee_hire_evaluation"]}
+{"qid": "s3scale_q_001183", "picked": ["pgscale_011_coffee_shop", "mongoscale_doc_026_device", "pgscale_028_employee_hire_evaluation", "pgbird_023_regional_sales", "mongo_eai_sample_supplies", "mongoscale_doc_062_store_product", "pgscale_070_shop_membership", "mongoscale_doc_025_department_store"]}
+{"qid": "s3scale_q_001185", "picked": ["mongoscale_doc_062_store_product", "mongoscale_doc_025_department_store", "pgbird_023_regional_sales", "pgscale_028_employee_hire_evaluation", "pgscale_011_coffee_shop", "mongoscale_doc_026_device"]}
+{"qid": "s3scale_q_000716", "picked": ["pgscale_029_entertainment_awards", "mongoscale_doc_051_music_4", "mongoscale_doc_052_musical"]}
+{"qid": "s3scale_q_000714", "picked": ["pgscale_029_entertainment_awards"]}
+{"qid": "s3scale_q_000711", "picked": ["pgscale_029_entertainment_awards", "mongoscale_doc_051_music_4", "pgscale_047_party_host", "mongoscale_doc_033_farm", "pgscale_079_theme_gallery", "pgscale_046_orchestra"]}
+{"qid": "s3scale_q_000718", "picked": ["pgscale_029_entertainment_awards"]}
+{"qid": "s3scale_q_000715", "picked": ["pgscale_029_entertainment_awards"]}
+{"qid": "s3scale_q_000246", "picked": ["pgscale_030_epinions_1", "mongo_eai_sample_airbnb", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "mongoscale_doc_049_movie_1", "pgbird_002_public_review_platform", "mongo_eai_sample_mflix"]}
+{"qid": "s3scale_q_000250", "picked": ["pgscale_030_epinions_1", "mongo_eai_sample_airbnb", "mongoscale_doc_049_movie_1", "neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgbird_008_simpson_episodes", "mongo_eai_sample_mflix", "mongoscale_doc_070_wine_1", "pgbird_022_movie_platform"]}
+{"qid": "s3scale_q_000248", "picked": ["pgscale_041_manufactory_1", "mongoscale_doc_070_wine_1", "pgscale_030_epinions_1", "pgscale_055_product_catalog", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_056_products_gen_characteristics", "mongoscale_doc_049_movie_1", "pgscale_042_manufacturer"]}
+{"qid": "s3scale_q_000261", "picked": ["neo4jt2c24_007_neo4jlabs_demo_db_grandstack", "pgscale_030_epinions_1", "pgbird_002_public_review_platform", "mongoscale_doc_049_movie_1", "mongo_eai_sample_mflix", "neo4jt2c24_008_neo4jlabs_demo_db_movies", "pgbird_022_movie_platform", "mongo_schema_social_sentiment_analysis_db"]}
+{"qid": "s3scale_q_000257", "picked": ["pgscale_030_epinions_1"]}
+{"qid": "s3scale_q_001174", "picked": ["pgscale_032_flight_company", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4", "mongoscale_doc_035_flight_1", "pgscale_001_aircraft", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_001170", "picked": ["pgscale_031_flight_2", "mongoscale_doc_036_flight_4", "pgscale_032_flight_company", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_001175", "picked": ["pgscale_032_flight_company", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4", "mongoscale_doc_035_flight_1", "neo4jstd_005_flight_accident", "pgscale_001_aircraft"]}
+{"qid": "s3scale_q_001172", "picked": ["pgscale_031_flight_2", "pgscale_032_flight_company", "mongoscale_doc_036_flight_4", "neo4jstd_005_flight_accident", "pgscale_001_aircraft", "mongoscale_doc_035_flight_1"]}
+{"qid": "s3scale_q_001176", "picked": ["pgscale_031_flight_2", "pgscale_032_flight_company", "mongoscale_doc_036_flight_4", "neo4jstd_005_flight_accident", "mongoscale_doc_035_flight_1", "pgscale_001_aircraft"]}
+{"qid": "s3scale_q_001054", "picked": ["pgscale_031_flight_2", "pgscale_032_flight_company", "mongoscale_doc_036_flight_4", "pgscale_001_aircraft", "neo4jstd_005_flight_accident", "mongoscale_doc_035_flight_1"]}
+{"qid": "s3scale_q_001051", "picked": ["pgscale_031_flight_2", "pgscale_001_aircraft", "pgscale_032_flight_company", "mongoscale_doc_035_flight_1", "mongoscale_doc_036_flight_4", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_001050", "picked": ["pgscale_032_flight_company", "pgscale_031_flight_2", "neo4jstd_005_flight_accident", "mongoscale_doc_036_flight_4", "mongoscale_doc_035_flight_1", "pgscale_001_aircraft"]}
+{"qid": "s3scale_q_001055", "picked": ["pgscale_031_flight_2", "mongoscale_doc_036_flight_4", "pgscale_032_flight_company", "pgscale_001_aircraft", "neo4jstd_005_flight_accident", "mongoscale_doc_035_flight_1"]}
+{"qid": "s3scale_q_001056", "picked": ["pgscale_001_aircraft", "pgscale_032_flight_company", "mongoscale_doc_035_flight_1", "pgscale_031_flight_2", "mongoscale_doc_036_flight_4", "neo4jstd_005_flight_accident"]}
+{"qid": "s3scale_q_000380", "picked": ["pgscale_033_formula_1", "mongoscale_doc_047_match_season"]}
+{"qid": "s3scale_q_000386", "picked": ["pgscale_033_formula_1"]}
+{"qid": "s3scale_q_000390", "picked": ["pgscale_033_formula_1"]}
+{"qid": "s3scale_q_000378", "picked": ["pgscale_058_race_track", "pgscale_033_formula_1", "pgscale_078_swimming", "mongoscale_doc_060_sports_competition", "pgbird_020_olympics", "mongoscale_doc_072_wta_1", "pgbird_009_hockey", "pgscale_087_wrestler"]}
+{"qid": "s3scale_q_000383", "picked": ["pgscale_033_formula_1", "pgscale_058_race_track", "pgscale_078_swimming", "mongoscale_doc_060_sports_competition", "pgscale_062_riding_club", "pgbird_020_olympics", "neo4jstd_010_soccer", "mongoscale_doc_072_wta_1"]}
+{"qid": "s3scale_q_000198", "picked": ["pgscale_034_game_injury"]}
+{"qid": "s3scale_q_000199", "picked": ["pgscale_034_game_injury"]}
+{"qid": "s3scale_q_000203", "picked": ["pgscale_034_game_injury", "pgscale_010_city_record", "pgscale_078_swimming", "pgbird_020_olympics", "pgbird_006_soccer_2016", "mongoscale_doc_004_baseball_1", "pgbird_009_hockey", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_000201", "picked": ["pgscale_034_game_injury", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_000195", "picked": ["pgscale_034_game_injury"]}
+{"qid": "s3scale_q_000537", "picked": ["pgscale_035_icfp_1", "pgbird_019_authors", "pgscale_086_workshop_paper", "mongoscale_doc_065_tracking_grants_for_research"]}
+{"qid": "s3scale_q_000551", "picked": ["pgscale_035_icfp_1", "pgbird_013_books", "pgbird_019_authors", "pgscale_007_book_2"]}
+{"qid": "s3scale_q_000541", "picked": ["pgbird_019_authors", "pgscale_035_icfp_1", "pgscale_086_workshop_paper"]}
+{"qid": "s3scale_q_000545", "picked": ["pgscale_035_icfp_1", "pgbird_019_authors", "pgscale_007_book_2", "mongoscale_doc_065_tracking_grants_for_research", "pgscale_086_workshop_paper"]}
+{"qid": "s3scale_q_000534", "picked": ["pgscale_035_icfp_1", "pgbird_019_authors"]}
+{"qid": "s3scale_q_000101", "picked": ["pgscale_036_journal_committee"]}
+{"qid": "s3scale_q_000102", "picked": ["pgscale_036_journal_committee", "pgbird_019_authors"]}
+{"qid": "s3scale_q_000099", "picked": []}
+{"qid": "s3scale_q_000095", "picked": ["pgscale_036_journal_committee"]}
+{"qid": "s3scale_q_000097", "picked": ["pgscale_036_journal_committee"]}
+{"qid": "s3scale_q_000409", "picked": ["pgscale_040_machine_repair"]}
+{"qid": "s3scale_q_000406", "picked": ["pgscale_040_machine_repair", "pgscale_003_assets_maintenance", "mongoscale_doc_041_hr_1"]}
+{"qid": "s3scale_q_000405", "picked": ["pgscale_040_machine_repair"]}
+{"qid": "s3scale_q_000410", "picked": ["pgscale_040_machine_repair", "pgscale_003_assets_maintenance", "mongoscale_doc_041_hr_1"]}
+{"qid": "s3scale_q_000404", "picked": ["pgscale_040_machine_repair", "pgscale_003_assets_maintenance"]}
+{"qid": "s3scale_q_000785", "picked": ["mongoscale_doc_025_department_store", "pgscale_041_manufactory_1", "mongoscale_doc_056_products_gen_characteristics", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "mongoscale_doc_062_store_product", "pgbird_023_regional_sales", "pgscale_055_product_catalog", "mongoscale_doc_023_customers_and_invoices", "pgbird_003_retail_world", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_000790", "picked": ["pgscale_041_manufactory_1", "pgscale_042_manufacturer"]}
+{"qid": "s3scale_q_000784", "picked": ["pgscale_041_manufactory_1", "pgscale_042_manufacturer", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_052_phone_1", "pgbird_001_works_cycles"]}
+{"qid": "s3scale_q_000778", "picked": ["pgscale_041_manufactory_1", "pgscale_013_company_employee", "mongoscale_doc_038_gas_company", "mongoscale_doc_014_company_office", "neo4jt2c24_003_neo4jlabs_demo_db_companies"]}
+{"qid": "s3scale_q_000781", "picked": ["pgscale_041_manufactory_1", "pgscale_042_manufacturer"]}
+{"qid": "s3scale_q_000617", "picked": ["pgscale_042_manufacturer", "pgscale_041_manufactory_1"]}
+{"qid": "s3scale_q_000618", "picked": ["pgscale_042_manufacturer", "pgscale_041_manufactory_1", "mongoscale_doc_056_products_gen_characteristics", "pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_000615", "picked": ["pgscale_042_manufacturer"]}
+{"qid": "s3scale_q_000609", "picked": ["pgscale_042_manufacturer", "pgscale_055_product_catalog", "pgscale_041_manufactory_1", "mongoscale_doc_025_department_store", "mongoscale_doc_056_products_gen_characteristics"]}
+{"qid": "s3scale_q_000610", "picked": ["pgscale_042_manufacturer", "pgscale_041_manufactory_1", "mongoscale_doc_056_products_gen_characteristics", "mongoscale_doc_025_department_store", "pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_000627", "picked": ["pgscale_043_mountain_photos"]}
+{"qid": "s3scale_q_000625", "picked": ["pgscale_043_mountain_photos"]}
+{"qid": "s3scale_q_000628", "picked": ["pgscale_043_mountain_photos"]}
+{"qid": "s3scale_q_000619", "picked": ["pgscale_043_mountain_photos"]}
+{"qid": "s3scale_q_000629", "picked": ["pgscale_043_mountain_photos"]}
+{"qid": "s3scale_q_000493", "picked": ["pgscale_045_news_report"]}
+{"qid": "s3scale_q_000496", "picked": ["pgscale_029_entertainment_awards", "pgscale_079_theme_gallery", "pgscale_046_orchestra", "pgscale_022_debate", "pgscale_045_news_report"]}
+{"qid": "s3scale_q_000501", "picked": ["pgscale_045_news_report"]}
+{"qid": "s3scale_q_000495", "picked": ["pgscale_045_news_report"]}
+{"qid": "s3scale_q_000494", "picked": ["pgscale_045_news_report"]}
+{"qid": "s3scale_q_001244", "picked": ["pgscale_046_orchestra"]}
+{"qid": "s3scale_q_001248", "picked": ["pgscale_046_orchestra"]}
+{"qid": "s3scale_q_001242", "picked": ["pgscale_046_orchestra", "pgscale_014_concert_singer", "pgscale_079_theme_gallery", "mongoscale_doc_020_cre_Theme_park", "pgscale_029_entertainment_awards", "mongoscale_doc_052_musical", "mongoscale_doc_019_cre_Drama_Workshop_Groups", "mongoscale_doc_057_program_share", "pgscale_009_cinema"]}
+{"qid": "s3scale_q_001246", "picked": ["pgscale_046_orchestra"]}
+{"qid": "s3scale_q_001249", "picked": ["pgscale_046_orchestra"]}
+{"qid": "s3scale_q_000448", "picked": ["pgscale_047_party_host", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_000446", "picked": ["pgscale_047_party_host"]}
+{"qid": "s3scale_q_000447", "picked": ["pgscale_047_party_host"]}
+{"qid": "s3scale_q_000449", "picked": ["pgscale_047_party_host", "mongo_eai_sample_airbnb"]}
+{"qid": "s3scale_q_000444", "picked": ["pgscale_047_party_host"]}
+{"qid": "s3scale_q_000347", "picked": ["pgscale_078_swimming", "pgscale_045_news_report", "pgbird_010_talkingdata", "pgscale_087_wrestler", "pgscale_048_party_people", "pgscale_047_party_host", "pgscale_058_race_track", "pgscale_029_entertainment_awards", "mongoscale_doc_033_farm", "pgscale_010_city_record"]}
+{"qid": "s3scale_q_000344", "picked": ["pgscale_048_party_people", "pgscale_047_party_host", "mongoscale_doc_001_activity_1", "pgscale_045_news_report", "pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_000339", "picked": ["pgscale_048_party_people", "pgscale_024_department_management", "neo4jstd_009_politics"]}
+{"qid": "s3scale_q_000345", "picked": ["pgscale_048_party_people", "pgscale_047_party_host"]}
+{"qid": "s3scale_q_000342", "picked": ["pgscale_047_party_host", "pgscale_048_party_people", "mongoscale_doc_031_election", "pgscale_022_debate", "pgscale_027_election_representative"]}
+{"qid": "s3scale_q_000437", "picked": ["pgbird_015_chicago_crime", "pgscale_050_perpetrator", "mongoscale_doc_015_county_public_safety", "neo4jstd_011_terrorist_attack", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_000427", "picked": ["pgscale_050_perpetrator", "neo4jstd_011_terrorist_attack", "pgbird_015_chicago_crime", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_000428", "picked": ["pgscale_050_perpetrator", "neo4jstd_011_terrorist_attack"]}
+{"qid": "s3scale_q_000432", "picked": ["pgscale_050_perpetrator", "neo4jstd_011_terrorist_attack"]}
+{"qid": "s3scale_q_000431", "picked": ["pgscale_050_perpetrator", "neo4jstd_011_terrorist_attack"]}
+{"qid": "s3scale_q_001138", "picked": ["pgscale_051_pets_1", "mongoscale_doc_027_dog_kennels"]}
+{"qid": "s3scale_q_001150", "picked": ["pgscale_051_pets_1", "mongoscale_doc_027_dog_kennels"]}
+{"qid": "s3scale_q_001140", "picked": ["pgscale_051_pets_1"]}
+{"qid": "s3scale_q_001142", "picked": ["pgscale_051_pets_1"]}
+{"qid": "s3scale_q_001155", "picked": ["pgscale_051_pets_1", "mongoscale_doc_027_dog_kennels"]}
+{"qid": "s3scale_q_000149", "picked": ["pgscale_052_phone_1"]}
+{"qid": "s3scale_q_000140", "picked": ["pgscale_052_phone_1", "pgscale_041_manufactory_1", "mongoscale_doc_026_device"]}
+{"qid": "s3scale_q_000139", "picked": ["pgscale_052_phone_1", "mongoscale_doc_026_device", "pgscale_041_manufactory_1"]}
+{"qid": "s3scale_q_000143", "picked": ["pgscale_052_phone_1"]}
+{"qid": "s3scale_q_000142", "picked": ["pgscale_052_phone_1", "pgscale_041_manufactory_1"]}
+{"qid": "s3scale_q_000069", "picked": ["pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_000086", "picked": ["pgscale_041_manufactory_1", "mongoscale_doc_056_products_gen_characteristics", "mongoscale_doc_062_store_product", "neo4jt2c24_010_neo4jlabs_demo_db_northwind", "pgscale_055_product_catalog", "pgscale_042_manufacturer", "mongo_schema_logistics_supply_chain_db", "mongoscale_doc_007_car_1", "pgbird_023_regional_sales", "pgscale_019_customer_deliveries"]}
+{"qid": "s3scale_q_000084", "picked": ["pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_000079", "picked": ["pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_000077", "picked": ["pgscale_055_product_catalog"]}
+{"qid": "s3scale_q_000116", "picked": ["pgscale_058_race_track", "pgscale_033_formula_1"]}
+{"qid": "s3scale_q_000108", "picked": ["pgscale_058_race_track", "pgscale_078_swimming", "pgscale_033_formula_1", "pgscale_014_concert_singer"]}
+{"qid": "s3scale_q_000114", "picked": ["pgscale_058_race_track", "pgscale_033_formula_1", "pgscale_078_swimming", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_000110", "picked": ["pgscale_058_race_track"]}
+{"qid": "s3scale_q_000109", "picked": ["pgscale_058_race_track", "pgscale_033_formula_1"]}
+{"qid": "s3scale_q_000876", "picked": ["pgscale_059_railway", "pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_000875", "picked": ["pgscale_059_railway"]}
+{"qid": "s3scale_q_000877", "picked": ["pgscale_059_railway", "pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_000878", "picked": ["pgscale_082_train_station", "pgscale_059_railway", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_000866", "picked": ["pgscale_059_railway", "pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_000512", "picked": ["mongoscale_doc_013_college_3", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_037_game_1", "mongoscale_doc_069_voter_2", "mongoscale_doc_011_college_1", "mongoscale_doc_001_activity_1", "pgscale_051_pets_1", "mongoscale_doc_002_allergy_1", "mongoscale_doc_012_college_2"]}
+{"qid": "s3scale_q_000515", "picked": ["pgscale_061_restaurant_1"]}
+{"qid": "s3scale_q_000513", "picked": ["mongoscale_doc_013_college_3", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_069_voter_2", "mongoscale_doc_011_college_1", "mongoscale_doc_037_game_1", "pgscale_051_pets_1", "mongoscale_doc_001_activity_1", "mongoscale_doc_012_college_2", "mongoscale_doc_002_allergy_1"]}
+{"qid": "s3scale_q_000511", "picked": ["mongoscale_doc_010_club_1", "mongoscale_doc_012_college_2", "pgscale_051_pets_1", "mongoscale_doc_013_college_3", "mongoscale_doc_001_activity_1", "mongoscale_doc_063_student_1", "mongoscale_doc_011_college_1", "mongoscale_doc_037_game_1"]}
+{"qid": "s3scale_q_000516", "picked": ["pgscale_061_restaurant_1"]}
+{"qid": "s3scale_q_000271", "picked": ["pgscale_062_riding_club"]}
+{"qid": "s3scale_q_000270", "picked": ["neo4jstd_008_nba", "pgbird_009_hockey", "neo4jstd_010_soccer", "pgscale_062_riding_club", "mongoscale_doc_004_baseball_1"]}
+{"qid": "s3scale_q_000272", "picked": ["mongoscale_doc_047_match_season", "mongoscale_doc_059_soccer_2", "neo4jstd_008_nba", "pgbird_009_hockey", "mongoscale_doc_004_baseball_1", "mongoscale_doc_072_wta_1", "mongoscale_doc_068_university_basketball", "neo4jstd_010_soccer", "pgscale_062_riding_club", "pgscale_066_school_player"]}
+{"qid": "s3scale_q_000274", "picked": ["neo4jstd_010_soccer", "pgscale_062_riding_club", "pgbird_009_hockey", "mongoscale_doc_004_baseball_1", "neo4jstd_008_nba"]}
+{"qid": "s3scale_q_000273", "picked": ["mongoscale_doc_047_match_season", "pgscale_062_riding_club", "mongoscale_doc_037_game_1", "mongoscale_doc_055_poker_player", "neo4jstd_010_soccer", "mongoscale_doc_072_wta_1", "mongoscale_doc_039_gymnast"]}
+{"qid": "s3scale_q_000957", "picked": ["pgscale_063_roller_coaster", "mongoscale_doc_020_cre_Theme_park"]}
+{"qid": "s3scale_q_000951", "picked": ["pgscale_063_roller_coaster", "mongoscale_doc_020_cre_Theme_park"]}
+{"qid": "s3scale_q_000955", "picked": ["pgscale_063_roller_coaster"]}
+{"qid": "s3scale_q_000954", "picked": ["pgscale_063_roller_coaster"]}
+{"qid": "s3scale_q_000952", "picked": ["pgscale_063_roller_coaster"]}
+{"qid": "s3scale_q_001037", "picked": ["pgscale_066_school_player", "pgscale_064_school_bus", "pgscale_023_decoration_competition", "mongoscale_doc_068_university_basketball", "mongoscale_doc_021_csu_1"]}
+{"qid": "s3scale_q_001041", "picked": ["pgscale_064_school_bus"]}
+{"qid": "s3scale_q_001040", "picked": ["pgscale_064_school_bus", "pgscale_066_school_player", "mongoscale_doc_068_university_basketball", "mongoscale_doc_063_student_1", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_012_college_2", "mongoscale_doc_053_network_1"]}
+{"qid": "s3scale_q_001043", "picked": ["pgscale_064_school_bus", "mongoscale_doc_054_network_2", "mongoscale_doc_029_driving_school"]}
+{"qid": "s3scale_q_001042", "picked": ["pgscale_064_school_bus", "mongoscale_doc_029_driving_school"]}
+{"qid": "s3scale_q_000764", "picked": ["pgscale_066_school_player", "mongoscale_doc_068_university_basketball", "pgscale_023_decoration_competition", "mongoscale_doc_021_csu_1", "mongoscale_doc_059_soccer_2"]}
+{"qid": "s3scale_q_000757", "picked": ["pgscale_066_school_player", "mongoscale_doc_021_csu_1", "pgbird_011_student_loan", "mongoscale_doc_013_college_3", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_012_college_2", "mongoscale_doc_063_student_1"]}
+{"qid": "s3scale_q_000759", "picked": ["mongoscale_doc_047_match_season", "mongoscale_doc_072_wta_1", "pgbird_009_hockey", "pgscale_062_riding_club", "neo4jstd_010_soccer", "pgbird_006_soccer_2016", "neo4jstd_008_nba", "mongoscale_doc_004_baseball_1"]}
+{"qid": "s3scale_q_000758", "picked": ["pgscale_066_school_player", "pgbird_011_student_loan", "mongoscale_doc_021_csu_1"]}
+{"qid": "s3scale_q_000763", "picked": ["pgscale_066_school_player"]}
+{"qid": "s3scale_q_001057", "picked": ["pgscale_067_scientist_1"]}
+{"qid": "s3scale_q_001065", "picked": ["pgscale_067_scientist_1", "mongoscale_doc_065_tracking_grants_for_research"]}
+{"qid": "s3scale_q_001077", "picked": ["pgscale_067_scientist_1", "mongoscale_doc_065_tracking_grants_for_research"]}
+{"qid": "s3scale_q_001059", "picked": ["pgscale_067_scientist_1"]}
+{"qid": "s3scale_q_001061", "picked": ["pgscale_067_scientist_1", "pgbird_025_donor", "mongoscale_doc_065_tracking_grants_for_research"]}
+{"qid": "s3scale_q_000960", "picked": ["pgscale_068_ship_1"]}
+{"qid": "s3scale_q_000969", "picked": ["pgscale_068_ship_1"]}
+{"qid": "s3scale_q_000967", "picked": ["pgscale_068_ship_1"]}
+{"qid": "s3scale_q_000963", "picked": ["pgscale_068_ship_1"]}
+{"qid": "s3scale_q_000972", "picked": ["pgscale_068_ship_1", "pgscale_069_ship_mission", "pgscale_004_battle_death", "mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_000635", "picked": ["pgscale_069_ship_mission", "pgscale_068_ship_1", "pgscale_004_battle_death", "mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_000641", "picked": ["pgscale_068_ship_1", "pgscale_069_ship_mission", "pgscale_004_battle_death", "mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_000642", "picked": ["pgscale_068_ship_1", "pgscale_069_ship_mission", "pgscale_004_battle_death", "mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_000640", "picked": ["pgscale_068_ship_1", "pgscale_069_ship_mission", "pgscale_004_battle_death", "mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_000636", "picked": ["pgscale_068_ship_1", "pgscale_069_ship_mission", "pgscale_004_battle_death", "mongo_eai_sample_geospatial"]}
+{"qid": "s3scale_q_000831", "picked": ["pgscale_070_shop_membership", "pgscale_011_coffee_shop"]}
+{"qid": "s3scale_q_000838", "picked": ["pgscale_070_shop_membership"]}
+{"qid": "s3scale_q_000834", "picked": ["pgscale_070_shop_membership"]}
+{"qid": "s3scale_q_000832", "picked": ["pgscale_070_shop_membership"]}
+{"qid": "s3scale_q_000829", "picked": ["mongoscale_doc_026_device", "pgscale_011_coffee_shop", "pgscale_028_employee_hire_evaluation", "pgscale_070_shop_membership", "mongoscale_doc_025_department_store", "pgbird_023_regional_sales", "pgbird_002_public_review_platform"]}
+{"qid": "s3scale_q_001271", "picked": ["pgscale_071_singer"]}
+{"qid": "s3scale_q_001275", "picked": ["pgscale_071_singer", "pgscale_014_concert_singer", "mongoscale_doc_050_music_1", "mongoscale_doc_051_music_4", "mongoscale_doc_061_store_1"]}
+{"qid": "s3scale_q_001278", "picked": ["pgscale_071_singer"]}
+{"qid": "s3scale_q_001268", "picked": ["pgscale_071_singer", "pgscale_014_concert_singer", "mongoscale_doc_051_music_4", "mongoscale_doc_052_musical", "mongoscale_doc_050_music_1", "mongoscale_doc_061_store_1", "mongoscale_doc_008_chinook_1", "pgscale_079_theme_gallery"]}
+{"qid": "s3scale_q_001274", "picked": ["pgscale_071_singer", "pgscale_014_concert_singer", "mongoscale_doc_051_music_4", "mongoscale_doc_050_music_1", "mongoscale_doc_052_musical"]}
+{"qid": "s3scale_q_000288", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_000280", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_000277", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_000287", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_000284", "picked": ["pgscale_072_small_bank_1", "mongoscale_doc_046_loan_1", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_000598", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather", "pgscale_059_railway"]}
+{"qid": "s3scale_q_000599", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_000606", "picked": ["pgscale_082_train_station", "pgscale_059_railway", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_000605", "picked": ["mongo_eai_sample_weatherdata", "pgscale_076_storm_record", "pgscale_075_station_weather", "mongoscale_doc_005_bike_1", "pgscale_010_city_record", "mongo_schema_smartcity_iot_db"]}
+{"qid": "s3scale_q_000602", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_000469", "picked": ["pgscale_076_storm_record"]}
+{"qid": "s3scale_q_000474", "picked": ["pgscale_076_storm_record"]}
+{"qid": "s3scale_q_000470", "picked": ["pgscale_076_storm_record", "mongo_eai_sample_weatherdata"]}
+{"qid": "s3scale_q_000467", "picked": ["pgscale_076_storm_record", "mongo_eai_sample_weatherdata", "mongoscale_doc_005_bike_1"]}
+{"qid": "s3scale_q_000473", "picked": ["pgscale_076_storm_record"]}
+{"qid": "s3scale_q_000021", "picked": ["pgscale_077_student_assessment"]}
+{"qid": "s3scale_q_000023", "picked": ["mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_013_college_3", "mongoscale_doc_012_college_2", "mongoscale_doc_030_e_learning", "mongoscale_doc_011_college_1", "pgscale_077_student_assessment"]}
+{"qid": "s3scale_q_000024", "picked": ["pgscale_077_student_assessment"]}
+{"qid": "s3scale_q_000019", "picked": ["mongoscale_doc_006_candidate_poll", "pgscale_077_student_assessment"]}
+{"qid": "s3scale_q_000025", "picked": ["pgscale_077_student_assessment"]}
+{"qid": "s3scale_q_000861", "picked": ["pgscale_078_swimming", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_000846", "picked": ["pgscale_034_game_injury", "pgscale_078_swimming", "pgscale_014_concert_singer", "neo4jstd_010_soccer"]}
+{"qid": "s3scale_q_000863", "picked": ["pgscale_078_swimming", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_000859", "picked": ["pgscale_078_swimming", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_000854", "picked": ["pgscale_078_swimming", "pgbird_020_olympics"]}
+{"qid": "s3scale_q_000227", "picked": ["pgscale_079_theme_gallery"]}
+{"qid": "s3scale_q_000222", "picked": ["mongoscale_doc_051_music_4", "pgscale_079_theme_gallery", "pgscale_014_concert_singer", "neo4jstd_001_art", "mongoscale_doc_054_network_2", "mongoscale_doc_052_musical", "mongoscale_doc_050_music_1", "pgscale_071_singer"]}
+{"qid": "s3scale_q_000240", "picked": ["pgscale_079_theme_gallery"]}
+{"qid": "s3scale_q_000230", "picked": ["pgscale_079_theme_gallery"]}
+{"qid": "s3scale_q_000228", "picked": ["pgscale_079_theme_gallery"]}
+{"qid": "s3scale_q_000929", "picked": ["pgscale_080_tracking_share_transactions", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "mongo_schema_fraud_detection_db"]}
+{"qid": "s3scale_q_000930", "picked": ["pgscale_080_tracking_share_transactions"]}
+{"qid": "s3scale_q_000935", "picked": ["pgscale_080_tracking_share_transactions", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions", "pgscale_072_small_bank_1"]}
+{"qid": "s3scale_q_000938", "picked": ["pgscale_080_tracking_share_transactions", "mongoscale_doc_024_customers_card_transactions", "mongo_eai_sample_analytics"]}
+{"qid": "s3scale_q_000934", "picked": ["pgscale_080_tracking_share_transactions", "mongo_eai_sample_analytics", "mongoscale_doc_024_customers_card_transactions"]}
+{"qid": "s3scale_q_000813", "picked": ["pgscale_081_tracking_software_problems", "pgscale_018_customer_complaints", "pgscale_003_assets_maintenance", "pgbird_015_chicago_crime", "pgbird_021_retail_complains"]}
+{"qid": "s3scale_q_000807", "picked": ["pgscale_081_tracking_software_problems"]}
+{"qid": "s3scale_q_000822", "picked": ["pgscale_081_tracking_software_problems", "pgscale_018_customer_complaints", "pgbird_021_retail_complains"]}
+{"qid": "s3scale_q_000809", "picked": ["pgscale_081_tracking_software_problems", "pgscale_018_customer_complaints", "pgbird_021_retail_complains", "pgscale_040_machine_repair", "pgscale_003_assets_maintenance"]}
+{"qid": "s3scale_q_000808", "picked": ["pgscale_081_tracking_software_problems", "pgscale_018_customer_complaints"]}
+{"qid": "s3scale_q_001093", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_001091", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_001090", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_001085", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather"]}
+{"qid": "s3scale_q_001092", "picked": ["pgscale_082_train_station", "pgscale_075_station_weather", "neo4jt2c24_012_neo4jlabs_demo_db_openstreetmap"]}
+{"qid": "s3scale_q_000053", "picked": ["pgscale_083_twitter_1", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "mongo_schema_social_sentiment_analysis_db", "mongoscale_doc_053_network_1", "mongoscale_doc_054_network_2"]}
+{"qid": "s3scale_q_000061", "picked": ["pgscale_083_twitter_1", "mongoscale_doc_054_network_2", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "neo4jt2c24_001_neo4jlabs_demo_db_bluesky", "mongoscale_doc_053_network_1", "mongo_schema_social_sentiment_analysis_db"]}
+{"qid": "s3scale_q_000066", "picked": ["pgscale_083_twitter_1", "neo4jt2c24_016_neo4jlabs_demo_db_twitter"]}
+{"qid": "s3scale_q_000055", "picked": ["pgscale_077_student_assessment", "pgscale_005_behavior_monitoring", "mongoscale_doc_011_college_1", "pgscale_083_twitter_1", "mongoscale_doc_030_e_learning", "mongoscale_doc_064_student_transcripts_tracking", "mongoscale_doc_013_college_3"]}
+{"qid": "s3scale_q_000058", "picked": ["pgscale_083_twitter_1", "neo4jt2c24_016_neo4jlabs_demo_db_twitter", "mongo_schema_social_sentiment_analysis_db"]}
+{"qid": "s3scale_q_000918", "picked": ["pgscale_035_icfp_1", "pgscale_086_workshop_paper", "pgbird_019_authors"]}
+{"qid": "s3scale_q_000914", "picked": ["pgscale_086_workshop_paper"]}
+{"qid": "s3scale_q_000909", "picked": ["pgscale_086_workshop_paper"]}
+{"qid": "s3scale_q_000922", "picked": ["pgscale_086_workshop_paper", "mongoscale_doc_019_cre_Drama_Workshop_Groups"]}
+{"qid": "s3scale_q_000916", "picked": ["pgscale_086_workshop_paper", "pgscale_035_icfp_1", "pgbird_019_authors"]}
+{"qid": "s3scale_q_000317", "picked": ["pgscale_087_wrestler"]}
+{"qid": "s3scale_q_000314", "picked": ["pgscale_087_wrestler"]}
+{"qid": "s3scale_q_000311", "picked": ["pgscale_087_wrestler", "mongoscale_doc_060_sports_competition", "mongoscale_doc_047_match_season", "pgbird_009_hockey", "pgbird_006_soccer_2016", "pgscale_062_riding_club", "mongoscale_doc_068_university_basketball"]}
+{"qid": "s3scale_q_000315", "picked": ["pgscale_087_wrestler"]}
+{"qid": "s3scale_q_000308", "picked": ["pgscale_087_wrestler"]}

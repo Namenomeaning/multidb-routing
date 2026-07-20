@@ -85,6 +85,12 @@ MAP_PROMPT = load_prompt("map")
 # Calibration principle: map iff a genuinely relevant field exists; abstain ONLY when none does.
 MAP_PROMPT_CAL = load_prompt("map_cal")
 
+# TIGHT map (ablation arm of the deployed pipeline, used by workflow/final_routing.py --map tight):
+# abstain-heavy — maps derived/attribute phrases but withholds on values/proper-nouns. Kept as an
+# ablation option, NOT the locked config (which is map_cal). No per-mapping confidence threshold
+# (would make the LLM self-score, violating the no-self-confidence invariant).
+MAP_PROMPT_TIGHT = load_prompt("map_tight")
+
 # Tie-break prompt: among score-tied candidates the LLM reads their domain cards and picks one
 # (the "LLM tie-breaking" step, S5). The LLM only SELECTS — it emits no confidence number, preserving
 # the no-self-confidence invariant. Feeds tiebreak.jsonl, replayed by the SQL baseline comparison.

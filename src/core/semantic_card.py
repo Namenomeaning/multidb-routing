@@ -302,32 +302,44 @@ ADJ_PROMPT = load_prompt("adjacency")
 
 # KV-cache meter: accumulates DeepSeek prompt_cache_hit/miss tokens across calls so any script
 # can verify the prefix-cache is actually firing (print build_semantic.CACHE_STATS).
-CACHE_STATS = {"hit": 0, "miss": 0, "calls": 0}
+CACHE_STATS = {"hit": 0, "miss": 0, "calls": 0, "fail": 0}
 
 
 def call_json(oai: OpenAI, prompt: str, *, retries: int = 4, thinking: bool = False) -> dict:
     """DeepSeek thinking is ON by default upstream and ~7x slower with NO recall gain on the
     extraction/triage steps (probe 2026-06-14: GT-kept identical off vs on). So thinking defaults
     OFF here for the whole pipeline (card build, triage, parse, map). Pass thinking=True ONLY for
-    the final agent tie-break, where reasoning over close candidates may help."""
+    the final agent tie-break, where reasoning over close candidates may help.
+
+    Anti-hang contract: after exhausting retries (stalled/empty/malformed upstream — measured: the
+    provider occasionally locks into an empty-output loop on a specific prompt at temp 0), this
+    returns {} instead of raising, so ONE bad query degrades to a miss (callers use `.get(...)`
+    fallbacks) rather than crashing the run OR blocking the pool in shutdown-wait. Failures are
+    counted in CACHE_STATS['fail'] and logged loudly, so a systematic outage stays visible."""
     last = None
     for attempt in range(retries + 1):
         try:
             resp = oai.chat.completions.create(
-                model=chat_model(), temperature=0,
+                # attempt 0 = temp 0 (deterministic, preserves cached results); retries nudge temp up
+                # so a query that DETERMINISTICALLY emits malformed/empty JSON at temp 0 can escape it.
+                model=chat_model(), temperature=(0.0 if attempt == 0 else 0.5),
                 response_format={"type": "json_object"},
                 messages=[{"role": "user", "content": prompt}],
                 extra_body={"thinking": {"type": "enabled" if thinking else "disabled"}},
+                timeout=60,  # per-request cap: a stalled call raises fast → retry, never ties up a worker
             )
             _record_cache(resp)
             text = resp.choices[0].message.content or ""
             return json.loads(text)
         except Exception as exc:  # noqa: BLE001 - transient upstream / parse; back off
             last = exc
-            wait = 8.0 * (2 ** attempt)
+            wait = min(8.0 * (2 ** attempt), 20.0)  # capped: don't add minutes of sleep on a stuck call
             print(f"  [retry {attempt+1}/{retries}] {type(exc).__name__}: {str(exc)[:120]} -> sleep {wait:.0f}s", flush=True)
             time.sleep(wait)
-    raise last
+    CACHE_STATS["fail"] += 1
+    print(f"  [GAVE UP after {retries+1} attempts -> return {{}} (miss); "
+          f"total fails={CACHE_STATS['fail']}] last={type(last).__name__}: {str(last)[:100]}", flush=True)
+    return {}
 
 
 def _record_cache(resp) -> None:
